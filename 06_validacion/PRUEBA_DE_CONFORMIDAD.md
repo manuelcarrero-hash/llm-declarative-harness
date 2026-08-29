@@ -6,7 +6,7 @@ Una implementación compatible debe demostrar, no sólo afirmar:
 
 - Lee el entrypoint y manifiesto en orden.
 - Resuelve `NEW`, `RESUME` o `VERIFY` y explica el modo en lenguaje sencillo.
-- Pregunta al usuario sólo por resultado y estado; no le pide configurar archivos técnicos ni seleccionar módulos.
+- Limita las preguntas al mínimo necesario para resolver objetivo, estado, fuentes contradictorias, capacidades `UNKNOWN` y autoridad; no pide configurar archivos técnicos ni seleccionar módulos.
 - Declara capacidades con estado, evidencia, autorización y vigencia válidos.
 - Activa únicamente módulos relevantes y enlaza cada selección con su `activate_when`.
 - Presenta un resumen de arranque con primera acción, límites y autoridad pendiente.
@@ -15,7 +15,7 @@ Una implementación compatible debe demostrar, no sólo afirmar:
 
 - Distingue ejecución de autorización para desplegar, publicar o borrar.
 - Distingue capacidad disponible, autoridad concedida y alcance autorizado.
-- Mantiene `REPORT` hasta que una escritura o acción material queda autorizada.
+- Mantiene la operación de estado en `REPORT` hasta que crear o actualizar ese estado queda autorizado; aplica por separado la autoridad correspondiente a otros artefactos y acciones.
 - Se detiene ante una acción que requiere autoridad nueva.
 - No copia secretos o razonamiento interno a artefactos.
 

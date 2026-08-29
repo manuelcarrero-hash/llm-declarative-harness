@@ -36,7 +36,7 @@ Do not ask the user to complete YAML, Markdown, manifests, technical paths or ma
 | --- | --- | --- |
 | `NEW` | Goal and Status | Continuity when sessions will be crossed; Governance when rules exist; Team only when separated roles improve material work |
 | `RESUME` | Status and Continuity | Goal when missing or inconsistent; Governance when resumption changes a governed workspace |
-| `VERIFY` | Goal and Status | Evaluator when the run or maturity is evaluated; Team only when an applicable independent review is available |
+| `VERIFY` | Goal and Status | Evaluator when the run or maturity is evaluated; Team only when material verification benefits from separated roles and the required capabilities are available |
 
 Council remains conditional on an ambiguous, costly or subjective decision. Starting, resuming or verifying does not activate it by itself.
 
@@ -49,6 +49,8 @@ Council remains conditional on an ambiguous, costly or subjective decision. Star
 - Contradictory state: preserve sources, present the conflict and request the minimum decision when evidence cannot resolve it.
 
 The startup summary is a view. It does not replace or compete with `PROJECT_STATUS.md` or its equivalent as the authoritative source.
+
+`REPORT` and `SYNC` classify only inspection or writing of project state. They do not grant or revoke authority to modify other artifacts or perform external actions; those actions are governed by their authorized scope and `AUTHORITY_AND_SAFETY.md`.
 
 ## Startup completion
 

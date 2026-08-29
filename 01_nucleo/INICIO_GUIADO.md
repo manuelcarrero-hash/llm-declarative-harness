@@ -36,7 +36,7 @@ No pedir al usuario que complete YAML, Markdown, manifiestos, rutas técnicas o 
 | --- | --- | --- |
 | `NEW` | Objetivo y Estado | Continuidad si cruza sesiones; Gobernanza si existen reglas; Equipo sólo si roles separados mejoran trabajo material |
 | `RESUME` | Estado y Continuidad | Objetivo si falta o es inconsistente; Gobernanza si la reanudación modifica un espacio con reglas |
-| `VERIFY` | Objetivo y Estado | Evaluador cuando se evalúa la ejecución o madurez; Equipo sólo si una revisión independiente aplicable está disponible |
+| `VERIFY` | Objetivo y Estado | Evaluador cuando se evalúa la ejecución o madurez; Equipo sólo si la verificación material mejora con roles separados y las capacidades necesarias están disponibles |
 
 Consejo permanece condicionado a una decisión ambigua, costosa o subjetiva. No se activa por el solo hecho de iniciar, reanudar o verificar.
 
@@ -49,6 +49,8 @@ Consejo permanece condicionado a una decisión ambigua, costosa o subjetiva. No 
 - Estado contradictorio: conservar las fuentes, presentar la contradicción y solicitar la decisión mínima si la evidencia no la resuelve.
 
 El resumen de arranque es una vista. No sustituye ni compite con `PROJECT_STATUS.md` o su equivalente como fuente autoritativa.
+
+`REPORT` y `SYNC` clasifican únicamente la inspección o escritura del estado del proyecto. No conceden ni revocan autoridad para modificar otros artefactos o ejecutar acciones externas; esas acciones se rigen por su alcance autorizado y por `AUTORIDAD_Y_SEGURIDAD.md`.
 
 ## Cierre del arranque
 

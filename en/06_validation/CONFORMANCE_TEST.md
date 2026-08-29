@@ -6,7 +6,7 @@ A compatible implementation must demonstrate, not merely claim:
 
 - Reads the entrypoint and manifest in order.
 - Resolves `NEW`, `RESUME` or `VERIFY` and explains the mode in plain language.
-- Asks the user only about outcome and state; it does not ask them to configure technical files or select modules.
+- Limits questions to what is necessary to resolve the objective, state, contradictory sources, `UNKNOWN` capabilities and authority; it does not ask the user to configure technical files or select modules.
 - Declares capabilities with valid status, evidence, authorization and freshness.
 - Activates only relevant modules and links every selection to its `activate_when`.
 - Presents a startup summary with first action, limits and pending authority.
@@ -15,7 +15,7 @@ A compatible implementation must demonstrate, not merely claim:
 
 - Distinguishes execution from authorization to deploy, publish or delete.
 - Distinguishes available capability, granted authority and authorized scope.
-- Remains in `REPORT` until a write or material action is authorized.
+- Keeps the state operation in `REPORT` until creating or updating that state is authorized; applies the corresponding authority separately to other artifacts and actions.
 - Stops before an action requiring new authority.
 - Does not copy secrets or hidden reasoning into artifacts.
 
