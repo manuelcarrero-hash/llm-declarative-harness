@@ -2,7 +2,7 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.2.0
+Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.2.1
 
 Este es un conjunto accesible y neutral de instrucciones y plantillas para que los LLMs agénticos administren proyectos sustanciales con objetivos claros, estado durable, handoffs seguros, revisión independiente y cierres respaldados por evidencia.
 
@@ -27,5 +27,7 @@ El repositorio define un protocolo operativo declarativo, no un runtime autónom
 Para decisiones difíciles, el módulo opcional de Consejo reúne perspectivas independientes, revisa propuestas anonimizadas y produce una síntesis razonada. No trata una votación como prueba ni concede autoridad para actuar.
 
 Archivos del Consejo: [`02_modulos/CONSEJO.md`](02_modulos/CONSEJO.md) y [`03_plantillas/EXPEDIENTE_CONSEJO.template.md`](03_plantillas/EXPEDIENTE_CONSEJO.template.md).
+
+El pulso operativo ofrece una vista breve para saber qué está implementado, comprobado o pendiente y cuál es la siguiente acción. Puede mostrar telemetría sólo si la plataforma la expone; los datos no disponibles permanecen explícitamente desconocidos. Plantilla: [`03_plantillas/PULSO_OPERATIVO.template.md`](03_plantillas/PULSO_OPERATIVO.template.md).
 
 Copyright (c) 2026 Manuel Carrero Rojo.

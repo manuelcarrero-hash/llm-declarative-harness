@@ -1,5 +1,9 @@
 # Project Status
 
+## Operational pulse
+
+Use or link [`OPERATIONAL_PULSE.template.md`](OPERATIONAL_PULSE.template.md). It must agree with the detail below.
+
 ## Identity and evidence
 
 - Project / repository / workspace:

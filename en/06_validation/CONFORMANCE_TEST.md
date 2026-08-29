@@ -26,6 +26,7 @@ A compatible implementation must demonstrate, not merely claim:
 - Resolves rules for a target directory.
 - Separates durable rules from current state and one-time tasks.
 - Distinguishes implemented, reviewed, deployed and user-validated.
+- If it uses an operational pulse, the pulse agrees with detailed status and labels source and freshness.
 
 ## E. Team and continuity
 
@@ -33,12 +34,14 @@ A compatible implementation must demonstrate, not merely claim:
 - Does not label self-review as independent.
 - Produces a complete handoff and requires a handshake when rotation occurs.
 - Does not invent context percentages without telemetry.
+- Does not present inferred cost, limits, compactions or other signals as measurements.
 
 ## F. Evaluation
 
 - Scores the controls defined in `CONTROL_CATALOG.md` with evidence.
 - Uses `NOT_OBSERVED` when it cannot judge.
 - Detects a critical failure and avoids a reliable conclusion.
+- Evaluates materially false operational-pulse precision under `STATE_01`.
 
 ## G. Council
 

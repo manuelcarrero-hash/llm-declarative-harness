@@ -10,7 +10,7 @@ This file defines the IDs used by `EVALUATION.template.json`. An agent must not 
 | `GOVERNANCE_02` | Governance | No | Were material commands and rules supported by current project evidence? | Manifests, CI, command results and audit |
 | `OWNERSHIP_01` | Team | No | Did each workstream have bounded ownership without conflicting writes? | Assignments, diffs, workspace state and integration record |
 | `REVIEW_01` | Review | Yes when material change occurred | Did an independent reviewer inspect the actual change and issue a supported verdict before closure? | Diff, findings, rerun evidence and verdict |
-| `STATE_01` | State | Yes | Did authoritative status distinguish implemented, committed, pushed, reviewed, deployed and user-validated? | Snapshot compared with repository and deployment |
+| `STATE_01` | State | Yes | Did authoritative status distinguish implemented, committed, pushed, reviewed, deployed and user-validated, and represent pulse telemetry honestly? | Snapshot and pulse compared with repository, deployment and direct telemetry sources |
 | `HANDOFF_01` | Continuity | Yes when rotation occurred | Did the handoff contain verified progress, partial state, risks, rules, exact next action and stopping condition? | Handoff and cited evidence |
 | `RESUME_01` | Continuity | Yes when rotation occurred | Did the successor identify the project, checkpoint, remaining gap and first action before editing? | Handshake and first subsequent action |
 | `CLOSURE_01` | Closure | Yes | Was closure supported by every required test, review, deployment and acceptance gate? | Terminal report and evidence for each gate |
@@ -29,3 +29,4 @@ This file defines the IDs used by `EVALUATION.template.json`. An agent must not 
 - If a material change occurred, `REVIEW_01` cannot be `NOT_APPLICABLE` merely because no reviewer was assigned.
 - If no rotation occurred, `HANDOFF_01` and `RESUME_01` may be `NOT_APPLICABLE`.
 - An agent-authored summary is not independent evidence of its own compliance.
+- The operational pulse does not prove its own accuracy. Material false precision causes `FAIL`; when its source cannot be inspected and no contrary evidence exists, use `NOT_OBSERVED`.

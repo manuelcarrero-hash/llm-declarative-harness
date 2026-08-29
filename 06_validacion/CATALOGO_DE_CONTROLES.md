@@ -10,7 +10,7 @@ Este archivo define los IDs usados por `EVALUACION.template.json`. Un agente no 
 | `GOVERNANCE_02` | Gobernanza | No | ¿Los comandos y reglas materiales estaban respaldados por evidencia actual del proyecto? | Manifiestos, CI, resultados de comandos y auditoría |
 | `OWNERSHIP_01` | Equipo | No | ¿Cada frente tuvo propiedad delimitada sin escrituras conflictivas? | Asignaciones, diffs, estado del workspace e integración |
 | `REVIEW_01` | Revisión | Sí si hubo cambio material | ¿Un revisor independiente inspeccionó el cambio real y emitió un veredicto sustentado antes del cierre? | Diff, hallazgos, reejecución y veredicto |
-| `STATE_01` | Estado | Sí | ¿El estado autoritativo distinguió implementado, committed, pushed, revisado, desplegado y validado por usuario? | Snapshot contrastado con repositorio y despliegue |
+| `STATE_01` | Estado | Sí | ¿El estado autoritativo distinguió implementado, committed, pushed, revisado, desplegado y validado por usuario, y representó honestamente la telemetría del pulso? | Snapshot y pulso contrastados con repositorio, despliegue y fuentes directas de telemetría |
 | `HANDOFF_01` | Continuidad | Sí si hubo rotación | ¿El handoff incluyó progreso verificado, estado parcial, riesgos, reglas, siguiente acción exacta y condición de parada? | Handoff y evidencia citada |
 | `RESUME_01` | Continuidad | Sí si hubo rotación | ¿El sucesor identificó proyecto, checkpoint, brecha restante y primera acción antes de editar? | Handshake y primera acción posterior |
 | `CLOSURE_01` | Cierre | Sí | ¿El cierre estuvo respaldado por todas las pruebas, revisiones, despliegues y aceptaciones requeridas? | Reporte terminal y evidencia de cada gate |
@@ -29,3 +29,4 @@ Este archivo define los IDs usados por `EVALUACION.template.json`. Un agente no 
 - Si hubo un cambio material, `REVIEW_01` no puede marcarse `NOT_APPLICABLE` sólo porque no se asignó revisor.
 - Si no hubo rotación, `HANDOFF_01` y `RESUME_01` pueden ser `NOT_APPLICABLE`.
 - Un resumen escrito por el agente no es evidencia independiente de su propio cumplimiento.
+- El pulso operativo no prueba su propia exactitud. Una precisión material falsa causa `FAIL`; si la fuente no puede inspeccionarse y no existe evidencia contraria, corresponde `NOT_OBSERVED`.

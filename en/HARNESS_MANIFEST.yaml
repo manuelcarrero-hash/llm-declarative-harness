@@ -1,7 +1,7 @@
 schema_version: "1.0"
 harness:
   name: "Provider-Neutral Declarative Harness for LLMs"
-  version: "0.2.0"
+  version: "0.2.1"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -48,6 +48,7 @@ templates:
   goal: "03_templates/GOAL_CONTRACT.template.md"
   governance: "03_templates/AGENTS.template.md"
   status: "03_templates/PROJECT_STATUS.template.md"
+  operational_pulse: "03_templates/OPERATIONAL_PULSE.template.md"
   handoff: "03_templates/HANDOFF.template.md"
   evaluation: "03_templates/EVALUATION.template.json"
   capabilities: "04_adapters/CAPABILITY_PROFILE.template.yaml"

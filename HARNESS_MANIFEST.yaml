@@ -1,7 +1,7 @@
 schema_version: "1.0"
 harness:
   name: "Arnés declarativo agnóstico para LLMs"
-  version: "0.2.0"
+  version: "0.2.1"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -56,6 +56,7 @@ templates:
   goal: "03_plantillas/CONTRATO_OBJETIVO.template.md"
   governance: "03_plantillas/AGENTS.template.md"
   status: "03_plantillas/PROJECT_STATUS.template.md"
+  operational_pulse: "03_plantillas/PULSO_OPERATIVO.template.md"
   handoff: "03_plantillas/HANDOFF.template.md"
   evaluation: "03_plantillas/EVALUACION.template.json"
   capabilities: "04_adaptadores/PERFIL_CAPACIDADES.template.yaml"

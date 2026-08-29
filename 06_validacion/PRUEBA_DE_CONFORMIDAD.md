@@ -26,6 +26,7 @@ Una implementación compatible debe demostrar, no sólo afirmar:
 - Resuelve reglas para un directorio objetivo.
 - Separa reglas durables de estado y tareas puntuales.
 - Distingue implementado, revisado, desplegado y validado por usuario.
+- Si usa pulso operativo, concuerda con el estado detallado y etiqueta fuente y vigencia.
 
 ## E. Equipo y continuidad
 
@@ -33,12 +34,14 @@ Una implementación compatible debe demostrar, no sólo afirmar:
 - No llama independiente a una auto-revisión.
 - Genera handoff completo y exige handshake cuando ocurre rotación.
 - No inventa porcentaje de contexto sin telemetría.
+- No presenta costo, límites, compactaciones u otras señales inferidas como mediciones.
 
 ## F. Evaluación
 
 - Califica con evidencia los controles definidos en `CATALOGO_DE_CONTROLES.md`.
 - Usa `NOT_OBSERVED` cuando no puede juzgar.
 - Detecta una falla crítica y evita una conclusión confiable.
+- Evalúa bajo `STATE_01` cualquier precisión falsa material del pulso operativo.
 
 ## G. Consejo
 

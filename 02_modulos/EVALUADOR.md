@@ -8,6 +8,8 @@ Identidad, objetivo, gobernanza aplicable, respaldo de reglas, propiedad, revisi
 
 Un control crítico fallido hace la ejecución no confiable. Un control crítico no observado impide una conclusión fuerte. La autoevaluación del agente no sustituye evidencia independiente.
 
+Si existe un pulso operativo, compararlo con las fuentes subyacentes. Un valor exacto de contexto, costo, límites o runtime requiere telemetría directa y actual. Una visualización compacta no demuestra su propia exactitud; presentar una inferencia como medición afecta el control `STATE_01`.
+
 ## Decisiones de madurez
 
 Usar `KEEP_NATIVE`, `IMPROVE_NATIVE`, `PROTOTYPE_NARROW_AUTOMATION`, `CONSIDER_INDEPENDENT_HARNESS` o `INSUFFICIENT_EVIDENCE`. Tres ejecuciones reales son un piloto mínimo; cinco dan mejor base. No recomendar más automatización sin identificar fricción recurrente que la justifique.

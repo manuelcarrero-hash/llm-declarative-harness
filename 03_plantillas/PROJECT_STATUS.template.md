@@ -1,5 +1,9 @@
 # Estado del proyecto
 
+## Pulso operativo
+
+Usar o enlazar [`PULSO_OPERATIVO.template.md`](PULSO_OPERATIVO.template.md). Debe concordar con el detalle siguiente.
+
 ## Identidad y evidencia
 
 - Proyecto / repositorio / workspace:

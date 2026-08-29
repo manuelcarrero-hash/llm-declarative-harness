@@ -1,5 +1,19 @@
 # Changelog / Registro de cambios
 
+## 0.2.1 — 2026-08-29
+
+### Español
+
+- Se añadió una plantilla bilingüe de pulso operativo para resumir entrega, evidencia, continuidad y siguiente acción.
+- Se integró el pulso en estado del proyecto, continuidad y evaluación sin crear un módulo adicional.
+- Se prohibió presentar inferencias como telemetría exacta y se definieron fuente, vigencia y degradación explícita.
+
+### English
+
+- Added a bilingual operational-pulse template for delivery, evidence, continuity and the next action.
+- Integrated the pulse into project status, continuity and evaluation without adding another module.
+- Prohibited presenting inference as exact telemetry and defined source, freshness and explicit degradation.
+
 ## 0.2.0 — 2026-08-29
 
 ### Español
