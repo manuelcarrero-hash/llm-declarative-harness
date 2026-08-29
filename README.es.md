@@ -16,6 +16,7 @@ Sirve para software, investigaciones, libros, cursos y otros proyectos de varias
 
 - Personas no técnicas: lee [`EMPIEZA_AQUI_SIN_CONOCIMIENTOS_TECNICOS.md`](EMPIEZA_AQUI_SIN_CONOCIMIENTOS_TECNICOS.md).
 - LLMs agénticos: lee [`00_LEEME_PRIMERO.md`](00_LEEME_PRIMERO.md) y después [`HARNESS_MANIFEST.yaml`](HARNESS_MANIFEST.yaml).
+- Protocolo común para iniciar, continuar o verificar: [`01_nucleo/INICIO_GUIADO.md`](01_nucleo/INICIO_GUIADO.md).
 - English version: read [`en/START_HERE_NO_TECHNICAL_KNOWLEDGE.md`](en/START_HERE_NO_TECHNICAL_KNOWLEDGE.md).
 - Ejemplo no-código: lee [`05_ejemplos/BOOTSTRAP_NO_CODIGO.md`](05_ejemplos/BOOTSTRAP_NO_CODIGO.md).
 - Controles de evaluación: consulta [`06_validacion/CATALOGO_DE_CONTROLES.md`](06_validacion/CATALOGO_DE_CONTROLES.md).
@@ -23,6 +24,8 @@ Sirve para software, investigaciones, libros, cursos y otros proyectos de varias
 - Historial de versiones: consulta [`CHANGELOG.md`](CHANGELOG.md).
 
 El repositorio define un protocolo operativo declarativo, no un runtime autónomo. No proporciona herramientas, memoria, subagentes, permisos o telemetría que la plataforma no tenga.
+
+El inicio guiado pregunta en lenguaje sencillo qué se quiere lograr y dónde conservar el estado. El propio LLM debe comprobar sus capacidades, seleccionar sólo los módulos necesarios, explicar límites y autorizaciones y comenzar por el menor checkpoint autorizado; la persona no configura archivos técnicos.
 
 Para decisiones difíciles, el módulo opcional de Consejo reúne perspectivas independientes, revisa propuestas anonimizadas y produce una síntesis razonada. No trata una votación como prueba ni concede autoridad para actuar.
 

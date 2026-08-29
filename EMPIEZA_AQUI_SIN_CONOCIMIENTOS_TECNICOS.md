@@ -69,32 +69,42 @@ Probablemente no lo necesitas para:
 
 ## Cómo comenzar
 
-### Paso 1. Comparte la carpeta
+### Paso 1. Da acceso al arnés
 
-Da al modelo acceso de lectura a esta carpeta. Dependiendo de la plataforma, puedes compartir el vínculo, adjuntar los archivos o copiarlos dentro del proyecto.
+Si la plataforma todavía no puede leer esta carpeta, comparte el vínculo, conecta Drive, adjunta los archivos o colócalos dentro del proyecto. Es el único paso de preparación que puede depender de la plataforma.
 
-### Paso 2. Copia este mensaje
+### Paso 2. Elige una de estas tres instrucciones
 
-> Quiero trabajar contigo en un proyecto utilizando este arnés. Lee primero `00_LEEME_PRIMERO.md` y después `HARNESS_MANIFEST.yaml`. Explícame en palabras sencillas qué partes puedes utilizar realmente en tu plataforma y cuáles no. No asumas capacidades que no tengas. Después ayúdame a configurar el proyecto sin sobrescribir archivos existentes ni realizar cambios que no te haya autorizado.
+#### Empezar un proyecto nuevo
 
-### Paso 3. Explica tu proyecto
+> Quiero iniciar un proyecto utilizando este arnés. Guíame en lenguaje sencillo. Pregúntame qué quiero lograr y dónde debemos conservar el estado; comprueba tú tus capacidades y selecciona únicamente los módulos necesarios. Antes de crear archivos o actuar, muéstrame qué harás y qué autorizaciones necesitas. No me pidas configurar archivos técnicos.
 
-Puedes hacerlo con lenguaje normal. Por ejemplo:
+#### Continuar un proyecto existente
 
-> Quiero desarrollar una aplicación para organizar mis clientes. Ya tengo algunos archivos, pero no sé exactamente qué funciona ni qué falta. Quiero avanzar por etapas y poder continuar el trabajo en conversaciones futuras.
+> Quiero continuar este proyecto utilizando el arnés. Localiza primero el estado autoritativo y las fuentes de verdad. Explícame dónde estamos, qué está comprobado y cuál es la siguiente acción. Si el estado no existe o encuentras versiones contradictorias, no inventes ni sobrescribas: propón cómo reconstruirlo o resolver el conflicto y solicita autorización antes de escribir.
 
-Para escritura o investigación también puedes decir:
+#### Revisar si el trabajo está realmente terminado
 
-> Quiero escribir un curso sobre negociación. Necesito ayuda para investigar, redactar, revisar y conservar decisiones entre conversaciones. Usa el ejemplo no-código de `05_ejemplos/BOOTSTRAP_NO_CODIGO.md`.
+> Revisa si este trabajo está realmente terminado. Trabaja inicialmente en modo de solo lectura y compara el resultado real con todos los criterios de terminado. Distingue lo creado, revisado, publicado o desplegado y validado por una persona. Señala cada gate pendiente y usa únicamente los estados terminales permitidos por el arnés. No corrijas nada hasta que lo autorice.
 
-### Paso 4. Revisa la propuesta de la IA
+### Paso 3. Responde en lenguaje normal
 
-El modelo debe explicarte:
+El modelo debe preguntarte únicamente lo necesario para resolver:
 
-- qué entiende que quieres conseguir;
-- qué partes del arnés necesita usar;
-- qué documentos propone crear o actualizar;
-- qué acciones puede realizar directamente;
+- qué quieres lograr y cómo se reconocerá un resultado terminado;
+- si ya existe estado del proyecto y dónde debe conservarse.
+
+El propio modelo debe comprobar y explicar sus capacidades. No debe pedirte que elijas módulos, completes YAML, edites Markdown ni configures rutas técnicas.
+
+### Paso 4. Revisa el resumen de arranque
+
+Antes de actuar, el modelo debe explicarte en palabras sencillas:
+
+- qué entendió;
+- dónde encontró o propone guardar el estado;
+- qué puede hacer y qué no ha podido verificar;
+- qué módulos seleccionó y por qué;
+- cuál será la primera acción;
 - qué decisiones o permisos necesitará de ti.
 
 ### Paso 5. Autoriza únicamente lo necesario
@@ -109,7 +119,7 @@ Si el modelo no puede crear agentes, consultar archivos, medir su contexto o abr
 
 ## Después de esta guía
 
-No necesitas leer todos los archivos técnicos. El propio modelo debe comenzar por `00_LEEME_PRIMERO.md` y utilizar únicamente los módulos necesarios para tu proyecto.
+No necesitas leer ni configurar los archivos técnicos. El propio modelo debe comenzar por `00_LEEME_PRIMERO.md`, aplicar `01_nucleo/INICIO_GUIADO.md` y utilizar únicamente los módulos necesarios para tu proyecto.
 
 Este arnés se distribuye bajo licencia MIT.
 

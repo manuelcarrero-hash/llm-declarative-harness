@@ -69,33 +69,43 @@ You probably do not need it to:
 
 ## How to begin
 
-### Step 1. Share the folder
+### Step 1. Give access to the harness
 
-Give the model read access to this folder. Depending on the platform, you can share the link, attach the files or copy them into the project.
+If the platform cannot yet read this folder, share the link, connect Drive, attach the files or place them in the project. This is the only preparation step that may depend on the platform.
 
-### Step 2. Copy this message
+### Step 2. Choose one of these three instructions
 
-> I want to work with you on a project using this harness. Read `00_READ_ME_FIRST.md` first and then `HARNESS_MANIFEST.yaml`. Explain in plain language which parts you can actually use on your platform and which parts you cannot. Do not assume capabilities you do not have. Then help me configure the project without overwriting existing files or taking actions I have not authorized.
+#### Start a new project
 
-### Step 3. Explain your project
+> I want to start a project using this harness. Guide me in plain language. Ask what I want to achieve and where state should be preserved; verify your own capabilities and select only the necessary modules. Before creating files or acting, show me what you will do and which authorizations you need. Do not ask me to configure technical files.
 
-You can use ordinary language. For example:
+#### Continue an existing project
 
-> I want to develop an application to organize my customers. I already have some files, but I do not know exactly what works or what is missing. I want to move forward in stages and continue in future conversations.
+> I want to continue this project using the harness. First locate the authoritative state and sources of truth. Explain where we are, what is verified and the next action. If state does not exist or you find contradictory versions, do not invent or overwrite: propose how to reconstruct it or resolve the conflict and request authorization before writing.
 
-For writing or research, you could say:
+#### Check whether the work is truly finished
 
-> I want to write a course about negotiation. I need help researching, drafting, reviewing and keeping decisions between conversations. Use the non-code example in `05_examples/NON_CODE_BOOTSTRAP.md`.
+> Check whether this work is truly finished. Begin in read-only mode and compare the real outcome against every completion criterion. Distinguish what was created, reviewed, published or deployed and validated by a person. Identify every open gate and use only the harness terminal states. Do not fix anything until I authorize it.
 
-### Step 4. Review the AI's proposal
+### Step 3. Answer in ordinary language
 
-The model should explain:
+The model should ask only what it needs to resolve:
 
-- what it understands you want to achieve;
-- which parts of the harness it needs;
-- which documents it proposes to create or update;
-- which actions it can perform directly;
-- which decisions or permissions it will need from you.
+- what you want to achieve and how a finished result will be recognized;
+- whether project state exists and where it should be preserved.
+
+The model must verify and explain its own capabilities. It must not ask you to select modules, complete YAML, edit Markdown or configure technical paths.
+
+### Step 4. Review the startup summary
+
+Before acting, the model should explain in plain language:
+
+- what it understood;
+- where it found or proposes to store state;
+- what it can do and what it could not verify;
+- which modules it selected and why;
+- what its first action will be;
+- which decisions or permissions it needs from you.
 
 ### Step 5. Authorize only what is necessary
 
@@ -109,7 +119,7 @@ If the model cannot create agents, consult files, measure its context or open an
 
 ## After this guide
 
-You do not need to read every technical file. The model should begin with `00_READ_ME_FIRST.md` and use only the modules needed for your project.
+You do not need to read or configure the technical files. The model should begin with `00_READ_ME_FIRST.md`, apply `01_core/GUIDED_START.md` and use only the modules needed for your project.
 
 This harness is distributed under the MIT License.
 
