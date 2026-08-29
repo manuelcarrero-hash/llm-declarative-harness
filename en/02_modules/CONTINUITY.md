@@ -1,7 +1,13 @@
 # Module: Context Continuity
 
-Preserve decisions, evidence, partial state and the next action across agents, sessions, compaction or phases.
+Protect decisions, evidence, partial state and the next action when work crosses agents, sessions, compaction or phases.
 
-Use percentages only with real telemetry and a known context window. Default: preventive checkpoint at 30% measured use and rotation at 40%. Without telemetry, use qualitative signals and report usage as unknown.
+## Thresholds
 
-Rotate at a safe atomic boundary; write and verify a handoff; sync authorized state; brief the successor with minimal context; require a resume handshake before edits. Do not pretend to stop or create sessions when the platform cannot.
+Use percentages only when real telemetry exists and total capacity is known. Default policy: preventive checkpoint at a measured 30% and rotation at a measured 40%. Without telemetry, use qualitative signals and declare the percentage unknown.
+
+## Rotation
+
+Reach a safe atomic boundary; write a handoff; verify it against sources; synchronize authorized state; start the successor with minimum context; require a handshake before editing; relieve the predecessor only after the handshake.
+
+Do not pretend that a session was stopped or created when the platform does not support it.

@@ -83,6 +83,10 @@ Puedes hacerlo con lenguaje normal. Por ejemplo:
 
 > Quiero desarrollar una aplicación para organizar mis clientes. Ya tengo algunos archivos, pero no sé exactamente qué funciona ni qué falta. Quiero avanzar por etapas y poder continuar el trabajo en conversaciones futuras.
 
+Para escritura o investigación también puedes decir:
+
+> Quiero escribir un curso sobre negociación. Necesito ayuda para investigar, redactar, revisar y conservar decisiones entre conversaciones. Usa el ejemplo no-código de `05_ejemplos/BOOTSTRAP_NO_CODIGO.md`.
+
 ### Paso 4. Revisa la propuesta de la IA
 
 El modelo debe explicarte:

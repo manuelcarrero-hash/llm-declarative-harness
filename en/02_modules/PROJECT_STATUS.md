@@ -1,8 +1,12 @@
 # Module: Project Status
 
-Maintain one authoritative snapshot answering what was done, where the project is, what comes next and what outcome it pursues.
+Maintain one authoritative snapshot that answers: what was done, where are we, what comes next and where are we going?
 
-- `REPORT`: inspect without writing.
+## Modes
+
+- `REPORT`: inspect and report without writing.
 - `SYNC`: create or update only with explicit authorization.
 
-Include project identity, timestamp and anchors; validated work; current position; risks and decisions; exact next action; gates; destination and success criteria. Resolve contradictions using more current direct evidence without erasing intentional decisions.
+## Minimum content
+
+Project identity, timestamp and anchors; validated work; current position; risks and decisions; next action; gates; destination and success criteria. Resolve contradictions using the newest and most direct evidence without erasing intentional decisions.

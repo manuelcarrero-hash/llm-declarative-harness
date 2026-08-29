@@ -2,7 +2,7 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.1.0
+Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.1.1
 
 This is a beginner-friendly, provider-neutral set of instructions and templates that helps agentic LLMs manage substantial projects with clearer goals, durable state, safe handoffs, independent review and evidence-based completion.
 
@@ -17,6 +17,10 @@ It is useful for software, research, books, courses and other multi-stage projec
 - Non-technical users: read [`en/START_HERE_NO_TECHNICAL_KNOWLEDGE.md`](en/START_HERE_NO_TECHNICAL_KNOWLEDGE.md).
 - Agentic LLMs: read [`en/00_READ_ME_FIRST.md`](en/00_READ_ME_FIRST.md), then [`en/HARNESS_MANIFEST.yaml`](en/HARNESS_MANIFEST.yaml).
 - Spanish version: read [`EMPIEZA_AQUI_SIN_CONOCIMIENTOS_TECNICOS.md`](EMPIEZA_AQUI_SIN_CONOCIMIENTOS_TECNICOS.md).
+- Non-code example: read [`en/05_examples/NON_CODE_BOOTSTRAP.md`](en/05_examples/NON_CODE_BOOTSTRAP.md).
+- Evaluation controls: read [`en/06_validation/CONTROL_CATALOG.md`](en/06_validation/CONTROL_CATALOG.md).
+- Translation policy: see [`en/BILINGUAL_PARITY.md`](en/BILINGUAL_PARITY.md).
+- Release history: see [`CHANGELOG.md`](CHANGELOG.md).
 
 This repository defines a declarative operating protocol, not an autonomous runtime. It does not give a model tools, memory, subagents, permissions or context telemetry that its platform does not provide.
 

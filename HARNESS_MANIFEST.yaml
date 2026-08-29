@@ -1,12 +1,14 @@
 schema_version: "1.0"
 harness:
   name: "Arnés declarativo agnóstico para LLMs"
-  version: "0.1.0"
+  version: "0.1.1"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
     es_entrypoint: "00_LEEME_PRIMERO.md"
     en_entrypoint: "en/00_READ_ME_FIRST.md"
+    policy: "semantic parity"
+    parity_matrix: "PARIDAD_BILINGUE.md"
   author: "Manuel Carrero Rojo"
   license: "MIT"
   copyright: "Copyright (c) 2026 Manuel Carrero Rojo"
@@ -56,5 +58,10 @@ templates:
 
 validation:
   conformance: "06_validacion/PRUEBA_DE_CONFORMIDAD.md"
+  control_catalog: "06_validacion/CATALOGO_DE_CONTROLES.md"
   minimum_real_runs: 3
   stronger_decision_sample: 5
+
+examples:
+  software: "05_ejemplos/BOOTSTRAP_PROYECTO.md"
+  non_code: "05_ejemplos/BOOTSTRAP_NO_CODIGO.md"

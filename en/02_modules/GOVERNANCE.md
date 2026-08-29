@@ -1,7 +1,17 @@
 # Module: Agent Governance
 
-Keep durable project rules in `AGENTS.md` or a platform equivalent. Derive them from manifests, CI, architecture, tests, security and explicit human policy.
+Durable rules live in `AGENTS.md` or the equivalent recognized by the platform. Derive them from manifests, CI, architecture, security, tests and verifiable human policies.
 
-Resolve the effective chain from project root to target directory. Specific rules apply only to their subtree. Keep current state in `PROJECT_STATUS.md`, one-off requirements in the task, partial transfer state in handoffs and long rationale in ADRs.
+## Scope
 
-Validate discovery, applicability, evidence support and behavior separately.
+Resolve the instruction chain from the root to the target directory. Specific rules apply only to their subtree. An override replaces local rules only when the platform supports it and its semantics are documented.
+
+## Separation
+
+- Durable rules → `AGENTS.md`
+- Current state → `PROJECT_STATUS.md`
+- One-time requirement → task or goal contract
+- Partial transfer state → handoff
+- Long rationale → ADR or technical documentation
+
+Validate discovery, applicability, evidence support and observed behavior separately.

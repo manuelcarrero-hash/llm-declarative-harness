@@ -36,7 +36,7 @@ Una implementación compatible debe demostrar, no sólo afirmar:
 
 ## F. Evaluación
 
-- Califica controles con evidencia.
+- Califica con evidencia los controles definidos en `CATALOGO_DE_CONTROLES.md`.
 - Usa `NOT_OBSERVED` cuando no puede juzgar.
 - Detecta una falla crítica y evita una conclusión confiable.
 

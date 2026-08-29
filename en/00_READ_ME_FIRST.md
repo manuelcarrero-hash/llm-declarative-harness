@@ -1,37 +1,98 @@
 # Provider-Neutral Declarative Harness for LLMs
 
-Version: 0.1.0  
+Version: 0.1.1  
 Author and maintainer: Manuel Carrero Rojo
 
 ## Startup instruction
 
-If you are an agentic LLM, read this file first and then `HARNESS_MANIFEST.yaml`. Do not assume capabilities you cannot verify. Complete `04_adapters/CAPABILITY_PROFILE.template.yaml` and apply only compatible modules.
+If you are an agentic LLM, read this file first and then `HARNESS_MANIFEST.yaml`. Do not assume capabilities you cannot verify. Declare your capability profile using `04_adapters/CAPABILITY_PROFILE.template.yaml` and apply only compatible modules.
 
-This package defines rules, contracts, state, handoffs and evaluations. It is not a runtime and does not control the provider's inference loop.
+This package defines a declarative harness: rules, contracts, states, handoffs and evaluations. It does not contain its own runtime, control the provider's inference loop or guarantee autonomous execution. A model or platform must interpret the files and provide tools, memory, agents, permissions and telemetry.
 
 ## What it is for
 
-It gives agentic LLMs a consistent and transferable way to manage substantial projects: define verifiable goals, discover applicable rules, divide work safely, preserve state beyond chat context, hand work to clean sessions, close only with evidence and evaluate reliability across real runs.
+This harness gives an agentic LLM a consistent, verifiable and transferable way to work on complex projects. It turns coordination practices into files that any compatible model can consult without depending on a previous conversation or a specific provider.
+
+It helps to:
+
+- transform a broad request into an objective with scope and completion criteria;
+- establish durable rules for agents working on a project;
+- coordinate a lead, workers and reviewers when the platform supports separate agents;
+- preserve real project state outside the context window;
+- transfer work between agents or sessions through verifiable handoffs;
+- prevent closure based only on model claims;
+- evaluate with evidence whether the agentic process works reliably;
+- adapt the same framework to different models and platforms.
 
 ## When to use it
 
-Use it for work spanning phases, sessions, agents or major files; material changes; costly false completion; review or approval requirements; durable traceability; or repeatable workflows across models.
+Use it when work has one or more of these characteristics:
+
+- it will span phases, sessions or context windows;
+- it includes material changes to code, documents, data or architecture;
+- it requires coordination among agents or roles with separated responsibilities;
+- it needs operating, safety, review or completion rules;
+- it must be resumable without relying on conversation memory;
+- it needs traceability for decisions, tests, deployments or human validation;
+- there is meaningful cost if the model declares incomplete work finished;
+- you want to compare reliability across models or platforms;
+- you want a repeatable process for multiple projects or users.
+
+It can also be applied partially: for example, use only goal and status for a long project, or governance and review for a software repository.
 
 ## When not to use it
 
-Do not apply the full harness to simple questions, short writing, small reversible low-risk edits, or tasks where maintaining artifacts costs more than the risk. It does not replace permissions, sandboxes, authentication, backups or human oversight.
+Do not use the full process when:
+
+- the request is simple, one-turn and has no future continuity;
+- explanation, summarization, translation or a short draft is enough;
+- the work is a small, local, reversible and low-risk change;
+- no project, durable state or coordination need exists;
+- a simple task list solves the need better;
+- it is expected to replace permissions, sandboxes, authentication, backups or real technical controls;
+- it is expected to create autonomy, memory, agents or telemetry the platform does not provide;
+- it is intended to remove human oversight from sensitive legal, financial, medical, security or production decisions;
+- maintaining the artifacts would cost more than the work's risk or complexity.
+
+Do not activate it by inertia. Use only modules that reduce a concrete risk or materially improve continuity, coordination or verifiability.
+
+## Objective
+
+Enable an LLM capable of acting on projects to:
+
+1. convert intent into a verifiable objective;
+2. discover rules applicable to the workplace;
+3. divide work without losing ownership or authority;
+4. maintain durable state outside the conversation;
+5. transfer work to a clean session or agent;
+6. close only with evidence;
+7. evaluate process reliability across real runs.
 
 ## Reading order
 
 1. `HARNESS_MANIFEST.yaml`
 2. `01_core/OPERATING_CONTRACT.md`
 3. `01_core/AUTHORITY_AND_SAFETY.md`
-4. Relevant modules
+4. Modules activated by the manifest for the task
 5. Corresponding templates
 6. `06_validation/CONFORMANCE_TEST.md` before claiming compatibility
 
-Use `SUPPORTED`, `PARTIAL`, `UNSUPPORTED` or `UNKNOWN` for capabilities. Reading an instruction does not prove compliance; executing a task does not prove validation.
+## Honesty rule
 
-Distributed under the MIT License. Preserve `LICENSE` and the copyright notice.
+Use one of these labels for every capability: `SUPPORTED`, `PARTIAL`, `UNSUPPORTED` or `UNKNOWN`. Reading an instruction does not prove it was followed; executing a task does not prove it was validated.
 
-**Provider-Neutral Declarative Harness for LLMs, created by Manuel Carrero Rojo.**
+## Quick start for a project
+
+1. Copy the necessary templates into the project without overwriting existing files.
+2. Resolve project identity and sources of truth.
+3. Create the goal contract.
+4. Execute through checkpoints and preserve evidence.
+5. Update authorized state.
+6. If rotation occurs, create a handoff and require a resumption handshake.
+7. Evaluate the run when it is part of a pilot or audit.
+
+## Distribution
+
+This package is distributed under the MIT License. It may be used, copied, modified and redistributed, including commercially, provided that the copyright notice and license text in `../LICENSE` are preserved.
+
+Credit: **Provider-Neutral Declarative Harness for LLMs, created by Manuel Carrero Rojo.**

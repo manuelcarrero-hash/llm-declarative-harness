@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "control_catalog": "06_validation/CONTROL_CATALOG.md",
   "evaluation_id": "PROJECT-YYYYMMDD-RUN-01",
   "project": {"name": "", "workspace": "", "branch": "", "commit": ""},
   "run": {"objective": "", "material_change": false, "rotation_occurred": false},

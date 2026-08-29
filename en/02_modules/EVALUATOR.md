@@ -1,7 +1,13 @@
 # Module: Harness Evaluation
 
-Evaluate real executions, not document appearance. Assess identity, goal, applicable governance, rule evidence, ownership, review, state, handoff, resumption and closure as `PASS`, `FAIL`, `NOT_OBSERVED` or `NOT_APPLICABLE`.
+Evaluate real runs, not the appearance of the documents.
 
-A failed critical control makes the run unreliable. An unobserved critical control prevents a strong conclusion. Self-assessment is not independent evidence.
+## Controls
 
-Recommend `KEEP_NATIVE`, `IMPROVE_NATIVE`, `PROTOTYPE_NARROW_AUTOMATION`, `CONSIDER_INDEPENDENT_HARNESS` or `INSUFFICIENT_EVIDENCE`. Use three real runs as a minimum pilot and five for a stronger decision.
+Evaluate identity, objective, applicable governance, evidence supporting rules, ownership, review, state, handoff, resumption and closure. Score each control as `PASS`, `FAIL`, `NOT_OBSERVED` or `NOT_APPLICABLE`. Use the normative definitions in `../06_validation/CONTROL_CATALOG.md`.
+
+A failed critical control makes the run unreliable. An unobserved critical control prevents a strong conclusion. Agent self-evaluation does not replace independent evidence.
+
+## Maturity decisions
+
+Use `KEEP_NATIVE`, `IMPROVE_NATIVE`, `PROTOTYPE_NARROW_AUTOMATION`, `CONSIDER_INDEPENDENT_HARNESS` or `INSUFFICIENT_EVIDENCE`. Three real runs are a minimum pilot; five provide a stronger basis. Do not recommend more automation without identifying recurring friction that justifies it.
