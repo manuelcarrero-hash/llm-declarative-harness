@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "evaluation_id": "PROJECT-YYYYMMDD-RUN-01",
+  "project": {"name": "", "workspace": "", "branch": "", "commit": ""},
+  "run": {"objective": "", "material_change": false, "rotation_occurred": false},
+  "controls": [
+    {"id": "IDENTITY_01", "status": "NOT_OBSERVED", "evidence": [], "note": ""},
+    {"id": "GOAL_01", "status": "NOT_OBSERVED", "evidence": [], "note": ""},
+    {"id": "GOVERNANCE_01", "status": "NOT_OBSERVED", "evidence": [], "note": ""},
+    {"id": "GOVERNANCE_02", "status": "NOT_OBSERVED", "evidence": [], "note": ""},
+    {"id": "OWNERSHIP_01", "status": "NOT_OBSERVED", "evidence": [], "note": ""},
+    {"id": "REVIEW_01", "status": "NOT_APPLICABLE", "evidence": [], "note": ""},
+    {"id": "STATE_01", "status": "NOT_OBSERVED", "evidence": [], "note": ""},
+    {"id": "HANDOFF_01", "status": "NOT_APPLICABLE", "evidence": [], "note": ""},
+    {"id": "RESUME_01", "status": "NOT_APPLICABLE", "evidence": [], "note": ""},
+    {"id": "CLOSURE_01", "status": "NOT_OBSERVED", "evidence": [], "note": ""}
+  ],
+  "recommendation": "INSUFFICIENT_EVIDENCE",
+  "next_experiment": ""
+}

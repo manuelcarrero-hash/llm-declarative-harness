@@ -1,0 +1,60 @@
+schema_version: "1.0"
+harness:
+  name: "Arnés declarativo agnóstico para LLMs"
+  version: "0.1.0"
+  languages: ["es", "en"]
+  canonical_language: "es"
+  translations:
+    es_entrypoint: "00_LEEME_PRIMERO.md"
+    en_entrypoint: "en/00_READ_ME_FIRST.md"
+  author: "Manuel Carrero Rojo"
+  license: "MIT"
+  copyright: "Copyright (c) 2026 Manuel Carrero Rojo"
+  attribution: "Arnés declarativo agnóstico para LLMs, creado por Manuel Carrero Rojo."
+  runtime: "declarative"
+  provider_neutral: true
+
+entrypoint: "00_LEEME_PRIMERO.md"
+
+invariants:
+  - "No afirmar capacidades no verificadas."
+  - "No ampliar autoridad por persistencia, autonomía o delegación."
+  - "No declarar terminado sin evidencia de todos los criterios obligatorios."
+  - "Separar reglas durables, estado actual, tarea y handoff."
+  - "Preservar trabajo ajeno y distinguir implementado, validado y desplegado."
+
+capability_labels: [SUPPORTED, PARTIAL, UNSUPPORTED, UNKNOWN]
+terminal_states: [ACHIEVED, BLOCKED_EXTERNAL, DECISION_REQUIRED, AUTHORITY_REQUIRED]
+
+modules:
+  - id: goal
+    path: "02_modulos/OBJETIVO.md"
+    activate_when: "trabajo sustancial con resultado verificable"
+  - id: governance
+    path: "02_modulos/GOBERNANZA.md"
+    activate_when: "existen o se requieren reglas para agentes"
+  - id: team
+    path: "02_modulos/EQUIPO.md"
+    activate_when: "el trabajo material mejora con roles separados"
+  - id: status
+    path: "02_modulos/ESTADO_PROYECTO.md"
+    activate_when: "se consulta, reanuda o sincroniza un proyecto"
+  - id: continuity
+    path: "02_modulos/CONTINUIDAD.md"
+    activate_when: "el trabajo cruza sesiones, agentes, compactación o fases"
+  - id: evaluator
+    path: "02_modulos/EVALUADOR.md"
+    activate_when: "se mide una ejecución real o la madurez del arnés"
+
+templates:
+  goal: "03_plantillas/CONTRATO_OBJETIVO.template.md"
+  governance: "03_plantillas/AGENTS.template.md"
+  status: "03_plantillas/PROJECT_STATUS.template.md"
+  handoff: "03_plantillas/HANDOFF.template.md"
+  evaluation: "03_plantillas/EVALUACION.template.json"
+  capabilities: "04_adaptadores/PERFIL_CAPACIDADES.template.yaml"
+
+validation:
+  conformance: "06_validacion/PRUEBA_DE_CONFORMIDAD.md"
+  minimum_real_runs: 3
+  stronger_decision_sample: 5

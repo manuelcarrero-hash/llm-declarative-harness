@@ -1,0 +1,35 @@
+schema_version: "1.0"
+harness:
+  name: "Provider-Neutral Declarative Harness for LLMs"
+  version: "0.1.0"
+  language: "en"
+  canonical_language: "es"
+  author: "Manuel Carrero Rojo"
+  license: "MIT"
+  provider_neutral: true
+entrypoint: "00_READ_ME_FIRST.md"
+invariants:
+  - "Do not claim unverified capabilities."
+  - "Persistence, autonomy and delegation do not expand authority."
+  - "Do not declare completion without evidence for every mandatory criterion."
+  - "Keep durable rules, current state, tasks and handoffs separate."
+capability_labels: [SUPPORTED, PARTIAL, UNSUPPORTED, UNKNOWN]
+terminal_states: [ACHIEVED, BLOCKED_EXTERNAL, DECISION_REQUIRED, AUTHORITY_REQUIRED]
+modules:
+  - {id: goal, path: "02_modules/GOAL.md"}
+  - {id: governance, path: "02_modules/GOVERNANCE.md"}
+  - {id: team, path: "02_modules/TEAM.md"}
+  - {id: status, path: "02_modules/PROJECT_STATUS.md"}
+  - {id: continuity, path: "02_modules/CONTINUITY.md"}
+  - {id: evaluator, path: "02_modules/EVALUATOR.md"}
+templates:
+  goal: "03_templates/GOAL_CONTRACT.template.md"
+  governance: "03_templates/AGENTS.template.md"
+  status: "03_templates/PROJECT_STATUS.template.md"
+  handoff: "03_templates/HANDOFF.template.md"
+  evaluation: "03_templates/EVALUATION.template.json"
+  capabilities: "04_adapters/CAPABILITY_PROFILE.template.yaml"
+validation:
+  conformance: "06_validation/CONFORMANCE_TEST.md"
+  minimum_real_runs: 3
+  stronger_decision_sample: 5
