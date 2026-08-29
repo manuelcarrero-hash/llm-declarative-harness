@@ -6,7 +6,7 @@ Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.4.0
 
 **No technical background required:** open only [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md) for Spanish or [`en/START_HERE.md`](en/START_HERE.md) for English. The remaining folders are internals for the LLM.
 
-This is a beginner-friendly, provider-neutral set of instructions and templates that helps agentic LLMs manage substantial projects with clearer goals, durable state, safe handoffs, independent review and evidence-based completion.
+This is a beginner-friendly, bilingual and provider-neutral harness for starting, resuming and verifying substantial LLM projects without asking the user to configure technical files. It preserves durable state, makes capabilities and permissions visible, and requires evidence before work may be declared complete.
 
 ## What problem does it solve?
 
@@ -35,5 +35,11 @@ For difficult decisions, the optional Council module collects independent perspe
 Council files: [`en/02_modules/COUNCIL.md`](en/02_modules/COUNCIL.md) and [`en/03_templates/COUNCIL_BRIEF.template.md`](en/03_templates/COUNCIL_BRIEF.template.md).
 
 The operational pulse provides a short view of what is implemented, checked or pending and the exact next action. It may show telemetry only when the platform exposes it; unavailable data remains explicitly unknown. Template: [`en/03_templates/OPERATIONAL_PULSE.template.md`](en/03_templates/OPERATIONAL_PULSE.template.md).
+
+## Inspiration and acknowledgements
+
+The harness was developed independently, while recognizing public ideas that influenced skills and modules later incorporated into this protocol: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), and [`karpathy/llm-council`](https://github.com/karpathy/llm-council). See [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md) for the precise scope of each influence and licensing notes.
+
+No affiliation, sponsorship or endorsement by their authors or maintainers is implied.
 
 Copyright (c) 2026 Manuel Carrero Rojo.
