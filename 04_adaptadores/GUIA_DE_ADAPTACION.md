@@ -28,7 +28,7 @@ El agente completa este inventario. No delegar su configuración al usuario no t
 
 ## 3. Bootstrap
 
-Instruir al agente para leer `00_LEEME_PRIMERO.md`, manifiesto, núcleo e `INICIO_GUIADO.md` antes de los módulos activados. Copiar plantillas al proyecto sólo cuando no compitan con fuentes existentes. Registrar rutas, no pegar reglas completas en cada prompt.
+Instruir al agente para leer el manifiesto, su entrypoint `INTERNO_PARA_LLM.md`, el núcleo e `INICIO_GUIADO.md` antes de los módulos activados. Copiar plantillas al proyecto sólo cuando no compitan con fuentes existentes. Registrar rutas, no pegar reglas completas en cada prompt.
 
 ## 4. Degradación honesta
 

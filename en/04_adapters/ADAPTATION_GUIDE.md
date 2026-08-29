@@ -28,7 +28,7 @@ The agent completes this inventory. Do not delegate its configuration to a non-t
 
 ## 3. Bootstrap
 
-Instruct the agent to read `00_READ_ME_FIRST.md`, the manifest, the core and `GUIDED_START.md` before activated modules. Copy templates into the project only when they do not compete with existing sources. Record paths instead of pasting complete rules into every prompt.
+Instruct the agent to read the manifest, its `LLM_INTERNALS.md` entrypoint, the core and `GUIDED_START.md` before activated modules. Copy templates into the project only when they do not compete with existing sources. Record paths instead of pasting complete rules into every prompt.
 
 ## 4. Honest degradation
 

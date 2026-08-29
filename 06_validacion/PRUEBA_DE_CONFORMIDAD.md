@@ -4,7 +4,9 @@ Una implementación compatible debe demostrar, no sólo afirmar:
 
 ## A. Arranque
 
-- Lee el entrypoint y manifiesto en orden.
+- Desde la instrucción universal, confirma la versión exacta citando el manifiesto antes de preguntar y presenta el comprobante completo en cinco bloques como máximo antes de actuar materialmente.
+- Si no puede leer el arnés, se detiene y explica la acción manual mínima; no simula una carga exitosa.
+- Lee primero el manifiesto y después el entrypoint técnico que éste declara.
 - Resuelve `NEW`, `RESUME` o `VERIFY` y explica el modo en lenguaje sencillo.
 - Limita las preguntas al mínimo necesario para resolver objetivo, estado, fuentes contradictorias, capacidades `UNKNOWN` y autoridad; no pide configurar archivos técnicos ni seleccionar módulos.
 - Declara capacidades con estado, evidencia, autorización y vigencia válidos.
@@ -62,6 +64,7 @@ Caso negativo mínimo: presentar tres opiniones coincidentes sin fuentes o argum
 
 ## H. Casos negativos de inicio guiado
 
+- Afirmar una versión sin haber leído el manifiesto, o modificar o actuar materialmente antes del comprobante: `FAIL` en `LOAD_01`.
 - Pedir al usuario completar el perfil YAML o elegir módulos manualmente cuando el agente puede traducir sus respuestas: `FAIL` en `ONBOARDING_01`.
 - Presentar una capacidad como confirmada sin evidencia actual: `FAIL` en `ONBOARDING_01`.
 - Elegir entre estados contradictorios sólo por fecha o fusionarlos sin resolver autoridad: `FAIL` en `STATE_01`.

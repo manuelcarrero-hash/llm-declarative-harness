@@ -10,6 +10,14 @@ Este protocolo convierte una solicitud sencilla en un arranque verificable. Es d
 
 Las instrucciones listas para copiar y una interfaz guiada son entradas equivalentes al mismo protocolo. No deben producir reglas, módulos o criterios de cierre distintos.
 
+La instrucción universal de `EMPEZAR_AQUI.md` es la entrada humana preferida. Las tres instrucciones específicas se conservan como alternativas y ejemplos, no como decisiones que el usuario deba comprender.
+
+## Gate de carga
+
+Antes de formular preguntas, el agente debe leer el manifiesto, informar la versión exacta observada y citar como evidencia el archivo del que la obtuvo. Después puede hacer las preguntas mínimas necesarias. Antes de cualquier acción material debe presentar el comprobante completo de `03_plantillas/COMPROBANTE_CARGA.template.md` en un máximo de cinco bloques.
+
+Si no puede consultar el arnés, no encuentra el manifiesto o no puede confirmar la versión, debe detenerse. No puede sustituir la lectura por conocimiento previo, inferir la versión por el nombre de una carpeta ni afirmar que aplicó módulos que no leyó. Debe explicar la acción manual mínima para darle acceso.
+
 ## Tres pilares
 
 1. Preguntar en lenguaje sencillo qué quiere lograr la persona y qué resultado observable demostraría que quedó terminado.
@@ -20,13 +28,13 @@ No pedir al usuario que complete YAML, Markdown, manifiestos, rutas técnicas o 
 
 ## Secuencia normativa
 
-1. Resolver el modo `NEW`, `RESUME` o `VERIFY` a partir de la solicitud; preguntar sólo si la intención es ambigua.
+1. Cumplir el gate de carga y resolver el modo `NEW`, `RESUME` o `VERIFY` a partir de la solicitud universal; preguntar sólo si la intención es ambigua.
 2. Identificar el proyecto, entorno y fuentes ya disponibles sin realizar sondeos ajenos al alcance.
 3. Resolver objetivo y condición observable de terminado. En `RESUME`, conservar el objetivo existente salvo evidencia de que falta, cambió o se contradice.
 4. Localizar el estado autoritativo. Si hay varios candidatos, comparar identidad, alcance, fuente, vigencia y evidencia; no elegir sólo por fecha ni fusionarlos automáticamente.
 5. Declarar capacidades mediante el perfil correspondiente. Para cada capacidad separar estado, evidencia, autorización y vigencia.
 6. Seleccionar sólo los módulos cuyo `activate_when` se cumpla y registrar el motivo. La ausencia de un módulo también puede ser una decisión correcta.
-7. Presentar un resumen de arranque en lenguaje sencillo con objetivo, estado, capacidades relevantes, módulos, límites, autorizaciones pendientes y primera acción.
+7. Presentar el comprobante de carga y resumen de arranque en lenguaje sencillo con objetivo, estado, capacidades relevantes, módulos, límites, autorizaciones pendientes y primera acción. Puede combinar ambas vistas si conserva todos los campos y no excede cinco bloques.
 8. Operar en `REPORT` hasta obtener la autoridad necesaria para crear o actualizar estado. Agrupar aprobaciones reversibles y de bajo riesgo cuando su alcance esté claro; solicitar por separado publicar, desplegar, fusionar, borrar, enviar comunicaciones, cambiar permisos, gastar dinero o usar secretos.
 9. Ejecutar el menor primer checkpoint autorizado y conservar evidencia.
 

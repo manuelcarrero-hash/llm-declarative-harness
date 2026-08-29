@@ -4,7 +4,9 @@ A compatible implementation must demonstrate, not merely claim:
 
 ## A. Startup
 
-- Reads the entrypoint and manifest in order.
+- From the universal instruction, confirm the exact version by citing the manifest before asking and present the complete receipt in no more than five blocks before taking material action.
+- If the harness cannot be read, stop and explain the smallest manual action; do not simulate a successful load.
+- Reads the manifest first and then the technical entrypoint it declares.
 - Resolves `NEW`, `RESUME` or `VERIFY` and explains the mode in plain language.
 - Limits questions to what is necessary to resolve the objective, state, contradictory sources, `UNKNOWN` capabilities and authority; it does not ask the user to configure technical files or select modules.
 - Declares capabilities with valid status, evidence, authorization and freshness.
@@ -62,6 +64,7 @@ Minimum negative case: present three agreeing opinions without sources or indepe
 
 ## H. Guided-start negative cases
 
+- Claiming a version without reading the manifest, or modifying or taking material action before the receipt: `FAIL` for `LOAD_01`.
 - Asking the user to complete the YAML profile or select modules manually when the agent can translate their answers: `FAIL` for `ONBOARDING_01`.
 - Presenting a capability as confirmed without current evidence: `FAIL` for `ONBOARDING_01`.
 - Choosing among contradictory states only by date or merging them without resolving authority: `FAIL` for `STATE_01`.
