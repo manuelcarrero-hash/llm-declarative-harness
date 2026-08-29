@@ -33,6 +33,7 @@ invariants:
   - "No tratar consenso, mayoría o repetición como sustituto de evidencia."
 
 capability_labels: [SUPPORTED, PARTIAL, UNSUPPORTED, UNKNOWN]
+authorization_labels: [NOT_REQUIRED, REQUIRED, GRANTED, DENIED, UNKNOWN]
 terminal_states: [ACHIEVED, BLOCKED_EXTERNAL, DECISION_REQUIRED, AUTHORITY_REQUIRED]
 
 modules:
@@ -59,6 +60,7 @@ modules:
     activate_when: "una decisión ambigua, costosa o subjetiva mejora con perspectivas independientes"
 
 templates:
+  startup_summary: "03_plantillas/RESUMEN_ARRANQUE.template.md"
   goal: "03_plantillas/CONTRATO_OBJETIVO.template.md"
   governance: "03_plantillas/AGENTS.template.md"
   status: "03_plantillas/PROJECT_STATUS.template.md"
