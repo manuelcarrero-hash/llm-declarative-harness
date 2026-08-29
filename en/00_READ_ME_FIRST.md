@@ -1,6 +1,6 @@
 # Provider-Neutral Declarative Harness for LLMs
 
-Version: 0.2.2  
+Version: 0.3.0
 Author and maintainer: Manuel Carrero Rojo
 
 ## Startup instruction

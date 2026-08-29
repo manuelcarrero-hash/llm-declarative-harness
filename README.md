@@ -2,7 +2,7 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.2.2
+Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.3.0
 
 This is a beginner-friendly, provider-neutral set of instructions and templates that helps agentic LLMs manage substantial projects with clearer goals, durable state, safe handoffs, independent review and evidence-based completion.
 
@@ -19,6 +19,7 @@ It is useful for software, research, books, courses and other multi-stage projec
 - Common protocol to start, resume or verify: [`en/01_core/GUIDED_START.md`](en/01_core/GUIDED_START.md).
 - Spanish version: read [`EMPIEZA_AQUI_SIN_CONOCIMIENTOS_TECNICOS.md`](EMPIEZA_AQUI_SIN_CONOCIMIENTOS_TECNICOS.md).
 - Non-code example: read [`en/05_examples/NON_CODE_BOOTSTRAP.md`](en/05_examples/NON_CODE_BOOTSTRAP.md).
+- Guided-start scenarios: read [`en/05_examples/GUIDED_START_SCENARIOS.md`](en/05_examples/GUIDED_START_SCENARIOS.md).
 - Evaluation controls: read [`en/06_validation/CONTROL_CATALOG.md`](en/06_validation/CONTROL_CATALOG.md).
 - Translation policy: see [`en/BILINGUAL_PARITY.md`](en/BILINGUAL_PARITY.md).
 - Release history: see [`CHANGELOG.md`](CHANGELOG.md).

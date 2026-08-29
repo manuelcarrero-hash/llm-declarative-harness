@@ -1,7 +1,7 @@
-schema_version: "1.0"
+schema_version: "1.1"
 harness:
   name: "Provider-Neutral Declarative Harness for LLMs"
-  version: "0.2.2"
+  version: "0.3.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -69,3 +69,4 @@ validation:
 examples:
   software: "05_examples/PROJECT_BOOTSTRAP.md"
   non_code: "05_examples/NON_CODE_BOOTSTRAP.md"
+  guided_start: "05_examples/GUIDED_START_SCENARIOS.md"

@@ -1,7 +1,7 @@
-schema_version: "1.0"
+schema_version: "1.1"
 harness:
   name: "Arnés declarativo agnóstico para LLMs"
-  version: "0.2.2"
+  version: "0.3.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -79,3 +79,4 @@ validation:
 examples:
   software: "05_ejemplos/BOOTSTRAP_PROYECTO.md"
   non_code: "05_ejemplos/BOOTSTRAP_NO_CODIGO.md"
+  guided_start: "05_ejemplos/ESCENARIOS_INICIO_GUIADO.md"

@@ -1,6 +1,6 @@
 # Arnés declarativo agnóstico para LLMs
 
-Versión: 0.2.2  
+Versión: 0.3.0
 Autor y mantenedor: Manuel Carrero Rojo
 
 ## Instrucción de arranque

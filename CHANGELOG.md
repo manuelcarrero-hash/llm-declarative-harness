@@ -1,5 +1,25 @@
 # Changelog / Registro de cambios
 
+## 0.3.0 — 2026-08-29
+
+### Español
+
+- Se añadió un inicio guiado declarativo con modos `NEW`, `RESUME` y `VERIFY`.
+- Se trasladó al agente la evaluación de capacidades y selección mínima de módulos; el usuario no configura archivos técnicos.
+- Se incorporó un resumen de arranque sencillo y auditable sin crear una segunda fuente de estado.
+- El perfil de capacidades 1.1 separa disponibilidad, evidencia, autorización, vigencia y alcance.
+- Se añadieron los controles críticos `ONBOARDING_01` y `AUTHORITY_01`, casos negativos y esquema de evaluación 1.2.
+- Se publicaron tres instrucciones equivalentes y escenarios bilingües para iniciar, continuar y verificar.
+
+### English
+
+- Added a declarative guided start with `NEW`, `RESUME` and `VERIFY` modes.
+- Made the agent responsible for capability evaluation and minimum module selection; the user does not configure technical files.
+- Added a plain and auditable startup summary without creating a second state source.
+- Capability profile 1.1 separates availability, evidence, authorization, freshness and scope.
+- Added critical `ONBOARDING_01` and `AUTHORITY_01` controls, negative cases and evaluation schema 1.2.
+- Published three equivalent instructions and bilingual scenarios for starting, resuming and verifying.
+
 ## 0.2.2 — 2026-08-29
 
 ### Español
