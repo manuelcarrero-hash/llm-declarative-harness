@@ -1,23 +1,27 @@
-schema_version: "1.1"
+schema_version: "1.2"
 harness:
   name: "Provider-Neutral Declarative Harness for LLMs"
-  version: "0.3.0"
+  version: "0.4.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
-    es_entrypoint: "../00_LEEME_PRIMERO.md"
-    en_entrypoint: "00_READ_ME_FIRST.md"
+    es_entrypoint: "../INTERNO_PARA_LLM.md"
+    en_entrypoint: "LLM_INTERNALS.md"
     policy: "semantic parity"
     parity_matrix: "BILINGUAL_PARITY.md"
   author: "Manuel Carrero Rojo"
   license: "MIT"
   provider_neutral: true
-entrypoint: "00_READ_ME_FIRST.md"
+human_entrypoint: "START_HERE.md"
+entrypoint: "LLM_INTERNALS.md"
 guided_start:
   path: "01_core/GUIDED_START.md"
   modes: [NEW, RESUME, VERIFY]
   capability_profile: "04_adapters/CAPABILITY_PROFILE.template.yaml"
   rule: "The agent translates natural language into the contract; the user does not configure technical files or select modules."
+  universal_prompt: "START_HERE.md"
+  load_receipt: "03_templates/LOAD_RECEIPT.template.md"
+  load_gate: "Confirm version and source before asking; after minimum clarifications, present the complete receipt before any modification or material action. If reading cannot be demonstrated, stop with the smallest manual action."
 invariants:
   - "Do not claim unverified capabilities."
   - "Persistence, autonomy and delegation do not expand authority."
@@ -51,6 +55,7 @@ modules:
     path: "02_modules/COUNCIL.md"
     activate_when: "an ambiguous, costly or subjective decision benefits from independent perspectives"
 templates:
+  load_receipt: "03_templates/LOAD_RECEIPT.template.md"
   startup_summary: "03_templates/STARTUP_SUMMARY.template.md"
   goal: "03_templates/GOAL_CONTRACT.template.md"
   governance: "03_templates/AGENTS.template.md"
@@ -70,3 +75,4 @@ examples:
   software: "05_examples/PROJECT_BOOTSTRAP.md"
   non_code: "05_examples/NON_CODE_BOOTSTRAP.md"
   guided_start: "05_examples/GUIDED_START_SCENARIOS.md"
+  non_technical_user_acceptance_cases: "05_examples/NON_TECHNICAL_USER_ACCEPTANCE_CASES.md"

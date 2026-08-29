@@ -1,11 +1,11 @@
-# Arnés declarativo agnóstico para LLMs
+# Interior para LLM — Arnés declarativo agnóstico
 
-Versión: 0.3.0
+Versión: 0.4.0
 Autor y mantenedor: Manuel Carrero Rojo
 
 ## Instrucción de arranque
 
-Si eres un LLM agéntico, lee primero este archivo y después `HARNESS_MANIFEST.yaml`. No asumas capacidades que no puedas verificar. Aplica `01_nucleo/INICIO_GUIADO.md`, declara tu perfil de capacidades y activa únicamente los módulos compatibles y necesarios.
+Si eres una persona, usa únicamente `EMPEZAR_AQUI.md`; el resto es el interior técnico del arnés. Este archivo es el entrypoint técnico que `HARNESS_MANIFEST.yaml` ordena leer después del propio manifiesto. Si eres un LLM agéntico, confirma la versión observada, aplica `01_nucleo/INICIO_GUIADO.md`, presenta el comprobante de carga y activa únicamente los módulos compatibles y necesarios.
 
 Este paquete define un arnés declarativo: reglas, contratos, estados, transferencias y evaluaciones. No contiene un runtime propio, no controla el bucle de inferencia del proveedor y no garantiza ejecución autónoma. Un modelo o plataforma debe interpretar los archivos y proporcionar herramientas, memoria, agentes, permisos y telemetría.
 
@@ -72,12 +72,13 @@ Permitir que un LLM capaz de actuar sobre proyectos pueda:
 ## Orden de lectura
 
 1. `HARNESS_MANIFEST.yaml`
-2. `01_nucleo/CONTRATO_OPERATIVO.md`
-3. `01_nucleo/AUTORIDAD_Y_SEGURIDAD.md`
-4. `01_nucleo/INICIO_GUIADO.md`
-5. Los módulos que el manifiesto marque para la tarea
-6. Las plantillas correspondientes
-7. `06_validacion/PRUEBA_DE_CONFORMIDAD.md` antes de afirmar compatibilidad
+2. `INTERNO_PARA_LLM.md` (este archivo)
+3. `01_nucleo/CONTRATO_OPERATIVO.md`
+4. `01_nucleo/AUTORIDAD_Y_SEGURIDAD.md`
+5. `01_nucleo/INICIO_GUIADO.md`
+6. Los módulos que el manifiesto marque para la tarea
+7. Las plantillas correspondientes
+8. `06_validacion/PRUEBA_DE_CONFORMIDAD.md` antes de afirmar compatibilidad
 
 ## Regla de honestidad
 
@@ -85,10 +86,10 @@ Usa siempre una de estas etiquetas para cada capacidad: `SUPPORTED`, `PARTIAL`, 
 
 ## Inicio rápido para un proyecto
 
-1. Resuelve si la persona quiere iniciar, continuar o verificar un proyecto.
+1. Lee la solicitud universal de `EMPEZAR_AQUI.md`, confirma la versión y resuelve si la persona quiere iniciar, continuar o verificar un proyecto.
 2. Pregunta en lenguaje sencillo qué quiere lograr y dónde está o debe conservarse el estado.
 3. Evalúa tú las capacidades reales; no pidas al usuario configurar archivos técnicos.
-4. Selecciona sólo los módulos necesarios y presenta un resumen de arranque.
+4. Selecciona sólo los módulos necesarios y presenta el comprobante de carga en cinco bloques como máximo.
 5. Solicita autoridad antes de crear o actualizar estado y ejecuta el primer checkpoint autorizado.
 6. Si existe rotación, genera handoff y exige handshake de reanudación.
 7. Evalúa la ejecución cuando forme parte de un piloto o auditoría.

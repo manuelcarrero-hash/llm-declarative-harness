@@ -1,12 +1,12 @@
-schema_version: "1.1"
+schema_version: "1.2"
 harness:
   name: "Arnés declarativo agnóstico para LLMs"
-  version: "0.3.0"
+  version: "0.4.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
-    es_entrypoint: "00_LEEME_PRIMERO.md"
-    en_entrypoint: "en/00_READ_ME_FIRST.md"
+    es_entrypoint: "INTERNO_PARA_LLM.md"
+    en_entrypoint: "en/LLM_INTERNALS.md"
     policy: "semantic parity"
     parity_matrix: "PARIDAD_BILINGUE.md"
   author: "Manuel Carrero Rojo"
@@ -16,13 +16,17 @@ harness:
   runtime: "declarative"
   provider_neutral: true
 
-entrypoint: "00_LEEME_PRIMERO.md"
+human_entrypoint: "EMPEZAR_AQUI.md"
+entrypoint: "INTERNO_PARA_LLM.md"
 
 guided_start:
   path: "01_nucleo/INICIO_GUIADO.md"
   modes: [NEW, RESUME, VERIFY]
   capability_profile: "04_adaptadores/PERFIL_CAPACIDADES.template.yaml"
   rule: "El agente traduce lenguaje natural al contrato; el usuario no configura archivos técnicos ni selecciona módulos."
+  universal_prompt: "EMPEZAR_AQUI.md"
+  load_receipt: "03_plantillas/COMPROBANTE_CARGA.template.md"
+  load_gate: "Confirmar versión y fuente antes de preguntar; tras las aclaraciones mínimas, presentar el comprobante completo antes de cualquier modificación o acción material. Si la lectura no puede demostrarse, detenerse con la acción manual mínima."
 
 invariants:
   - "No afirmar capacidades no verificadas."
@@ -60,6 +64,7 @@ modules:
     activate_when: "una decisión ambigua, costosa o subjetiva mejora con perspectivas independientes"
 
 templates:
+  load_receipt: "03_plantillas/COMPROBANTE_CARGA.template.md"
   startup_summary: "03_plantillas/RESUMEN_ARRANQUE.template.md"
   goal: "03_plantillas/CONTRATO_OBJETIVO.template.md"
   governance: "03_plantillas/AGENTS.template.md"
@@ -80,3 +85,4 @@ examples:
   software: "05_ejemplos/BOOTSTRAP_PROYECTO.md"
   non_code: "05_ejemplos/BOOTSTRAP_NO_CODIGO.md"
   guided_start: "05_ejemplos/ESCENARIOS_INICIO_GUIADO.md"
+  non_technical_user_acceptance_cases: "05_ejemplos/CASOS_ACEPTACION_USUARIO_NO_TECNICO.md"

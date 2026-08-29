@@ -2,7 +2,9 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.3.0
+Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.4.0
+
+**Si no tienes conocimientos técnicos:** abre únicamente [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md). Las carpetas restantes son el interior que debe consultar el LLM.
 
 Este es un conjunto accesible y neutral de instrucciones y plantillas para que los LLMs agénticos administren proyectos sustanciales con objetivos claros, estado durable, handoffs seguros, revisión independiente y cierres respaldados por evidencia.
 
@@ -14,10 +16,10 @@ Sirve para software, investigaciones, libros, cursos y otros proyectos de varias
 
 ## Empieza aquí
 
-- Personas no técnicas: lee [`EMPIEZA_AQUI_SIN_CONOCIMIENTOS_TECNICOS.md`](EMPIEZA_AQUI_SIN_CONOCIMIENTOS_TECNICOS.md).
-- LLMs agénticos: lee [`00_LEEME_PRIMERO.md`](00_LEEME_PRIMERO.md) y después [`HARNESS_MANIFEST.yaml`](HARNESS_MANIFEST.yaml).
+- Personas no técnicas: abre únicamente [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md).
+- LLMs agénticos: lee [`HARNESS_MANIFEST.yaml`](HARNESS_MANIFEST.yaml) y después el entrypoint declarado, [`INTERNO_PARA_LLM.md`](INTERNO_PARA_LLM.md).
 - Protocolo común para iniciar, continuar o verificar: [`01_nucleo/INICIO_GUIADO.md`](01_nucleo/INICIO_GUIADO.md).
-- English version: read [`en/START_HERE_NO_TECHNICAL_KNOWLEDGE.md`](en/START_HERE_NO_TECHNICAL_KNOWLEDGE.md).
+- English version: read [`en/START_HERE.md`](en/START_HERE.md).
 - Ejemplo no-código: lee [`05_ejemplos/BOOTSTRAP_NO_CODIGO.md`](05_ejemplos/BOOTSTRAP_NO_CODIGO.md).
 - Escenarios de inicio guiado: consulta [`05_ejemplos/ESCENARIOS_INICIO_GUIADO.md`](05_ejemplos/ESCENARIOS_INICIO_GUIADO.md).
 - Controles de evaluación: consulta [`06_validacion/CATALOGO_DE_CONTROLES.md`](06_validacion/CATALOGO_DE_CONTROLES.md).

@@ -1,5 +1,23 @@
 # Changelog / Registro de cambios
 
+## 0.4.0 — 2026-08-29
+
+### Español
+
+- Se añadió `EMPEZAR_AQUI.md` como única entrada humana recomendada, con una instrucción universal que resuelve `NEW`, `RESUME` o `VERIFY`.
+- Se separó explícitamente la experiencia del usuario del interior técnico sin ocultar ni debilitar el contrato auditable.
+- Se incorporó un gate de carga: el agente demuestra versión y fuente antes de preguntar y presenta un comprobante de cinco bloques tras las aclaraciones y antes de actuar materialmente.
+- Se añadió `LOAD_01`, casos negativos y especificaciones bilingües de aceptación para perfiles no técnicos, sin presentarlas como pruebas humanas ejecutadas.
+- Se conserva la limitación honesta: el arnés sigue siendo declarativo y necesita un LLM con acceso real a sus archivos.
+
+### English
+
+- Added `START_HERE.md` as the single recommended human entry, with one universal instruction that resolves `NEW`, `RESUME` or `VERIFY`.
+- Explicitly separated the user experience from technical internals without hiding or weakening the auditable contract.
+- Added a load gate: the agent demonstrates version and source before asking and presents a five-block receipt after clarification and before material action.
+- Added `LOAD_01`, negative cases and bilingual acceptance specifications for non-technical profiles without presenting them as executed human tests.
+- Preserved the honest limitation: the harness remains declarative and requires an LLM with real file access.
+
 ## 0.3.0 — 2026-08-29
 
 ### Español

@@ -1,11 +1,11 @@
-# Provider-Neutral Declarative Harness for LLMs
+# LLM internals — Provider-Neutral Declarative Harness
 
-Version: 0.3.0
+Version: 0.4.0
 Author and maintainer: Manuel Carrero Rojo
 
 ## Startup instruction
 
-If you are an agentic LLM, read this file first and then `HARNESS_MANIFEST.yaml`. Do not assume capabilities you cannot verify. Apply `01_core/GUIDED_START.md`, declare your capability profile and activate only compatible and necessary modules.
+If you are a person, use only `START_HERE.md`; the rest is the harness technical interior. This file is the technical entrypoint that `HARNESS_MANIFEST.yaml` directs the agent to read after the manifest itself. If you are an agentic LLM, confirm the observed version, apply `01_core/GUIDED_START.md`, present the load receipt and activate only compatible and necessary modules.
 
 This package defines a declarative harness: rules, contracts, states, handoffs and evaluations. It does not contain its own runtime, control the provider's inference loop or guarantee autonomous execution. A model or platform must interpret the files and provide tools, memory, agents, permissions and telemetry.
 
@@ -72,12 +72,13 @@ Enable an LLM capable of acting on projects to:
 ## Reading order
 
 1. `HARNESS_MANIFEST.yaml`
-2. `01_core/OPERATING_CONTRACT.md`
-3. `01_core/AUTHORITY_AND_SAFETY.md`
-4. `01_core/GUIDED_START.md`
-5. Modules activated by the manifest for the task
-6. Corresponding templates
-7. `06_validation/CONFORMANCE_TEST.md` before claiming compatibility
+2. `LLM_INTERNALS.md` (this file)
+3. `01_core/OPERATING_CONTRACT.md`
+4. `01_core/AUTHORITY_AND_SAFETY.md`
+5. `01_core/GUIDED_START.md`
+6. Modules activated by the manifest for the task
+7. Corresponding templates
+8. `06_validation/CONFORMANCE_TEST.md` before claiming compatibility
 
 ## Honesty rule
 

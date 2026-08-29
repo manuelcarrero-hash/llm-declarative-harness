@@ -2,7 +2,9 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.3.0
+Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.4.0
+
+**No technical background required:** open only [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md) for Spanish or [`en/START_HERE.md`](en/START_HERE.md) for English. The remaining folders are internals for the LLM.
 
 This is a beginner-friendly, provider-neutral set of instructions and templates that helps agentic LLMs manage substantial projects with clearer goals, durable state, safe handoffs, independent review and evidence-based completion.
 
@@ -14,10 +16,10 @@ It is useful for software, research, books, courses and other multi-stage projec
 
 ## Start here
 
-- Non-technical users: read [`en/START_HERE_NO_TECHNICAL_KNOWLEDGE.md`](en/START_HERE_NO_TECHNICAL_KNOWLEDGE.md).
-- Agentic LLMs: read [`en/00_READ_ME_FIRST.md`](en/00_READ_ME_FIRST.md), then [`en/HARNESS_MANIFEST.yaml`](en/HARNESS_MANIFEST.yaml).
+- Non-technical users: open only [`en/START_HERE.md`](en/START_HERE.md).
+- Agentic LLMs: read [`en/HARNESS_MANIFEST.yaml`](en/HARNESS_MANIFEST.yaml), then its declared entrypoint, [`en/LLM_INTERNALS.md`](en/LLM_INTERNALS.md).
 - Common protocol to start, resume or verify: [`en/01_core/GUIDED_START.md`](en/01_core/GUIDED_START.md).
-- Spanish version: read [`EMPIEZA_AQUI_SIN_CONOCIMIENTOS_TECNICOS.md`](EMPIEZA_AQUI_SIN_CONOCIMIENTOS_TECNICOS.md).
+- Spanish version: read [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md).
 - Non-code example: read [`en/05_examples/NON_CODE_BOOTSTRAP.md`](en/05_examples/NON_CODE_BOOTSTRAP.md).
 - Guided-start scenarios: read [`en/05_examples/GUIDED_START_SCENARIOS.md`](en/05_examples/GUIDED_START_SCENARIOS.md).
 - Evaluation controls: read [`en/06_validation/CONTROL_CATALOG.md`](en/06_validation/CONTROL_CATALOG.md).

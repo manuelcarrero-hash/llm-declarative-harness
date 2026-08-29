@@ -10,6 +10,14 @@ This protocol turns a simple request into a verifiable startup. It is declarativ
 
 Copy-ready instructions and a guided interface are equivalent entries into the same protocol. They must not produce different rules, modules or completion criteria.
 
+The universal instruction in `START_HERE.md` is the preferred human entry. The three specific instructions remain alternatives and examples, not decisions the user must understand.
+
+## Load gate
+
+Before asking questions, the agent must read the manifest, report the exact observed version, and cite the file from which it obtained that value. It may then ask the minimum necessary questions. Before any material action it must present the complete receipt in `03_templates/LOAD_RECEIPT.template.md` using no more than five blocks.
+
+If it cannot access the harness, cannot find the manifest, or cannot confirm the version, it must stop. It may not replace reading with prior knowledge, infer a version from a folder name, or claim it applied modules it did not read. It must explain the smallest manual action required to grant access.
+
 ## Three pillars
 
 1. Ask in plain language what the person wants to achieve and what observable result would prove completion.
@@ -20,13 +28,13 @@ Do not ask the user to complete YAML, Markdown, manifests, technical paths or ma
 
 ## Normative sequence
 
-1. Resolve `NEW`, `RESUME` or `VERIFY` from the request; ask only when intent is ambiguous.
+1. Satisfy the load gate and resolve `NEW`, `RESUME` or `VERIFY` from the universal request; ask only when intent is ambiguous.
 2. Identify the project, environment and sources already available without probing outside scope.
 3. Resolve the objective and observable completion criteria. In `RESUME`, preserve the existing objective unless evidence shows that it is missing, changed or contradictory.
 4. Locate authoritative state. If several candidates exist, compare identity, scope, source, freshness and evidence; do not choose only by date or merge them automatically.
 5. Declare capabilities with the corresponding profile. Separate status, evidence, authorization and freshness for every capability.
 6. Select only modules whose `activate_when` condition is met and record the reason. Omitting a module can be the correct decision.
-7. Present a plain-language startup summary containing the objective, state, relevant capabilities, modules, limits, pending authorization and first action.
+7. Present the load receipt and startup summary with the objective, state, relevant capabilities, modules, limits, pending authorization and first action. The views may be combined when every field is preserved and the result stays within five blocks.
 8. Operate in `REPORT` until authority to create or update state is available. Group reversible, low-risk approvals when scope is clear; request separate authority to publish, deploy, merge, delete, send communications, change permissions, spend money or use secrets.
 9. Execute the smallest authorized first checkpoint and preserve evidence.
 

@@ -1,11 +1,12 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "control_catalog": "06_validacion/CATALOGO_DE_CONTROLES.md",
   "evaluation_id": "PROJECT-YYYYMMDD-RUN-01",
   "project": {"name": "", "workspace": "", "branch": "", "commit": ""},
   "run": {"objective": "", "material_change": false, "rotation_occurred": false, "guided_start": {"applicable": true, "mode": null, "state_operation": null}, "council": {"applicable": false, "activated": false, "intensity": null, "separate_agents": null}},
   "controls": [
     {"id": "IDENTITY_01", "status": "NOT_OBSERVED", "evidence": [], "note": ""},
+    {"id": "LOAD_01", "status": "NOT_OBSERVED", "evidence": [], "note": ""},
     {"id": "ONBOARDING_01", "status": "NOT_OBSERVED", "evidence": [], "note": ""},
     {"id": "AUTHORITY_01", "status": "NOT_OBSERVED", "evidence": [], "note": ""},
     {"id": "GOAL_01", "status": "NOT_OBSERVED", "evidence": [], "note": ""},
