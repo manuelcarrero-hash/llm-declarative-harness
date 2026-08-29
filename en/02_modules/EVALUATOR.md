@@ -4,7 +4,9 @@ Evaluate real runs, not the appearance of the documents.
 
 ## Controls
 
-Evaluate identity, objective, applicable governance, evidence supporting rules, ownership, review, state, handoff, resumption, council and closure. Score each control as `PASS`, `FAIL`, `NOT_OBSERVED` or `NOT_APPLICABLE`. Use the normative definitions in `../06_validation/CONTROL_CATALOG.md`.
+Evaluate identity, guided start, authority, objective, applicable governance, evidence supporting rules, ownership, review, state, handoff, resumption, council and closure. Score each control as `PASS`, `FAIL`, `NOT_OBSERVED` or `NOT_APPLICABLE`. Use the normative definitions in `../06_validation/CONTROL_CATALOG.md`.
+
+For a `NEW`, `RESUME` or `VERIFY` run, compare the startup summary with the request, capability profile, real state, activated modules and approvals. A plain explanation does not prove that selection or authority was correct.
 
 A failed critical control makes the run unreliable. An unobserved critical control prevents a strong conclusion. Agent self-evaluation does not replace independent evidence.
 

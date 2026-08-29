@@ -4,7 +4,9 @@ Evaluar ejecuciones reales, no la apariencia de los documentos.
 
 ## Controles
 
-Identidad, objetivo, gobernanza aplicable, respaldo de reglas, propiedad, revisión, estado, handoff, reanudación, consejo y cierre. Calificar cada uno `PASS`, `FAIL`, `NOT_OBSERVED` o `NOT_APPLICABLE`. Usar las definiciones normativas de `../06_validacion/CATALOGO_DE_CONTROLES.md`.
+Identidad, inicio guiado, autoridad, objetivo, gobernanza aplicable, respaldo de reglas, propiedad, revisión, estado, handoff, reanudación, consejo y cierre. Calificar cada uno `PASS`, `FAIL`, `NOT_OBSERVED` o `NOT_APPLICABLE`. Usar las definiciones normativas de `../06_validacion/CATALOGO_DE_CONTROLES.md`.
+
+En una ejecución `NEW`, `RESUME` o `VERIFY`, contrastar el resumen de arranque con la solicitud, el perfil de capacidades, el estado real, los módulos activados y las aprobaciones. Una explicación sencilla no prueba que la selección o la autoridad fueran correctas.
 
 Un control crítico fallido hace la ejecución no confiable. Un control crítico no observado impide una conclusión fuerte. La autoevaluación del agente no sustituye evidencia independiente.
 

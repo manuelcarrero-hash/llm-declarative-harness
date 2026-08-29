@@ -4,6 +4,16 @@
 
 Complete `CAPABILITY_PROFILE.template.yaml` with evidence. Do not infer tools from provider marketing.
 
+For each capability separate:
+
+- `status`: observed availability using `SUPPORTED`, `PARTIAL`, `UNSUPPORTED` or `UNKNOWN`;
+- `evidence`: an inspected source, not a marketing claim;
+- `authorization`: `NOT_REQUIRED`, `REQUIRED`, `GRANTED`, `DENIED` or `UNKNOWN`;
+- `checked_at`: date and time of the check;
+- `authorization_scope`: action, project and boundaries covered by authorization.
+
+The agent completes this inventory. Do not delegate its configuration to a non-technical user.
+
 ## 2. Minimum mapping
 
 | Harness capability | Acceptable substitute |
@@ -18,7 +28,7 @@ Complete `CAPABILITY_PROFILE.template.yaml` with evidence. Do not infer tools fr
 
 ## 3. Bootstrap
 
-Instruct the agent to read `00_READ_ME_FIRST.md`, the manifest, the core and activated modules. Copy templates into the project only when they do not compete with existing sources. Record paths instead of pasting complete rules into every prompt.
+Instruct the agent to read `00_READ_ME_FIRST.md`, the manifest, the core and `GUIDED_START.md` before activated modules. Copy templates into the project only when they do not compete with existing sources. Record paths instead of pasting complete rules into every prompt.
 
 ## 4. Honest degradation
 

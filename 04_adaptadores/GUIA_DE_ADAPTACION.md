@@ -4,6 +4,16 @@
 
 Completar `PERFIL_CAPACIDADES.template.yaml` con evidencia. No inferir herramientas por publicidad del proveedor.
 
+Para cada capacidad separar:
+
+- `status`: disponibilidad observada usando `SUPPORTED`, `PARTIAL`, `UNSUPPORTED` o `UNKNOWN`;
+- `evidence`: fuente inspeccionada, no una afirmación publicitaria;
+- `authorization`: `NOT_REQUIRED`, `REQUIRED`, `GRANTED`, `DENIED` o `UNKNOWN`;
+- `checked_at`: fecha y hora de la comprobación;
+- `authorization_scope`: acción, proyecto y límites cubiertos por la autorización.
+
+El agente completa este inventario. No delegar su configuración al usuario no técnico.
+
 ## 2. Mapeo mínimo
 
 | Capacidad del arnés | Sustituto aceptable |
@@ -18,7 +28,7 @@ Completar `PERFIL_CAPACIDADES.template.yaml` con evidencia. No inferir herramien
 
 ## 3. Bootstrap
 
-Instruir al agente para leer `00_LEEME_PRIMERO.md`, manifiesto, núcleo y módulos activados. Copiar plantillas al proyecto sólo cuando no compitan con fuentes existentes. Registrar rutas, no pegar reglas completas en cada prompt.
+Instruir al agente para leer `00_LEEME_PRIMERO.md`, manifiesto, núcleo e `INICIO_GUIADO.md` antes de los módulos activados. Copiar plantillas al proyecto sólo cuando no compitan con fuentes existentes. Registrar rutas, no pegar reglas completas en cada prompt.
 
 ## 4. Degradación honesta
 
