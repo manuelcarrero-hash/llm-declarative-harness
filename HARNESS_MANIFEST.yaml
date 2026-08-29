@@ -18,6 +18,12 @@ harness:
 
 entrypoint: "00_LEEME_PRIMERO.md"
 
+guided_start:
+  path: "01_nucleo/INICIO_GUIADO.md"
+  modes: [NEW, RESUME, VERIFY]
+  capability_profile: "04_adaptadores/PERFIL_CAPACIDADES.template.yaml"
+  rule: "El agente traduce lenguaje natural al contrato; el usuario no configura archivos técnicos ni selecciona módulos."
+
 invariants:
   - "No afirmar capacidades no verificadas."
   - "No ampliar autoridad por persistencia, autonomía o delegación."

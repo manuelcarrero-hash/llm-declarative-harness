@@ -5,7 +5,7 @@ Author and maintainer: Manuel Carrero Rojo
 
 ## Startup instruction
 
-If you are an agentic LLM, read this file first and then `HARNESS_MANIFEST.yaml`. Do not assume capabilities you cannot verify. Declare your capability profile using `04_adapters/CAPABILITY_PROFILE.template.yaml` and apply only compatible modules.
+If you are an agentic LLM, read this file first and then `HARNESS_MANIFEST.yaml`. Do not assume capabilities you cannot verify. Apply `01_core/GUIDED_START.md`, declare your capability profile and activate only compatible and necessary modules.
 
 This package defines a declarative harness: rules, contracts, states, handoffs and evaluations. It does not contain its own runtime, control the provider's inference loop or guarantee autonomous execution. A model or platform must interpret the files and provide tools, memory, agents, permissions and telemetry.
 
@@ -74,9 +74,10 @@ Enable an LLM capable of acting on projects to:
 1. `HARNESS_MANIFEST.yaml`
 2. `01_core/OPERATING_CONTRACT.md`
 3. `01_core/AUTHORITY_AND_SAFETY.md`
-4. Modules activated by the manifest for the task
-5. Corresponding templates
-6. `06_validation/CONFORMANCE_TEST.md` before claiming compatibility
+4. `01_core/GUIDED_START.md`
+5. Modules activated by the manifest for the task
+6. Corresponding templates
+7. `06_validation/CONFORMANCE_TEST.md` before claiming compatibility
 
 ## Honesty rule
 
@@ -84,11 +85,11 @@ Use one of these labels for every capability: `SUPPORTED`, `PARTIAL`, `UNSUPPORT
 
 ## Quick start for a project
 
-1. Copy the necessary templates into the project without overwriting existing files.
-2. Resolve project identity and sources of truth.
-3. Create the goal contract.
-4. Execute through checkpoints and preserve evidence.
-5. Update authorized state.
+1. Resolve whether the person wants to start, resume or verify a project.
+2. Ask in plain language what they want to achieve and where state exists or should be preserved.
+3. Evaluate real capabilities yourself; do not ask the user to configure technical files.
+4. Select only necessary modules and present a startup summary.
+5. Request authority before creating or updating state and execute the first authorized checkpoint.
 6. If rotation occurs, create a handoff and require a resumption handshake.
 7. Evaluate the run when it is part of a pilot or audit.
 

@@ -13,6 +13,11 @@ harness:
   license: "MIT"
   provider_neutral: true
 entrypoint: "00_READ_ME_FIRST.md"
+guided_start:
+  path: "01_core/GUIDED_START.md"
+  modes: [NEW, RESUME, VERIFY]
+  capability_profile: "04_adapters/CAPABILITY_PROFILE.template.yaml"
+  rule: "The agent translates natural language into the contract; the user does not configure technical files or select modules."
 invariants:
   - "Do not claim unverified capabilities."
   - "Persistence, autonomy and delegation do not expand authority."
