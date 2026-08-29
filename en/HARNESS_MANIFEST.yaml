@@ -1,7 +1,7 @@
-schema_version: "1.0"
+schema_version: "1.1"
 harness:
   name: "Provider-Neutral Declarative Harness for LLMs"
-  version: "0.2.2"
+  version: "0.3.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -13,6 +13,11 @@ harness:
   license: "MIT"
   provider_neutral: true
 entrypoint: "00_READ_ME_FIRST.md"
+guided_start:
+  path: "01_core/GUIDED_START.md"
+  modes: [NEW, RESUME, VERIFY]
+  capability_profile: "04_adapters/CAPABILITY_PROFILE.template.yaml"
+  rule: "The agent translates natural language into the contract; the user does not configure technical files or select modules."
 invariants:
   - "Do not claim unverified capabilities."
   - "Persistence, autonomy and delegation do not expand authority."
@@ -21,6 +26,7 @@ invariants:
   - "Preserve other people's work and distinguish implemented, validated and deployed."
   - "Do not treat consensus, majority or repetition as a substitute for evidence."
 capability_labels: [SUPPORTED, PARTIAL, UNSUPPORTED, UNKNOWN]
+authorization_labels: [NOT_REQUIRED, REQUIRED, GRANTED, DENIED, UNKNOWN]
 terminal_states: [ACHIEVED, BLOCKED_EXTERNAL, DECISION_REQUIRED, AUTHORITY_REQUIRED]
 modules:
   - id: goal
@@ -45,6 +51,7 @@ modules:
     path: "02_modules/COUNCIL.md"
     activate_when: "an ambiguous, costly or subjective decision benefits from independent perspectives"
 templates:
+  startup_summary: "03_templates/STARTUP_SUMMARY.template.md"
   goal: "03_templates/GOAL_CONTRACT.template.md"
   governance: "03_templates/AGENTS.template.md"
   status: "03_templates/PROJECT_STATUS.template.md"
@@ -62,3 +69,4 @@ validation:
 examples:
   software: "05_examples/PROJECT_BOOTSTRAP.md"
   non_code: "05_examples/NON_CODE_BOOTSTRAP.md"
+  guided_start: "05_examples/GUIDED_START_SCENARIOS.md"

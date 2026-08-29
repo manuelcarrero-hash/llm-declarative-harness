@@ -1,7 +1,7 @@
-schema_version: "1.0"
+schema_version: "1.1"
 harness:
   name: "Arnés declarativo agnóstico para LLMs"
-  version: "0.2.2"
+  version: "0.3.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -18,6 +18,12 @@ harness:
 
 entrypoint: "00_LEEME_PRIMERO.md"
 
+guided_start:
+  path: "01_nucleo/INICIO_GUIADO.md"
+  modes: [NEW, RESUME, VERIFY]
+  capability_profile: "04_adaptadores/PERFIL_CAPACIDADES.template.yaml"
+  rule: "El agente traduce lenguaje natural al contrato; el usuario no configura archivos técnicos ni selecciona módulos."
+
 invariants:
   - "No afirmar capacidades no verificadas."
   - "No ampliar autoridad por persistencia, autonomía o delegación."
@@ -27,6 +33,7 @@ invariants:
   - "No tratar consenso, mayoría o repetición como sustituto de evidencia."
 
 capability_labels: [SUPPORTED, PARTIAL, UNSUPPORTED, UNKNOWN]
+authorization_labels: [NOT_REQUIRED, REQUIRED, GRANTED, DENIED, UNKNOWN]
 terminal_states: [ACHIEVED, BLOCKED_EXTERNAL, DECISION_REQUIRED, AUTHORITY_REQUIRED]
 
 modules:
@@ -53,6 +60,7 @@ modules:
     activate_when: "una decisión ambigua, costosa o subjetiva mejora con perspectivas independientes"
 
 templates:
+  startup_summary: "03_plantillas/RESUMEN_ARRANQUE.template.md"
   goal: "03_plantillas/CONTRATO_OBJETIVO.template.md"
   governance: "03_plantillas/AGENTS.template.md"
   status: "03_plantillas/PROJECT_STATUS.template.md"
@@ -71,3 +79,4 @@ validation:
 examples:
   software: "05_ejemplos/BOOTSTRAP_PROYECTO.md"
   non_code: "05_ejemplos/BOOTSTRAP_NO_CODIGO.md"
+  guided_start: "05_ejemplos/ESCENARIOS_INICIO_GUIADO.md"

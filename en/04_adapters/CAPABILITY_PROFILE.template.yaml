@@ -1,17 +1,17 @@
-schema_version: "1.0"
+schema_version: "1.1"
 provider: ""
 model: ""
 platform: ""
 evaluated_at: ""
 capabilities:
-  durable_files: {status: UNKNOWN, evidence: ""}
-  hierarchical_instructions: {status: UNKNOWN, evidence: ""}
-  tool_use: {status: UNKNOWN, evidence: ""}
-  separate_agents: {status: UNKNOWN, evidence: ""}
-  independent_review: {status: UNKNOWN, evidence: ""}
-  context_telemetry: {status: UNKNOWN, evidence: ""}
-  session_creation_or_rotation: {status: UNKNOWN, evidence: ""}
-  human_approval_pause: {status: UNKNOWN, evidence: ""}
-  event_tracing: {status: UNKNOWN, evidence: ""}
-  resumable_state: {status: UNKNOWN, evidence: ""}
+  durable_files: {status: UNKNOWN, evidence: "", authorization: UNKNOWN, checked_at: "", authorization_scope: ""}
+  hierarchical_instructions: {status: UNKNOWN, evidence: "", authorization: UNKNOWN, checked_at: "", authorization_scope: ""}
+  tool_use: {status: UNKNOWN, evidence: "", authorization: UNKNOWN, checked_at: "", authorization_scope: ""}
+  separate_agents: {status: UNKNOWN, evidence: "", authorization: UNKNOWN, checked_at: "", authorization_scope: ""}
+  independent_review: {status: UNKNOWN, evidence: "", authorization: UNKNOWN, checked_at: "", authorization_scope: ""}
+  context_telemetry: {status: UNKNOWN, evidence: "", authorization: UNKNOWN, checked_at: "", authorization_scope: ""}
+  session_creation_or_rotation: {status: UNKNOWN, evidence: "", authorization: UNKNOWN, checked_at: "", authorization_scope: ""}
+  human_approval_pause: {status: UNKNOWN, evidence: "", authorization: UNKNOWN, checked_at: "", authorization_scope: ""}
+  event_tracing: {status: UNKNOWN, evidence: "", authorization: UNKNOWN, checked_at: "", authorization_scope: ""}
+  resumable_state: {status: UNKNOWN, evidence: "", authorization: UNKNOWN, checked_at: "", authorization_scope: ""}
 exceptions: []

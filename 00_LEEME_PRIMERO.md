@@ -1,11 +1,11 @@
 # Arnés declarativo agnóstico para LLMs
 
-Versión: 0.2.2  
+Versión: 0.3.0
 Autor y mantenedor: Manuel Carrero Rojo
 
 ## Instrucción de arranque
 
-Si eres un LLM agéntico, lee primero este archivo y después `HARNESS_MANIFEST.yaml`. No asumas capacidades que no puedas verificar. Declara tu perfil de capacidades usando `04_adaptadores/PERFIL_CAPACIDADES.template.yaml` y aplica únicamente los módulos compatibles.
+Si eres un LLM agéntico, lee primero este archivo y después `HARNESS_MANIFEST.yaml`. No asumas capacidades que no puedas verificar. Aplica `01_nucleo/INICIO_GUIADO.md`, declara tu perfil de capacidades y activa únicamente los módulos compatibles y necesarios.
 
 Este paquete define un arnés declarativo: reglas, contratos, estados, transferencias y evaluaciones. No contiene un runtime propio, no controla el bucle de inferencia del proveedor y no garantiza ejecución autónoma. Un modelo o plataforma debe interpretar los archivos y proporcionar herramientas, memoria, agentes, permisos y telemetría.
 
@@ -74,9 +74,10 @@ Permitir que un LLM capaz de actuar sobre proyectos pueda:
 1. `HARNESS_MANIFEST.yaml`
 2. `01_nucleo/CONTRATO_OPERATIVO.md`
 3. `01_nucleo/AUTORIDAD_Y_SEGURIDAD.md`
-4. Los módulos que el manifiesto marque para la tarea
-5. Las plantillas correspondientes
-6. `06_validacion/PRUEBA_DE_CONFORMIDAD.md` antes de afirmar compatibilidad
+4. `01_nucleo/INICIO_GUIADO.md`
+5. Los módulos que el manifiesto marque para la tarea
+6. Las plantillas correspondientes
+7. `06_validacion/PRUEBA_DE_CONFORMIDAD.md` antes de afirmar compatibilidad
 
 ## Regla de honestidad
 
@@ -84,11 +85,11 @@ Usa siempre una de estas etiquetas para cada capacidad: `SUPPORTED`, `PARTIAL`, 
 
 ## Inicio rápido para un proyecto
 
-1. Copia las plantillas necesarias al proyecto sin sobrescribir archivos existentes.
-2. Resuelve la identidad del proyecto y sus fuentes de verdad.
-3. Crea el contrato de objetivo.
-4. Ejecuta por checkpoints y conserva evidencia.
-5. Actualiza el estado autorizado.
+1. Resuelve si la persona quiere iniciar, continuar o verificar un proyecto.
+2. Pregunta en lenguaje sencillo qué quiere lograr y dónde está o debe conservarse el estado.
+3. Evalúa tú las capacidades reales; no pidas al usuario configurar archivos técnicos.
+4. Selecciona sólo los módulos necesarios y presenta un resumen de arranque.
+5. Solicita autoridad antes de crear o actualizar estado y ejecuta el primer checkpoint autorizado.
 6. Si existe rotación, genera handoff y exige handshake de reanudación.
 7. Evalúa la ejecución cuando forme parte de un piloto o auditoría.
 
