@@ -1,7 +1,7 @@
 schema_version: "1.0"
 harness:
   name: "Arnés declarativo agnóstico para LLMs"
-  version: "0.1.1"
+  version: "0.2.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -24,6 +24,7 @@ invariants:
   - "No declarar terminado sin evidencia de todos los criterios obligatorios."
   - "Separar reglas durables, estado actual, tarea y handoff."
   - "Preservar trabajo ajeno y distinguir implementado, validado y desplegado."
+  - "No tratar consenso, mayoría o repetición como sustituto de evidencia."
 
 capability_labels: [SUPPORTED, PARTIAL, UNSUPPORTED, UNKNOWN]
 terminal_states: [ACHIEVED, BLOCKED_EXTERNAL, DECISION_REQUIRED, AUTHORITY_REQUIRED]
@@ -47,6 +48,9 @@ modules:
   - id: evaluator
     path: "02_modulos/EVALUADOR.md"
     activate_when: "se mide una ejecución real o la madurez del arnés"
+  - id: council
+    path: "02_modulos/CONSEJO.md"
+    activate_when: "una decisión ambigua, costosa o subjetiva mejora con perspectivas independientes"
 
 templates:
   goal: "03_plantillas/CONTRATO_OBJETIVO.template.md"
@@ -55,6 +59,7 @@ templates:
   handoff: "03_plantillas/HANDOFF.template.md"
   evaluation: "03_plantillas/EVALUACION.template.json"
   capabilities: "04_adaptadores/PERFIL_CAPACIDADES.template.yaml"
+  council_brief: "03_plantillas/EXPEDIENTE_CONSEJO.template.md"
 
 validation:
   conformance: "06_validacion/PRUEBA_DE_CONFORMIDAD.md"

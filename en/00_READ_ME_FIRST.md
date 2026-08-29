@@ -1,6 +1,6 @@
 # Provider-Neutral Declarative Harness for LLMs
 
-Version: 0.1.1  
+Version: 0.2.0  
 Author and maintainer: Manuel Carrero Rojo
 
 ## Startup instruction
@@ -22,6 +22,7 @@ It helps to:
 - transfer work between agents or sessions through verifiable handoffs;
 - prevent closure based only on model claims;
 - evaluate with evidence whether the agentic process works reliably;
+- consult independent perspectives and synthesize decisions without confusing consensus with evidence;
 - adapt the same framework to different models and platforms.
 
 ## When to use it

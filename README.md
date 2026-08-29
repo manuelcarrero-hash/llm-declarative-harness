@@ -2,7 +2,7 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.1.1
+Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.2.0
 
 This is a beginner-friendly, provider-neutral set of instructions and templates that helps agentic LLMs manage substantial projects with clearer goals, durable state, safe handoffs, independent review and evidence-based completion.
 
@@ -23,6 +23,10 @@ It is useful for software, research, books, courses and other multi-stage projec
 - Release history: see [`CHANGELOG.md`](CHANGELOG.md).
 
 This repository defines a declarative operating protocol, not an autonomous runtime. It does not give a model tools, memory, subagents, permissions or context telemetry that its platform does not provide.
+
+For difficult decisions, the optional Council module collects independent perspectives, cross-reviews anonymized proposals and produces a reasoned synthesis. It does not treat voting as proof or grant authority to act.
+
+Council files: [`en/02_modules/COUNCIL.md`](en/02_modules/COUNCIL.md) and [`en/03_templates/COUNCIL_BRIEF.template.md`](en/03_templates/COUNCIL_BRIEF.template.md).
 
 ## Quick prompt
 

@@ -1,6 +1,6 @@
 # Arnés declarativo agnóstico para LLMs
 
-Versión: 0.1.1  
+Versión: 0.2.0  
 Autor y mantenedor: Manuel Carrero Rojo
 
 ## Instrucción de arranque
@@ -22,6 +22,7 @@ Ayuda a:
 - transferir trabajo entre agentes o sesiones mediante handoffs verificables;
 - impedir cierres basados únicamente en afirmaciones del modelo;
 - evaluar con evidencia si el proceso agéntico está funcionando de manera confiable;
+- consultar perspectivas independientes y sintetizar decisiones sin confundir consenso con evidencia;
 - adaptar el mismo marco de trabajo a distintos modelos y plataformas.
 
 ## Cuándo usarlo

@@ -40,6 +40,15 @@ A compatible implementation must demonstrate, not merely claim:
 - Uses `NOT_OBSERVED` when it cannot judge.
 - Detects a critical failure and avoids a reliable conclusion.
 
+## G. Council
+
+- Activates the council only for a decision that benefits from distinct perspectives.
+- Uses a common brief and independent initial opinions.
+- Distinguishes separate agents from simulated perspectives in one session.
+- Does not treat majority, ranking, repetition or verbal confidence as evidence.
+- Preserves material dissent and states what would change the recommendation.
+- Keeps the decision and authority to act with the user.
+
 ## Verdict
 
 - `CONFORMANT`: all applicable controls pass.

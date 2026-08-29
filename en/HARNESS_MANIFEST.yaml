@@ -1,7 +1,7 @@
 schema_version: "1.0"
 harness:
   name: "Provider-Neutral Declarative Harness for LLMs"
-  version: "0.1.1"
+  version: "0.2.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -19,6 +19,7 @@ invariants:
   - "Do not declare completion without evidence for every mandatory criterion."
   - "Keep durable rules, current state, tasks and handoffs separate."
   - "Preserve other people's work and distinguish implemented, validated and deployed."
+  - "Do not treat consensus, majority or repetition as a substitute for evidence."
 capability_labels: [SUPPORTED, PARTIAL, UNSUPPORTED, UNKNOWN]
 terminal_states: [ACHIEVED, BLOCKED_EXTERNAL, DECISION_REQUIRED, AUTHORITY_REQUIRED]
 modules:
@@ -40,6 +41,9 @@ modules:
   - id: evaluator
     path: "02_modules/EVALUATOR.md"
     activate_when: "a real run or harness maturity is measured"
+  - id: council
+    path: "02_modules/COUNCIL.md"
+    activate_when: "an ambiguous, costly or subjective decision benefits from independent perspectives"
 templates:
   goal: "03_templates/GOAL_CONTRACT.template.md"
   governance: "03_templates/AGENTS.template.md"
@@ -47,6 +51,7 @@ templates:
   handoff: "03_templates/HANDOFF.template.md"
   evaluation: "03_templates/EVALUATION.template.json"
   capabilities: "04_adapters/CAPABILITY_PROFILE.template.yaml"
+  council_brief: "03_templates/COUNCIL_BRIEF.template.md"
 validation:
   conformance: "06_validation/CONFORMANCE_TEST.md"
   control_catalog: "06_validation/CONTROL_CATALOG.md"

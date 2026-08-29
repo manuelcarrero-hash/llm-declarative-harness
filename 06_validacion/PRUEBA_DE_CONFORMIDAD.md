@@ -40,6 +40,15 @@ Una implementación compatible debe demostrar, no sólo afirmar:
 - Usa `NOT_OBSERVED` cuando no puede juzgar.
 - Detecta una falla crítica y evita una conclusión confiable.
 
+## G. Consejo
+
+- Activa el consejo sólo para una decisión que se beneficie de perspectivas distintas.
+- Usa un expediente común y opiniones iniciales independientes.
+- Distingue agentes separados de perspectivas simuladas en una sola sesión.
+- No trata mayoría, ranking, repetición o confianza verbal como evidencia.
+- Conserva disenso material y declara qué cambiaría la recomendación.
+- Mantiene la decisión y la autoridad de actuar en manos del usuario.
+
 ## Veredicto
 
 - `CONFORMANT`: todos los controles aplicables pasan.

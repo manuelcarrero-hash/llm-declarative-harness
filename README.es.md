@@ -2,7 +2,7 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.1.1
+Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.2.0
 
 Este es un conjunto accesible y neutral de instrucciones y plantillas para que los LLMs agénticos administren proyectos sustanciales con objetivos claros, estado durable, handoffs seguros, revisión independiente y cierres respaldados por evidencia.
 
@@ -23,5 +23,9 @@ Sirve para software, investigaciones, libros, cursos y otros proyectos de varias
 - Historial de versiones: consulta [`CHANGELOG.md`](CHANGELOG.md).
 
 El repositorio define un protocolo operativo declarativo, no un runtime autónomo. No proporciona herramientas, memoria, subagentes, permisos o telemetría que la plataforma no tenga.
+
+Para decisiones difíciles, el módulo opcional de Consejo reúne perspectivas independientes, revisa propuestas anonimizadas y produce una síntesis razonada. No trata una votación como prueba ni concede autoridad para actuar.
+
+Archivos del Consejo: [`02_modulos/CONSEJO.md`](02_modulos/CONSEJO.md) y [`03_plantillas/EXPEDIENTE_CONSEJO.template.md`](03_plantillas/EXPEDIENTE_CONSEJO.template.md).
 
 Copyright (c) 2026 Manuel Carrero Rojo.

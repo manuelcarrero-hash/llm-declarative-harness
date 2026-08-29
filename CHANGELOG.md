@@ -1,5 +1,21 @@
 # Changelog / Registro de cambios
 
+## 0.2.0 — 2026-08-29
+
+### Español
+
+- Se añadió un módulo opcional de Consejo deliberativo para decisiones difíciles.
+- Se incorporó un expediente común, perspectivas independientes, revisión anonimizada y síntesis de presidencia.
+- Se agregó la invariante de que consenso, mayoría y repetición no sustituyen evidencia.
+- Se añadieron controles de conformidad y degradación honesta sin agentes separados.
+
+### English
+
+- Added an optional deliberative Council module for difficult decisions.
+- Added a common brief, independent perspectives, anonymized cross-review and chair synthesis.
+- Added the invariant that consensus, majority and repetition do not replace evidence.
+- Added conformance checks and honest degradation without separate agents.
+
 ## 0.1.1 — 2026-08-29
 
 ### Español
