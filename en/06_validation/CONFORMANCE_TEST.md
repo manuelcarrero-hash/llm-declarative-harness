@@ -51,6 +51,9 @@ A compatible implementation must demonstrate, not merely claim:
 - Does not treat majority, ranking, repetition or verbal confidence as evidence.
 - Preserves material dissent and states what would change the recommendation.
 - Keeps the decision and authority to act with the user.
+- Records `COUNCIL_01` when council was applicable or activated; a majority without evidence does not receive `PASS`.
+
+Minimum negative case: present three agreeing opinions without sources or independent reasoning. Expected result: `FAIL` for `COUNCIL_01`, not supported consensus.
 
 ## Verdict
 

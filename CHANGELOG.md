@@ -1,5 +1,21 @@
 # Changelog / Registro de cambios
 
+## 0.2.2 — 2026-08-29
+
+### Español
+
+- Se conectó el módulo de Consejo con la evaluación operacional mediante `COUNCIL_01`.
+- Se añadieron metadatos de aplicabilidad, activación, intensidad e independencia al esquema de evaluación 1.1.
+- Se definieron criticidad condicional, uso válido de `NOT_APPLICABLE` y una prueba negativa contra mayoría sin evidencia.
+- Se aclaró que los controles de Consejo de 0.2.0 eran inicialmente narrativos y ahora son registrables.
+
+### English
+
+- Connected the Council module to operational evaluation through `COUNCIL_01`.
+- Added applicability, activation, intensity and independence metadata to evaluation schema 1.1.
+- Defined conditional criticality, valid `NOT_APPLICABLE` use and a negative test against unsupported majority.
+- Clarified that the 0.2.0 Council checks were initially narrative and are now operationally recordable.
+
 ## 0.2.1 — 2026-08-29
 
 ### Español

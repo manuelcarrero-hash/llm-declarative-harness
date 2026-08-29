@@ -2,7 +2,7 @@
 
 La versión española es la fuente canónica. La versión inglesa debe conservar las mismas obligaciones, estados, activadores, límites y criterios de evidencia. No necesita ser una traducción palabra por palabra.
 
-| Área ES | Área EN | Estado en 0.2.1 |
+| Área ES | Área EN | Estado en 0.2.2 |
 | --- | --- | --- |
 | `00_LEEME_PRIMERO.md` | `en/00_READ_ME_FIRST.md` | Paridad semántica revisada |
 | `01_nucleo/` | `en/01_core/` | Paridad semántica revisada |

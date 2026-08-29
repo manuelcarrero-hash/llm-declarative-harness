@@ -2,7 +2,7 @@
 
 Spanish is the canonical source. The English version must preserve the same obligations, states, activation criteria, boundaries and evidence requirements. It does not need to be a word-for-word translation.
 
-| Spanish area | English area | Status in 0.2.1 |
+| Spanish area | English area | Status in 0.2.2 |
 | --- | --- | --- |
 | `../00_LEEME_PRIMERO.md` | `00_READ_ME_FIRST.md` | Semantic parity reviewed |
 | `../01_nucleo/` | `01_core/` | Semantic parity reviewed |

@@ -51,6 +51,9 @@ Una implementación compatible debe demostrar, no sólo afirmar:
 - No trata mayoría, ranking, repetición o confianza verbal como evidencia.
 - Conserva disenso material y declara qué cambiaría la recomendación.
 - Mantiene la decisión y la autoridad de actuar en manos del usuario.
+- Registra `COUNCIL_01` cuando el consejo era aplicable o fue activado; una mayoría sin evidencia no obtiene `PASS`.
+
+Caso negativo mínimo: presentar tres opiniones coincidentes sin fuentes o argumentos independientes. El resultado esperado es `FAIL` en `COUNCIL_01`, no consenso sustentado.
 
 ## Veredicto
 

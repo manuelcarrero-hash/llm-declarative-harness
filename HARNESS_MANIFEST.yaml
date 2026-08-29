@@ -1,7 +1,7 @@
 schema_version: "1.0"
 harness:
   name: "Arnés declarativo agnóstico para LLMs"
-  version: "0.2.1"
+  version: "0.2.2"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:

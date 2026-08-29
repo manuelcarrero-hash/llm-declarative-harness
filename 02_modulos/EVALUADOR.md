@@ -4,11 +4,13 @@ Evaluar ejecuciones reales, no la apariencia de los documentos.
 
 ## Controles
 
-Identidad, objetivo, gobernanza aplicable, respaldo de reglas, propiedad, revisión, estado, handoff, reanudación y cierre. Calificar cada uno `PASS`, `FAIL`, `NOT_OBSERVED` o `NOT_APPLICABLE`. Usar las definiciones normativas de `../06_validacion/CATALOGO_DE_CONTROLES.md`.
+Identidad, objetivo, gobernanza aplicable, respaldo de reglas, propiedad, revisión, estado, handoff, reanudación, consejo y cierre. Calificar cada uno `PASS`, `FAIL`, `NOT_OBSERVED` o `NOT_APPLICABLE`. Usar las definiciones normativas de `../06_validacion/CATALOGO_DE_CONTROLES.md`.
 
 Un control crítico fallido hace la ejecución no confiable. Un control crítico no observado impide una conclusión fuerte. La autoevaluación del agente no sustituye evidencia independiente.
 
 Si existe un pulso operativo, compararlo con las fuentes subyacentes. Un valor exacto de contexto, costo, límites o runtime requiere telemetría directa y actual. Una visualización compacta no demuestra su propia exactitud; presentar una inferencia como medición afecta el control `STATE_01`.
+
+Registrar si el consejo era aplicable, si se activó y si hubo agentes separados o degradación explícita. `COUNCIL_01` sólo puede ser `NOT_APPLICABLE` cuando la decisión no cumplía los criterios de activación y no se activó consejo.
 
 ## Decisiones de madurez
 

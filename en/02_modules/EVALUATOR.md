@@ -4,11 +4,13 @@ Evaluate real runs, not the appearance of the documents.
 
 ## Controls
 
-Evaluate identity, objective, applicable governance, evidence supporting rules, ownership, review, state, handoff, resumption and closure. Score each control as `PASS`, `FAIL`, `NOT_OBSERVED` or `NOT_APPLICABLE`. Use the normative definitions in `../06_validation/CONTROL_CATALOG.md`.
+Evaluate identity, objective, applicable governance, evidence supporting rules, ownership, review, state, handoff, resumption, council and closure. Score each control as `PASS`, `FAIL`, `NOT_OBSERVED` or `NOT_APPLICABLE`. Use the normative definitions in `../06_validation/CONTROL_CATALOG.md`.
 
 A failed critical control makes the run unreliable. An unobserved critical control prevents a strong conclusion. Agent self-evaluation does not replace independent evidence.
 
 If an operational pulse exists, compare it with the underlying sources. An exact context, cost, limit or runtime value requires direct current telemetry. A compact display does not prove its own accuracy; presenting inference as measurement affects control `STATE_01`.
+
+Record whether council was applicable, activated, and backed by separate agents or explicit degradation. `COUNCIL_01` may be `NOT_APPLICABLE` only when the decision did not meet activation criteria and no council was activated.
 
 ## Maturity decisions
 

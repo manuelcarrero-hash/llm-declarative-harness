@@ -2,7 +2,7 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.2.1
+Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.2.2
 
 Este es un conjunto accesible y neutral de instrucciones y plantillas para que los LLMs agénticos administren proyectos sustanciales con objetivos claros, estado durable, handoffs seguros, revisión independiente y cierres respaldados por evidencia.
 
