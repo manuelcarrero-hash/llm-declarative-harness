@@ -1,6 +1,6 @@
 # LLM internals — Provider-Neutral Declarative Harness
 
-Version: 0.4.0
+Version: 0.4.1
 Author and maintainer: Manuel Carrero Rojo
 
 ## Startup instruction
