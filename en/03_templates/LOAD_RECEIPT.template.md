@@ -1,31 +1,35 @@
 # Load receipt
 
-> Informational view. It does not replace authoritative project state.
+> Informational view, `COMPACT` by default. It does not replace authoritative state. Normal maximum: 250 words and five blocks.
 
-## 1. Mode
+## 1. Mode and load
 
-- Resolved mode: `NEW | RESUME | VERIFY`
-- Confirmed harness version: `<version | NOT CONFIRMED>`
-- Load evidence: `<file and value read | unavailable>`
+- Mode: `NEW | RESUME | VERIFY`
+- Version and evidence: `<version + file and value read | NOT CONFIRMED>`
 
-## 2. Goal and state
+## 2. Outcome and background
 
 - I understood: `<result in plain language>`
 - Finished means: `<observable condition>`
-- State: `<location found, proposed, or conflict>`
+- Prior state: `<location | none | conflict>`
+- Materials and references: `<reusable items and style/format references | none>`
 
-## 3. Real capabilities
+## 3. State and demonstrated capabilities
 
-- I can: `<relevant capabilities and brief evidence>`
-- I could not verify: `<UNKNOWN or none>`
+- Operational state: `<conversation or location>`
+- Durable state: `<verified location | unavailable>`
+- Continuity limit: `<material risk>`
+- I can: `<capability + brief evidence>`
+- Unverified: `<UNKNOWN/PARTIAL/UNSUPPORTED | none>`
 
-## 4. Minimum plan
+## 4. Minimum plan and expected evidence
 
-- I will use: `<modules and plain-language reason>`
-- First step: `<concrete action>`
+- I will use: `<module → observable output>`
+- First checkpoint: `<concrete action>`
+- Continuation: `automatic | pause for a real decision`
 
 ## 5. Your control
 
-- I may begin without further permission: `<yes/no and scope>`
-- I will request authorization before: `<applicable actions>`
-- Open boundaries or risks: `<material boundaries | none identified>`
+- I may begin: `<yes/no and scope>`
+- Requires authorization: `<applicable actions>`
+- Limits or risks: `<material items | none identified>`
