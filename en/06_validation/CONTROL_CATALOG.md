@@ -17,7 +17,7 @@ This file defines the IDs used by `EVALUATION.template.json`. An agent must not 
 | `HANDOFF_01` | Continuity | Yes when rotation occurred | Did the handoff contain verified progress, partial state, risks, rules, exact next action and stopping condition? | Handoff and cited evidence |
 | `RESUME_01` | Continuity | Yes when rotation occurred | Did the successor identify the project, checkpoint, remaining gap and first action before editing? | Handshake and first subsequent action |
 | `COUNCIL_01` | Council | Yes when applicable or activated | Was council used only when warranted, with a common brief and initially independent opinions; did it disclose degradation, preserve material dissent, separate majority from evidence and retain user authority? | Applicability rationale, brief, initial opinions, cross-review, independence or degradation disclosure, synthesis and human decision |
-| `CLOSURE_01` | Closure | Yes | Was closure supported by every required test, review, deployment and acceptance gate? | Terminal report and evidence for each gate |
+| `EXECUTION_01` | Execution | Yes when modules are claimed or work depends on current facts | Did every claimed module produce observable output and did drafting wait for sufficient evidence? | Module artifacts, sources, exclusions, evidence closure and temporal order |\n| `EXPERIENCE_01` | Experience | No | Did the agent use compact mode, continue without empty confirmations and adapt format to the interface? | Checkpoint length, justified pauses and mobile representation |\n| `CLOSURE_01` | Closure | Yes | Was closure supported by every required test, review, deployment and acceptance gate? | Terminal report and evidence for each gate |
 
 ## Allowed statuses
 
@@ -28,7 +28,7 @@ This file defines the IDs used by `EVALUATION.template.json`. An agent must not 
 
 ## Decision rules
 
-- A critical control marked `FAIL` makes the run unreliable.
+- `EXECUTION_01` fails when a module is merely named, its observable output is missing, or current-fact drafting precedes evidence closure.\n- `EXPERIENCE_01` fails for repeated ceremony without a material decision; a justified pause is not a failure.\n- A critical control marked `FAIL` makes the run unreliable.
 - A critical control marked `NOT_OBSERVED` prevents a high-confidence conclusion.
 - `LOAD_01` fails when the agent asks before demonstrating version and source, infers the version without access, modifies or acts materially before the receipt, or claims to have applied files it could not access.
 - `ONBOARDING_01` cannot be `NOT_APPLICABLE` when the run started, resumed or verified a project with this harness version.
