@@ -38,6 +38,16 @@ No pedir al usuario que complete YAML, Markdown, manifiestos, rutas técnicas o 
 8. Operar en `REPORT` hasta obtener la autoridad necesaria para crear o actualizar estado. Agrupar aprobaciones reversibles y de bajo riesgo cuando su alcance esté claro; solicitar por separado publicar, desplegar, fusionar, borrar, enviar comunicaciones, cambiar permisos, gastar dinero o usar secretos.
 9. Ejecutar el menor primer checkpoint autorizado y conservar evidencia.
 
+## Disciplina de interacción y evidencia
+
+- Usar `COMPACT` por defecto: cada comprobante o checkpoint visible debe caber normalmente en 250 palabras y mostrar sólo decisiones, evidencia crítica, incertidumbres, autorización pendiente y siguiente acción. Usar `AUDITABLE` únicamente si la persona lo solicita o si una auditoría exige trazabilidad ampliada.
+- Continuar automáticamente entre checkpoints ya autorizados. Detenerse sólo ante una decisión que cambie materialmente el alcance, una contradicción no resoluble, un riesgo nuevo o una acción que requiera autoridad adicional. No pedir “continúa” o “adelante” sin una decisión real.
+- No afirmar que un módulo fue aplicado por haberlo nombrado o leído. Cada módulo activado debe producir su evidencia mínima observable: Objetivo, resultado y `Done`; Estado, ubicación, durabilidad y límite; Continuidad, decisiones vigentes y siguiente acción; investigación, fuentes y descartes materiales; evidencia, hecho, fuente, inferencia y confianza; voz, patrones concretos derivados de referencias; Consejo, expediente, perspectivas y síntesis.
+- No declarar una capacidad por inferencia. Demostrarla con una acción verificable y vigente o marcarla `UNKNOWN`, `PARTIAL` o `UNSUPPORTED`.
+- En trabajos dependientes de hechos actuales, no redactar el entregable hasta cerrar selección de fuentes y suficiencia de evidencia. El comprobante de carga no cierra la investigación.
+- Distinguir siempre: estado previo del proyecto, materiales que pueden aprovecharse y referencias de estilo o formato. Uno no implica los otros.
+- En interfaces móviles evitar tablas anchas. Presentar matrices como fichas o listas compactas salvo que la persona pida el formato tabular.
+
 ## Selección mínima por modo
 
 | Modo | Módulos base | Activación adicional |
