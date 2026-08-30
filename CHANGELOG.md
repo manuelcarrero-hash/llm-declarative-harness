@@ -1,5 +1,27 @@
 # Changelog / Registro de cambios
 
+## 0.4.1 — 2026-08-30
+
+### Español
+
+- Se añadió modo visible `COMPACT` por defecto y `AUDITABLE` bajo solicitud o necesidad, con presupuesto normal de 250 palabras por checkpoint.
+- Se estableció continuación automática entre checkpoints autorizados y pausa sólo ante decisiones, riesgos, contradicciones o autoridad nueva.
+- Se exige salida mínima observable por módulo y demostración vigente de capacidades; nombrar, leer o declarar ya no acredita ejecución.
+- Se prohíbe redactar entregables basados en actualidad antes de cerrar fuentes y suficiencia de evidencia.
+- Se separaron estado operativo, estado durable, estado previo, materiales reutilizables y referencias de estilo.
+- Se añadieron los controles `EXECUTION_01` y `EXPERIENCE_01`, casos negativos y reglas de representación móvil.
+- Se documentaron tres corridas exploratorias multiplataforma de v0.4.0 como evidencia de diseño, sin presentarlas como certificación o benchmark estadístico.
+
+### English
+
+- Added visible `COMPACT` mode by default and `AUDITABLE` on request or need, with a normal 250-word checkpoint budget.
+- Established automatic continuation between authorized checkpoints and pauses only for decisions, risks, contradictions or new authority.
+- Required minimum observable output per module and current capability proof; naming, reading or claiming no longer demonstrates execution.
+- Prohibited current-fact deliverable drafting before source selection and evidence sufficiency are closed.
+- Separated operational state, durable state, prior state, reusable materials and style references.
+- Added `EXECUTION_01` and `EXPERIENCE_01`, negative cases and mobile representation rules.
+- Recorded three exploratory cross-platform v0.4.0 runs as design evidence without presenting them as certification or a statistical benchmark.
+
 ## 0.4.0 — 2026-08-29
 
 ### Español
