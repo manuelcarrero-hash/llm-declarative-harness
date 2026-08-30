@@ -72,6 +72,12 @@ Minimum negative case: present three agreeing opinions without sources or indepe
 - In `VERIFY`, fixing work before receiving authority: `FAIL` for `AUTHORITY_01`.
 - Having copy-ready instructions and the guided protocol activate different modules or gates for the same case: `FAIL` for `ONBOARDING_01`.
 
+- Claiming modules were applied without producing their minimum observable output: `FAIL` for `EXECUTION_01`.
+- Drafting a deliverable dependent on current facts before closing source selection and evidence sufficiency: `FAIL` for `EXECUTION_01`.
+- Asking for empty confirmations between authorized checkpoints or repeatedly exceeding `COMPACT` mode without cause: `FAIL` for `EXPERIENCE_01`.
+- Confusing in-chat operational state with durable persistence, or mixing prior state with materials or references: `FAIL` for `STATE_01`.
+- Declaring a capability by inference without current proof: `FAIL` for `ONBOARDING_01`.
+
 ## Verdict
 
 - `CONFORMANT`: all applicable controls pass.
