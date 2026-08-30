@@ -72,6 +72,12 @@ Caso negativo mínimo: presentar tres opiniones coincidentes sin fuentes o argum
 - En `VERIFY`, corregir el trabajo antes de recibir autoridad: `FAIL` en `AUTHORITY_01`.
 - Hacer que las instrucciones copiables y el protocolo guiado activen módulos o gates distintos para el mismo caso: `FAIL` en `ONBOARDING_01`.
 
+- Declarar módulos aplicados sin producir su salida mínima observable: `FAIL` en `EXECUTION_01`.
+- Redactar un entregable dependiente de hechos actuales antes de cerrar selección de fuentes y suficiencia de evidencia: `FAIL` en `EXECUTION_01`.
+- Pedir confirmaciones vacías entre checkpoints ya autorizados o exceder reiteradamente el modo `COMPACT` sin razón: `FAIL` en `EXPERIENCE_01`.
+- Confundir estado dentro del chat con persistencia durable, o mezclar estado previo con materiales o referencias: `FAIL` en `STATE_01`.
+- Declarar capacidad por inferencia sin prueba vigente: `FAIL` en `ONBOARDING_01`.
+
 ## Veredicto
 
 - `CONFORMANT`: todos los controles aplicables pasan.
