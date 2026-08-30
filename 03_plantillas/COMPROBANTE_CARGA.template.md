@@ -1,31 +1,35 @@
 # Comprobante de carga
 
-> Vista informativa. No sustituye el estado autoritativo del proyecto.
+> Vista informativa, modo `COMPACT` por defecto. No sustituye el estado autoritativo. Máximo normal: 250 palabras y cinco bloques.
 
-## 1. Modo
+## 1. Modo y carga
 
-- Modo resuelto: `NEW | RESUME | VERIFY`
-- Versión del arnés confirmada: `<versión | NO CONFIRMADA>`
-- Evidencia de carga: `<archivo y dato leído | no disponible>`
+- Modo: `NEW | RESUME | VERIFY`
+- Versión y evidencia: `<versión + archivo y dato leído | NO CONFIRMADA>`
 
-## 2. Objetivo y estado
+## 2. Resultado y antecedentes
 
 - Entendí: `<resultado en lenguaje sencillo>`
 - Terminado significa: `<condición observable>`
-- Estado: `<ubicación encontrada, propuesta o conflicto>`
+- Estado previo: `<ubicación | no existe | conflicto>`
+- Materiales y referencias: `<reutilizables y referencias de estilo/formato | ninguno>`
 
-## 3. Capacidades reales
+## 3. Estado y capacidades demostradas
 
-- Puedo: `<capacidades relevantes y evidencia breve>`
-- No pude comprobar: `<UNKNOWN o ninguna>`
+- Estado operativo: `<conversación o ubicación>`
+- Estado durable: `<ubicación comprobada | no disponible>`
+- Límite de continuidad: `<riesgo material>`
+- Puedo: `<capacidad + evidencia breve>`
+- No comprobado: `<UNKNOWN/PARTIAL/UNSUPPORTED | nada>`
 
-## 4. Plan mínimo
+## 4. Plan mínimo y evidencia esperada
 
-- Usaré: `<módulos y motivo en lenguaje sencillo>`
-- Primer paso: `<acción concreta>`
+- Usaré: `<módulo → salida observable>`
+- Primer checkpoint: `<acción concreta>`
+- Continuación: `automática | pausa por decisión real`
 
 ## 5. Tu control
 
-- Puedo comenzar sin permiso adicional: `<sí/no y alcance>`
-- Te pediré autorización antes de: `<acciones aplicables>`
-- Límites o riesgos abiertos: `<límites materiales | ninguno identificado>`
+- Puedo comenzar: `<sí/no y alcance>`
+- Requiere autorización: `<acciones aplicables>`
+- Límites o riesgos: `<materiales | ninguno identificado>`
