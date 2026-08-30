@@ -2,7 +2,7 @@
 
 La versión española es la fuente canónica. La versión inglesa debe conservar las mismas obligaciones, estados, activadores, límites y criterios de evidencia. No necesita ser una traducción palabra por palabra.
 
-| Área ES | Área EN | Estado en 0.4.0 |
+| Área ES | Área EN | Estado en 0.4.1 |
 | --- | --- | --- |
 | `INTERNO_PARA_LLM.md` | `en/LLM_INTERNALS.md` | Paridad semántica revisada |
 | `EMPEZAR_AQUI.md` | `en/START_HERE.md` | Instrucción universal y expectativa de cinco bloques equivalentes |
@@ -11,7 +11,7 @@ La versión española es la fuente canónica. La versión inglesa debe conservar
 | `03_plantillas/` | `en/03_templates/` | Campos equivalentes, incluidos comprobante de carga, resumen de arranque, capacidades, Consejo y pulso |
 | `04_adaptadores/` | `en/04_adapters/` | Esquema 1.1 y autoridad equivalentes |
 | `05_ejemplos/` | `en/05_examples/` | Escenarios equivalentes de software, no-código, inicio guiado y comprensión no técnica |
-| `06_validacion/` | `en/06_validation/` | Controles `LOAD_01`, `ONBOARDING_01` y `AUTHORITY_01` y casos negativos equivalentes |
+| `06_validacion/` | `en/06_validation/` | Controles `LOAD_01`, `ONBOARDING_01`, `AUTHORITY_01`, `EXECUTION_01` y `EXPERIENCE_01`, corridas exploratorias y casos negativos equivalentes |
 
 ## Regla de actualización
 
