@@ -40,7 +40,7 @@ El pulso operativo ofrece una vista breve para saber qué está implementado, co
 
 ## Inspiración y reconocimientos
 
-El arnés fue desarrollado de manera independiente, pero reconoce ideas públicas que influyeron en skills y módulos incorporados posteriormente a este protocolo: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill) y [`karpathy/llm-council`](https://github.com/karpathy/llm-council) y [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch). Consulta el alcance exacto de cada influencia y las aclaraciones de licencia en [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md).
+El arnés fue desarrollado de manera independiente, pero reconoce ideas públicas que influyeron en skills y módulos incorporados posteriormente a este protocolo: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`karpathy/llm-council`](https://github.com/karpathy/llm-council) y [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch). Consulta el alcance exacto de cada influencia y las aclaraciones de licencia en [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md).
 
 No existe afiliación, patrocinio ni respaldo por parte de sus autores o mantenedores.
 
