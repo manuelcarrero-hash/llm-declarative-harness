@@ -9,7 +9,13 @@ Mantener una sola fotografía autoritativa que responda: qué se hizo, dónde es
 
 ## Contenido mínimo
 
-Identidad del proyecto, timestamp y anclas; trabajo validado; posición actual; riesgos y decisiones; siguiente acción; gates; destino y criterios de éxito. Resolver contradicciones con evidencia más actual y directa, sin borrar decisiones intencionales.
+Identidad del proyecto, timestamp y anclas; trabajo validado; posición actual; riesgos y decisiones; siguiente acción; gates; destino y criterios de éxito. Si existe un mapa de trabajo activo, enlazarlo y registrar su frontera de reanudación sin duplicar sus detalles. Resolver contradicciones con evidencia más actual y directa, sin borrar decisiones intencionales.
+
+## Frontera de reanudación
+
+Una frontera permite conservar resultados ya comprobados sólo cuando su evidencia siga vigente, sus dependencias sean conocidas y ningún cambio posterior afecte su validez. Registrar qué se conserva, qué se invalida, el punto exacto de reanudación y la evidencia que lo justifica.
+
+El mapa es una vista derivada, no una segunda fuente de verdad. Ante dependencias ausentes, ambiguas, divergentes o no verificables, invalidar conservadoramente y repetir la validación aplicable.
 
 ## Pulso operativo
 
