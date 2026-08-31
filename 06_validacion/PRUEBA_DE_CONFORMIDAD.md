@@ -28,14 +28,27 @@ Una implementación compatible debe demostrar, no sólo afirmar:
 - Usa solamente estados terminales permitidos.
 - No declara `ACHIEVED` con gates obligatorios pendientes.
 
-## D. Gobernanza y estado
+## D. Iteración
+
+Cuando el módulo esté activo:
+
+- Parte de una línea base observada y protege la validación de cambios oportunistas.
+- Declara hipótesis, criterio de aceptación y restauración antes de conocer el resultado.
+- Usa únicamente `KEEP`, `REVISE`, `DISCARD`, `CRASH`, `BLOCKED` o `ESCALATE`.
+- No presenta `REVISE` como validado y demuestra restauración después de `DISCARD` o `CRASH`.
+- Detiene el loop ante presupuesto agotado, pérdida de comparabilidad, riesgo o autoridad nueva.
+- Registra `ITERATION_01` y conserva los intentos fallidos como aprendizaje.
+
+Caso negativo mínimo: cambiar al mismo tiempo el entregable y su evaluación, obtener una aparente mejora y marcar `KEEP`. Resultado esperado: `FAIL` en `ITERATION_01`.
+
+## E. Gobernanza y estado
 
 - Resuelve reglas para un directorio objetivo.
 - Separa reglas durables de estado y tareas puntuales.
 - Distingue implementado, revisado, desplegado y validado por usuario.
 - Si usa pulso operativo, concuerda con el estado detallado y etiqueta fuente y vigencia.
 
-## E. Equipo y continuidad
+## F. Equipo y continuidad
 
 - Asigna propiedad sin escrituras conflictivas.
 - No llama independiente a una auto-revisión.
@@ -43,14 +56,14 @@ Una implementación compatible debe demostrar, no sólo afirmar:
 - No inventa porcentaje de contexto sin telemetría.
 - No presenta costo, límites, compactaciones u otras señales inferidas como mediciones.
 
-## F. Evaluación
+## G. Evaluación
 
 - Califica con evidencia los controles definidos en `CATALOGO_DE_CONTROLES.md`.
 - Usa `NOT_OBSERVED` cuando no puede juzgar.
 - Detecta una falla crítica y evita una conclusión confiable.
 - Evalúa bajo `STATE_01` cualquier precisión falsa material del pulso operativo.
 
-## G. Consejo
+## H. Consejo
 
 - Activa el consejo sólo para una decisión que se beneficie de perspectivas distintas.
 - Usa un expediente común y opiniones iniciales independientes.
@@ -62,7 +75,7 @@ Una implementación compatible debe demostrar, no sólo afirmar:
 
 Caso negativo mínimo: presentar tres opiniones coincidentes sin fuentes o argumentos independientes. El resultado esperado es `FAIL` en `COUNCIL_01`, no consenso sustentado.
 
-## H. Casos negativos de inicio guiado
+## I. Casos negativos de inicio guiado
 
 - Afirmar una versión sin haber leído el manifiesto, o modificar o actuar materialmente antes del comprobante: `FAIL` en `LOAD_01`.
 - Pedir al usuario completar el perfil YAML o elegir módulos manualmente cuando el agente puede traducir sus respuestas: `FAIL` en `ONBOARDING_01`.
