@@ -2,11 +2,11 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.4.0
+Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.5.0
 
 **No technical background required:** open only [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md) for Spanish or [`en/START_HERE.md`](en/START_HERE.md) for English. The remaining folders are internals for the LLM.
 
-This is a beginner-friendly, bilingual and provider-neutral harness for starting, resuming and verifying substantial LLM projects without asking the user to configure technical files. It preserves durable state, makes capabilities and permissions visible, and requires evidence before work may be declared complete.
+This is a beginner-friendly, bilingual and provider-neutral harness for starting, resuming and verifying substantial LLM projects without asking the user to configure technical files. It preserves durable state, makes capabilities and permissions visible, requires evidence before work may be declared complete and, when useful, tests small changes while keeping only those that demonstrate improvement.
 
 ## What problem does it solve?
 
@@ -32,13 +32,15 @@ Guided start asks in plain language what the person wants to achieve and where s
 
 For difficult decisions, the optional Council module collects independent perspectives, cross-reviews anonymized proposals and produces a reasoned synthesis. It does not treat voting as proof or grant authority to act.
 
+When work benefits from several comparable attempts, the optional Iteration module establishes a baseline, tests reversible changes, and records what is kept or discarded. The person does not configure the loop and receives only a plain summary of what was tried, the outcome and the next step. Files: [`en/02_modules/ITERATION.md`](en/02_modules/ITERATION.md) and [`en/03_templates/ITERATION_LOG.template.md`](en/03_templates/ITERATION_LOG.template.md).
+
 Council files: [`en/02_modules/COUNCIL.md`](en/02_modules/COUNCIL.md) and [`en/03_templates/COUNCIL_BRIEF.template.md`](en/03_templates/COUNCIL_BRIEF.template.md).
 
 The operational pulse provides a short view of what is implemented, checked or pending and the exact next action. It may show telemetry only when the platform exposes it; unavailable data remains explicitly unknown. Template: [`en/03_templates/OPERATIONAL_PULSE.template.md`](en/03_templates/OPERATIONAL_PULSE.template.md).
 
 ## Inspiration and acknowledgements
 
-The harness was developed independently, while recognizing public ideas that influenced skills and modules later incorporated into this protocol: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), and [`karpathy/llm-council`](https://github.com/karpathy/llm-council). See [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md) for the precise scope of each influence and licensing notes.
+The harness was developed independently, while recognizing public ideas that influenced skills and modules later incorporated into this protocol: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), and [`karpathy/llm-council`](https://github.com/karpathy/llm-council), and [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch). See [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md) for the precise scope of each influence and licensing notes.
 
 No affiliation, sponsorship or endorsement by their authors or maintainers is implied.
 
