@@ -7,19 +7,21 @@ harness:
   translations:
     es_entrypoint: "../INTERNO_PARA_LLM.md"
     en_entrypoint: "LLM_INTERNALS.md"
+    policy: "semantic parity"
+    parity_matrix: "BILINGUAL_PARITY.md"
+  author: "Manuel Carrero Rojo"
+  license: "MIT"
+  provider_neutral: true
+
+human_entrypoint: "START_HERE.md"
+entrypoint: "LLM_INTERNALS.md"
 
 distribution:
   canonical_source: "https://github.com/manuelcarrero-hash/llm-declarative-harness"
   canonical_ref: "main"
   drive_role: "mirror"
   sync_rule: "Every mirror must preserve the same version and semantic parity; on divergence, use the canonical source."
-    policy: "semantic parity"
-    parity_matrix: "BILINGUAL_PARITY.md"
-  author: "Manuel Carrero Rojo"
-  license: "MIT"
-  provider_neutral: true
-human_entrypoint: "START_HERE.md"
-entrypoint: "LLM_INTERNALS.md"
+
 guided_start:
   path: "01_core/GUIDED_START.md"
   modes: [NEW, RESUME, VERIFY]
