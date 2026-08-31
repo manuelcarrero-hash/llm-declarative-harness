@@ -16,7 +16,9 @@ El receptor debe leer el artefacto autoritativo cuando una síntesis pueda perde
 
 ## Fallas y reanudación
 
-Aplicar la taxonomía y presupuesto de reintentos de `../01_nucleo/CONTRATO_OPERATIVO.md`. Antes de reiniciar trabajo costoso, conservar el último checkpoint seguro, la causa observable, intentos realizados y la alternativa siguiente. Reanudar desde el checkpoint; no empezar de cero salvo que la evidencia muestre corrupción o incompatibilidad.
+Aplicar la taxonomía y presupuesto de reintentos de `../01_nucleo/CONTRATO_OPERATIVO.md`. Antes de reiniciar trabajo costoso, conservar el último checkpoint seguro, la causa observable, intentos realizados y la alternativa siguiente.
+
+Si existe un mapa de trabajo activo, localizar el resultado afectado, recorrer sólo dependencias sustentadas y registrar qué descendientes requieren nueva validación. Reanudar desde la última frontera válida únicamente cuando la evidencia siga vigente y el cambio no afecte lo conservado. Ante duda material, invalidar la frontera y ampliar la revisión. No empezar de cero salvo corrupción, incompatibilidad o imposibilidad de demostrar un punto seguro.
 
 ## Rotación
 
