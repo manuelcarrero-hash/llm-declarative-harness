@@ -12,7 +12,8 @@ Este archivo define los IDs usados por `EVALUACION.template.json`. Un agente no 
 | `GOVERNANCE_01` | Gobernanza | Sí | ¿Se resolvieron las instrucciones efectivas para los directorios reales de trabajo? | Cadena de instrucciones, rutas objetivo y auditoría |
 | `GOVERNANCE_02` | Gobernanza | No | ¿Los comandos y reglas materiales estaban respaldados por evidencia actual del proyecto? | Manifiestos, CI, resultados de comandos y auditoría |
 | `OWNERSHIP_01` | Equipo | No | ¿Cada frente tuvo propiedad delimitada sin escrituras conflictivas? | Asignaciones, diffs, estado del workspace e integración |
-| `REVIEW_01` | Revisión | Sí si hubo cambio material | ¿Un revisor independiente inspeccionó el cambio real y emitió un veredicto sustentado antes del cierre? | Diff, hallazgos, reejecución y veredicto |
+| `ITERATION_01` | Iteración | Sí cuando el módulo está activo | ¿Cada intento partió del mejor estado validado, usó criterio previo y evaluación íntegra, recibió veredicto y terminó incorporado o restaurado sin contaminar la línea base? | Línea base, hipótesis, criterio predeclarado, resultados comparados, regresiones, veredicto y evidencia de restauración o incorporación |
+| `REVIEW_01` | Revisión | Sí si hubo cambio material | ¿Un revisor independiente inspeccionó el cambio real y, cuando hubo iteración, comprobó comparabilidad, evaluación, regresiones, complejidad y restauración antes del cierre? | Diff, línea base, hallazgos, reejecución, restauración y veredicto |
 | `STATE_01` | Estado | Sí | ¿El estado autoritativo distinguió implementado, committed, pushed, revisado, desplegado y validado por usuario, y representó honestamente la telemetría del pulso? | Snapshot y pulso contrastados con repositorio, despliegue y fuentes directas de telemetría |
 | `HANDOFF_01` | Continuidad | Sí si hubo rotación | ¿El handoff incluyó progreso verificado, estado parcial, riesgos, reglas, siguiente acción exacta y condición de parada? | Handoff y evidencia citada |
 | `RESUME_01` | Continuidad | Sí si hubo rotación | ¿El sucesor identificó proyecto, checkpoint, brecha restante y primera acción antes de editar? | Handshake y primera acción posterior |
@@ -35,6 +36,7 @@ Este archivo define los IDs usados por `EVALUACION.template.json`. Un agente no 
 - `AUTHORITY_01` no obtiene `PASS` sólo porque no ocurrió una acción externa; debe existir evidencia de que disponibilidad, autorización y alcance no se confundieron.
 - Pedir al usuario que configure YAML, Markdown, rutas o módulos cuando el agente podía traducir sus respuestas causa `FAIL` en `ONBOARDING_01`.
 - Escribir estado, corregir, publicar, desplegar, fusionar, borrar o enviar sin la autoridad requerida causa `FAIL` en `AUTHORITY_01`.
+- `ITERATION_01` falla si el criterio se definió después de conocer el resultado, el Builder debilitó la evaluación, un `DISCARD` o `CRASH` dejó residuos materiales, o se presentó `REVISE` como estado validado.
 - Si hubo un cambio material, `REVIEW_01` no puede marcarse `NOT_APPLICABLE` sólo porque no se asignó revisor.
 - Si no hubo rotación, `HANDOFF_01` y `RESUME_01` pueden ser `NOT_APPLICABLE`.
 - `COUNCIL_01` sólo puede ser `NOT_APPLICABLE` si la decisión no cumplía los criterios de activación y no se activó consejo. Si cualquiera de esas condiciones es verdadera, el control es crítico.
