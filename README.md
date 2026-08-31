@@ -2,7 +2,7 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.6.0
+Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.7.0
 
 **No technical background required:** open only [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md) for Spanish or [`en/START_HERE.md`](en/START_HERE.md) for English. The remaining folders are internals for the LLM.
 
@@ -30,7 +30,7 @@ This repository defines a declarative operating protocol, not an autonomous runt
 
 Guided start asks in plain language what the person wants to achieve and where state should be preserved. The LLM verifies its capabilities, selects only necessary modules, explains limits and authorizations and begins with the smallest authorized checkpoint; the person does not configure technical files, roles or agents.
 
-When genuinely independent workstreams exist, Team internally scales effort as single, focused or broad, delegates in waves and preserves results in verifiable artifacts. It avoids unnecessary agents for small tasks. Internal files: [`en/02_modules/TEAM.md`](en/02_modules/TEAM.md), [`en/03_templates/AGENT_ASSIGNMENT.template.md`](en/03_templates/AGENT_ASSIGNMENT.template.md) and [`en/03_templates/ORCHESTRATION_TRACE.template.md`](en/03_templates/ORCHESTRATION_TRACE.template.md).
+When genuinely independent workstreams exist, Team internally scales effort as single, focused or broad, delegates in waves and preserves results in verifiable artifacts. It avoids unnecessary agents for small tasks. When several outcomes depend on one another, it may internally create a small map to identify what a finding affects, what requires renewed review and which verified work may be preserved. The person receives only a plain explanation and does not configure graphs or relationships. Internal files: [`en/02_modules/TEAM.md`](en/02_modules/TEAM.md), [`en/03_templates/AGENT_ASSIGNMENT.template.md`](en/03_templates/AGENT_ASSIGNMENT.template.md) and [`en/03_templates/ORCHESTRATION_TRACE.template.md`](en/03_templates/ORCHESTRATION_TRACE.template.md).
 
 For difficult decisions, the optional Council module collects independent perspectives, cross-reviews anonymized proposals and produces a reasoned synthesis. It does not treat voting as proof or grant authority to act.
 
@@ -42,7 +42,7 @@ The operational pulse provides a short view of what is implemented, checked or p
 
 ## Inspiration and acknowledgements
 
-The harness was developed independently, while recognizing public ideas that influenced skills and modules later incorporated into this protocol: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), and [`karpathy/llm-council`](https://github.com/karpathy/llm-council), and [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch), and Anthropic's [`How we built our multi-agent research system`](https://www.anthropic.com/engineering/multi-agent-research-system). See [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md) for the precise scope of each influence and licensing notes.
+The harness was developed independently, while recognizing public ideas that influenced skills and modules later incorporated into this protocol: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), and [`karpathy/llm-council`](https://github.com/karpathy/llm-council), and [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch), Anthropic's [`How we built our multi-agent research system`](https://www.anthropic.com/engineering/multi-agent-research-system), the survey [`Graph Engineering in the Era of LLM Agents`](https://arxiv.org/abs/2608.21156), and LangChain's [`3 Years of Graph Engineering with LangGraph`](https://www.langchain.com/blog/3-years-of-graph-engineering-with-langgraph). See [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md) for the precise scope of each influence and licensing notes.
 
 No affiliation, sponsorship or endorsement by their authors or maintainers is implied.
 
