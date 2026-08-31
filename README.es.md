@@ -2,7 +2,7 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.6.0
+Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.7.0
 
 **Si no tienes conocimientos técnicos:** abre únicamente [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md). Las carpetas restantes son el interior que debe consultar el LLM.
 
@@ -30,7 +30,7 @@ El repositorio define un protocolo operativo declarativo, no un runtime autónom
 
 El inicio guiado pregunta en lenguaje sencillo qué se quiere lograr y dónde conservar el estado. El propio LLM comprueba sus capacidades, selecciona sólo los módulos necesarios, explica límites y autorizaciones y comienza por el menor checkpoint autorizado; la persona no configura archivos técnicos, roles ni agentes.
 
-Cuando existen frentes realmente independientes, Equipo dimensiona internamente el esfuerzo como individual, enfocado o amplio, delega por oleadas y conserva los resultados en artefactos verificables. Para tareas pequeñas evita crear agentes innecesarios. Archivos internos: [`02_modulos/EQUIPO.md`](02_modulos/EQUIPO.md), [`03_plantillas/ASIGNACION_AGENTE.template.md`](03_plantillas/ASIGNACION_AGENTE.template.md) y [`03_plantillas/TRAZA_ORQUESTACION.template.md`](03_plantillas/TRAZA_ORQUESTACION.template.md).
+Cuando existen frentes realmente independientes, Equipo dimensiona internamente el esfuerzo como individual, enfocado o amplio, delega por oleadas y conserva los resultados en artefactos verificables. Para tareas pequeñas evita crear agentes innecesarios. Cuando varios resultados dependen entre sí, puede crear internamente un mapa pequeño para identificar qué afecta un hallazgo, qué debe revisarse otra vez y qué trabajo comprobado puede conservarse. La persona sólo recibe una explicación sencilla; no configura grafos ni relaciones. Archivos internos: [`02_modulos/EQUIPO.md`](02_modulos/EQUIPO.md), [`03_plantillas/ASIGNACION_AGENTE.template.md`](03_plantillas/ASIGNACION_AGENTE.template.md) y [`03_plantillas/TRAZA_ORQUESTACION.template.md`](03_plantillas/TRAZA_ORQUESTACION.template.md).
 
 Para decisiones difíciles, el módulo opcional de Consejo reúne perspectivas independientes, revisa propuestas anonimizadas y produce una síntesis razonada. No trata una votación como prueba ni concede autoridad para actuar.
 
@@ -42,7 +42,7 @@ El pulso operativo ofrece una vista breve para saber qué está implementado, co
 
 ## Inspiración y reconocimientos
 
-El arnés fue desarrollado de manera independiente, pero reconoce ideas públicas que influyeron en skills y módulos incorporados posteriormente a este protocolo: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`karpathy/llm-council`](https://github.com/karpathy/llm-council) y [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch) y el artículo de Anthropic [`How we built our multi-agent research system`](https://www.anthropic.com/engineering/multi-agent-research-system). Consulta el alcance exacto de cada influencia y las aclaraciones de licencia en [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md).
+El arnés fue desarrollado de manera independiente, pero reconoce ideas públicas que influyeron en skills y módulos incorporados posteriormente a este protocolo: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`karpathy/llm-council`](https://github.com/karpathy/llm-council) y [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch) el artículo de Anthropic [`How we built our multi-agent research system`](https://www.anthropic.com/engineering/multi-agent-research-system), el survey [`Graph Engineering in the Era of LLM Agents`](https://arxiv.org/abs/2608.21156) y el análisis de LangChain [`3 Years of Graph Engineering with LangGraph`](https://www.langchain.com/blog/3-years-of-graph-engineering-with-langgraph). Consulta el alcance exacto de cada influencia y las aclaraciones de licencia en [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md).
 
 No existe afiliación, patrocinio ni respaldo por parte de sus autores o mantenedores.
 
