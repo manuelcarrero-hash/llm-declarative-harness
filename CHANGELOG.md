@@ -1,5 +1,25 @@
 # Changelog / Registro de cambios
 
+## 0.7.0 — 2026-08-31
+
+### Español
+
+- Se añadió un mapa interno de trabajo, opcional y derivado, sólo para tres o más resultados materiales con dependencias observables.
+- Los hallazgos del Reviewer ahora vinculan resultado directo, evidencia fallida o faltante y dependientes que requieren nueva validación.
+- Se definió una frontera válida para conservar trabajo comprobado y reanudar parcialmente; la ambigüedad obliga a invalidar y ampliar la reverificación.
+- Se incorporaron la plantilla bilingüe de mapa, campos de estado y traza, el control crítico condicional `DEPENDENCY_01` y el escenario de regresión R13.
+- Se mantuvo la experiencia no técnica: la persona no configura grafos, relaciones ni archivos y recibe únicamente qué está comprobado, qué se corregirá y desde dónde se retomará.
+- Se reconoció la influencia conceptual del survey de Graph Engineering y del análisis de LangChain sin incorporar su runtime.
+
+### English
+
+- Added an optional derived internal work map only for three or more material outcomes with observable dependencies.
+- Reviewer findings now link direct outcome, failed or missing evidence and dependents requiring renewed validation.
+- Defined a valid frontier for preserving verified work and resuming partially; ambiguity requires invalidation and wider reverification.
+- Added the bilingual work-map template, state and trace fields, conditional critical control `DEPENDENCY_01`, and regression scenario R13.
+- Preserved the non-technical experience: the person configures no graphs, relationships or files and sees only what is verified, what will be corrected and where work will resume.
+- Acknowledged conceptual influence from the Graph Engineering survey and LangChain analysis without incorporating their runtime.
+
 ## 0.6.0 — 2026-08-31
 
 ### Español
