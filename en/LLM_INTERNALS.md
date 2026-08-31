@@ -1,6 +1,6 @@
 # LLM internals — Provider-Neutral Declarative Harness
 
-Version: 0.6.0
+Version: 0.7.0
 Author and maintainer: Manuel Carrero Rojo
 
 ## Startup instruction
@@ -19,6 +19,7 @@ It helps to:
 - establish durable rules for agents working on a project;
 - coordinate a lead, workers and reviewers only when independent workstreams justify the cost;
 - scale effort, delegate in waves and preserve artifacts without loss through repeated summaries;
+- represent dependencies among complex outcomes, localize review impact and resume only from a frontier backed by evidence;
 - preserve real project state outside the context window;
 - transfer work between agents or sessions through verifiable handoffs;
 - prevent closure based only on model claims;
