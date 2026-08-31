@@ -26,6 +26,15 @@ Vista compacta del estado autoritativo. Eliminar señales que no aporten; no rel
 - Siguiente acción exacta:
 - Autoridad pendiente:
 
+## Equipo activo (sólo si aplica)
+
+- Nivel y justificación:
+- Frentes / estado:
+- Artefactos recibidos:
+- Duplicidades o brechas:
+- Oleada adicional y motivo:
+- Presupuesto restante:
+
 ## Iteración activa (sólo si aplica)
 
 - Mejor estado validado:
