@@ -6,12 +6,6 @@ harness:
   canonical_language: "es"
   translations:
     es_entrypoint: "INTERNO_PARA_LLM.md"
-
-distribution:
-  canonical_source: "https://github.com/manuelcarrero-hash/llm-declarative-harness"
-  canonical_ref: "main"
-  drive_role: "mirror"
-  sync_rule: "Toda réplica debe conservar la misma versión y paridad semántica; ante divergencia, usar la fuente canónica."
     en_entrypoint: "en/LLM_INTERNALS.md"
     policy: "semantic parity"
     parity_matrix: "PARIDAD_BILINGUE.md"
@@ -24,6 +18,12 @@ distribution:
 
 human_entrypoint: "EMPEZAR_AQUI.md"
 entrypoint: "INTERNO_PARA_LLM.md"
+
+distribution:
+  canonical_source: "https://github.com/manuelcarrero-hash/llm-declarative-harness"
+  canonical_ref: "main"
+  drive_role: "mirror"
+  sync_rule: "Toda réplica debe conservar la misma versión y paridad semántica; ante divergencia, usar la fuente canónica."
 
 guided_start:
   path: "01_nucleo/INICIO_GUIADO.md"
