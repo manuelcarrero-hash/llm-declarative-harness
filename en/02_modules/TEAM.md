@@ -6,7 +6,7 @@ Use real roles when the platform supports separate agents and independence impro
 
 - **Lead:** contract, authority, integration and closure.
 - **Builder:** bounded implementation and tests.
-- **Reviewer:** independent inspection of the actual change; verdict `APPROVED` or `CHANGES_REQUIRED`.
+- **Reviewer:** independent inspection of the actual change; verdict `APPROVED` or `CHANGES_REQUIRED`. When Iteration is active, also verify baseline, comparability, validation integrity, regressions, complexity cost and restoration.
 
 Add QA, security, design or research only when a useful boundary exists. One agent performing several personas does not prove independence.
 
