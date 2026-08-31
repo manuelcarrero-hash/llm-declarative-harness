@@ -22,7 +22,7 @@ It is useful for software, research, books, courses and other multi-stage projec
 - Spanish version: read [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md).
 - Non-code example: read [`en/05_examples/NON_CODE_BOOTSTRAP.md`](en/05_examples/NON_CODE_BOOTSTRAP.md).
 - Guided-start scenarios: read [`en/05_examples/GUIDED_START_SCENARIOS.md`](en/05_examples/GUIDED_START_SCENARIOS.md).
-- Evaluation controls: read [`en/06_validation/CONTROL_CATALOG.md`](en/06_validation/CONTROL_CATALOG.md).
+- Evaluation controls: read [`en/06_validation/CONTROL_CATALOG.md`](en/06_validation/CONTROL_CATALOG.md) and the [`regression suite`](en/06_validation/REGRESSION_SUITE.md).
 - Translation policy: see [`en/BILINGUAL_PARITY.md`](en/BILINGUAL_PARITY.md).
 - Release history: see [`CHANGELOG.md`](CHANGELOG.md).
 
@@ -42,7 +42,7 @@ The operational pulse provides a short view of what is implemented, checked or p
 
 ## Inspiration and acknowledgements
 
-The harness was developed independently, while recognizing public ideas that influenced skills and modules later incorporated into this protocol: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), and [`karpathy/llm-council`](https://github.com/karpathy/llm-council), and [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch). See [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md) for the precise scope of each influence and licensing notes.
+The harness was developed independently, while recognizing public ideas that influenced skills and modules later incorporated into this protocol: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), and [`karpathy/llm-council`](https://github.com/karpathy/llm-council), and [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch), and Anthropic's [`How we built our multi-agent research system`](https://www.anthropic.com/engineering/multi-agent-research-system). See [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md) for the precise scope of each influence and licensing notes.
 
 No affiliation, sponsorship or endorsement by their authors or maintainers is implied.
 
