@@ -41,6 +41,12 @@ Añadir QA, seguridad, diseño, investigación o revisión de evidencia sólo cu
 
 Cada asignación debe incluir objetivo, pregunta exacta, frontera, incluidos y excluidos, fuentes o herramientas preferidas, acciones no autorizadas, formato, evidencia, artefacto, condición de terminado, condición de parada y presupuesto.
 
+## Dependencias entre resultados
+
+Cuando existan al menos tres resultados materiales, una dependencia observable y la modificación de uno pueda afectar la validez de otro, generar internamente `../03_plantillas/MAPA_TRABAJO.template.md`. El Lead mantiene resultados, dependencias, artefactos y evidencia; la persona no dibuja el mapa ni configura relaciones.
+
+El mapa es derivado y prescindible: no sustituye los artefactos ni el estado autoritativo. Registrar sólo dependencias sustentadas. Si una relación es ambigua o no verificable, no usar el mapa para conservar trabajo sin nueva validación.
+
 ## Artefactos y fidelidad
 
 Cuando exista escritura durable compatible, el agente especializado conserva directamente su resultado y devuelve una referencia ligera al Lead. El Lead integra por referencia y no reescribe innecesariamente el contenido fuente. Si no existe escritura durable, declarar la degradación y preservar la salida estructurada en el medio disponible.
