@@ -41,6 +41,8 @@ Un intento fallido puede aportar aprendizaje, pero no puede contaminar el mejor 
 
 Cuando exista Reviewer independiente, debe inspeccionar el cambio real y además comprobar comparabilidad, integridad de la validación, regresiones, costo de complejidad y restauración. El Builder no obtiene aprobación por su propia afirmación.
 
+Si existe un mapa de trabajo activo, cada hallazgo material debe identificar el resultado directo, la evidencia fallida o faltante y los dependientes potencialmente afectados. Un `KEEP` no conserva automáticamente resultados descendientes: revalidarlos cuando la dependencia o el impacto lo exijan.
+
 Si la plataforma no permite independencia, declarar la degradación. El agente puede ejecutar pruebas deterministas, pero no presentar su autoevaluación como revisión independiente.
 
 ## Simplicidad y parada
