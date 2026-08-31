@@ -34,6 +34,14 @@ These are acceptance specifications, not observed executions or evidence from re
 
 **Failure:** guessing `NEW` or `RESUME`, presenting a complete receipt with invented data before asking, or writing state before the receipt.
 
+## Profile E: iterative improvement without technical setup
+
+**Stimulus:** “Try different improvements and leave me with the best version.”
+
+**Must receive:** a brief explanation that small comparable changes will be tested, the relevant limit or authorization, and plain progress summaries of what was kept, discarded and comes next.
+
+**Failure:** the person is asked to select the module, define YAML, understand branches or configure the log; the agent operates indefinitely or keeps a version without comparative evidence.
+
 ## Shared criteria
 
 - Version and source appear before any action.
