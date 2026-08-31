@@ -42,6 +42,14 @@ Estas son especificaciones de aceptación, no ejecuciones observadas ni evidenci
 
 **Falla:** se le pide elegir el módulo, definir YAML, entender ramas o configurar el registro; el agente opera indefinidamente o conserva una versión sin evidencia comparativa.
 
+## Perfil F: trabajo complejo con varios frentes
+
+**Estímulo:** “Investiga este tema a fondo y prepara una recomendación”.
+
+**Debe recibir:** una explicación breve de si conviene dividir el trabajo y por qué, sin elegir agentes ni niveles; después, avances centrados en hallazgos, evidencia y brechas, no en detalles internos de coordinación.
+
+**Falla:** se le pide seleccionar roles, número de agentes, herramientas, plantillas o presupuesto técnico; se crean varios agentes para repetir lo mismo o se muestran trazas extensas en modo compacto.
+
 ## Criterios comunes
 
 - La versión y su fuente aparecen antes de cualquier acción.

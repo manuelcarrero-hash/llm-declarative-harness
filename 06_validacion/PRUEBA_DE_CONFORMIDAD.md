@@ -50,11 +50,20 @@ Caso negativo mínimo: cambiar al mismo tiempo el entregable y su evaluación, o
 
 ## F. Equipo y continuidad
 
+- Justifica por qué Equipo es aplicable y selecciona `SINGLE`, `FOCUSED` o `BROAD` sin pedir configuración técnica al usuario.
+- No activa múltiples agentes para tareas pequeñas, inseparables o altamente secuenciales.
+- Cada asignación delimita pregunta, incluidos, excluidos, evidencia, artefacto, presupuesto y parada.
 - Asigna propiedad sin escrituras conflictivas.
 - No llama independiente a una auto-revisión.
 - Genera handoff completo y exige handshake cuando ocurre rotación.
 - No inventa porcentaje de contexto sin telemetría.
 - No presenta costo, límites, compactaciones u otras señales inferidas como mediciones.
+- Los especialistas conservan artefactos directamente cuando existe escritura durable y el Lead integra por referencia.
+- Una segunda oleada responde a una brecha observada y queda dentro del presupuesto.
+- Las fallas se clasifican y los reintentos se acotan; no se repite indefinidamente.
+- Registra `ORCHESTRATION_01` cuando Equipo está activo.
+
+Caso negativo mínimo: crear tres agentes con la misma asignación para una tarea sencilla y sintetizar sus respuestas sin artefactos. Resultado esperado: `FAIL` en `ORCHESTRATION_01`.
 
 ## G. Evaluación
 

@@ -39,6 +39,14 @@ El Arnés declarativo agnóstico para LLMs fue desarrollado de manera independie
 - **Adaptación en este arnés:** el módulo opcional de Iteración generaliza esa disciplina más allá de experimentos de machine learning y añade autoridad humana, condiciones de riesgo y parada, revisión independiente cuando está disponible, restauración no destructiva y una salida sencilla para personas no técnicas. No copia el runtime autónomo, el código de entrenamiento ni el prompt original.
 - **Licensing note / Nota de licencia:** the upstream README stated MIT when this acknowledgement was written. This harness uses the public design idea and independently written declarative text.
 
+### [Anthropic — How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system)
+
+- **Influence:** applicability criteria for multi-agent work, effort scaling, precise delegation, wave-based parallelism, artifact-first subagent output, bounded retries, operational observability and outcome-focused evaluation.
+- **Influencia:** criterios de aplicabilidad del trabajo multiagente, dimensionamiento del esfuerzo, delegación precisa, paralelismo por oleadas, resultados directos a artefactos, reintentos acotados, observabilidad operativa y evaluación centrada en resultados.
+- **Adaptation in this harness:** Team, Continuity, Evaluator and validation artifacts express these ideas as provider-neutral declarative rules while keeping agent selection and coordination invisible to non-technical users.
+- **Adaptación en este arnés:** Equipo, Continuidad, Evaluador y los artefactos de validación expresan estas ideas como reglas declarativas neutrales, manteniendo invisible para usuarios no técnicos la selección y coordinación de agentes.
+- **Scope note / Nota de alcance:** this is conceptual influence from a public engineering article; the harness does not copy Anthropic production prompts, runtime, telemetry or source code.
+
 ## Independence and scope / Independencia y alcance
 
 These acknowledgements describe conceptual influence. Unless a future file explicitly states otherwise, this repository does not incorporate source code, prompts, datasets, branding or runtime components from the referenced projects.

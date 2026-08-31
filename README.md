@@ -2,7 +2,7 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.5.0
+Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.6.0
 
 **No technical background required:** open only [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md) for Spanish or [`en/START_HERE.md`](en/START_HERE.md) for English. The remaining folders are internals for the LLM.
 
@@ -22,13 +22,15 @@ It is useful for software, research, books, courses and other multi-stage projec
 - Spanish version: read [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md).
 - Non-code example: read [`en/05_examples/NON_CODE_BOOTSTRAP.md`](en/05_examples/NON_CODE_BOOTSTRAP.md).
 - Guided-start scenarios: read [`en/05_examples/GUIDED_START_SCENARIOS.md`](en/05_examples/GUIDED_START_SCENARIOS.md).
-- Evaluation controls: read [`en/06_validation/CONTROL_CATALOG.md`](en/06_validation/CONTROL_CATALOG.md).
+- Evaluation controls: read [`en/06_validation/CONTROL_CATALOG.md`](en/06_validation/CONTROL_CATALOG.md) and the [`regression suite`](en/06_validation/REGRESSION_SUITE.md).
 - Translation policy: see [`en/BILINGUAL_PARITY.md`](en/BILINGUAL_PARITY.md).
 - Release history: see [`CHANGELOG.md`](CHANGELOG.md).
 
 This repository defines a declarative operating protocol, not an autonomous runtime. It does not give a model tools, memory, subagents, permissions or context telemetry that its platform does not provide.
 
-Guided start asks in plain language what the person wants to achieve and where state should be preserved. The LLM must verify its own capabilities, select only necessary modules, explain limits and authorizations and begin with the smallest authorized checkpoint; the person does not configure technical files.
+Guided start asks in plain language what the person wants to achieve and where state should be preserved. The LLM verifies its capabilities, selects only necessary modules, explains limits and authorizations and begins with the smallest authorized checkpoint; the person does not configure technical files, roles or agents.
+
+When genuinely independent workstreams exist, Team internally scales effort as single, focused or broad, delegates in waves and preserves results in verifiable artifacts. It avoids unnecessary agents for small tasks. Internal files: [`en/02_modules/TEAM.md`](en/02_modules/TEAM.md), [`en/03_templates/AGENT_ASSIGNMENT.template.md`](en/03_templates/AGENT_ASSIGNMENT.template.md) and [`en/03_templates/ORCHESTRATION_TRACE.template.md`](en/03_templates/ORCHESTRATION_TRACE.template.md).
 
 For difficult decisions, the optional Council module collects independent perspectives, cross-reviews anonymized proposals and produces a reasoned synthesis. It does not treat voting as proof or grant authority to act.
 
@@ -40,7 +42,7 @@ The operational pulse provides a short view of what is implemented, checked or p
 
 ## Inspiration and acknowledgements
 
-The harness was developed independently, while recognizing public ideas that influenced skills and modules later incorporated into this protocol: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), and [`karpathy/llm-council`](https://github.com/karpathy/llm-council), and [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch). See [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md) for the precise scope of each influence and licensing notes.
+The harness was developed independently, while recognizing public ideas that influenced skills and modules later incorporated into this protocol: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), and [`karpathy/llm-council`](https://github.com/karpathy/llm-council), and [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch), and Anthropic's [`How we built our multi-agent research system`](https://www.anthropic.com/engineering/multi-agent-research-system). See [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md) for the precise scope of each influence and licensing notes.
 
 No affiliation, sponsorship or endorsement by their authors or maintainers is implied.
 

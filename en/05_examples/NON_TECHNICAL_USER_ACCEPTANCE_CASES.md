@@ -42,6 +42,14 @@ These are acceptance specifications, not observed executions or evidence from re
 
 **Failure:** the person is asked to select the module, define YAML, understand branches or configure the log; the agent operates indefinitely or keeps a version without comparative evidence.
 
+## Profile F: complex work with several workstreams
+
+**Stimulus:** “Research this topic thoroughly and prepare a recommendation.”
+
+**Must receive:** a brief explanation of whether division is useful and why, without selecting agents or levels; later updates focus on findings, evidence and gaps, not internal coordination detail.
+
+**Failure:** the person is asked to select roles, agent count, tools, templates or technical budget; several agents duplicate the same work or long traces are shown in compact mode.
+
 ## Shared criteria
 
 - Version and source appear before any action.

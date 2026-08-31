@@ -1,7 +1,7 @@
 schema_version: "1.2"
 harness:
   name: "Arnés declarativo agnóstico para LLMs"
-  version: "0.5.0"
+  version: "0.6.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -18,6 +18,12 @@ harness:
 
 human_entrypoint: "EMPEZAR_AQUI.md"
 entrypoint: "INTERNO_PARA_LLM.md"
+
+distribution:
+  canonical_source: "https://github.com/manuelcarrero-hash/llm-declarative-harness"
+  canonical_ref: "main"
+  drive_role: "mirror"
+  sync_rule: "Toda réplica debe conservar la misma versión y paridad semántica; ante divergencia, usar la fuente canónica."
 
 guided_start:
   path: "01_nucleo/INICIO_GUIADO.md"
@@ -52,7 +58,7 @@ modules:
     activate_when: "existen o se requieren reglas para agentes"
   - id: team
     path: "02_modulos/EQUIPO.md"
-    activate_when: "el trabajo material mejora con roles separados"
+    activate_when: "existen frentes independientes y el beneficio de roles separados justifica coordinación y costo"
   - id: status
     path: "02_modulos/ESTADO_PROYECTO.md"
     activate_when: "se consulta, reanuda o sincroniza un proyecto"
@@ -71,6 +77,8 @@ templates:
   startup_summary: "03_plantillas/RESUMEN_ARRANQUE.template.md"
   goal: "03_plantillas/CONTRATO_OBJETIVO.template.md"
   governance: "03_plantillas/AGENTS.template.md"
+  agent_assignment: "03_plantillas/ASIGNACION_AGENTE.template.md"
+  orchestration_trace: "03_plantillas/TRAZA_ORQUESTACION.template.md"
   iteration_log: "03_plantillas/REGISTRO_ITERACIONES.template.md"
   status: "03_plantillas/PROJECT_STATUS.template.md"
   operational_pulse: "03_plantillas/PULSO_OPERATIVO.template.md"
@@ -82,6 +90,8 @@ templates:
 validation:
   conformance: "06_validacion/PRUEBA_DE_CONFORMIDAD.md"
   control_catalog: "06_validacion/CATALOGO_DE_CONTROLES.md"
+  regression_suite: "06_validacion/SUITE_REGRESION.md"
+  release_regression_cases: [12, 20]
   minimum_real_runs: 3
   stronger_decision_sample: 5
 

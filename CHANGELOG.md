@@ -1,5 +1,34 @@
 # Changelog / Registro de cambios
 
+## 0.6.0 — 2026-08-31
+
+### Español
+
+- Equipo ahora exige frentes independientes y beneficio proporcional antes de activar varios agentes.
+- Se añadieron niveles internos `SINGLE`, `FOCUSED` y `BROAD`, delegación por oleadas y presupuesto.
+- Se incorporaron plantillas bilingües de asignación y traza operativa sin cadena de pensamiento.
+- Los agentes especializados conservan artefactos directamente y el Lead integra por referencia.
+- Se añadió taxonomía de fallas, reintentos acotados y reanudación desde checkpoints.
+- Se añadió el control crítico `ORCHESTRATION_01` y esquema de evaluación 1.5.
+- Se creó una suite bilingüe de regresión de 12–20 escenarios antes de considerar estable una versión funcional.
+- Se mantuvo la experiencia no técnica: el agente decide internamente roles, nivel, herramientas y oleadas.
+- GitHub `main` quedó declarado como fuente canónica y Drive como réplica.
+- Se reconoció la influencia conceptual del artículo de ingeniería multiagente de Anthropic.
+
+### English
+
+- Team now requires independent workstreams and proportional benefit before activating multiple agents.
+- Added internal `SINGLE`, `FOCUSED` and `BROAD` levels, wave-based delegation and budget.
+- Added bilingual assignment and operational-trace templates without chain of thought.
+- Specialist agents preserve artifacts directly and the Lead integrates by reference.
+- Added failure taxonomy, bounded retries and checkpoint resumption.
+- Added critical control `ORCHESTRATION_01` and evaluation schema 1.5.
+- Created a bilingual 12–20 scenario regression suite before treating a functional version as stable.
+- Preserved the non-technical experience: the agent internally decides roles, level, tools and waves.
+- Declared GitHub `main` as canonical source and Drive as mirror.
+- Acknowledged conceptual influence from Anthropic's multi-agent engineering article.
+
+
 ## 0.5.0 — 2026-08-31
 
 ### Español
