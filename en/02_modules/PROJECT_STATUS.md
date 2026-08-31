@@ -9,7 +9,13 @@ Maintain one authoritative snapshot that answers: what was done, where are we, w
 
 ## Minimum content
 
-Project identity, timestamp and anchors; validated work; current position; risks and decisions; next action; gates; destination and success criteria. Resolve contradictions using the newest and most direct evidence without erasing intentional decisions.
+Project identity, timestamp and anchors; validated work; current position; risks and decisions; next action; gates; destination and success criteria. When a work map is active, link it and record its resumption frontier without duplicating its detail. Resolve contradictions using the newest and most direct evidence without erasing intentional decisions.
+
+## Resumption frontier
+
+A frontier may preserve already verified outcomes only when their evidence remains current, their dependencies are known and no later change affects their validity. Record what is preserved, what is invalidated, the exact resumption point and supporting evidence.
+
+The map is a derived view, not a second source of truth. When dependencies are absent, ambiguous, divergent or unverifiable, invalidate conservatively and repeat the applicable validation.
 
 ## Operational pulse
 
