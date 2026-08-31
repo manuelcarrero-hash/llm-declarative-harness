@@ -26,6 +26,15 @@ Compact view of authoritative status. Remove signals that add no value; do not f
 - Exact next action:
 - Pending authority:
 
+## Active team (only when applicable)
+
+- Level and rationale:
+- Workstreams / status:
+- Received artifacts:
+- Duplication or gaps:
+- Additional wave and rationale:
+- Remaining budget:
+
 ## Active iteration (only when applicable)
 
 - Best validated state:
