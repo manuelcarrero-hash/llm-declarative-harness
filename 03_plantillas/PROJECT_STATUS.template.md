@@ -20,6 +20,9 @@ Indicar evidencia y distinguir implementación, commit, push, revisión, merge, 
 
 - Fase:
 - Último checkpoint validado:
+- Mapa de trabajo activo: `sí | no`
+- Frontera válida y evidencia: `ubicación o no aplica`
+- Resultados invalidados / por revalidar:
 - Funciona:
 - Parcial o no verificado:
 - Riesgos, bloqueos y decisiones:

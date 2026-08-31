@@ -16,6 +16,8 @@ When Team is active, `ORCHESTRATION_01` requires justified applicability, propor
 
 When Iteration is active, `ITERATION_01` requires evidence of the best validated state, prior criterion, verdict, and restoration or incorporation. A Builder-authored log does not by itself prove comparison or restoration.
 
+When a work map is used to preserve outcomes or resume partially, `DEPENDENCY_01` requires proportional activation, supported dependencies, findings linked to impact, current evidence and a valid frontier. The map does not prove its own accuracy; ambiguity must widen reverification.
+
 Record whether council was applicable, activated, and backed by separate agents or explicit degradation. `COUNCIL_01` may be `NOT_APPLICABLE` only when the decision did not meet activation criteria and no council was activated.
 
 ## Maturity decisions

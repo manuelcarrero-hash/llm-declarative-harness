@@ -10,6 +10,7 @@ Optional artifact for material teams, audits and incidents. Record only observab
 - Budget:
 - Lead:
 - Authoritative source:
+- Work map, when applicable:
 - Updated:
 
 ## Events

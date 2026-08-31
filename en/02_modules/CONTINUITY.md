@@ -16,7 +16,9 @@ The recipient must read the authoritative artifact when a summary could lose pre
 
 ## Failure and resumption
 
-Apply the retry taxonomy and budget in `../01_core/OPERATING_CONTRACT.md`. Before restarting costly work, preserve the last safe checkpoint, observable cause, attempts made and next alternative. Resume from the checkpoint; do not start over unless evidence shows corruption or incompatibility.
+Apply the retry taxonomy and budget in `../01_core/OPERATING_CONTRACT.md`. Before restarting costly work, preserve the last safe checkpoint, observable cause, attempts made and next alternative.
+
+When a work map is active, locate the affected outcome, traverse only supported dependencies and record which descendants require renewed validation. Resume from the last valid frontier only when evidence remains current and the change does not affect preserved work. On material doubt, invalidate the frontier and widen review. Do not start over unless corruption, incompatibility or inability to demonstrate a safe point requires it.
 
 ## Rotation
 

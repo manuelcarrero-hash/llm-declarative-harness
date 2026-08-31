@@ -1,6 +1,6 @@
 # Interior para LLM — Arnés declarativo agnóstico
 
-Versión: 0.6.0
+Versión: 0.7.0
 Autor y mantenedor: Manuel Carrero Rojo
 
 ## Instrucción de arranque
@@ -19,6 +19,7 @@ Ayuda a:
 - establecer reglas durables para los agentes que trabajen en un proyecto;
 - coordinar un líder, ejecutores y revisores sólo cuando existan frentes independientes que justifiquen el costo;
 - dimensionar el esfuerzo, delegar por oleadas y preservar artefactos sin pérdida por resúmenes sucesivos;
+- representar dependencias entre resultados complejos, localizar el impacto de una revisión y reanudar sólo desde una frontera respaldada por evidencia;
 - conservar el estado real del proyecto fuera de la ventana de contexto;
 - transferir trabajo entre agentes o sesiones mediante handoffs verificables;
 - impedir cierres basados únicamente en afirmaciones del modelo;

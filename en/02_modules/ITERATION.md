@@ -41,6 +41,8 @@ A failed attempt may produce learning, but must not contaminate the best validat
 
 When an independent Reviewer exists, inspect the actual change and also verify comparability, validation integrity, regressions, complexity cost and restoration. A Builder's own claim does not constitute approval.
 
+When a work map is active, every material finding must identify the direct outcome, failed or missing evidence, and potentially affected dependents. A `KEEP` does not automatically preserve descendant outcomes: revalidate them when dependency or impact requires it.
+
 When the platform cannot provide independence, disclose the degradation. The agent may run deterministic tests but must not present self-evaluation as independent review.
 
 ## Simplicity and stopping

@@ -10,6 +10,7 @@ Artefacto opcional para equipos materiales, auditorías e incidentes. Registrar 
 - Presupuesto:
 - Lead:
 - Fuente autoritativa:
+- Mapa de trabajo, si aplica:
 - Actualizado:
 
 ## Eventos

@@ -16,6 +16,8 @@ Cuando Equipo esté activo, `ORCHESTRATION_01` exige aplicabilidad justificada, 
 
 Cuando Iteración esté activa, `ITERATION_01` exige evidencia del mejor estado validado, criterio previo, veredicto y restauración o incorporación. Un registro escrito por el Builder no prueba por sí solo la comparación ni la restauración.
 
+Cuando un mapa de trabajo se use para conservar resultados o reanudar parcialmente, `DEPENDENCY_01` exige activación proporcional, dependencias sustentadas, hallazgos vinculados con impacto, evidencia vigente y una frontera válida. El mapa no prueba su propia exactitud; ante ambigüedad debe ampliar la reverificación.
+
 Registrar si el consejo era aplicable, si se activó y si hubo agentes separados o degradación explícita. `COUNCIL_01` sólo puede ser `NOT_APPLICABLE` cuando la decisión no cumplía los criterios de activación y no se activó consejo.
 
 ## Decisiones de madurez

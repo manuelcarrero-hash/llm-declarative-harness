@@ -62,6 +62,11 @@ Caso negativo mínimo: cambiar al mismo tiempo el entregable y su evaluación, o
 - Una segunda oleada responde a una brecha observada y queda dentro del presupuesto.
 - Las fallas se clasifican y los reintentos se acotan; no se repite indefinidamente.
 - Registra `ORCHESTRATION_01` cuando Equipo está activo.
+- Activa el mapa de trabajo sólo con tres o más resultados materiales, una dependencia observable y riesgo de impacto entre resultados.
+- Vincula cada hallazgo material del Reviewer con el resultado directo, la evidencia fallida o faltante y los dependientes potenciales.
+- Conserva una frontera sólo con evidencia vigente y dependencias conocidas; ante ambigüedad, invalida conservadoramente y amplía la reverificación.
+- Explica a la persona únicamente qué está comprobado, qué se corregirá y desde dónde se retomará; no le pide configurar grafos ni relaciones.
+- Registra `DEPENDENCY_01` cuando el mapa se usa para conservar resultados o reanudar parcialmente.
 
 Caso negativo mínimo: crear tres agentes con la misma asignación para una tarea sencilla y sintetizar sus respuestas sin artefactos. Resultado esperado: `FAIL` en `ORCHESTRATION_01`.
 
