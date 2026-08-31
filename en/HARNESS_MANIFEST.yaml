@@ -1,7 +1,7 @@
 schema_version: "1.2"
 harness:
   name: "Provider-Neutral Declarative Harness for LLMs"
-  version: "0.6.0"
+  version: "0.7.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -72,6 +72,7 @@ templates:
   governance: "03_templates/AGENTS.template.md"
   agent_assignment: "03_templates/AGENT_ASSIGNMENT.template.md"
   orchestration_trace: "03_templates/ORCHESTRATION_TRACE.template.md"
+  work_map: "03_templates/WORK_MAP.template.md"
   iteration_log: "03_templates/ITERATION_LOG.template.md"
   status: "03_templates/PROJECT_STATUS.template.md"
   operational_pulse: "03_templates/OPERATIONAL_PULSE.template.md"
@@ -83,7 +84,7 @@ validation:
   conformance: "06_validation/CONFORMANCE_TEST.md"
   control_catalog: "06_validation/CONTROL_CATALOG.md"
   regression_suite: "06_validation/REGRESSION_SUITE.md"
-  release_regression_cases: [12, 20]
+  release_regression_cases: [13, 20]
   minimum_real_runs: 3
   stronger_decision_sample: 5
 
