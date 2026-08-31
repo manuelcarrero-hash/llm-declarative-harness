@@ -10,6 +10,8 @@
 - Límites y acciones no autorizadas:
 - Validaciones requeridas:
 - Checkpoints:
+- Iteración aplicable: `Sí / No`; motivo:
+- Presupuesto o condición de parada del loop:
 - Roles y propiedad:
 - Brecha actual:
 - Siguiente acción exacta:
@@ -17,5 +19,5 @@
 
 ## Ledger de intentos
 
-| Brecha | Hipótesis | Intervención | Evidencia | Aprendizaje | Ruta siguiente |
-| --- | --- | --- | --- | --- | --- |
+| Brecha | Línea base | Hipótesis / cambio | Criterio previo | Veredicto | Estado final | Aprendizaje / ruta siguiente |
+| --- | --- | --- | --- | --- | --- | --- |
