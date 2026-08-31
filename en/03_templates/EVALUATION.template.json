@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "control_catalog": "06_validation/CONTROL_CATALOG.md",
   "evaluation_id": "PROJECT-YYYYMMDD-RUN-01",
   "project": {
@@ -29,6 +29,15 @@
       "budget": null,
       "attempts": 0,
       "best_validated_state": null
+    },
+    "team": {
+      "applicable": false,
+      "activated": false,
+      "level": null,
+      "planned_workstreams": 0,
+      "actual_workstreams": 0,
+      "second_wave": false,
+      "separate_agents": null
     }
   },
   "controls": [
@@ -77,6 +86,12 @@
     {
       "id": "OWNERSHIP_01",
       "status": "NOT_OBSERVED",
+      "evidence": [],
+      "note": ""
+    },
+    {
+      "id": "ORCHESTRATION_01",
+      "status": "NOT_APPLICABLE",
       "evidence": [],
       "note": ""
     },
