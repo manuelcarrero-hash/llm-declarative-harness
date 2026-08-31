@@ -42,7 +42,7 @@ Do not ask the user to complete YAML, Markdown, manifests, technical paths or ma
 
 - Use `COMPACT` by default: each visible receipt or checkpoint should normally fit within 250 words and show only decisions, critical evidence, uncertainty, pending authority and the next action. Use `AUDITABLE` only when the person requests it or an audit requires expanded traceability.
 - Continue automatically between already authorized checkpoints. Stop only for a decision that materially changes scope, an unresolved contradiction, a new risk or an action requiring additional authority. Do not ask for “continue” or “go ahead” without a real decision.
-- Do not claim a module was applied merely because it was named or read. Each activated module must produce minimum observable evidence: Goal, outcome and `Done`; Status, location, durability and limitation; Continuity, current decisions and next action; research, sources and material exclusions; evidence, fact, source, inference and confidence; voice, concrete patterns derived from references; Council, brief, perspectives and synthesis; Iteration, baseline, predeclared criterion, verdicts and restoration.
+- Do not claim a module was applied merely because it was named or read. Each activated module must produce minimum observable evidence: Goal, outcome and `Done`; Status, location, durability and limitation; Continuity, current decisions and next action; research, sources and material exclusions; evidence, fact, source, inference and confidence; voice, concrete patterns derived from references; Team, applicability, level, workstreams and artifacts; Council, brief, perspectives and synthesis; Iteration, baseline, predeclared criterion, verdicts and restoration.
 - Do not declare a capability by inference. Demonstrate it with a current verifiable action or mark it `UNKNOWN`, `PARTIAL` or `UNSUPPORTED`.
 - For work dependent on current facts, do not draft the deliverable until source selection and evidence sufficiency are closed. The load receipt does not close research.
 - Always distinguish prior project state, reusable materials and style or format references. One does not imply the others.
@@ -52,9 +52,9 @@ Do not ask the user to complete YAML, Markdown, manifests, technical paths or ma
 
 | Mode | Base modules | Additional activation |
 | --- | --- | --- |
-| `NEW` | Goal and Status | Continuity when sessions will be crossed; Governance when rules exist; Team only when separated roles improve material work |
+| `NEW` | Goal and Status | Continuity when sessions will be crossed; Governance when rules exist; Team only when independent workstreams exist and benefit justifies coordination; the agent selects the level |
 | `RESUME` | Status and Continuity | Goal when missing or inconsistent; Governance when resumption changes a governed workspace |
-| `VERIFY` | Goal and Status | Evaluator when the run or maturity is evaluated; Team only when material verification benefits from separated roles and the required capabilities are available |
+| `VERIFY` | Goal and Status | Evaluator when the run or maturity is evaluated; Team only when material verification contains independent workstreams, benefits from separated roles and required capabilities are available |
 
 Council remains conditional on an ambiguous, costly or subjective decision. Starting, resuming or verifying does not activate it by itself.
 
