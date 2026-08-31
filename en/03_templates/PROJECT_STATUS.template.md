@@ -20,6 +20,9 @@ State evidence and distinguish implementation, commit, push, review, merge, depl
 
 - Phase:
 - Latest validated checkpoint:
+- Active work map: `yes | no`
+- Valid frontier and evidence: `location or not applicable`
+- Invalidated outcomes / pending revalidation:
 - Working:
 - Partial or unverified:
 - Risks, blockers and decisions:
