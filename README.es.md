@@ -2,7 +2,7 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.5.0
+Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.6.0
 
 **Si no tienes conocimientos técnicos:** abre únicamente [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md). Las carpetas restantes son el interior que debe consultar el LLM.
 
@@ -28,7 +28,9 @@ Sirve para software, investigaciones, libros, cursos y otros proyectos de varias
 
 El repositorio define un protocolo operativo declarativo, no un runtime autónomo. No proporciona herramientas, memoria, subagentes, permisos o telemetría que la plataforma no tenga.
 
-El inicio guiado pregunta en lenguaje sencillo qué se quiere lograr y dónde conservar el estado. El propio LLM debe comprobar sus capacidades, seleccionar sólo los módulos necesarios, explicar límites y autorizaciones y comenzar por el menor checkpoint autorizado; la persona no configura archivos técnicos.
+El inicio guiado pregunta en lenguaje sencillo qué se quiere lograr y dónde conservar el estado. El propio LLM comprueba sus capacidades, selecciona sólo los módulos necesarios, explica límites y autorizaciones y comienza por el menor checkpoint autorizado; la persona no configura archivos técnicos, roles ni agentes.
+
+Cuando existen frentes realmente independientes, Equipo dimensiona internamente el esfuerzo como individual, enfocado o amplio, delega por oleadas y conserva los resultados en artefactos verificables. Para tareas pequeñas evita crear agentes innecesarios. Archivos internos: [`02_modulos/EQUIPO.md`](02_modulos/EQUIPO.md), [`03_plantillas/ASIGNACION_AGENTE.template.md`](03_plantillas/ASIGNACION_AGENTE.template.md) y [`03_plantillas/TRAZA_ORQUESTACION.template.md`](03_plantillas/TRAZA_ORQUESTACION.template.md).
 
 Para decisiones difíciles, el módulo opcional de Consejo reúne perspectivas independientes, revisa propuestas anonimizadas y produce una síntesis razonada. No trata una votación como prueba ni concede autoridad para actuar.
 
