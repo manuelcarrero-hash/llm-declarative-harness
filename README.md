@@ -2,7 +2,7 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.5.0
+Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.6.0
 
 **No technical background required:** open only [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md) for Spanish or [`en/START_HERE.md`](en/START_HERE.md) for English. The remaining folders are internals for the LLM.
 
@@ -28,7 +28,9 @@ It is useful for software, research, books, courses and other multi-stage projec
 
 This repository defines a declarative operating protocol, not an autonomous runtime. It does not give a model tools, memory, subagents, permissions or context telemetry that its platform does not provide.
 
-Guided start asks in plain language what the person wants to achieve and where state should be preserved. The LLM must verify its own capabilities, select only necessary modules, explain limits and authorizations and begin with the smallest authorized checkpoint; the person does not configure technical files.
+Guided start asks in plain language what the person wants to achieve and where state should be preserved. The LLM verifies its capabilities, selects only necessary modules, explains limits and authorizations and begins with the smallest authorized checkpoint; the person does not configure technical files, roles or agents.
+
+When genuinely independent workstreams exist, Team internally scales effort as single, focused or broad, delegates in waves and preserves results in verifiable artifacts. It avoids unnecessary agents for small tasks. Internal files: [`en/02_modules/TEAM.md`](en/02_modules/TEAM.md), [`en/03_templates/AGENT_ASSIGNMENT.template.md`](en/03_templates/AGENT_ASSIGNMENT.template.md) and [`en/03_templates/ORCHESTRATION_TRACE.template.md`](en/03_templates/ORCHESTRATION_TRACE.template.md).
 
 For difficult decisions, the optional Council module collects independent perspectives, cross-reviews anonymized proposals and produces a reasoned synthesis. It does not treat voting as proof or grant authority to act.
 
