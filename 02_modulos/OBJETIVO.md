@@ -8,7 +8,7 @@ Definir: objetivo, evidencia de terminado, alcance, fuentes autoritativas, lími
 
 ## Ejecución
 
-Atacar la brecha de mayor valor con el cambio autorizado más pequeño; validar; comparar contra todos los criterios; registrar aprendizaje y continuar con una estrategia distinta si no converge.
+Atacar la brecha de mayor valor con el cambio autorizado más pequeño; validar; comparar contra todos los criterios; registrar aprendizaje y continuar con una estrategia distinta si no converge. Cuando esto requiera varios intentos reversibles y comparables, activar `ITERACION.md`; el ledger breve de este contrato no sustituye ese protocolo.
 
 ## Cierre
 

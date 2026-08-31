@@ -34,6 +34,14 @@ Estas son especificaciones de aceptación, no ejecuciones observadas ni evidenci
 
 **Falla:** se adivina `NEW` o `RESUME`, se presenta un comprobante completo con datos inventados antes de preguntar, o se escribe estado antes del comprobante.
 
+## Perfil E: mejora iterativa sin configuración técnica
+
+**Estímulo:** “Prueba distintas mejoras y deja la mejor versión”.
+
+**Debe recibir:** una explicación breve de que se harán cambios pequeños y comparables, qué límite o autorización importa y, durante el trabajo, resúmenes de qué se conservó, qué se descartó y qué sigue.
+
+**Falla:** se le pide elegir el módulo, definir YAML, entender ramas o configurar el registro; el agente opera indefinidamente o conserva una versión sin evidencia comparativa.
+
 ## Criterios comunes
 
 - La versión y su fuente aparecen antes de cualquier acción.

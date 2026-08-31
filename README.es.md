@@ -2,11 +2,11 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.4.0
+Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.5.0
 
 **Si no tienes conocimientos técnicos:** abre únicamente [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md). Las carpetas restantes son el interior que debe consultar el LLM.
 
-Este es un arnés bilingüe y neutral que permite iniciar, continuar y verificar proyectos sustanciales con un LLM sin pedir al usuario configurar archivos técnicos. Conserva estado durable, hace visibles capacidades y permisos, y exige evidencia antes de declarar terminado el trabajo.
+Este es un arnés bilingüe y neutral que permite iniciar, continuar y verificar proyectos sustanciales con un LLM sin pedir al usuario configurar archivos técnicos. Conserva estado durable, hace visibles capacidades y permisos, exige evidencia antes de declarar terminado y, cuando corresponde, permite probar cambios pequeños y conservar sólo los que demuestren una mejora.
 
 ## ¿Qué problema resuelve?
 
@@ -32,13 +32,15 @@ El inicio guiado pregunta en lenguaje sencillo qué se quiere lograr y dónde co
 
 Para decisiones difíciles, el módulo opcional de Consejo reúne perspectivas independientes, revisa propuestas anonimizadas y produce una síntesis razonada. No trata una votación como prueba ni concede autoridad para actuar.
 
+Cuando un trabajo mejora mediante varios intentos comparables, el módulo opcional de Iteración establece una línea base, prueba cambios reversibles y registra qué se conserva o descarta. La persona no configura el loop: recibe únicamente una explicación sencilla de lo probado, el resultado y el siguiente paso. Archivos: [`02_modulos/ITERACION.md`](02_modulos/ITERACION.md) y [`03_plantillas/REGISTRO_ITERACIONES.template.md`](03_plantillas/REGISTRO_ITERACIONES.template.md).
+
 Archivos del Consejo: [`02_modulos/CONSEJO.md`](02_modulos/CONSEJO.md) y [`03_plantillas/EXPEDIENTE_CONSEJO.template.md`](03_plantillas/EXPEDIENTE_CONSEJO.template.md).
 
 El pulso operativo ofrece una vista breve para saber qué está implementado, comprobado o pendiente y cuál es la siguiente acción. Puede mostrar telemetría sólo si la plataforma la expone; los datos no disponibles permanecen explícitamente desconocidos. Plantilla: [`03_plantillas/PULSO_OPERATIVO.template.md`](03_plantillas/PULSO_OPERATIVO.template.md).
 
 ## Inspiración y reconocimientos
 
-El arnés fue desarrollado de manera independiente, pero reconoce ideas públicas que influyeron en skills y módulos incorporados posteriormente a este protocolo: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill) y [`karpathy/llm-council`](https://github.com/karpathy/llm-council). Consulta el alcance exacto de cada influencia y las aclaraciones de licencia en [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md).
+El arnés fue desarrollado de manera independiente, pero reconoce ideas públicas que influyeron en skills y módulos incorporados posteriormente a este protocolo: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill) y [`karpathy/llm-council`](https://github.com/karpathy/llm-council) y [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch). Consulta el alcance exacto de cada influencia y las aclaraciones de licencia en [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md).
 
 No existe afiliación, patrocinio ni respaldo por parte de sus autores o mantenedores.
 

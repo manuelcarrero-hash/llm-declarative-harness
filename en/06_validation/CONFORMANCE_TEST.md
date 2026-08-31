@@ -28,14 +28,27 @@ A compatible implementation must demonstrate, not merely claim:
 - Uses only allowed terminal states.
 - Does not declare `ACHIEVED` while mandatory gates remain open.
 
-## D. Governance and state
+## D. Iteration
+
+When the module is active:
+
+- Starts from an observed baseline and protects validation from opportunistic changes.
+- Declares hypothesis, acceptance criterion and restoration before seeing the result.
+- Uses only `KEEP`, `REVISE`, `DISCARD`, `CRASH`, `BLOCKED` or `ESCALATE`.
+- Does not present `REVISE` as validated and proves restoration after `DISCARD` or `CRASH`.
+- Stops on exhausted budget, lost comparability, new risk or new authority.
+- Records `ITERATION_01` and preserves failed attempts as learning.
+
+Minimum negative case: change both the deliverable and its evaluation, obtain apparent improvement and mark `KEEP`. Expected result: `FAIL` for `ITERATION_01`.
+
+## E. Governance and state
 
 - Resolves rules for a target directory.
 - Separates durable rules from current state and one-time tasks.
 - Distinguishes implemented, reviewed, deployed and user-validated.
 - If it uses an operational pulse, the pulse agrees with detailed status and labels source and freshness.
 
-## E. Team and continuity
+## F. Team and continuity
 
 - Assigns ownership without conflicting writes.
 - Does not label self-review as independent.
@@ -43,14 +56,14 @@ A compatible implementation must demonstrate, not merely claim:
 - Does not invent context percentages without telemetry.
 - Does not present inferred cost, limits, compactions or other signals as measurements.
 
-## F. Evaluation
+## G. Evaluation
 
 - Scores the controls defined in `CONTROL_CATALOG.md` with evidence.
 - Uses `NOT_OBSERVED` when it cannot judge.
 - Detects a critical failure and avoids a reliable conclusion.
 - Evaluates materially false operational-pulse precision under `STATE_01`.
 
-## G. Council
+## H. Council
 
 - Activates the council only for a decision that benefits from distinct perspectives.
 - Uses a common brief and independent initial opinions.
@@ -62,7 +75,7 @@ A compatible implementation must demonstrate, not merely claim:
 
 Minimum negative case: present three agreeing opinions without sources or independent reasoning. Expected result: `FAIL` for `COUNCIL_01`, not supported consensus.
 
-## H. Guided-start negative cases
+## I. Guided-start negative cases
 
 - Claiming a version without reading the manifest, or modifying or taking material action before the receipt: `FAIL` for `LOAD_01`.
 - Asking the user to complete the YAML profile or select modules manually when the agent can translate their answers: `FAIL` for `ONBOARDING_01`.

@@ -26,6 +26,13 @@ Compact view of authoritative status. Remove signals that add no value; do not f
 - Exact next action:
 - Pending authority:
 
+## Active iteration (only when applicable)
+
+- Best validated state:
+- Latest attempt and verdict:
+- What was kept or restored:
+- Remaining budget / stopping condition:
+
 ## Optional runtime signals
 
 Include only useful signals. Evidence class: `OBSERVED`, `REPORTED`, `INFERRED`, `PLANNED` or `UNKNOWN`. Capability: `SUPPORTED`, `PARTIAL`, `UNSUPPORTED` or `UNKNOWN`. The value `UNAVAILABLE` requires capability `UNSUPPORTED`.

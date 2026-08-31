@@ -1,7 +1,7 @@
 schema_version: "1.2"
 harness:
   name: "Arnés declarativo agnóstico para LLMs"
-  version: "0.4.1"
+  version: "0.5.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -44,6 +44,9 @@ modules:
   - id: goal
     path: "02_modulos/OBJETIVO.md"
     activate_when: "trabajo sustancial con resultado verificable"
+  - id: iteration
+    path: "02_modulos/ITERACION.md"
+    activate_when: "varios intentos reversibles pueden compararse contra una validación estable"
   - id: governance
     path: "02_modulos/GOBERNANZA.md"
     activate_when: "existen o se requieren reglas para agentes"
@@ -68,6 +71,7 @@ templates:
   startup_summary: "03_plantillas/RESUMEN_ARRANQUE.template.md"
   goal: "03_plantillas/CONTRATO_OBJETIVO.template.md"
   governance: "03_plantillas/AGENTS.template.md"
+  iteration_log: "03_plantillas/REGISTRO_ITERACIONES.template.md"
   status: "03_plantillas/PROJECT_STATUS.template.md"
   operational_pulse: "03_plantillas/PULSO_OPERATIVO.template.md"
   handoff: "03_plantillas/HANDOFF.template.md"
