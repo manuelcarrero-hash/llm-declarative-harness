@@ -11,7 +11,7 @@ Spanish is the canonical source. The English version must preserve the same obli
 | `../03_plantillas/` | `03_templates/` | Equivalent fields, including load receipt, startup summary, capabilities, Council, Iteration, assignment, trace and operational pulse |
 | `../04_adaptadores/` | `04_adapters/` | Equivalent schema 1.1 and authority fields |
 | `../05_ejemplos/` | `05_examples/` | Equivalent software, non-code, guided-start and non-technical comprehension scenarios |
-| `../06_validacion/` | `06_validation/` | Equivalent `LOAD_01`, `ONBOARDING_01`, `AUTHORITY_01`, `EXECUTION_01`, `EXPERIENCE_01`, `ITERATION_01`, `ORCHESTRATION_01`, exploratory runs and negative cases |
+| `../06_validacion/` | `06_validation/` | Equivalent `LOAD_01`, `ONBOARDING_01`, `AUTHORITY_01`, `EXECUTION_01`, `EXPERIENCE_01`, `ITERATION_01`, `ORCHESTRATION_01`, regression suite, exploratory runs and negative cases |
 
 ## Update rule
 
