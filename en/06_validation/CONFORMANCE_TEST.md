@@ -62,6 +62,11 @@ Minimum negative case: change both the deliverable and its evaluation, obtain ap
 - A second wave responds to an observed gap and remains within budget.
 - Failures are classified and retries bounded; no indefinite repetition.
 - Records `ORCHESTRATION_01` when Team is active.
+- Activates the work map only with three or more material outcomes, an observable dependency and cross-outcome impact risk.
+- Links every material Reviewer finding to the direct outcome, failed or missing evidence and potential dependents.
+- Preserves a frontier only with current evidence and known dependencies; ambiguity triggers conservative invalidation and wider reverification.
+- Explains only what is verified, what will be corrected and where work will resume; it does not ask the person to configure graphs or relationships.
+- Records `DEPENDENCY_01` when the map preserves outcomes or enables partial resumption.
 
 Minimum negative case: create three agents with the same assignment for a simple task and synthesize their responses without artifacts. Expected result: `FAIL` for `ORCHESTRATION_01`.
 
