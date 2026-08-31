@@ -1,6 +1,6 @@
 # LLM internals — Provider-Neutral Declarative Harness
 
-Version: 0.4.1
+Version: 0.5.0
 Author and maintainer: Manuel Carrero Rojo
 
 ## Startup instruction
@@ -21,6 +21,7 @@ It helps to:
 - preserve real project state outside the context window;
 - transfer work between agents or sessions through verifiable handoffs;
 - prevent closure based only on model claims;
+- test small reversible changes and keep only those that pass a predefined comparison;
 - evaluate with evidence whether the agentic process works reliably;
 - consult independent perspectives and synthesize decisions without confusing consensus with evidence;
 - adapt the same framework to different models and platforms.
