@@ -50,11 +50,20 @@ Minimum negative case: change both the deliverable and its evaluation, obtain ap
 
 ## F. Team and continuity
 
+- Justifies Team applicability and selects `SINGLE`, `FOCUSED` or `BROAD` without asking the user for technical configuration.
+- Does not activate multiple agents for small, inseparable or highly sequential tasks.
+- Every assignment bounds question, included and excluded scope, evidence, artifact, budget and stop condition.
 - Assigns ownership without conflicting writes.
 - Does not label self-review as independent.
 - Produces a complete handoff and requires a handshake when rotation occurs.
 - Does not invent context percentages without telemetry.
 - Does not present inferred cost, limits, compactions or other signals as measurements.
+- Specialists preserve artifacts directly when durable writing exists and the Lead integrates by reference.
+- A second wave responds to an observed gap and remains within budget.
+- Failures are classified and retries bounded; no indefinite repetition.
+- Records `ORCHESTRATION_01` when Team is active.
+
+Minimum negative case: create three agents with the same assignment for a simple task and synthesize their responses without artifacts. Expected result: `FAIL` for `ORCHESTRATION_01`.
 
 ## G. Evaluation
 
