@@ -47,6 +47,14 @@ El Arnés declarativo agnóstico para LLMs fue desarrollado de manera independie
 - **Adaptación en este arnés:** Equipo, Continuidad, Evaluador y los artefactos de validación expresan estas ideas como reglas declarativas neutrales, manteniendo invisible para usuarios no técnicos la selección y coordinación de agentes.
 - **Scope note / Nota de alcance:** this is conceptual influence from a public engineering article; the harness does not copy Anthropic production prompts, runtime, telemetry or source code.
 
+### [Graph Engineering in the Era of LLM Agents](https://arxiv.org/abs/2608.21156) and [3 Years of Graph Engineering with LangGraph](https://www.langchain.com/blog/3-years-of-graph-engineering-with-langgraph)
+
+- **Influence:** explicit relationships among outcomes, agents and runtime state; impact localization, cyclic review and resumption from supported checkpoints.
+- **Influencia:** relaciones explícitas entre resultados, agentes y estado de ejecución; localización de impacto, revisión cíclica y reanudación desde checkpoints sustentados.
+- **Adaptation in this harness:** a small optional declarative work map, dependency-aware review and conservative resumption frontier. The person does not configure graphs, and the harness does not require LangGraph, a graph database or any provider-specific runtime.
+- **Adaptación en este arnés:** un mapa de trabajo declarativo, pequeño y opcional; revisión consciente de dependencias y una frontera conservadora de reanudación. La persona no configura grafos y el arnés no requiere LangGraph, una base de grafos ni un runtime específico.
+- **Scope note / Nota de alcance:** the academic term is recent and its operational value is treated as a hypothesis to validate through real runs. The harness adopts only independently written conceptual patterns.
+
 ## Independence and scope / Independencia y alcance
 
 These acknowledgements describe conceptual influence. Unless a future file explicitly states otherwise, this repository does not incorporate source code, prompts, datasets, branding or runtime components from the referenced projects.
