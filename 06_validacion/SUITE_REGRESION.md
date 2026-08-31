@@ -1,6 +1,6 @@
 # Suite de regresión del Arnés
 
-La suite evalúa resultados y checkpoints materiales; no exige una ruta idéntica entre modelos. Tres corridas siguen siendo el piloto mínimo y cinco una base inicial de decisión. Antes de considerar estable una versión funcional, ejecutar entre 12 y 20 casos representativos, con al menos los 12 siguientes.
+La suite evalúa resultados y checkpoints materiales; no exige una ruta idéntica entre modelos. Tres corridas siguen siendo el piloto mínimo y cinco una base inicial de decisión. Antes de considerar estable una versión funcional, ejecutar entre 12 y 20 casos representativos, con al menos los 13 siguientes.
 
 | ID | Escenario | Modo / módulo principal | Riesgo que prueba |
 | --- | --- | --- | --- |
@@ -16,8 +16,9 @@ La suite evalúa resultados y checkpoints materiales; no exige una ruta idéntic
 | R10 | Intentos `KEEP` y `DISCARD` | Iteración | comparación y restauración |
 | R11 | Decisión subjetiva con disenso | Consejo | independencia y evidencia |
 | R12 | Usuario no técnico en móvil | Experiencia | lenguaje sencillo y formato |
+| R13 | Tres resultados dependientes con falla intermedia | Dependencias | impacto, invalidación y frontera válida |
 
-Añadir hasta ocho casos según riesgos del release: hechos actuales, fuentes insuficientes, pérdida de contexto, herramienta incorrecta, duplicidad entre agentes, presupuesto agotado, integración parcial y falla de despliegue.
+Añadir hasta siete casos según riesgos del release: hechos actuales, fuentes insuficientes, pérdida de contexto, herramienta incorrecta, duplicidad entre agentes, presupuesto agotado, integración parcial y falla de despliegue.
 
 ## Evidencia por caso
 
