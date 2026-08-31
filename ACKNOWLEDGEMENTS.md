@@ -31,6 +31,14 @@ El Arnés declarativo agnóstico para LLMs fue desarrollado de manera independie
 - **Licensing note:** no repository license was exposed through GitHub when this acknowledgement was written. This project therefore cites the public concept and repository only; it does not claim a right to copy unlicensed source code.
 - **Nota de licencia:** GitHub no mostraba una licencia para ese repositorio al redactar este reconocimiento. Por ello este proyecto cita únicamente el concepto y el repositorio públicos; no afirma derecho a copiar código fuente sin licencia.
 
+### [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch)
+
+- **Influence:** a bounded experimental loop built around a baseline, a stable evaluation, small changes, explicit keep/discard decisions and a durable attempt log.
+- **Influencia:** un loop experimental acotado basado en línea base, evaluación estable, cambios pequeños, decisiones explícitas de conservar o descartar y registro durable de intentos.
+- **Adaptation in this harness:** the optional Iteration module generalizes that discipline beyond machine-learning experiments, adds human authority, risk and stopping conditions, independent review when available, non-destructive restoration and plain-language output for non-technical users. It does not copy the autonomous runtime, training code or original prompt.
+- **Adaptación en este arnés:** el módulo opcional de Iteración generaliza esa disciplina más allá de experimentos de machine learning y añade autoridad humana, condiciones de riesgo y parada, revisión independiente cuando está disponible, restauración no destructiva y una salida sencilla para personas no técnicas. No copia el runtime autónomo, el código de entrenamiento ni el prompt original.
+- **Licensing note / Nota de licencia:** the upstream README stated MIT when this acknowledgement was written. This harness uses the public design idea and independently written declarative text.
+
 ## Independence and scope / Independencia y alcance
 
 These acknowledgements describe conceptual influence. Unless a future file explicitly states otherwise, this repository does not incorporate source code, prompts, datasets, branding or runtime components from the referenced projects.
