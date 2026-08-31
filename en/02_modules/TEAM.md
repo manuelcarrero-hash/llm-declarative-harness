@@ -41,6 +41,12 @@ Add QA, security, design, research or evidence review only when a useful boundar
 
 Each assignment must include objective, exact question, boundary, included and excluded scope, preferred sources or tools, unauthorized actions, format, evidence, artifact, completion condition, stop condition and budget.
 
+## Dependencies among outcomes
+
+When at least three material outcomes exist, an observable dependency connects them and changing one may affect another's validity, internally generate `../03_templates/WORK_MAP.template.md`. The Lead maintains outcomes, dependencies, artifacts and evidence; the person does not draw the map or configure relationships.
+
+The map is derived and disposable: it does not replace artifacts or authoritative state. Record only supported dependencies. When a relationship is ambiguous or unverifiable, do not use the map to preserve work without renewed validation.
+
 ## Artifacts and fidelity
 
 When compatible durable writing exists, the specialist agent preserves its result directly and returns a lightweight reference to the Lead. The Lead integrates by reference and does not unnecessarily rewrite source content. Without durable writing, disclose the degradation and preserve structured output in the available medium.
