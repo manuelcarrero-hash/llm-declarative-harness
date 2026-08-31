@@ -1,6 +1,6 @@
 # LLM internals — Provider-Neutral Declarative Harness
 
-Version: 0.5.0
+Version: 0.6.0
 Author and maintainer: Manuel Carrero Rojo
 
 ## Startup instruction
@@ -17,7 +17,8 @@ It helps to:
 
 - transform a broad request into an objective with scope and completion criteria;
 - establish durable rules for agents working on a project;
-- coordinate a lead, workers and reviewers when the platform supports separate agents;
+- coordinate a lead, workers and reviewers only when independent workstreams justify the cost;
+- scale effort, delegate in waves and preserve artifacts without loss through repeated summaries;
 - preserve real project state outside the context window;
 - transfer work between agents or sessions through verifiable handoffs;
 - prevent closure based only on model claims;
@@ -64,7 +65,7 @@ Enable an LLM capable of acting on projects to:
 
 1. convert intent into a verifiable objective;
 2. discover rules applicable to the workplace;
-3. divide work without losing ownership or authority;
+3. divide and scale work without losing ownership, fidelity or authority;
 4. maintain durable state outside the conversation;
 5. transfer work to a clean session or agent;
 6. close only with evidence;
