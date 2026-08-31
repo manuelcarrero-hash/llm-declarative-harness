@@ -26,6 +26,13 @@ Vista compacta del estado autoritativo. Eliminar señales que no aporten; no rel
 - Siguiente acción exacta:
 - Autoridad pendiente:
 
+## Iteración activa (sólo si aplica)
+
+- Mejor estado validado:
+- Último intento y veredicto:
+- Qué se conservó o restauró:
+- Presupuesto restante / condición de parada:
+
 ## Señales opcionales de runtime
 
 Incluir sólo señales útiles. Clase de evidencia: `OBSERVED`, `REPORTED`, `INFERRED`, `PLANNED` o `UNKNOWN`. Capacidad: `SUPPORTED`, `PARTIAL`, `UNSUPPORTED` o `UNKNOWN`. El valor `UNAVAILABLE` exige capacidad `UNSUPPORTED`.
