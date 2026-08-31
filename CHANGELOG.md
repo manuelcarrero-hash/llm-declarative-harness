@@ -1,5 +1,28 @@
 # Changelog / Registro de cambios
 
+## 0.5.0 — 2026-08-31
+
+### Español
+
+- Se añadió el módulo opcional de Iteración para trabajos con intentos reversibles y comparables.
+- Se exige línea base, criterio de aceptación previo, evaluación íntegra, veredicto y restauración o incorporación verificable.
+- Se fortaleció al Reviewer para comprobar comparabilidad, regresiones, costo de complejidad y restauración.
+- Se añadieron registro bilingüe de iteraciones, resumen sencillo en el pulso y control crítico `ITERATION_01`.
+- Se corrigió la plantilla de evaluación para incluir `EXECUTION_01` y `EXPERIENCE_01`, ya presentes en el catálogo.
+- Se mantuvo la experiencia no técnica: el agente selecciona y configura internamente el loop; la persona recibe sólo resultados y decisiones materiales.
+- Se reconoció la influencia conceptual de `karpathy/autoresearch`.
+
+### English
+
+- Added the optional Iteration module for work with reversible comparable attempts.
+- Required a baseline, prior acceptance criterion, intact evaluation, verdict, and verifiable restoration or incorporation.
+- Strengthened Reviewer duties to verify comparability, regressions, complexity cost and restoration.
+- Added bilingual iteration logs, a plain pulse summary and critical control `ITERATION_01`.
+- Corrected the evaluation template to include `EXECUTION_01` and `EXPERIENCE_01`, which were already present in the catalog.
+- Preserved the non-technical experience: the agent selects and configures the loop internally; the person sees only results and material decisions.
+- Acknowledged the conceptual influence of `karpathy/autoresearch`.
+
+
 ## 0.4.1 — 2026-08-30
 
 ### Español
