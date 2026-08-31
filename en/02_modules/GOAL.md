@@ -8,7 +8,7 @@ Define the objective, completion evidence, scope, authoritative sources, boundar
 
 ## Execution
 
-Address the highest-value gap with the smallest authorized change; validate it; compare it against every criterion; record learning; and continue with a different strategy if the work does not converge.
+Address the highest-value gap with the smallest authorized change; validate it; compare it against every criterion; record learning; and continue with a different strategy if the work does not converge. When this requires several reversible comparable attempts, activate `ITERATION.md`; the brief ledger in this contract does not replace that protocol.
 
 ## Closure
 
