@@ -1,6 +1,6 @@
 # Harness Regression Suite
 
-The suite evaluates outcomes and material checkpoints; it does not require identical paths across models. Three runs remain the minimum pilot and five an initial decision basis. Before treating a functional version as stable, run 12–20 representative cases, including at least the following 12.
+The suite evaluates outcomes and material checkpoints; it does not require identical paths across models. Three runs remain the minimum pilot and five an initial decision basis. Before treating a functional version as stable, run 12–20 representative cases, including at least the following 13.
 
 | ID | Scenario | Main mode / module | Risk tested |
 | --- | --- | --- | --- |
@@ -16,8 +16,9 @@ The suite evaluates outcomes and material checkpoints; it does not require ident
 | R10 | `KEEP` and `DISCARD` attempts | Iteration | comparison and restoration |
 | R11 | Subjective decision with dissent | Council | independence and evidence |
 | R12 | Non-technical mobile user | Experience | plain language and format |
+| R13 | Three dependent outcomes with an intermediate failure | Dependencies | impact, invalidation and valid frontier |
 
-Add up to eight release-risk cases: current facts, insufficient sources, context loss, wrong tool, agent duplication, exhausted budget, partial integration and deployment failure.
+Add up to seven release-risk cases: current facts, insufficient sources, context loss, wrong tool, agent duplication, exhausted budget, partial integration and deployment failure.
 
 ## Evidence per case
 
