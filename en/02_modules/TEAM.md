@@ -26,9 +26,21 @@ Start with the smallest sufficient level. Ranges are heuristics, not quotas. Mor
 
 - **Lead:** contract, authority, strategy, budget, integration and closure.
 - **Builder / Worker:** bounded execution, evidence and own artifact.
-- **Reviewer:** independent inspection of the actual change; verdict `APPROVED` or `CHANGES_REQUIRED`. When Iteration is active, also verify baseline, comparability, validation integrity, regressions, complexity cost and restoration.
+- **Reviewer:** independent inspection of the contract and actual change; verdict `APPROVED` or `CHANGES_REQUIRED`. When Iteration is active, also verify baseline, comparability, validation integrity, regressions, complexity cost and restoration.
 
 Add QA, security, design, research or evidence review only when a useful boundary exists. One agent performing several personas does not prove independence.
+
+## Pre-execution review contract
+
+When a material change requires an independent Reviewer, that Reviewer must inspect before execution: expected outcome, confirmed material decisions, observable behaviors, evidence, critical flows, rejection thresholds and unauthorized actions. The Builder proposes how to demonstrate `Done`; the Reviewer identifies insufficient coverage, untestable criteria or incentives to approve incomplete work. The Lead resolves disagreement without expanding scope or replacing a decision reserved to the user.
+
+Do not require this negotiation for small tasks or when the platform cannot provide independence. In that case, apply proportional pre-delivery review and disclose the degradation. The technical agreement stays internal unless it exposes a material decision for the person.
+
+## QA on the real artifact
+
+When an executable or interactive artifact exists and tools are available, the Reviewer must exercise critical flows through the same surface the person would use and verify observable effects across relevant layers. Reading the diff, inspecting a static screenshot, confirming that a function exists or accepting the Builder's report is insufficient. Record flow, action, expected result, observed result and evidence.
+
+When the real surface is unavailable, declare `PARTIAL` and run the best substitute without presenting it as end-to-end proof. Every mandatory criterion has its own rejection threshold: visual, technical or narrative strength does not compensate for failure of a core function.
 
 ## Delegation in waves
 

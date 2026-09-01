@@ -1,6 +1,6 @@
 # Interior para LLM — Arnés declarativo agnóstico
 
-Versión: 0.8.0
+Versión: 0.9.0
 Autor y mantenedor: Manuel Carrero Rojo
 
 ## Instrucción de arranque
@@ -28,6 +28,7 @@ Ayuda a:
 - consultar perspectivas independientes y sintetizar decisiones sin confundir consenso con evidencia;
 - adaptar el mismo marco de trabajo a distintos modelos y plataformas.
 - cerrar con la persona las decisiones materiales ambiguas, comprobar las premisas que podrían invalidar el resultado y revisar la entrega antes de conservarla como estado.
+- hacer que el Reviewer acuerde criterios antes de cambios materiales, pruebe artefactos por sus flujos reales y se calibre cuando el juicio humano revele una discrepancia sustentada.
 
 ## Cuándo usarlo
 

@@ -1,6 +1,6 @@
 # LLM internals — Provider-Neutral Declarative Harness
 
-Version: 0.8.0
+Version: 0.9.0
 Author and maintainer: Manuel Carrero Rojo
 
 ## Startup instruction
@@ -28,6 +28,7 @@ It helps to:
 - consult independent perspectives and synthesize decisions without confusing consensus with evidence;
 - adapt the same framework to different models and platforms.
 - close material ambiguities with the person, verify premises that could invalidate the outcome, and review the deliverable before preserving it as state.
+- have the Reviewer agree on criteria before material changes, exercise artifacts through real flows, and calibrate when grounded human judgment exposes a disagreement.
 
 ## When to use it
 

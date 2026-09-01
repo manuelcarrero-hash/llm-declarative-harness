@@ -13,6 +13,10 @@
 - Boundaries and unauthorized actions:
 - Required validation:
 - Pre-delivery review: `pending | passed`; brief evidence:
+- Independent Reviewer required: `yes | no`; rationale:
+- Pre-execution review contract: `not applicable | pending | approved | changes required`; evidence:
+- Critical flows and rejection threshold per criterion:
+- Real QA surface: `available | partial | unavailable`; tool or limit:
 - Checkpoints:
 - Iteration applicable: `Yes / No`; rationale:
 - Loop budget or stopping condition:
