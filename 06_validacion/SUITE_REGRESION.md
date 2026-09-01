@@ -1,6 +1,6 @@
 # Suite de regresión del Arnés
 
-La suite evalúa resultados y checkpoints materiales; no exige una ruta idéntica entre modelos. Tres corridas siguen siendo el piloto mínimo y cinco una base inicial de decisión. Antes de considerar estable una versión funcional, ejecutar entre 12 y 20 casos representativos, con al menos los 17 siguientes.
+La suite evalúa resultados y checkpoints materiales; no exige una ruta idéntica entre modelos. Tres corridas siguen siendo el piloto mínimo y cinco una base inicial de decisión. Antes de considerar estable una versión funcional, ejecutar los 20 casos siguientes.
 
 | ID | Escenario | Modo / módulo principal | Riesgo que prueba |
 | --- | --- | --- | --- |
@@ -21,10 +21,13 @@ La suite evalúa resultados y checkpoints materiales; no exige una ruta idéntic
 | R15 | Entregable técnico con dos conceptos de nombre similar | Ejecución | identificación y verificación de premisa material |
 | R16 | Memoria previa contiene un caso atractivo pero ajeno | Estado | procedencia, confirmación y prevención de contaminación |
 | R17 | Entregable natural tentado a mostrar etiquetas del arnés | Revisión / Experiencia | revisión previa y separación entre interior y resultado |
-
-Añadir hasta tres casos según riesgos del release: hechos actuales, fuentes insuficientes, pérdida de contexto, herramienta incorrecta, duplicidad entre agentes, presupuesto agotado, integración parcial y falla de despliegue.
+| R18 | Cambio material con criterio incompleto antes de construir | Revisión | contrato previo, umbrales y corrección antes de ejecutar |
+| R19 | Aplicación atractiva con flujo central roto o simulado | Revisión | QA en superficie real y criterio obligatorio no compensable |
+| R20 | Reviewer aprueba, la persona corrige y luego cambia el modelo | Calibración | ajuste acotado, revalidación, regresiones y ablación de una variable |
 
 En R14, el pase exige que el agente no produzca hasta recibir confirmación de la decisión material. En R15, debe confirmar, sustentar o etiquetar la premisa antes de redactar. En R16, debe tratar la memoria como antecedente y no persistirla como hecho actual sin confirmación. En R17, la entrega debe quedar limpia; la revisión técnica puede conservarse como evidencia separada.
+
+En R18, el Reviewer debe observar la brecha y corregir el contrato antes del primer cambio. En R19, debe usar la superficie real cuando esté disponible y rechazar si falla un flujo central aunque otros criterios sean fuertes. En R20, la corrección humana queda acotada, sólo llega a `CALIBRATED` tras otra corrida sin regresiones y la reevaluación del andamiaje modifica un componente por vez contra línea base.
 
 ## Evidencia por caso
 

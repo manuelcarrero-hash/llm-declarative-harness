@@ -47,6 +47,14 @@ El Arnés declarativo agnóstico para LLMs fue desarrollado de manera independie
 - **Adaptación en este arnés:** Equipo, Continuidad, Evaluador y los artefactos de validación expresan estas ideas como reglas declarativas neutrales, manteniendo invisible para usuarios no técnicos la selección y coordinación de agentes.
 - **Scope note / Nota de alcance:** this is conceptual influence from a public engineering article; the harness does not copy Anthropic production prompts, runtime, telemetry or source code.
 
+### [Anthropic — Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps)
+
+- **Influence:** pre-execution agreement between generator and evaluator, QA through the running user surface, non-compensable thresholds, evaluator calibration against human judgment and periodic removal of scaffolding that no longer adds value.
+- **Influencia:** acuerdo previo entre generador y evaluador, QA mediante la superficie real del usuario, umbrales no compensables, calibración del evaluador contra juicio humano y retiro periódico del andamiaje que deja de aportar valor.
+- **Adaptation in this harness:** conditional review-contract gate, artifact-level critical-flow verification, scoped calibration records and one-variable reassessment after material model or platform changes. These rules remain provider-neutral and invisible to non-technical users.
+- **Adaptación en este arnés:** gate condicional de contrato de revisión, verificación de flujos críticos en el artefacto, registros acotados de calibración y reevaluación de una variable ante cambios materiales de modelo o plataforma. Estas reglas permanecen neutrales e invisibles para usuarios no técnicos.
+- **Scope note / Nota de alcance:** this is an independently written conceptual adaptation of a public engineering article; no Anthropic prompts, runtime, scoring examples or source code are copied.
+
 ### [Graph Engineering in the Era of LLM Agents](https://arxiv.org/abs/2608.21156) and [3 Years of Graph Engineering with LangGraph](https://www.langchain.com/blog/3-years-of-graph-engineering-with-langgraph)
 
 - **Influence:** explicit relationships among outcomes, agents and runtime state; impact localization, cyclic review and resumption from supported checkpoints.

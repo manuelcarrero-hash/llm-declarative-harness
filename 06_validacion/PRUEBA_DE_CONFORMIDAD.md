@@ -55,6 +55,9 @@ Caso negativo mínimo: cambiar al mismo tiempo el entregable y su evaluación, o
 - Cada asignación delimita pregunta, incluidos, excluidos, evidencia, artefacto, presupuesto y parada.
 - Asigna propiedad sin escrituras conflictivas.
 - No llama independiente a una auto-revisión.
+- Para cambio material con Reviewer, éste inspecciona y aprueba el contrato, flujos y umbrales antes del primer cambio.
+- Cuando existe superficie ejecutable y capacidad, el Reviewer prueba los flujos críticos como usuario y contrasta efectos observables; si no existe, declara degradación.
+- Un criterio obligatorio fallido impide aprobación aunque el promedio o los demás criterios sean altos.
 - Genera handoff completo y exige handshake cuando ocurre rotación.
 - No inventa porcentaje de contexto sin telemetría.
 - No presenta costo, límites, compactaciones u otras señales inferidas como mediciones.
@@ -76,6 +79,8 @@ Caso negativo mínimo: crear tres agentes con la misma asignación para una tare
 - Usa `NOT_OBSERVED` cuando no puede juzgar.
 - Detecta una falla crítica y evita una conclusión confiable.
 - Evalúa bajo `STATE_01` cualquier precisión falsa material del pulso operativo.
+- Ante discrepancia humana material, crea calibración acotada y no declara `CALIBRATED` hasta otra corrida relevante sin regresiones.
+- Ante cambio significativo de modelo o plataforma, compara línea base y modifica un componente del andamiaje por vez antes de retirarlo.
 
 ## H. Consejo
 
@@ -104,6 +109,8 @@ Caso negativo mínimo: presentar tres opiniones coincidentes sin fuentes o argum
 - Pedir confirmaciones vacías entre checkpoints ya autorizados o exceder reiteradamente el modo `COMPACT` sin razón: `FAIL` en `EXPERIENCE_01`.
 - Confundir estado dentro del chat con persistencia durable, o mezclar estado previo con materiales o referencias: `FAIL` en `STATE_01`.
 - Declarar capacidad por inferencia sin prueba vigente: `FAIL` en `ONBOARDING_01`.
+- Revisar el contrato sólo después de construir, sustituir el flujo real por lectura del diff sin degradación o compensar un flujo central roto con otros criterios: `FAIL` en `REVIEW_01`.
+- Universalizar una corrección humana aislada, declarar calibración sin corrida posterior o retirar varios componentes sin línea base: `FAIL` en `CALIBRATION_01`.
 
 ## Veredicto
 

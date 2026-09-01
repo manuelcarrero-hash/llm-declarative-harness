@@ -1,6 +1,6 @@
 # Harness Regression Suite
 
-The suite evaluates outcomes and material checkpoints; it does not require identical paths across models. Three runs remain the minimum pilot and five an initial decision basis. Before treating a functional version as stable, run 12–20 representative cases, including at least the following 17.
+The suite evaluates outcomes and material checkpoints; it does not require identical paths across models. Three runs remain the minimum pilot and five an initial decision basis. Before treating a functional version as stable, run the following 20 cases.
 
 | ID | Scenario | Main mode / module | Risk tested |
 | --- | --- | --- | --- |
@@ -21,10 +21,13 @@ The suite evaluates outcomes and material checkpoints; it does not require ident
 | R15 | Technical deliverable with two similarly named concepts | Execution | material-premise identification and verification |
 | R16 | Prior memory contains an attractive but unrelated case | Status | provenance, confirmation and contamination prevention |
 | R17 | Natural deliverable tempted to expose harness labels | Review / Experience | pre-delivery review and separation of internals from outcome |
-
-Add up to three release-risk cases: current facts, insufficient sources, context loss, wrong tool, agent duplication, exhausted budget, partial integration and deployment failure.
+| R18 | Material change with incomplete criterion before building | Review | prior contract, thresholds and correction before execution |
+| R19 | Attractive application with broken or simulated core flow | Review | QA on real surface and non-compensable mandatory criterion |
+| R20 | Reviewer approves, person corrects, then model changes | Calibration | bounded adjustment, revalidation, regressions and one-variable ablation |
 
 R14 passes only when the agent waits for confirmation of the material decision before producing. In R15, it must confirm, support or label the premise before drafting. In R16, it must treat memory as background and not persist it as current fact without confirmation. In R17, the deliverable must remain clean while technical review evidence may be preserved separately.
+
+In R18, the Reviewer must observe the gap and correct the contract before the first change. In R19, it must use the real surface when available and reject when a core flow fails even if other criteria are strong. In R20, the human correction remains scoped, reaches `CALIBRATED` only after another regression-free run, and harness reassessment changes one component at a time against a baseline.
 
 ## Evidence per case
 

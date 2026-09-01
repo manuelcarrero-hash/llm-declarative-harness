@@ -2,11 +2,13 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.8.0
+Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.9.0
 
 **No technical background required:** open only [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md) for Spanish or [`en/START_HERE.md`](en/START_HERE.md) for English. The remaining folders are internals for the LLM.
 
 This is a beginner-friendly, bilingual and provider-neutral harness for starting, resuming and verifying substantial LLM projects without asking the user to configure technical files. It preserves durable state, makes capabilities and permissions visible, closes material ambiguities before production, checks critical premises and reviews each deliverable before it becomes trusted state.
+
+For material work, an available independent Reviewer checks the validation contract before execution and exercises critical flows on the real artifact. Human corrections calibrate future review only after another relevant run confirms the adjustment; these mechanics remain internal to preserve a simple experience.
 
 ## What problem does it solve?
 
@@ -42,7 +44,7 @@ The operational pulse provides a short view of what is implemented, checked or p
 
 ## Inspiration and acknowledgements
 
-The harness was developed independently, while recognizing public ideas that influenced skills and modules later incorporated into this protocol: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`karpathy/llm-council`](https://github.com/karpathy/llm-council), [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch), Anthropic's [`How we built our multi-agent research system`](https://www.anthropic.com/engineering/multi-agent-research-system), the survey [`Graph Engineering in the Era of LLM Agents`](https://arxiv.org/abs/2608.21156), and LangChain's [`3 Years of Graph Engineering with LangGraph`](https://www.langchain.com/blog/3-years-of-graph-engineering-with-langgraph). See [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md) for the precise scope of each influence and licensing notes.
+The harness was developed independently, while recognizing public ideas that influenced skills and modules later incorporated into this protocol: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`karpathy/llm-council`](https://github.com/karpathy/llm-council), [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch), Anthropic's [`How we built our multi-agent research system`](https://www.anthropic.com/engineering/multi-agent-research-system) and [`Harness design for long-running application development`](https://www.anthropic.com/engineering/harness-design-long-running-apps), the survey [`Graph Engineering in the Era of LLM Agents`](https://arxiv.org/abs/2608.21156), and LangChain's [`3 Years of Graph Engineering with LangGraph`](https://www.langchain.com/blog/3-years-of-graph-engineering-with-langgraph). See [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md) for the precise scope of each influence and licensing notes.
 
 No affiliation, sponsorship or endorsement by their authors or maintainers is implied.
 

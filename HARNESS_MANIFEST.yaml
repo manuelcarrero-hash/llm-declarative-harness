@@ -1,7 +1,7 @@
 schema_version: "1.2"
 harness:
   name: "Arnés declarativo agnóstico para LLMs"
-  version: "0.8.0"
+  version: "0.9.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -43,6 +43,8 @@ invariants:
   - "No tratar consenso, mayoría o repetición como sustituto de evidencia."
   - "No elegir silenciosamente una decisión material que el usuario dejó ambigua."
   - "No producir ni guardar como hecho una premisa material no confirmada o no sustentada."
+  - "No compensar un criterio obligatorio fallido con una aprobación global o fortalezas ajenas."
+  - "No declarar calibrado un ajuste del Reviewer sin otra corrida relevante y sin regresiones materiales."
 
 capability_labels: [SUPPORTED, PARTIAL, UNSUPPORTED, UNKNOWN]
 authorization_labels: [NOT_REQUIRED, REQUIRED, GRANTED, DENIED, UNKNOWN]
@@ -87,6 +89,7 @@ templates:
   operational_pulse: "03_plantillas/PULSO_OPERATIVO.template.md"
   handoff: "03_plantillas/HANDOFF.template.md"
   evaluation: "03_plantillas/EVALUACION.template.json"
+  reviewer_calibration: "03_plantillas/CALIBRACION_REVISOR.template.md"
   capabilities: "04_adaptadores/PERFIL_CAPACIDADES.template.yaml"
   council_brief: "03_plantillas/EXPEDIENTE_CONSEJO.template.md"
 
@@ -94,7 +97,7 @@ validation:
   conformance: "06_validacion/PRUEBA_DE_CONFORMIDAD.md"
   control_catalog: "06_validacion/CATALOGO_DE_CONTROLES.md"
   regression_suite: "06_validacion/SUITE_REGRESION.md"
-  release_regression_cases: [17, 20]
+  release_regression_cases: [20, 20]
   minimum_real_runs: 3
   stronger_decision_sample: 5
 

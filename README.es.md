@@ -2,11 +2,13 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.8.0
+Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.9.0
 
 **Si no tienes conocimientos técnicos:** abre únicamente [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md). Las carpetas restantes son el interior que debe consultar el LLM.
 
 Este es un arnés bilingüe y neutral que permite iniciar, continuar y verificar proyectos sustanciales con un LLM sin pedir al usuario configurar archivos técnicos. Conserva estado durable, hace visibles capacidades y permisos, cierra ambigüedades materiales antes de producir, comprueba premisas críticas y revisa cada entrega antes de convertirla en estado confiable.
+
+Para trabajo material, un Reviewer independiente disponible comprueba el contrato de validación antes de ejecutar y recorre los flujos críticos sobre el artefacto real. Las correcciones humanas calibran revisiones futuras sólo después de confirmarse en otra corrida relevante; esta mecánica permanece interna para conservar una experiencia sencilla.
 
 ## ¿Qué problema resuelve?
 
@@ -42,7 +44,7 @@ El pulso operativo ofrece una vista breve para saber qué está implementado, co
 
 ## Inspiración y reconocimientos
 
-El arnés fue desarrollado de manera independiente, pero reconoce ideas públicas que influyeron en skills y módulos incorporados posteriormente a este protocolo: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`karpathy/llm-council`](https://github.com/karpathy/llm-council), [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch), el artículo de Anthropic [`How we built our multi-agent research system`](https://www.anthropic.com/engineering/multi-agent-research-system), el survey [`Graph Engineering in the Era of LLM Agents`](https://arxiv.org/abs/2608.21156) y el análisis de LangChain [`3 Years of Graph Engineering with LangGraph`](https://www.langchain.com/blog/3-years-of-graph-engineering-with-langgraph). Consulta el alcance exacto de cada influencia y las aclaraciones de licencia en [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md).
+El arnés fue desarrollado de manera independiente, pero reconoce ideas públicas que influyeron en skills y módulos incorporados posteriormente a este protocolo: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`karpathy/llm-council`](https://github.com/karpathy/llm-council), [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch), los artículos de Anthropic [`How we built our multi-agent research system`](https://www.anthropic.com/engineering/multi-agent-research-system) y [`Harness design for long-running application development`](https://www.anthropic.com/engineering/harness-design-long-running-apps), el survey [`Graph Engineering in the Era of LLM Agents`](https://arxiv.org/abs/2608.21156) y el análisis de LangChain [`3 Years of Graph Engineering with LangGraph`](https://www.langchain.com/blog/3-years-of-graph-engineering-with-langgraph). Consulta el alcance exacto de cada influencia y las aclaraciones de licencia en [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md).
 
 No existe afiliación, patrocinio ni respaldo por parte de sus autores o mantenedores.
 

@@ -26,9 +26,21 @@ Comenzar con el menor nivel suficiente. Los rangos son heurísticos, no cuotas. 
 
 - **Lead:** contrato, autoridad, estrategia, presupuesto, integración y cierre.
 - **Builder / Worker:** ejecución acotada, evidencia y artefacto propio.
-- **Reviewer:** inspección independiente del cambio real; veredicto `APPROVED` o `CHANGES_REQUIRED`. Si Iteración está activa, comprueba además línea base, comparabilidad, integridad de la validación, regresiones, costo de complejidad y restauración.
+- **Reviewer:** inspección independiente del contrato y del cambio real; veredicto `APPROVED` o `CHANGES_REQUIRED`. Si Iteración está activa, comprueba además línea base, comparabilidad, integridad de la validación, regresiones, costo de complejidad y restauración.
 
 Añadir QA, seguridad, diseño, investigación o revisión de evidencia sólo cuando exista una frontera útil. Un mismo agente interpretando varios personajes no prueba independencia.
+
+## Contrato de revisión previo
+
+Cuando un cambio material requiera Reviewer independiente, éste debe inspeccionar antes de ejecutar: resultado esperado, decisiones materiales confirmadas, comportamientos observables, evidencia, flujos críticos, umbrales de rechazo y acciones no autorizadas. El Builder propone cómo demostrar `Done`; el Reviewer identifica cobertura insuficiente, criterios imposibles de probar o incentivos para aprobar trabajo incompleto. El Lead resuelve la discrepancia sin ampliar el alcance ni sustituir una decisión reservada al usuario.
+
+No exigir esta negociación para tareas pequeñas o cuando la plataforma no permita independencia. En ese caso, aplicar la revisión previa proporcional y declarar la degradación. El acuerdo técnico permanece interno salvo que revele una decisión material para la persona.
+
+## QA sobre el artefacto real
+
+Cuando exista un artefacto ejecutable o interactivo y las herramientas estén disponibles, el Reviewer debe recorrer los flujos críticos mediante la misma superficie que usaría la persona y contrastar sus efectos observables en las capas relevantes. No basta leer el diff, inspeccionar una captura estática, comprobar que existe una función ni aceptar el reporte del Builder. Registrar flujo, acción, resultado esperado, resultado observado y evidencia.
+
+Si la superficie real no está disponible, declarar `PARTIAL` y ejecutar la mejor verificación sustituta sin presentarla como prueba end-to-end. Cada criterio obligatorio tiene umbral de rechazo propio: una fortaleza visual, técnica o narrativa no compensa la falla de una función central.
 
 ## Delegación por oleadas
 

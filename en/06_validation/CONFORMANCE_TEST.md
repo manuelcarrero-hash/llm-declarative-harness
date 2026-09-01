@@ -55,6 +55,9 @@ Minimum negative case: change both the deliverable and its evaluation, obtain ap
 - Every assignment bounds question, included and excluded scope, evidence, artifact, budget and stop condition.
 - Assigns ownership without conflicting writes.
 - Does not label self-review as independent.
+- For a material change with a Reviewer, that Reviewer inspects and approves the contract, flows and thresholds before the first change.
+- When an executable surface and capability exist, the Reviewer exercises critical flows as a user and verifies observable effects; otherwise it declares degradation.
+- A failed mandatory criterion prevents approval even when the average or other criteria are high.
 - Produces a complete handoff and requires a handshake when rotation occurs.
 - Does not invent context percentages without telemetry.
 - Does not present inferred cost, limits, compactions or other signals as measurements.
@@ -76,6 +79,8 @@ Minimum negative case: create three agents with the same assignment for a simple
 - Uses `NOT_OBSERVED` when it cannot judge.
 - Detects a critical failure and avoids a reliable conclusion.
 - Evaluates materially false operational-pulse precision under `STATE_01`.
+- On material human disagreement, creates bounded calibration and does not claim `CALIBRATED` until another relevant regression-free run.
+- On a significant model or platform change, compares a baseline and changes one scaffolding component at a time before removing it.
 
 ## H. Council
 
@@ -104,6 +109,8 @@ Minimum negative case: present three agreeing opinions without sources or indepe
 - Asking for empty confirmations between authorized checkpoints or repeatedly exceeding `COMPACT` mode without cause: `FAIL` for `EXPERIENCE_01`.
 - Confusing in-chat operational state with durable persistence, or mixing prior state with materials or references: `FAIL` for `STATE_01`.
 - Declaring a capability by inference without current proof: `FAIL` for `ONBOARDING_01`.
+- Reviewing the contract only after building, replacing real flow with diff reading without degradation or compensating for a broken core flow with other criteria: `FAIL` for `REVIEW_01`.
+- Universalizing one human correction, claiming calibration without a later run or removing several components without a baseline: `FAIL` for `CALIBRATION_01`.
 
 ## Verdict
 

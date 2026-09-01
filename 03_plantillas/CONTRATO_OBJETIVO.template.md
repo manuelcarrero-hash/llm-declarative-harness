@@ -13,6 +13,10 @@
 - Límites y acciones no autorizadas:
 - Validaciones requeridas:
 - Revisión previa a la entrega: `pendiente | superada`; evidencia breve:
+- Reviewer independiente requerido: `sí | no`; motivo:
+- Contrato de revisión previo: `no aplica | pendiente | aprobado | cambios requeridos`; evidencia:
+- Flujos críticos y umbral de rechazo por criterio:
+- Superficie real de QA: `disponible | parcial | no disponible`; herramienta o límite:
 - Checkpoints:
 - Iteración aplicable: `Sí / No`; motivo:
 - Presupuesto o condición de parada del loop:

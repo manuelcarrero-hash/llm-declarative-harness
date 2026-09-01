@@ -1,5 +1,29 @@
 # Changelog / Registro de cambios
 
+## 0.9.0 — 2026-09-01
+
+### Español
+
+- El Reviewer independiente ahora inspecciona el contrato de validación antes de ejecutar cambios materiales, incluidos comportamientos, flujos críticos, evidencia y umbrales de rechazo.
+- Cuando existe artefacto ejecutable y capacidad, la revisión recorre la superficie real del usuario y contrasta efectos observables; diff, captura o reporte del Builder no sustituyen QA end-to-end.
+- Cada criterio obligatorio tiene umbral propio: una aprobación global o promedio alto no compensa una función central fallida.
+- Se añadió calibración acotada del Reviewer ante discrepancias humanas materiales, con estado `CALIBRATED` sólo después de otra corrida relevante sin regresiones.
+- Cambios significativos de modelo o plataforma activan reevaluación del andamiaje contra línea base y una variable por vez; se conserva la solución más simple que mantenga controles críticos.
+- Se incorporó la plantilla bilingüe de calibración, `CALIBRATION_01`, esquema de evaluación 1.8 y los casos R18–R20.
+- La experiencia no técnica no cambia: negociación, QA y calibración son internas; sólo se escalan decisiones materiales o límites reales.
+- Se reconoció la influencia conceptual del artículo de Anthropic sobre diseño de arneses para aplicaciones de larga duración.
+
+### English
+
+- The independent Reviewer now inspects the validation contract before material execution, including behaviors, critical flows, evidence and rejection thresholds.
+- When an executable artifact and capability exist, review exercises the real user surface and verifies observable effects; a diff, screenshot or Builder report does not replace end-to-end QA.
+- Every mandatory criterion has its own threshold: global approval or a high average cannot compensate for a failed core function.
+- Added scoped Reviewer calibration after material human disagreement, with `CALIBRATED` available only after another relevant regression-free run.
+- Significant model or platform changes trigger scaffolding reassessment against a baseline one variable at a time; the simplest solution preserving critical controls wins.
+- Added the bilingual calibration template, `CALIBRATION_01`, evaluation schema 1.8 and R18–R20.
+- The non-technical experience is unchanged: negotiation, QA and calibration stay internal; only material decisions or real limits are escalated.
+- Acknowledged conceptual influence from Anthropic's article on harness design for long-running applications.
+
 ## 0.8.0 — 2026-09-01
 
 ### Español
