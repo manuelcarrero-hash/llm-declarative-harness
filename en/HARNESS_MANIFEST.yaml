@@ -1,7 +1,7 @@
 schema_version: "1.2"
 harness:
   name: "Provider-Neutral Declarative Harness for LLMs"
-  version: "0.7.0"
+  version: "0.8.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -37,6 +37,8 @@ invariants:
   - "Keep durable rules, current state, tasks and handoffs separate."
   - "Preserve other people's work and distinguish implemented, validated and deployed."
   - "Do not treat consensus, majority or repetition as a substitute for evidence."
+  - "Do not silently choose a material decision the user left ambiguous."
+  - "Do not produce or store as fact a material premise that is unconfirmed or unsupported."
 capability_labels: [SUPPORTED, PARTIAL, UNSUPPORTED, UNKNOWN]
 authorization_labels: [NOT_REQUIRED, REQUIRED, GRANTED, DENIED, UNKNOWN]
 terminal_states: [ACHIEVED, BLOCKED_EXTERNAL, DECISION_REQUIRED, AUTHORITY_REQUIRED]
@@ -84,7 +86,7 @@ validation:
   conformance: "06_validation/CONFORMANCE_TEST.md"
   control_catalog: "06_validation/CONTROL_CATALOG.md"
   regression_suite: "06_validation/REGRESSION_SUITE.md"
-  release_regression_cases: [13, 20]
+  release_regression_cases: [17, 20]
   minimum_real_runs: 3
   stronger_decision_sample: 5
 

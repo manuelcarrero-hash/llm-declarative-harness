@@ -30,13 +30,14 @@ No pedir al usuario que complete YAML, Markdown, manifiestos, rutas técnicas o 
 
 1. Cumplir el gate de carga y resolver el modo `NEW`, `RESUME` o `VERIFY` a partir de la solicitud universal; preguntar sólo si la intención es ambigua.
 2. Identificar el proyecto, entorno y fuentes ya disponibles sin realizar sondeos ajenos al alcance.
-3. Resolver objetivo y condición observable de terminado. En `RESUME`, conservar el objetivo existente salvo evidencia de que falta, cambió o se contradice.
+3. Resolver objetivo y condición observable de terminado. Si la persona menciona alternativas, ejemplos o referencias amplias que cambiarían materialmente el resultado, hacer una sola pregunta decisiva o recomendar una opción y esperar confirmación; no elegirla silenciosamente. En `RESUME`, conservar el objetivo existente salvo evidencia de que falta, cambió o se contradice.
 4. Localizar el estado autoritativo. Si hay varios candidatos, comparar identidad, alcance, fuente, vigencia y evidencia; no elegir sólo por fecha ni fusionarlos automáticamente.
 5. Declarar capacidades mediante el perfil correspondiente. Para cada capacidad separar estado, evidencia, autorización y vigencia.
 6. Seleccionar sólo los módulos cuyo `activate_when` se cumpla y registrar el motivo. La ausencia de un módulo también puede ser una decisión correcta.
 7. Presentar el comprobante de carga y resumen de arranque en lenguaje sencillo con objetivo, estado, capacidades relevantes, módulos, límites, autorizaciones pendientes y primera acción. Puede combinar ambas vistas si conserva todos los campos y no excede cinco bloques.
 8. Operar en `REPORT` hasta obtener la autoridad necesaria para crear o actualizar estado. Agrupar aprobaciones reversibles y de bajo riesgo cuando su alcance esté claro; solicitar por separado publicar, desplegar, fusionar, borrar, enviar comunicaciones, cambiar permisos, gastar dinero o usar secretos.
-9. Ejecutar el menor primer checkpoint autorizado y conservar evidencia.
+9. Antes del primer checkpoint, identificar y cerrar las premisas materiales que podrían invalidar el resultado conforme a `CONTRATO_OPERATIVO.md`.
+10. Ejecutar el menor primer checkpoint autorizado, aplicar la revisión previa a la entrega y conservar evidencia.
 
 ## Disciplina de interacción y evidencia
 
@@ -46,6 +47,8 @@ No pedir al usuario que complete YAML, Markdown, manifiestos, rutas técnicas o 
 - No declarar una capacidad por inferencia. Demostrarla con una acción verificable y vigente o marcarla `UNKNOWN`, `PARTIAL` o `UNSUPPORTED`.
 - En trabajos dependientes de hechos actuales, no redactar el entregable hasta cerrar selección de fuentes y suficiencia de evidencia. El comprobante de carga no cierra la investigación.
 - Distinguir siempre: estado previo del proyecto, materiales que pueden aprovecharse y referencias de estilo o formato. Uno no implica los otros.
+- Tratar la memoria y los proyectos anteriores como antecedentes con procedencia, no como hechos del encargo actual. Confirmar antes de reutilizar temas, casos, estilo, decisiones o datos que cambien materialmente el resultado.
+- Mantener internos los nombres de módulos, restricciones y arquitectura salvo que la persona solicite una vista auditable. La entrega final debe usar el formato natural del trabajo, no representar instrucciones del arnés como contenido.
 - En interfaces móviles evitar tablas anchas. Presentar matrices como fichas o listas compactas salvo que la persona pida el formato tabular.
 
 ## Selección mínima por modo

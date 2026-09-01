@@ -9,7 +9,9 @@ Mantener una sola fotografía autoritativa que responda: qué se hizo, dónde es
 
 ## Contenido mínimo
 
-Identidad del proyecto, timestamp y anclas; trabajo validado; posición actual; riesgos y decisiones; siguiente acción; gates; destino y criterios de éxito. Si existe un mapa de trabajo activo, enlazarlo y registrar su frontera de reanudación sin duplicar sus detalles. Resolver contradicciones con evidencia más actual y directa, sin borrar decisiones intencionales.
+Identidad del proyecto, timestamp y anclas; trabajo validado; posición actual; riesgos y decisiones; siguiente acción; gates; destino y criterios de éxito. Separar hechos confirmados del encargo actual, antecedentes de memoria o proyectos previos, materiales reutilizables, referencias de estilo y propuestas aún no aceptadas. Si existe un mapa de trabajo activo, enlazarlo y registrar su frontera de reanudación sin duplicar sus detalles. Resolver contradicciones con evidencia más actual y directa, sin borrar decisiones intencionales.
+
+No elevar a hecho confirmado una interpretación, tema, caso, dato o preferencia elegida por el agente. Registrar su procedencia y estado (`CONFIRMED`, `SUPPORTED`, `PROPOSED`, `ASSUMPTION` o `UNKNOWN`). Antes de persistir un elemento `PROPOSED` o `ASSUMPTION` que cambie materialmente el trabajo futuro, obtener confirmación o conservarlo explícitamente como pendiente. Una corrección posterior debe rectificar también el estado contaminado y dejar trazabilidad breve del cambio.
 
 ## Frontera de reanudación
 

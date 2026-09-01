@@ -11,12 +11,31 @@
 ## Common cycle
 
 1. Identify project, environment, sources and effective rules.
-2. Define the objective, `Done`, scope, boundaries and validation.
-3. Choose the smallest sufficient level: light flow, focused team or broad exploration.
-4. Execute the smallest checkpoint that reduces a gap.
-5. Validate against observable evidence.
-6. Update state, artifacts or handoff when authorized.
-7. Repeat until a strict terminal state.
+2. Define the objective, `Done`, scope, boundaries and validation; close every material ambiguity with the user.
+3. Identify premises that would invalidate the outcome if false and confirm, support or label them as pending assumptions.
+4. Choose the smallest sufficient level: light flow, focused team or broad exploration.
+5. Execute the smallest checkpoint that reduces a gap.
+6. Validate against observable evidence and review the outcome before delivery.
+7. Update state, artifacts or handoff when authorized and only with confirmed facts or explicit provenance.
+8. Repeat until a strict terminal state.
+
+## Specification gate
+
+Before producing content or taking a material action, confirm that decisions which substantially change the outcome are closed. A list of examples, possible topics or broad references does not authorize the agent to choose silently. Ask the minimum question or recommend one option with rationale and wait for confirmation. Proceed on a reversible assumption only when it is labeled in advance, its effect is explained and risk is low.
+
+For specialized work, identify the central premises—concept, entity, jurisdiction, period, source or datum—whose falsity would make the outcome misleading or unusable. Verify them with an appropriate source when possible; otherwise ask or disclose the limitation before drafting. Fluent prose, prior memory or repeated assertion is not evidence.
+
+## Pre-delivery review
+
+Before delivering or persisting an outcome, the executor must internally and proportionally check for:
+
+- invented or unconfirmed decisions;
+- confusion among concepts, entities, jurisdictions, periods or sources;
+- material claims without support or assumptions presented as facts;
+- compliance with the agreed objective and `Done`;
+- unnecessary exposure of harness instructions, labels or internal architecture.
+
+Correct before delivery or stop with the minimum question. This check is required even in a light flow and must not become a form for the person. For material changes, it also does not replace the independent review required by `REVIEW_01`.
 
 ## Evidence
 

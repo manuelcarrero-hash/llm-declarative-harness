@@ -1,6 +1,6 @@
 # LLM internals — Provider-Neutral Declarative Harness
 
-Version: 0.7.0
+Version: 0.8.0
 Author and maintainer: Manuel Carrero Rojo
 
 ## Startup instruction
@@ -27,6 +27,7 @@ It helps to:
 - evaluate with evidence whether the agentic process works reliably;
 - consult independent perspectives and synthesize decisions without confusing consensus with evidence;
 - adapt the same framework to different models and platforms.
+- close material ambiguities with the person, verify premises that could invalidate the outcome, and review the deliverable before preserving it as state.
 
 ## When to use it
 
@@ -89,13 +90,14 @@ Use one of these labels for every capability: `SUPPORTED`, `PARTIAL`, `UNSUPPORT
 
 ## Quick start for a project
 
-1. Resolve whether the person wants to start, resume or verify a project.
+1. Read the universal request in `START_HERE.md`, confirm the version and resolve whether the person wants to start, resume or verify a project.
 2. Ask in plain language what they want to achieve and where state exists or should be preserved.
 3. Evaluate real capabilities yourself; do not ask the user to configure technical files.
-4. Select only necessary modules and present a startup summary.
-5. Request authority before creating or updating state and execute the first authorized checkpoint.
-6. If rotation occurs, create a handoff and require a resumption handshake.
-7. Evaluate the run when it is part of a pilot or audit.
+4. Select only necessary modules and present the load receipt in no more than five blocks.
+5. Close material decisions, validate critical premises and request authority before creating or updating state or executing the first checkpoint.
+6. Before delivery or persistence, apply the operating-contract pre-delivery review; self-review does not replace an independent Reviewer when one is required.
+7. If rotation occurs, create a handoff and require a resumption handshake.
+8. Evaluate the run when it is part of a pilot or audit.
 
 ## Distribution
 

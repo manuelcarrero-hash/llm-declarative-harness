@@ -1,6 +1,6 @@
 # Interior para LLM — Arnés declarativo agnóstico
 
-Versión: 0.7.0
+Versión: 0.8.0
 Autor y mantenedor: Manuel Carrero Rojo
 
 ## Instrucción de arranque
@@ -27,6 +27,7 @@ Ayuda a:
 - evaluar con evidencia si el proceso agéntico está funcionando de manera confiable;
 - consultar perspectivas independientes y sintetizar decisiones sin confundir consenso con evidencia;
 - adaptar el mismo marco de trabajo a distintos modelos y plataformas.
+- cerrar con la persona las decisiones materiales ambiguas, comprobar las premisas que podrían invalidar el resultado y revisar la entrega antes de conservarla como estado.
 
 ## Cuándo usarlo
 
@@ -93,9 +94,10 @@ Usa siempre una de estas etiquetas para cada capacidad: `SUPPORTED`, `PARTIAL`, 
 2. Pregunta en lenguaje sencillo qué quiere lograr y dónde está o debe conservarse el estado.
 3. Evalúa tú las capacidades reales; no pidas al usuario configurar archivos técnicos.
 4. Selecciona sólo los módulos necesarios y presenta el comprobante de carga en cinco bloques como máximo.
-5. Solicita autoridad antes de crear o actualizar estado y ejecuta el primer checkpoint autorizado.
-6. Si existe rotación, genera handoff y exige handshake de reanudación.
-7. Evalúa la ejecución cuando forme parte de un piloto o auditoría.
+5. Cierra decisiones materiales, valida premisas críticas y solicita autoridad antes de crear o actualizar estado o ejecutar el primer checkpoint.
+6. Antes de entregar o persistir un resultado, aplica la revisión previa del contrato operativo; una auto-revisión no sustituye Reviewer independiente cuando éste sea requerido.
+7. Si existe rotación, genera handoff y exige handshake de reanudación.
+8. Evalúa la ejecución cuando forme parte de un piloto o auditoría.
 
 ## Distribución
 

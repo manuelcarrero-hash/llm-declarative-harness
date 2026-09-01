@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.6",
+  "schema_version": "1.7",
   "control_catalog": "06_validacion/CATALOGO_DE_CONTROLES.md",
   "evaluation_id": "PROJECT-YYYYMMDD-RUN-01",
   "project": {
@@ -10,6 +10,13 @@
   },
   "run": {
     "objective": "",
+    "material_decisions_closed": false,
+    "critical_premises": [],
+    "pre_delivery_review": {
+      "applicable": true,
+      "completed": false,
+      "independent_reviewer_required": false
+    },
     "material_change": false,
     "rotation_occurred": false,
     "guided_start": {
@@ -116,7 +123,7 @@
     },
     {
       "id": "REVIEW_01",
-      "status": "NOT_APPLICABLE",
+      "status": "NOT_OBSERVED",
       "evidence": [],
       "note": ""
     },

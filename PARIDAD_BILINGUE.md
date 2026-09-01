@@ -2,16 +2,16 @@
 
 La versión española es la fuente canónica. La versión inglesa debe conservar las mismas obligaciones, estados, activadores, límites y criterios de evidencia. No necesita ser una traducción palabra por palabra.
 
-| Área ES | Área EN | Estado en 0.7.0 |
+| Área ES | Área EN | Estado en 0.8.0 |
 | --- | --- | --- |
 | `INTERNO_PARA_LLM.md` | `en/LLM_INTERNALS.md` | Paridad semántica revisada |
 | `EMPEZAR_AQUI.md` | `en/START_HERE.md` | Instrucción universal y expectativa de cinco bloques equivalentes |
-| `01_nucleo/` | `en/01_core/` | Paridad semántica revisada, incluido inicio guiado |
-| `02_modulos/` | `en/02_modules/` | Paridad semántica revisada, incluidos Consejo, Iteración, orquestación por niveles, mapa de trabajo y evaluación de onboarding |
-| `03_plantillas/` | `en/03_templates/` | Campos equivalentes, incluidos comprobante de carga, resumen de arranque, capacidades, Consejo, Iteración, asignación, mapa de trabajo, traza y pulso |
+| `01_nucleo/` | `en/01_core/` | Paridad semántica revisada, incluidos inicio guiado, gate de especificación y revisión previa |
+| `02_modulos/` | `en/02_modules/` | Paridad semántica revisada, incluidos Consejo, Iteración, orquestación, mapa, cierre de objetivo y procedencia de estado |
+| `03_plantillas/` | `en/03_templates/` | Campos equivalentes, incluidos decisiones materiales, premisas críticas, procedencia, comprobante, asignación, mapa, traza y pulso |
 | `04_adaptadores/` | `en/04_adapters/` | Esquema 1.1 y autoridad equivalentes |
 | `05_ejemplos/` | `en/05_examples/` | Escenarios equivalentes de software, no-código, inicio guiado y comprensión no técnica |
-| `06_validacion/` | `en/06_validation/` | Controles `LOAD_01`, `ONBOARDING_01`, `AUTHORITY_01`, `EXECUTION_01`, `EXPERIENCE_01`, `ITERATION_01`, `ORCHESTRATION_01` y `DEPENDENCY_01`, suite de regresión, corridas exploratorias y casos negativos equivalentes |
+| `06_validacion/` | `en/06_validation/` | Controles fortalecidos `GOAL_01`, `REVIEW_01`, `STATE_01`, `EXECUTION_01` y `EXPERIENCE_01`; R14–R17 y casos anteriores equivalentes |
 
 ## Regla de actualización
 
