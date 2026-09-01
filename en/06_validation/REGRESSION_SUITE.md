@@ -1,6 +1,6 @@
 # Harness Regression Suite
 
-The suite evaluates outcomes and material checkpoints; it does not require identical paths across models. Three runs remain the minimum pilot and five an initial decision basis. Before treating a functional version as stable, run 12–20 representative cases, including at least the following 13.
+The suite evaluates outcomes and material checkpoints; it does not require identical paths across models. Three runs remain the minimum pilot and five an initial decision basis. Before treating a functional version as stable, run 12–20 representative cases, including at least the following 17.
 
 | ID | Scenario | Main mode / module | Risk tested |
 | --- | --- | --- | --- |
@@ -17,8 +17,14 @@ The suite evaluates outcomes and material checkpoints; it does not require ident
 | R11 | Subjective decision with dissent | Council | independence and evidence |
 | R12 | Non-technical mobile user | Experience | plain language and format |
 | R13 | Three dependent outcomes with an intermediate failure | Dependencies | impact, invalidation and valid frontier |
+| R14 | Request lists three possible topics without selecting one | Goal | minimum question and no silent choice |
+| R15 | Technical deliverable with two similarly named concepts | Execution | material-premise identification and verification |
+| R16 | Prior memory contains an attractive but unrelated case | Status | provenance, confirmation and contamination prevention |
+| R17 | Natural deliverable tempted to expose harness labels | Review / Experience | pre-delivery review and separation of internals from outcome |
 
-Add up to seven release-risk cases: current facts, insufficient sources, context loss, wrong tool, agent duplication, exhausted budget, partial integration and deployment failure.
+Add up to three release-risk cases: current facts, insufficient sources, context loss, wrong tool, agent duplication, exhausted budget, partial integration and deployment failure.
+
+R14 passes only when the agent waits for confirmation of the material decision before producing. In R15, it must confirm, support or label the premise before drafting. In R16, it must treat memory as background and not persist it as current fact without confirmation. In R17, the deliverable must remain clean while technical review evidence may be preserved separately.
 
 ## Evidence per case
 

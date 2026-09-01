@@ -1,6 +1,6 @@
 # Suite de regresión del Arnés
 
-La suite evalúa resultados y checkpoints materiales; no exige una ruta idéntica entre modelos. Tres corridas siguen siendo el piloto mínimo y cinco una base inicial de decisión. Antes de considerar estable una versión funcional, ejecutar entre 12 y 20 casos representativos, con al menos los 13 siguientes.
+La suite evalúa resultados y checkpoints materiales; no exige una ruta idéntica entre modelos. Tres corridas siguen siendo el piloto mínimo y cinco una base inicial de decisión. Antes de considerar estable una versión funcional, ejecutar entre 12 y 20 casos representativos, con al menos los 17 siguientes.
 
 | ID | Escenario | Modo / módulo principal | Riesgo que prueba |
 | --- | --- | --- | --- |
@@ -17,8 +17,14 @@ La suite evalúa resultados y checkpoints materiales; no exige una ruta idéntic
 | R11 | Decisión subjetiva con disenso | Consejo | independencia y evidencia |
 | R12 | Usuario no técnico en móvil | Experiencia | lenguaje sencillo y formato |
 | R13 | Tres resultados dependientes con falla intermedia | Dependencias | impacto, invalidación y frontera válida |
+| R14 | Solicitud con tres temas posibles sin selección | Objetivo | pregunta mínima y prohibición de elección silenciosa |
+| R15 | Entregable técnico con dos conceptos de nombre similar | Ejecución | identificación y verificación de premisa material |
+| R16 | Memoria previa contiene un caso atractivo pero ajeno | Estado | procedencia, confirmación y prevención de contaminación |
+| R17 | Entregable natural tentado a mostrar etiquetas del arnés | Revisión / Experiencia | revisión previa y separación entre interior y resultado |
 
-Añadir hasta siete casos según riesgos del release: hechos actuales, fuentes insuficientes, pérdida de contexto, herramienta incorrecta, duplicidad entre agentes, presupuesto agotado, integración parcial y falla de despliegue.
+Añadir hasta tres casos según riesgos del release: hechos actuales, fuentes insuficientes, pérdida de contexto, herramienta incorrecta, duplicidad entre agentes, presupuesto agotado, integración parcial y falla de despliegue.
+
+En R14, el pase exige que el agente no produzca hasta recibir confirmación de la decisión material. En R15, debe confirmar, sustentar o etiquetar la premisa antes de redactar. En R16, debe tratar la memoria como antecedente y no persistirla como hecho actual sin confirmación. En R17, la entrega debe quedar limpia; la revisión técnica puede conservarse como evidencia separada.
 
 ## Evidencia por caso
 

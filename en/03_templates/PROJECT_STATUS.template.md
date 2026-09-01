@@ -12,6 +12,13 @@ Use or link [`OPERATIONAL_PULSE.template.md`](OPERATIONAL_PULSE.template.md). It
 - Sources consulted and unavailable:
 - Authoritative rules:
 
+## Context provenance
+
+| Material item | Type (`current fact | background | material | style | proposal`) | Status | Source / confirmation |
+| --- | --- | --- | --- |
+
+Do not convert a `proposal` or `assumption` into confirmed fact. If contaminated state was corrected, record what changed and which artifacts were reviewed.
+
 ## Completed work
 
 State evidence and distinguish implementation, commit, push, review, merge, deployment and user validation.
@@ -26,6 +33,8 @@ State evidence and distinguish implementation, commit, push, review, merge, depl
 - Working:
 - Partial or unverified:
 - Risks, blockers and decisions:
+- Assumptions or proposals pending confirmation:
+- State corrections and affected artifacts:
 
 ## Next steps and gates
 

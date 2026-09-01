@@ -2,11 +2,11 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.7.0
+Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.8.0
 
 **No technical background required:** open only [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md) for Spanish or [`en/START_HERE.md`](en/START_HERE.md) for English. The remaining folders are internals for the LLM.
 
-This is a beginner-friendly, bilingual and provider-neutral harness for starting, resuming and verifying substantial LLM projects without asking the user to configure technical files. It preserves durable state, makes capabilities and permissions visible, requires evidence before work may be declared complete and, when useful, tests small changes while keeping only those that demonstrate improvement.
+This is a beginner-friendly, bilingual and provider-neutral harness for starting, resuming and verifying substantial LLM projects without asking the user to configure technical files. It preserves durable state, makes capabilities and permissions visible, closes material ambiguities before production, checks critical premises and reviews each deliverable before it becomes trusted state.
 
 ## What problem does it solve?
 

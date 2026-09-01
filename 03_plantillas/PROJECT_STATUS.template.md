@@ -12,6 +12,13 @@ Usar o enlazar [`PULSO_OPERATIVO.template.md`](PULSO_OPERATIVO.template.md). Deb
 - Fuentes consultadas y no disponibles:
 - Reglas autoritativas:
 
+## Procedencia del contexto
+
+| Elemento material | Tipo (`hecho actual | antecedente | material | estilo | propuesta`) | Estado | Fuente / confirmación |
+| --- | --- | --- | --- |
+
+No convertir `propuesta` o `supuesto` en hecho confirmado. Si se corrigió estado contaminado, registrar qué cambió y qué artefactos se revisaron.
+
 ## Trabajo completado
 
 Indicar evidencia y distinguir implementación, commit, push, revisión, merge, despliegue y validación de usuario.
@@ -26,6 +33,8 @@ Indicar evidencia y distinguir implementación, commit, push, revisión, merge, 
 - Funciona:
 - Parcial o no verificado:
 - Riesgos, bloqueos y decisiones:
+- Supuestos o propuestas pendientes de confirmación:
+- Correcciones de estado y artefactos afectados:
 
 ## Siguientes pasos y gates
 

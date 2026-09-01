@@ -11,12 +11,31 @@
 ## Ciclo común
 
 1. Identificar proyecto, entorno, fuentes y reglas efectivas.
-2. Formular objetivo, `Done`, alcance, límites y validación.
-3. Elegir el menor nivel suficiente: flujo ligero, equipo enfocado o exploración amplia.
-4. Ejecutar el menor checkpoint que reduzca una brecha.
-5. Validar contra evidencia observable.
-6. Actualizar estado, artefactos o handoff cuando esté autorizado.
-7. Repetir hasta un estado terminal estricto.
+2. Formular objetivo, `Done`, alcance, límites y validación; cerrar con el usuario toda decisión material ambigua.
+3. Identificar las premisas que invalidarían el resultado si fueran falsas y confirmarlas, sustentarlas o declararlas como supuestos pendientes.
+4. Elegir el menor nivel suficiente: flujo ligero, equipo enfocado o exploración amplia.
+5. Ejecutar el menor checkpoint que reduzca una brecha.
+6. Validar contra evidencia observable y revisar el resultado antes de entregarlo.
+7. Actualizar estado, artefactos o handoff cuando esté autorizado y sólo con hechos confirmados o procedencia explícita.
+8. Repetir hasta un estado terminal estricto.
+
+## Gate de especificación
+
+Antes de producir contenido o ejecutar una acción material, comprobar que las decisiones que cambian sustancialmente el resultado estén cerradas. Una lista de ejemplos, temas posibles o referencias amplias no autoriza al agente a elegir silenciosamente. Debe hacer la pregunta mínima o recomendar una opción con su motivo y esperar confirmación. Puede avanzar con un supuesto reversible sólo si lo etiqueta antes, explica el efecto y el riesgo es bajo.
+
+En trabajo especializado, identificar las premisas centrales —concepto, entidad, jurisdicción, periodo, fuente o dato— cuya falsedad volvería engañoso o inútil el resultado. Verificarlas en una fuente adecuada cuando sea posible; de otro modo preguntar o declarar la limitación antes de redactar. La fluidez del texto, la memoria previa o la repetición de una afirmación no son evidencia.
+
+## Revisión previa a la entrega
+
+Antes de entregar o persistir un resultado, el ejecutor debe comprobar de forma interna y proporcional:
+
+- decisiones inventadas o no confirmadas;
+- confusión de conceptos, entidades, jurisdicciones, periodos o fuentes;
+- afirmaciones materiales sin sustento o supuestos presentados como hechos;
+- cumplimiento del objetivo y `Done` acordados;
+- exposición innecesaria de instrucciones, etiquetas o arquitectura interna del arnés.
+
+Corregir antes de entregar o detenerse con la pregunta mínima. Esta comprobación es obligatoria incluso en flujo ligero y no debe convertirse en formulario para la persona. Para cambios materiales, tampoco sustituye la revisión independiente exigida por `REVIEW_01`.
 
 ## Evidencia
 

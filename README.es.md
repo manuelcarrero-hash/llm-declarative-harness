@@ -2,11 +2,11 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.7.0
+Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.8.0
 
 **Si no tienes conocimientos técnicos:** abre únicamente [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md). Las carpetas restantes son el interior que debe consultar el LLM.
 
-Este es un arnés bilingüe y neutral que permite iniciar, continuar y verificar proyectos sustanciales con un LLM sin pedir al usuario configurar archivos técnicos. Conserva estado durable, hace visibles capacidades y permisos, exige evidencia antes de declarar terminado y, cuando corresponde, permite probar cambios pequeños y conservar sólo los que demuestren una mejora.
+Este es un arnés bilingüe y neutral que permite iniciar, continuar y verificar proyectos sustanciales con un LLM sin pedir al usuario configurar archivos técnicos. Conserva estado durable, hace visibles capacidades y permisos, cierra ambigüedades materiales antes de producir, comprueba premisas críticas y revisa cada entrega antes de convertirla en estado confiable.
 
 ## ¿Qué problema resuelve?
 

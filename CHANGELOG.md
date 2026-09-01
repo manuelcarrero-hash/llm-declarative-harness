@@ -1,5 +1,27 @@
 # Changelog / Registro de cambios
 
+## 0.8.0 — 2026-09-01
+
+### Español
+
+- Dos pruebas independientes con Claude y Gemini evidenciaron la misma falla: producir antes de cerrar una decisión material y validar la premisa técnica central.
+- Se añadió un gate de especificación: ejemplos, listas y temas posibles no autorizan elecciones silenciosas; el agente hace la pregunta mínima o recomienda y espera confirmación.
+- Se exige clasificar las premisas capaces de invalidar el resultado como `CONFIRMED`, `SUPPORTED`, `ASSUMPTION` o `UNKNOWN` antes de producir.
+- Toda entrega incorpora una revisión interna proporcional contra decisiones inventadas, confusiones, afirmaciones sin sustento, incumplimiento del objetivo y exposición innecesaria del arnés; los cambios materiales conservan Reviewer independiente.
+- El estado ahora separa hechos actuales, antecedentes, materiales, estilo, propuestas y supuestos con procedencia, y exige rectificar cualquier contaminación.
+- Se fortalecieron `GOAL_01`, `REVIEW_01`, `STATE_01`, `EXECUTION_01` y `EXPERIENCE_01`, se añadieron R14–R17 y el esquema de evaluación avanzó a 1.7.
+- La experiencia no técnica permanece ligera: estas comprobaciones son internas y la entrega conserva su formato natural.
+
+### English
+
+- Two independent Claude and Gemini tests exposed the same failure: producing before closing a material decision and validating the central technical premise.
+- Added a specification gate: examples, lists and possible topics do not authorize silent choices; the agent asks the minimum question or recommends and waits for confirmation.
+- Premises capable of invalidating the outcome must be classified as `CONFIRMED`, `SUPPORTED`, `ASSUMPTION` or `UNKNOWN` before production.
+- Every deliverable receives a proportional internal review for invented decisions, confusions, unsupported claims, objective compliance and unnecessary harness exposure; material changes retain independent Reviewer requirements.
+- Status now separates current facts, background, materials, style, proposals and assumptions with provenance, and requires repair of any contamination.
+- Strengthened `GOAL_01`, `REVIEW_01`, `STATE_01`, `EXECUTION_01` and `EXPERIENCE_01`, added R14–R17 and advanced the evaluation schema to 1.7.
+- The non-technical experience remains light: these checks stay internal and the deliverable keeps its natural format.
+
 ## 0.7.0 — 2026-08-31
 
 ### Español

@@ -9,7 +9,9 @@ Maintain one authoritative snapshot that answers: what was done, where are we, w
 
 ## Minimum content
 
-Project identity, timestamp and anchors; validated work; current position; risks and decisions; next action; gates; destination and success criteria. When a work map is active, link it and record its resumption frontier without duplicating its detail. Resolve contradictions using the newest and most direct evidence without erasing intentional decisions.
+Project identity, timestamp and anchors; validated work; current position; risks and decisions; next action; gates; destination and success criteria. Separate confirmed facts of the current assignment, background from memory or prior projects, reusable materials, style references and proposals not yet accepted. When a work map is active, link it and record its resumption frontier without duplicating its detail. Resolve contradictions using the newest and most direct evidence without erasing intentional decisions.
+
+Do not elevate an interpretation, topic, case, datum or preference chosen by the agent into confirmed fact. Record provenance and status (`CONFIRMED`, `SUPPORTED`, `PROPOSED`, `ASSUMPTION` or `UNKNOWN`). Before persisting a `PROPOSED` or `ASSUMPTION` item that materially changes future work, obtain confirmation or preserve it explicitly as pending. A later correction must also repair contaminated state and leave a brief trace of the change.
 
 ## Resumption frontier
 

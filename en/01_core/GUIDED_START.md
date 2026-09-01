@@ -30,13 +30,14 @@ Do not ask the user to complete YAML, Markdown, manifests, technical paths or ma
 
 1. Satisfy the load gate and resolve `NEW`, `RESUME` or `VERIFY` from the universal request; ask only when intent is ambiguous.
 2. Identify the project, environment and sources already available without probing outside scope.
-3. Resolve the objective and observable completion criteria. In `RESUME`, preserve the existing objective unless evidence shows that it is missing, changed or contradictory.
+3. Resolve the objective and observable completion criteria. If the person names alternatives, examples or broad references that would materially change the outcome, ask one decisive question or recommend an option and wait for confirmation; do not choose silently. In `RESUME`, preserve the existing objective unless evidence shows that it is missing, changed or contradictory.
 4. Locate authoritative state. If several candidates exist, compare identity, scope, source, freshness and evidence; do not choose only by date or merge them automatically.
 5. Declare capabilities with the corresponding profile. Separate status, evidence, authorization and freshness for every capability.
 6. Select only modules whose `activate_when` condition is met and record the reason. Omitting a module can be the correct decision.
 7. Present the load receipt and startup summary with the objective, state, relevant capabilities, modules, limits, pending authorization and first action. The views may be combined when every field is preserved and the result stays within five blocks.
 8. Operate in `REPORT` until authority to create or update state is available. Group reversible, low-risk approvals when scope is clear; request separate authority to publish, deploy, merge, delete, send communications, change permissions, spend money or use secrets.
-9. Execute the smallest authorized first checkpoint and preserve evidence.
+9. Before the first checkpoint, identify and close material premises that could invalidate the outcome according to `OPERATING_CONTRACT.md`.
+10. Execute the smallest authorized first checkpoint, apply pre-delivery review and preserve evidence.
 
 ## Interaction and evidence discipline
 
@@ -46,6 +47,8 @@ Do not ask the user to complete YAML, Markdown, manifests, technical paths or ma
 - Do not declare a capability by inference. Demonstrate it with a current verifiable action or mark it `UNKNOWN`, `PARTIAL` or `UNSUPPORTED`.
 - For work dependent on current facts, do not draft the deliverable until source selection and evidence sufficiency are closed. The load receipt does not close research.
 - Always distinguish prior project state, reusable materials and style or format references. One does not imply the others.
+- Treat memory and previous projects as provenance-bearing background, not facts of the current assignment. Confirm before reusing topics, cases, style, decisions or data that materially change the outcome.
+- Keep module names, restrictions and internal architecture internal unless the person requests an auditable view. The final deliverable must use the natural format of the work, not render harness instructions as content.
 - On mobile interfaces avoid wide tables. Present matrices as cards or compact lists unless the person requests tabular format.
 
 ## Minimum selection by mode
