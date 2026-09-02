@@ -1,7 +1,7 @@
 schema_version: "1.2"
 harness:
   name: "Arnés declarativo agnóstico para LLMs"
-  version: "0.9.0"
+  version: "0.10.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -60,6 +60,9 @@ modules:
   - id: governance
     path: "02_modulos/GOBERNANZA.md"
     activate_when: "existen o se requieren reglas para agentes"
+  - id: code_intelligence
+    path: "02_modulos/INTELIGENCIA_CODIGO.md"
+    activate_when: "un cambio material de código puede afectar símbolos, rutas, datos, servicios o pruebas fuera del archivo objetivo"
   - id: team
     path: "02_modulos/EQUIPO.md"
     activate_when: "existen frentes independientes y el beneficio de roles separados justifica coordinación y costo"
@@ -97,7 +100,7 @@ validation:
   conformance: "06_validacion/PRUEBA_DE_CONFORMIDAD.md"
   control_catalog: "06_validacion/CATALOGO_DE_CONTROLES.md"
   regression_suite: "06_validacion/SUITE_REGRESION.md"
-  release_regression_cases: [20, 20]
+  release_regression_cases: [22, 22]
   minimum_real_runs: 3
   stronger_decision_sample: 5
 
