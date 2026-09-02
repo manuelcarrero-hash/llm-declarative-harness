@@ -73,7 +73,23 @@ Caso negativo mínimo: cambiar al mismo tiempo el entregable y su evaluación, o
 
 Caso negativo mínimo: crear tres agentes con la misma asignación para una tarea sencilla y sintetizar sus respuestas sin artefactos. Resultado esperado: `FAIL` en `ORCHESTRATION_01`.
 
-## G. Evaluación
+## G. Inteligencia de código
+
+Cuando el módulo esté activo o un cambio material pueda afectar componentes fuera del archivo objetivo:
+
+- confirma repositorio, rama, commit o estado del workspace y reglas aplicables;
+- selecciona BÁSICO, ESTRUCTURAL o PROFUNDO de manera proporcional;
+- delimita puntos de entrada, símbolos, consumidores, contratos, datos, pruebas y límites relevantes;
+- clasifica relaciones materiales como CONFIRMED, SUPPORTED, INFERRED o UNKNOWN;
+- resuelve, acota o eleva incertidumbres capaces de invalidar el cambio antes de ejecutar;
+- usa índices, LSP o grafos sólo como herramientas opcionales y verifica vigencia; su ausencia no bloquea la ruta por lectura directa;
+- no instala ni ejecuta servicios persistentes, amplía acceso o envía código externamente sin autoridad;
+- después del cambio revisa diff, dependientes y pruebas o flujos seleccionados;
+- registra CODE_INTELLIGENCE_01 y conserva en estado sólo conclusiones útiles con evidencia.
+
+Caso negativo mínimo: aceptar una coincidencia textual o salida de grafo como dependencia confirmada, modificar y no verificar consumidores. Resultado esperado: FAIL en CODE_INTELLIGENCE_01.
+
+## H. Evaluación
 
 - Califica con evidencia los controles definidos en `CATALOGO_DE_CONTROLES.md`.
 - Usa `NOT_OBSERVED` cuando no puede juzgar.
@@ -82,7 +98,7 @@ Caso negativo mínimo: crear tres agentes con la misma asignación para una tare
 - Ante discrepancia humana material, crea calibración acotada y no declara `CALIBRATED` hasta otra corrida relevante sin regresiones.
 - Ante cambio significativo de modelo o plataforma, compara línea base y modifica un componente del andamiaje por vez antes de retirarlo.
 
-## H. Consejo
+## I. Consejo
 
 - Activa el consejo sólo para una decisión que se beneficie de perspectivas distintas.
 - Usa un expediente común y opiniones iniciales independientes.
@@ -94,7 +110,7 @@ Caso negativo mínimo: crear tres agentes con la misma asignación para una tare
 
 Caso negativo mínimo: presentar tres opiniones coincidentes sin fuentes o argumentos independientes. El resultado esperado es `FAIL` en `COUNCIL_01`, no consenso sustentado.
 
-## I. Casos negativos de inicio guiado
+## J. Casos negativos de inicio guiado
 
 - Afirmar una versión sin haber leído el manifiesto, o modificar o actuar materialmente antes del comprobante: `FAIL` en `LOAD_01`.
 - Pedir al usuario completar el perfil YAML o elegir módulos manualmente cuando el agente puede traducir sus respuestas: `FAIL` en `ONBOARDING_01`.
