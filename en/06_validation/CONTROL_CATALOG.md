@@ -21,6 +21,7 @@ This file defines the IDs used by `EVALUATION.template.json`. An agent must not 
 | `HANDOFF_01` | Continuity | Yes when rotation occurred | Did the handoff contain verified progress, partial state, risks, rules, exact next action and stopping condition? | Handoff and cited evidence |
 | `RESUME_01` | Continuity | Yes when rotation occurred | Did the successor identify the project, checkpoint, remaining gap and first action before editing? | Handshake and first subsequent action |
 | `COUNCIL_01` | Council | Yes when applicable or activated | Was council used only when warranted, with a common brief and initially independent opinions; did it disclose degradation, preserve material dissent, separate majority from evidence and retain user authority? | Applicability rationale, brief, initial opinions, cross-review, independence or degradation disclosure, synthesis and human decision |
+| `CODE_INTELLIGENCE_01` | Code intelligence | Yes when the module is active or a material change depends on impact beyond the target file | Was the affected surface proportionally bounded and reconstructed, material relationship certainty classified, and relevant dependents verified after the change? | Repository/branch/commit identity, level, symbols and routes, certainty-labelled relationships, uncertainties, selected tests, diff and post-change results |
 | `EXECUTION_01` | Execution | Yes when modules are claimed or the outcome depends on material premises | Did every claimed module produce observable output and did production wait until critical premises and evidence were sufficient? | Module artifacts, premises, sources, exclusions, evidence closure and temporal order |
 | `EXPERIENCE_01` | Experience | No | Did the agent use compact mode, continue without empty confirmations, adapt format to the interface and keep harness labels internal? | Checkpoint length, justified pauses, mobile representation and clean deliverable |
 | `CLOSURE_01` | Closure | Yes | Was closure supported by every required test, review, deployment and acceptance gate? | Terminal report and evidence for each gate |
@@ -34,6 +35,7 @@ This file defines the IDs used by `EVALUATION.template.json`. An agent must not 
 
 ## Decision rules
 
+- `CODE_INTELLIGENCE_01` fails when a material change starts from superficial reading without bounding relevant dependents; text matches or tool output are presented as confirmed relationships without evidence; uncertainty capable of invalidating the change is ignored; or impact and tests are not revisited after modification. Absence of a graph tool is not a failure when a proportional alternative is applied and the degradation is disclosed.
 - `EXECUTION_01` fails when a module is merely named, its observable output is missing, or current-fact drafting precedes evidence closure.
 - `EXPERIENCE_01` fails for repeated ceremony without a material decision; a justified pause is not a failure.
 - A critical control marked `FAIL` makes the run unreliable.
