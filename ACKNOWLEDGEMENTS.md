@@ -63,6 +63,14 @@ El Arnés declarativo agnóstico para LLMs fue desarrollado de manera independie
 - **Adaptación en este arnés:** un mapa de trabajo declarativo, pequeño y opcional; revisión consciente de dependencias y una frontera conservadora de reanudación. La persona no configura grafos y el arnés no requiere LangGraph, una base de grafos ni un runtime específico.
 - **Scope note / Nota de alcance:** the academic term is recent and its operational value is treated as a hypothesis to validate through real runs. The harness adopts only independently written conceptual patterns.
 
+### [`DeusData/codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp)
+
+- **Influence:** persistent structural understanding of repositories through symbols, call relationships, architecture and impact analysis exposed to coding agents.
+- **Influencia:** comprensión estructural persistente de repositorios mediante símbolos, relaciones de llamadas, arquitectura y análisis de impacto expuestos a agentes de programación.
+- **Adaptation in this harness:** the optional Code Intelligence module defines proportional repository understanding, certainty labels, impact boundaries and post-change verification. Codebase Memory is only one optional implementation of the deep level; the harness does not bundle, install or require its binary, MCP server, index, daemon, UI or source code.
+- **Adaptación en este arnés:** el módulo opcional de Inteligencia de Código define comprensión proporcional del repositorio, etiquetas de certeza, fronteras de impacto y verificación posterior al cambio. Codebase Memory es sólo una implementación opcional del nivel profundo; el arnés no incorpora, instala ni exige su binario, servidor MCP, índice, daemon, interfaz o código fuente.
+- **Repository license observed when this acknowledgement was written:** MIT.
+
 ## Independence and scope / Independencia y alcance
 
 These acknowledgements describe conceptual influence. Unless a future file explicitly states otherwise, this repository does not incorporate source code, prompts, datasets, branding or runtime components from the referenced projects.
