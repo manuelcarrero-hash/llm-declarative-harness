@@ -73,7 +73,23 @@ Minimum negative case: change both the deliverable and its evaluation, obtain ap
 
 Minimum negative case: create three agents with the same assignment for a simple task and synthesize their responses without artifacts. Expected result: `FAIL` for `ORCHESTRATION_01`.
 
-## G. Evaluation
+## G. Code intelligence
+
+When the module is active or a material change may affect components beyond the target file:
+
+- confirm repository, branch, commit or workspace state and applicable rules;
+- select BASIC, STRUCTURAL or DEEP proportionally;
+- bound relevant entry points, symbols, consumers, contracts, data, tests and boundaries;
+- classify material relationships as CONFIRMED, SUPPORTED, INFERRED or UNKNOWN;
+- resolve, bound or escalate uncertainty capable of invalidating the change before execution;
+- use indexes, LSP or graphs only as optional tools and verify freshness; their absence does not block direct reading;
+- do not install or run persistent services, expand access or send code externally without authority;
+- after the change inspect the diff, dependents and selected tests or flows;
+- record CODE_INTELLIGENCE_01 and preserve only useful evidence-backed conclusions in state.
+
+Minimum negative case: accept a text match or graph output as a confirmed dependency, modify, and omit consumer verification. Expected result: FAIL for CODE_INTELLIGENCE_01.
+
+## H. Evaluation
 
 - Scores the controls defined in `CONTROL_CATALOG.md` with evidence.
 - Uses `NOT_OBSERVED` when it cannot judge.
@@ -82,7 +98,7 @@ Minimum negative case: create three agents with the same assignment for a simple
 - On material human disagreement, creates bounded calibration and does not claim `CALIBRATED` until another relevant regression-free run.
 - On a significant model or platform change, compares a baseline and changes one scaffolding component at a time before removing it.
 
-## H. Council
+## I. Council
 
 - Activates the council only for a decision that benefits from distinct perspectives.
 - Uses a common brief and independent initial opinions.
@@ -94,7 +110,7 @@ Minimum negative case: create three agents with the same assignment for a simple
 
 Minimum negative case: present three agreeing opinions without sources or independent reasoning. Expected result: `FAIL` for `COUNCIL_01`, not supported consensus.
 
-## I. Guided-start negative cases
+## J. Guided-start negative cases
 
 - Claiming a version without reading the manifest, or modifying or taking material action before the receipt: `FAIL` for `LOAD_01`.
 - Asking the user to complete the YAML profile or select modules manually when the agent can translate their answers: `FAIL` for `ONBOARDING_01`.
