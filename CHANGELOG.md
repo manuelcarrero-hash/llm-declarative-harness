@@ -1,5 +1,27 @@
 # Changelog / Registro de cambios
 
+## 0.10.0 — 2026-09-02
+
+### Español
+
+- Se añadió el módulo opcional y agnóstico de Inteligencia de Código para reconstruir proporcionalmente la superficie afectada antes de cambios técnicos materiales.
+- Se definieron niveles BÁSICO, ESTRUCTURAL y PROFUNDO, independientes de cualquier herramienta o proveedor.
+- Las relaciones materiales se clasifican como CONFIRMED, SUPPORTED, INFERRED o UNKNOWN; las incertidumbres capaces de invalidar el cambio deben resolverse, acotarse o elevarse antes de ejecutar.
+- Índices, LSP y grafos como Codebase Memory MCP son aceleradores opcionales; el arnés conserva una ruta por lectura directa y no instala servicios persistentes sin autoridad.
+- La verificación posterior exige revisar diff, dependientes y pruebas o flujos seleccionados, sin sustituir Git, PROJECT_STATUS, QA ni revisión humana.
+- Se añadió CODE_INTELLIGENCE_01, el esquema de evaluación 1.9, los casos R21–R22, gates de conformidad y paridad bilingüe.
+- Se reconoció la influencia conceptual de DeusData/codebase-memory-mcp sin incorporar su runtime o código fuente.
+
+### English
+
+- Added the optional provider-neutral Code Intelligence module to proportionally reconstruct the affected surface before material technical changes.
+- Defined BASIC, STRUCTURAL and DEEP levels independent of any tool or provider.
+- Material relationships are classified as CONFIRMED, SUPPORTED, INFERRED or UNKNOWN; uncertainty capable of invalidating the change must be resolved, bounded or escalated before execution.
+- Indexes, LSP and graphs such as Codebase Memory MCP are optional accelerators; the harness retains direct reading and installs no persistent service without authority.
+- Post-change verification requires inspecting the diff, dependents and selected tests or flows without replacing Git, PROJECT_STATUS, QA or human review.
+- Added CODE_INTELLIGENCE_01, evaluation schema 1.9, R21–R22, conformance gates and bilingual parity.
+- Acknowledged conceptual influence from DeusData/codebase-memory-mcp without incorporating its runtime or source code.
+
 ## 0.9.0 — 2026-09-01
 
 ### Español
