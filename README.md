@@ -2,7 +2,7 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.9.0
+Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.10.0
 
 **No technical background required:** open only [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md) for Spanish or [`en/START_HERE.md`](en/START_HERE.md) for English. The remaining folders are internals for the LLM.
 
@@ -33,6 +33,8 @@ This repository defines a declarative operating protocol, not an autonomous runt
 Guided start asks in plain language what the person wants to achieve and where state should be preserved. The LLM verifies its capabilities, selects only necessary modules, explains limits and authorizations and begins with the smallest authorized checkpoint; the person does not configure technical files, roles or agents.
 
 When genuinely independent workstreams exist, Team internally scales effort as single, focused or broad, delegates in waves and preserves results in verifiable artifacts. It avoids unnecessary agents for small tasks. When several outcomes depend on one another, it may internally create a small map to identify what a finding affects, what requires renewed review and which verified work may be preserved. The person receives only a plain explanation and does not configure graphs or relationships. Internal files: [`en/02_modules/TEAM.md`](en/02_modules/TEAM.md), [`en/03_templates/AGENT_ASSIGNMENT.template.md`](en/03_templates/AGENT_ASSIGNMENT.template.md) and [`en/03_templates/ORCHESTRATION_TRACE.template.md`](en/03_templates/ORCHESTRATION_TRACE.template.md).
+
+For material software changes, the optional Code Intelligence module reconstructs only the affected surface, classifies relationship certainty and defines which tests must be repeated. It may use indexes, LSP or graphs such as Codebase Memory MCP when already available, but retains a direct-reading path and installs no service without authorization. File: [`en/02_modules/CODE_INTELLIGENCE.md`](en/02_modules/CODE_INTELLIGENCE.md).
 
 For difficult decisions, the optional Council module collects independent perspectives, cross-reviews anonymized proposals and produces a reasoned synthesis. It does not treat voting as proof or grant authority to act.
 
