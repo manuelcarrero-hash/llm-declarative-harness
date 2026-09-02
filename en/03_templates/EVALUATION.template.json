@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.8",
+  "schema_version": "1.9",
   "control_catalog": "06_validation/CONTROL_CATALOG.md",
   "evaluation_id": "PROJECT-YYYYMMDD-RUN-01",
   "project": {
@@ -75,6 +75,15 @@
       "material_outcomes": 0,
       "dependency_confidence": null,
       "partial_resumption": false
+    },
+    "code_intelligence": {
+      "applicable": false,
+      "activated": false,
+      "level": null,
+      "code_identity_confirmed": false,
+      "material_relationships_classified": false,
+      "post_change_impact_checked": false,
+      "degradation_declared": null
     }
   },
   "controls": [
@@ -176,6 +185,12 @@
     },
     {
       "id": "COUNCIL_01",
+      "status": "NOT_APPLICABLE",
+      "evidence": [],
+      "note": ""
+    },
+    {
+      "id": "CODE_INTELLIGENCE_01",
       "status": "NOT_APPLICABLE",
       "evidence": [],
       "note": ""
