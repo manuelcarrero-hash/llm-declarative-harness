@@ -1,7 +1,7 @@
 schema_version: "1.2"
 harness:
   name: "Provider-Neutral Declarative Harness for LLMs"
-  version: "0.9.0"
+  version: "0.10.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -54,6 +54,9 @@ modules:
   - id: governance
     path: "02_modules/GOVERNANCE.md"
     activate_when: "agent rules exist or are required"
+  - id: code_intelligence
+    path: "02_modules/CODE_INTELLIGENCE.md"
+    activate_when: "a material code change may affect symbols, routes, data, services or tests beyond the target file"
   - id: team
     path: "02_modules/TEAM.md"
     activate_when: "independent workstreams exist and the benefit of separated roles justifies coordination and cost"
@@ -89,7 +92,7 @@ validation:
   conformance: "06_validation/CONFORMANCE_TEST.md"
   control_catalog: "06_validation/CONTROL_CATALOG.md"
   regression_suite: "06_validation/REGRESSION_SUITE.md"
-  release_regression_cases: [20, 20]
+  release_regression_cases: [22, 22]
   minimum_real_runs: 3
   stronger_decision_sample: 5
 
