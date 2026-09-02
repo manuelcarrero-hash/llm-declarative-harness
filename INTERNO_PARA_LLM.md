@@ -1,6 +1,6 @@
 # Interior para LLM — Arnés declarativo agnóstico
 
-Versión: 0.10.0
+Versión: 0.11.0
 Autor y mantenedor: Manuel Carrero Rojo
 
 ## Instrucción de arranque

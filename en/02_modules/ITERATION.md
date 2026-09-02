@@ -43,7 +43,7 @@ When an independent Reviewer exists, inspect the actual change and also verify c
 
 When a work map is active, every material finding must identify the direct outcome, failed or missing evidence, and potentially affected dependents. A `KEEP` does not automatically preserve descendant outcomes: revalidate them when dependency or impact requires it.
 
-When the platform cannot provide independence, disclose the degradation. The agent may run deterministic tests but must not present self-evaluation as independent review.
+Apply the degraded compatibility in `../01_core/OPERATING_CONTRACT.md` when the platform cannot provide independence. Deterministic self-tests do not become independent review.
 
 ## Simplicity and stopping
 

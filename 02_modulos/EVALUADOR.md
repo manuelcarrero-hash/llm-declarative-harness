@@ -4,9 +4,9 @@ Evaluar ejecuciones reales, no la apariencia de los documentos.
 
 ## Controles
 
-Identidad, inicio guiado, autoridad, objetivo, gobernanza aplicable, respaldo de reglas, propiedad, orquestación, iteración, revisión, calibración, estado, handoff, reanudación, consejo y cierre. Calificar cada uno `PASS`, `FAIL`, `NOT_OBSERVED` o `NOT_APPLICABLE`. Usar las definiciones normativas de `../06_validacion/CATALOGO_DE_CONTROLES.md`.
+Calificar todos los controles vigentes como `PASS`, `FAIL`, `NOT_OBSERVED` o `NOT_APPLICABLE`. `../06_validacion/CATALOGO_DE_CONTROLES.md` es la lista y definición normativa; no mantener aquí una enumeración duplicada.
 
-En una ejecución `NEW`, `RESUME` o `VERIFY`, contrastar el resumen de arranque con la solicitud, el perfil de capacidades, el estado real, los módulos activados y las aprobaciones. Una explicación sencilla no prueba que la selección o la autoridad fueran correctas.
+En una ejecución `NEW`, `RESUME` o `VERIFY`, contrastar el comprobante de arranque con la solicitud, el perfil de capacidades, el estado real, los módulos activados y las aprobaciones. Una explicación sencilla no prueba que la selección o la autoridad fueran correctas.
 
 Un control crítico fallido hace la ejecución no confiable. Un control crítico no observado impide una conclusión fuerte. La autoevaluación del agente no sustituye evidencia independiente.
 
@@ -19,6 +19,8 @@ Cuando Iteración esté activa, `ITERATION_01` exige evidencia del mejor estado 
 Cuando un cambio material requiera Reviewer, comprobar que el contrato de revisión fue inspeccionado antes de ejecutar y que los flujos críticos se probaron sobre el artefacto real cuando la capacidad existía. Una aprobación global no compensa un criterio obligatorio fallido.
 
 Cuando un mapa de trabajo se use para conservar resultados o reanudar parcialmente, `DEPENDENCY_01` exige activación proporcional, dependencias sustentadas, hallazgos vinculados con impacto, evidencia vigente y una frontera válida. El mapa no prueba su propia exactitud; ante ambigüedad debe ampliar la reverificación.
+
+Cuando Inteligencia de Código sea aplicable, comprobar identidad, nivel proporcional, relaciones materiales clasificadas, incertidumbres y verificación posterior de dependientes conforme a `CODE_INTELLIGENCE_01`. Nombrar una herramienta o índice no demuestra comprensión del impacto.
 
 Registrar si el consejo era aplicable, si se activó y si hubo agentes separados o degradación explícita. `COUNCIL_01` sólo puede ser `NOT_APPLICABLE` cuando la decisión no cumplía los criterios de activación y no se activó consejo.
 
@@ -34,4 +36,4 @@ Cuando cambie significativamente el modelo o plataforma, o un componente costoso
 
 ## Decisiones de madurez
 
-Usar `KEEP_NATIVE`, `IMPROVE_NATIVE`, `PROTOTYPE_NARROW_AUTOMATION`, `CONSIDER_INDEPENDENT_HARNESS` o `INSUFFICIENT_EVIDENCE`. Tres ejecuciones reales son un piloto mínimo; cinco dan mejor base. Antes de considerar estable una versión funcional, ejecutar entre 12 y 20 escenarios representativos de `../06_validacion/SUITE_REGRESION.md`. No recomendar más automatización sin identificar fricción recurrente que la justifique.
+Usar `KEEP_NATIVE`, `IMPROVE_NATIVE`, `PROTOTYPE_NARROW_AUTOMATION`, `CONSIDER_INDEPENDENT_HARNESS` o `INSUFFICIENT_EVIDENCE`. Tres ejecuciones reales son un piloto mínimo; cinco dan mejor base. Antes de considerar estable una versión funcional, ejecutar los 22 escenarios vigentes de `../06_validacion/SUITE_REGRESION.md`. No recomendar más automatización sin identificar fricción recurrente que la justifique.

@@ -1,7 +1,7 @@
 schema_version: "1.2"
 harness:
   name: "Arnés declarativo agnóstico para LLMs"
-  version: "0.10.0"
+  version: "0.11.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -35,16 +35,12 @@ guided_start:
   load_gate: "Confirmar versión y fuente antes de preguntar; tras las aclaraciones mínimas, presentar el comprobante completo antes de cualquier modificación o acción material. Si la lectura no puede demostrarse, detenerse con la acción manual mínima."
 
 invariants:
-  - "No afirmar capacidades no verificadas."
-  - "No ampliar autoridad por persistencia, autonomía o delegación."
-  - "No declarar terminado sin evidencia de todos los criterios obligatorios."
-  - "Separar reglas durables, estado actual, tarea y handoff."
-  - "Preservar trabajo ajeno y distinguir implementado, validado y desplegado."
-  - "No tratar consenso, mayoría o repetición como sustituto de evidencia."
-  - "No elegir silenciosamente una decisión material que el usuario dejó ambigua."
-  - "No producir ni guardar como hecho una premisa material no confirmada o no sustentada."
-  - "No compensar un criterio obligatorio fallido con una aprobación global o fortalezas ajenas."
-  - "No declarar calibrado un ajuste del Reviewer sin otra corrida relevante y sin regresiones materiales."
+  - "No afirmar capacidades ni ampliar autoridad sin evidencia y permiso aplicables."
+  - "No convertir decisiones, premisas o inferencias materiales no confirmadas en hechos."
+  - "Separar reglas, estado, tareas y handoffs; preservar trabajo ajeno y su nivel real de validación."
+  - "No tratar consenso, repetición, confianza o autoafirmación como sustituto de evidencia."
+  - "No declarar cierre ni aprobación si falla o permanece sin evidencia un criterio obligatorio."
+  - "No declarar calibrado un ajuste sin otra corrida relevante y sin regresiones materiales."
 
 capability_labels: [SUPPORTED, PARTIAL, UNSUPPORTED, UNKNOWN]
 authorization_labels: [NOT_REQUIRED, REQUIRED, GRANTED, DENIED, UNKNOWN]
@@ -81,7 +77,7 @@ modules:
 
 templates:
   load_receipt: "03_plantillas/COMPROBANTE_CARGA.template.md"
-  startup_summary: "03_plantillas/RESUMEN_ARRANQUE.template.md"
+  startup_summary: "03_plantillas/COMPROBANTE_CARGA.template.md"
   goal: "03_plantillas/CONTRATO_OBJETIVO.template.md"
   governance: "03_plantillas/AGENTS.template.md"
   agent_assignment: "03_plantillas/ASIGNACION_AGENTE.template.md"

@@ -34,7 +34,7 @@ Do not ask the user to complete YAML, Markdown, manifests, technical paths or ma
 4. Locate authoritative state. If several candidates exist, compare identity, scope, source, freshness and evidence; do not choose only by date or merge them automatically.
 5. Declare capabilities with the corresponding profile. Separate status, evidence, authorization and freshness for every capability.
 6. Select only modules whose `activate_when` condition is met and record the reason. Omitting a module can be the correct decision.
-7. Present the load receipt and startup summary with the objective, state, relevant capabilities, modules, limits, pending authorization and first action. The views may be combined when every field is preserved and the result stays within five blocks.
+7. Present the startup receipt in plain language with the objective, state, relevant capabilities, modules, limits, pending authorization and first action, within five visible blocks.
 8. Operate in `REPORT` until authority to create or update state is available. Group reversible, low-risk approvals when scope is clear; request separate authority to publish, deploy, merge, delete, send communications, change permissions, spend money or use secrets.
 9. Before the first checkpoint, identify and close material premises that could invalidate the outcome according to `OPERATING_CONTRACT.md`.
 10. Execute the smallest authorized first checkpoint, apply pre-delivery review and preserve evidence.
@@ -69,7 +69,7 @@ Council remains conditional on an ambiguous, costly or subjective decision. Star
 - Missing state: propose reconstruction from current sources; write only in authorized `SYNC` mode.
 - Contradictory state: preserve sources, present the conflict and request the minimum decision when evidence cannot resolve it.
 
-The startup summary is a view. It does not replace or compete with `PROJECT_STATUS.md` or its equivalent as the authoritative source.
+The startup receipt is a view. It does not replace or compete with `PROJECT_STATUS.md` or its equivalent as the authoritative source.
 
 `REPORT` and `SYNC` classify only inspection or writing of project state. They do not grant or revoke authority to modify other artifacts or perform external actions; those actions are governed by their authorized scope and `AUTHORITY_AND_SAFETY.md`.
 

@@ -1,7 +1,7 @@
 schema_version: "1.2"
 harness:
   name: "Provider-Neutral Declarative Harness for LLMs"
-  version: "0.10.0"
+  version: "0.11.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -31,16 +31,12 @@ guided_start:
   load_receipt: "03_templates/LOAD_RECEIPT.template.md"
   load_gate: "Confirm version and source before asking; after minimum clarifications, present the complete receipt before any modification or material action. If reading cannot be demonstrated, stop with the smallest manual action."
 invariants:
-  - "Do not claim unverified capabilities."
-  - "Persistence, autonomy and delegation do not expand authority."
-  - "Do not declare completion without evidence for every mandatory criterion."
-  - "Keep durable rules, current state, tasks and handoffs separate."
-  - "Preserve other people's work and distinguish implemented, validated and deployed."
-  - "Do not treat consensus, majority or repetition as a substitute for evidence."
-  - "Do not silently choose a material decision the user left ambiguous."
-  - "Do not produce or store as fact a material premise that is unconfirmed or unsupported."
-  - "Do not offset a failed mandatory criterion with global approval or unrelated strengths."
-  - "Do not call a Reviewer adjustment calibrated without another relevant run and no material regressions."
+  - "Do not claim capabilities or expand authority without applicable evidence and permission."
+  - "Do not turn unconfirmed material decisions, premises or inferences into facts."
+  - "Keep rules, state, tasks and handoffs separate; preserve other people's work and its real validation level."
+  - "Do not treat consensus, repetition, confidence or self-attestation as a substitute for evidence."
+  - "Do not declare completion or approval when a mandatory criterion fails or lacks evidence."
+  - "Do not call an adjustment calibrated without another relevant run and no material regressions."
 capability_labels: [SUPPORTED, PARTIAL, UNSUPPORTED, UNKNOWN]
 authorization_labels: [NOT_REQUIRED, REQUIRED, GRANTED, DENIED, UNKNOWN]
 terminal_states: [ACHIEVED, BLOCKED_EXTERNAL, DECISION_REQUIRED, AUTHORITY_REQUIRED]
@@ -74,7 +70,7 @@ modules:
     activate_when: "an ambiguous, costly or subjective decision benefits from independent perspectives"
 templates:
   load_receipt: "03_templates/LOAD_RECEIPT.template.md"
-  startup_summary: "03_templates/STARTUP_SUMMARY.template.md"
+  startup_summary: "03_templates/LOAD_RECEIPT.template.md"
   goal: "03_templates/GOAL_CONTRACT.template.md"
   governance: "03_templates/AGENTS.template.md"
   agent_assignment: "03_templates/AGENT_ASSIGNMENT.template.md"

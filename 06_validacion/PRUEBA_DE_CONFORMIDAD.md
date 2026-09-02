@@ -11,7 +11,7 @@ Una implementación compatible debe demostrar, no sólo afirmar:
 - Limita las preguntas al mínimo necesario para resolver objetivo, estado, fuentes contradictorias, capacidades `UNKNOWN` y autoridad; no pide configurar archivos técnicos ni seleccionar módulos.
 - Declara capacidades con estado, evidencia, autorización y vigencia válidos.
 - Activa únicamente módulos relevantes y enlaza cada selección con su `activate_when`.
-- Presenta un resumen de arranque con primera acción, límites y autoridad pendiente.
+- Presenta un único comprobante de arranque con primera acción, límites y autoridad pendiente.
 
 ## B. Autoridad
 

@@ -30,17 +30,11 @@ Start with the smallest sufficient level. Ranges are heuristics, not quotas. Mor
 
 Add QA, security, design, research or evidence review only when a useful boundary exists. One agent performing several personas does not prove independence.
 
-## Pre-execution review contract
+## Independent review
 
-When a material change requires an independent Reviewer, that Reviewer must inspect before execution: expected outcome, confirmed material decisions, observable behaviors, evidence, critical flows, rejection thresholds and unauthorized actions. The Builder proposes how to demonstrate `Done`; the Reviewer identifies insufficient coverage, untestable criteria or incentives to approve incomplete work. The Lead resolves disagreement without expanding scope or replacing a decision reserved to the user.
+Apply the pre-execution review, real-artifact testing and degraded compatibility defined in `../01_core/OPERATING_CONTRACT.md` and evaluated by `REVIEW_01`. When a material change requires a separate Reviewer, that Reviewer inspects the contract, flows and thresholds before execution; the Builder proposes `Done` evidence and the Lead resolves gaps without expanding scope or replacing user decisions.
 
-Do not require this negotiation for small tasks or when the platform cannot provide independence. In that case, apply proportional pre-delivery review and disclose the degradation. The technical agreement stays internal unless it exposes a material decision for the person.
-
-## QA on the real artifact
-
-When an executable or interactive artifact exists and tools are available, the Reviewer must exercise critical flows through the same surface the person would use and verify observable effects across relevant layers. Reading the diff, inspecting a static screenshot, confirming that a function exists or accepting the Builder's report is insufficient. Record flow, action, expected result, observed result and evidence.
-
-When the real surface is unavailable, declare `PARTIAL` and run the best substitute without presenting it as end-to-end proof. Every mandatory criterion has its own rejection threshold: visual, technical or narrative strength does not compensate for failure of a core function.
+The Reviewer records expected result, observed result and evidence for critical flows. A failed mandatory criterion prevents approval.
 
 ## Delegation in waves
 

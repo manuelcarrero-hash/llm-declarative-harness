@@ -83,7 +83,7 @@ Change only within the authorized boundary. Afterwards:
 
 ## Optional structural tools
 
-When the platform provides code intelligence, semantic search, LSP, indexes or graphs —for example Codebase Memory MCP— use them as accelerators for architecture, calls and impact. Verify availability and freshness; do not install, configure or run persistent services without authority.
+When the platform provides code intelligence, semantic search, LSP, indexes or graphs —for example Codebase Memory MCP— use them as accelerators for architecture, calls and impact. Verify availability and freshness. Apply the authority and sensitive-data limits in `../01_core/AUTHORITY_AND_SAFETY.md`; tool availability does not authorize installation, configuration, persistent services or external code transfer.
 
 When unavailable, apply the possible level through search, reading, manifests, tests and local tools. Disclose the degradation. The harness remains functional and never depends on a particular provider, MCP server or product.
 
@@ -91,7 +91,6 @@ When unavailable, apply the possible level through search, reading, manifests, t
 
 - An index does not replace PROJECT_STATUS, Git, tests or human review.
 - Static analysis may miss reflection, generated code, dynamic configuration and runtime effects.
-- Do not send code to external services or expand filesystem access without authorization.
 - Do not present vendor metrics, declared coverage or token savings as observed results.
 - Do not preserve secrets, complete code or bulky output in project status.
 

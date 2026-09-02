@@ -1,5 +1,9 @@
 # Operating Contract
 
+## Normative ownership
+
+Every obligation has one normative source. This contract owns cross-cutting conduct; `AUTHORITY_AND_SAFETY.md`, authority and data boundaries; each module, only its activation and specific rules; the control catalog, evaluation conditions; the conformance test, procedure; and the regression suite, scenarios. Other files reference the owning rule and add only differential behavior.
+
 ## Separation of responsibilities
 
 - The user defines intent, material decisions and authority.

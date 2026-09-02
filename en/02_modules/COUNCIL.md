@@ -28,6 +28,6 @@ The chair removes duplicates, distinguishes supported from apparent consensus, p
 
 Without separate agents, use sequential perspectives and disclose non-independent adversarial review. Do not claim model or provider diversity without observable evidence.
 
-The council is advisory. It does not authorize purchases, publication, deployment, communications, permission changes or other external actions. Record only decisions approved by the authorized person in durable state, together with evidence, material dissent and next action.
+Apply the limits in `../01_core/AUTHORITY_AND_SAFETY.md`. The council is advisory; record only decisions approved by the authorized person in durable state, together with evidence, material dissent and next action.
 
 Conceptually inspired by `karpathy/llm-council`. This module does not incorporate its application, code, OpenRouter or provider keys.

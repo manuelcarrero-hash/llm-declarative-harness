@@ -1,5 +1,23 @@
 # Changelog / Registro de cambios
 
+## 0.11.0 — 2026-09-02
+
+### Español
+
+- Se unificaron comprobante y resumen en una sola vista de arranque auditable; las plantillas antiguas de resumen permanecen como rutas de compatibilidad y no deben generar un segundo artefacto.
+- Las diez invariantes se consolidaron en seis obligaciones equivalentes, sin reducir límites de autoridad, evidencia, cierre o calibración.
+- El Contrato Operativo ahora declara la propiedad normativa de reglas transversales; Equipo, Consejo, Iteración e Inteligencia de Código referencian el núcleo y conservan sólo su comportamiento diferencial.
+- El Evaluador toma la lista vigente del Catálogo de Controles, cubre explícitamente Inteligencia de Código y exige los 22 escenarios actuales, eliminando números y enumeraciones duplicados que habían quedado obsoletos.
+- Se preservaron rutas, IDs, taxonomías y comportamiento funcional para que esta consolidación sea compatible con consumidores existentes.
+
+### English
+
+- Unified receipt and summary into one auditable startup view; legacy summary templates remain as compatibility paths and must not create a second artifact.
+- Consolidated ten invariants into six equivalent obligations without reducing authority, evidence, closure or calibration limits.
+- The Operating Contract now declares normative ownership of cross-cutting rules; Team, Council, Iteration and Code Intelligence reference the core and retain only differential behavior.
+- The Evaluator takes the current list from the Control Catalog, explicitly covers Code Intelligence and requires all 22 current scenarios, removing stale duplicated counts and enumerations.
+- Preserved paths, IDs, taxonomies and functional behavior so the consolidation remains compatible with existing consumers.
+
 ## 0.10.0 — 2026-09-02
 
 ### Español

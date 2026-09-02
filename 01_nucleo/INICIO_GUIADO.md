@@ -34,7 +34,7 @@ No pedir al usuario que complete YAML, Markdown, manifiestos, rutas técnicas o 
 4. Localizar el estado autoritativo. Si hay varios candidatos, comparar identidad, alcance, fuente, vigencia y evidencia; no elegir sólo por fecha ni fusionarlos automáticamente.
 5. Declarar capacidades mediante el perfil correspondiente. Para cada capacidad separar estado, evidencia, autorización y vigencia.
 6. Seleccionar sólo los módulos cuyo `activate_when` se cumpla y registrar el motivo. La ausencia de un módulo también puede ser una decisión correcta.
-7. Presentar el comprobante de carga y resumen de arranque en lenguaje sencillo con objetivo, estado, capacidades relevantes, módulos, límites, autorizaciones pendientes y primera acción. Puede combinar ambas vistas si conserva todos los campos y no excede cinco bloques.
+7. Presentar el comprobante de arranque en lenguaje sencillo con objetivo, estado, capacidades relevantes, módulos, límites, autorizaciones pendientes y primera acción, sin exceder cinco bloques visibles.
 8. Operar en `REPORT` hasta obtener la autoridad necesaria para crear o actualizar estado. Agrupar aprobaciones reversibles y de bajo riesgo cuando su alcance esté claro; solicitar por separado publicar, desplegar, fusionar, borrar, enviar comunicaciones, cambiar permisos, gastar dinero o usar secretos.
 9. Antes del primer checkpoint, identificar y cerrar las premisas materiales que podrían invalidar el resultado conforme a `CONTRATO_OPERATIVO.md`.
 10. Ejecutar el menor primer checkpoint autorizado, aplicar la revisión previa a la entrega y conservar evidencia.
@@ -69,7 +69,7 @@ Consejo permanece condicionado a una decisión ambigua, costosa o subjetiva. Ite
 - Estado ausente: proponer reconstrucción desde fuentes actuales; escribir sólo en `SYNC` autorizado.
 - Estado contradictorio: conservar las fuentes, presentar la contradicción y solicitar la decisión mínima si la evidencia no la resuelve.
 
-El resumen de arranque es una vista. No sustituye ni compite con `PROJECT_STATUS.md` o su equivalente como fuente autoritativa.
+El comprobante de arranque es una vista. No sustituye ni compite con `PROJECT_STATUS.md` o su equivalente como fuente autoritativa.
 
 `REPORT` y `SYNC` clasifican únicamente la inspección o escritura del estado del proyecto. No conceden ni revocan autoridad para modificar otros artefactos o ejecutar acciones externas; esas acciones se rigen por su alcance autorizado y por `AUTORIDAD_Y_SEGURIDAD.md`.
 

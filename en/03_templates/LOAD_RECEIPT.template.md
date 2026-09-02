@@ -1,6 +1,6 @@
-# Load receipt
+# Startup receipt
 
-> Informational view, `COMPACT` by default. It does not replace authoritative state. Normal maximum: 250 words and five blocks.
+> Single startup view, `COMPACT` by default. It does not replace authoritative state. Normal visible maximum: 250 words and five blocks.
 
 ## 1. Mode and load
 
@@ -33,3 +33,16 @@
 - I may begin: `<yes/no and scope>`
 - Requires authorization: `<applicable actions>`
 - Limits or risks: `<material items | none identified>`
+
+### Internal auditable record
+
+Preserve only when it adds traceability; do not show it in full in the normal response.
+
+- Project identity:
+- Authoritative source and state operation: `<REPORT | SYNC>`
+- Startup status: `<PROPOSED | READY | DECISION_REQUIRED | AUTHORITY_REQUIRED | BLOCKED_EXTERNAL>`
+- Capability profile and freshness:
+- Activated modules, satisfied rule and evidence:
+- Action, authority, scope and request timing:
+- First expected evidence:
+- Open risk or contradiction:

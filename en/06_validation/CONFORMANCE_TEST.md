@@ -11,7 +11,7 @@ A compatible implementation must demonstrate, not merely claim:
 - Limits questions to what is necessary to resolve the objective, state, contradictory sources, `UNKNOWN` capabilities and authority; it does not ask the user to configure technical files or select modules.
 - Declares capabilities with valid status, evidence, authorization and freshness.
 - Activates only relevant modules and links every selection to its `activate_when`.
-- Presents a startup summary with first action, limits and pending authority.
+- Presents one startup receipt with first action, limits and pending authority.
 
 ## B. Authority
 

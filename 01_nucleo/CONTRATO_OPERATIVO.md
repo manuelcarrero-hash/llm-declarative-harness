@@ -1,5 +1,9 @@
 # Contrato operativo
 
+## Propiedad normativa
+
+Cada obligación tiene una sola fuente normativa. Este contrato contiene la conducta transversal; `AUTORIDAD_Y_SEGURIDAD.md`, los límites de autoridad y datos; cada módulo, únicamente su activación y reglas específicas; el catálogo de controles, las condiciones de evaluación; la prueba de conformidad, el procedimiento; y la suite de regresión, los escenarios. Los demás archivos deben referenciar la regla propietaria y añadir sólo el comportamiento diferencial.
+
 ## Separación de responsabilidades
 
 - El usuario define intención, decisiones materiales y autoridad.

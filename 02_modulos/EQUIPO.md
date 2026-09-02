@@ -30,17 +30,11 @@ Comenzar con el menor nivel suficiente. Los rangos son heurísticos, no cuotas. 
 
 Añadir QA, seguridad, diseño, investigación o revisión de evidencia sólo cuando exista una frontera útil. Un mismo agente interpretando varios personajes no prueba independencia.
 
-## Contrato de revisión previo
+## Revisión independiente
 
-Cuando un cambio material requiera Reviewer independiente, éste debe inspeccionar antes de ejecutar: resultado esperado, decisiones materiales confirmadas, comportamientos observables, evidencia, flujos críticos, umbrales de rechazo y acciones no autorizadas. El Builder propone cómo demostrar `Done`; el Reviewer identifica cobertura insuficiente, criterios imposibles de probar o incentivos para aprobar trabajo incompleto. El Lead resuelve la discrepancia sin ampliar el alcance ni sustituir una decisión reservada al usuario.
+Aplicar la revisión previa, la prueba sobre el artefacto real y la compatibilidad degradada definidas en `../01_nucleo/CONTRATO_OPERATIVO.md` y evaluadas por `REVIEW_01`. Cuando un cambio material requiera Reviewer separado, éste inspecciona el contrato, los flujos y los umbrales antes de ejecutar; el Builder propone evidencia de `Done` y el Lead resuelve brechas sin ampliar el alcance ni sustituir decisiones del usuario.
 
-No exigir esta negociación para tareas pequeñas o cuando la plataforma no permita independencia. En ese caso, aplicar la revisión previa proporcional y declarar la degradación. El acuerdo técnico permanece interno salvo que revele una decisión material para la persona.
-
-## QA sobre el artefacto real
-
-Cuando exista un artefacto ejecutable o interactivo y las herramientas estén disponibles, el Reviewer debe recorrer los flujos críticos mediante la misma superficie que usaría la persona y contrastar sus efectos observables en las capas relevantes. No basta leer el diff, inspeccionar una captura estática, comprobar que existe una función ni aceptar el reporte del Builder. Registrar flujo, acción, resultado esperado, resultado observado y evidencia.
-
-Si la superficie real no está disponible, declarar `PARTIAL` y ejecutar la mejor verificación sustituta sin presentarla como prueba end-to-end. Cada criterio obligatorio tiene umbral de rechazo propio: una fortaleza visual, técnica o narrativa no compensa la falla de una función central.
+El Reviewer registra resultado esperado, observado y evidencia sobre los flujos críticos. Un criterio obligatorio fallido impide aprobación.
 
 ## Delegación por oleadas
 

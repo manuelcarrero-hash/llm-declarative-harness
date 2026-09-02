@@ -83,7 +83,7 @@ Modificar únicamente dentro de la frontera autorizada. Después:
 
 ## Herramientas estructurales opcionales
 
-Cuando la plataforma disponga de inteligencia de código, búsqueda semántica, LSP, índices o grafos —por ejemplo Codebase Memory MCP— usarlos como aceleradores para arquitectura, llamadas e impacto. Verificar su disponibilidad y vigencia; no instalar, configurar ni ejecutar servicios persistentes sin autoridad.
+Cuando la plataforma disponga de inteligencia de código, búsqueda semántica, LSP, índices o grafos —por ejemplo Codebase Memory MCP— usarlos como aceleradores para arquitectura, llamadas e impacto. Verificar su disponibilidad y vigencia. Aplicar los límites de autoridad y datos sensibles de `../01_nucleo/AUTORIDAD_Y_SEGURIDAD.md`; la disponibilidad de una herramienta no autoriza instalarla, configurarla, mantener servicios persistentes ni transferir código externamente.
 
 Si no están disponibles, aplicar el nivel posible mediante búsqueda, lectura, manifiestos, pruebas y herramientas locales. Declarar la degradación. El arnés sigue funcionando y nunca depende de un proveedor, servidor MCP o producto específico.
 
@@ -91,7 +91,6 @@ Si no están disponibles, aplicar el nivel posible mediante búsqueda, lectura, 
 
 - Un índice no sustituye PROJECT_STATUS, Git, pruebas ni revisión humana.
 - El análisis estático puede omitir reflexión, generación de código, configuración dinámica y efectos de runtime.
-- No enviar código a servicios externos ni ampliar acceso al sistema de archivos sin autorización.
 - No presentar métricas del proveedor, cobertura declarada o ahorro de tokens como resultados propios.
 - No conservar secretos, código completo o salidas voluminosas en el estado del proyecto.
 

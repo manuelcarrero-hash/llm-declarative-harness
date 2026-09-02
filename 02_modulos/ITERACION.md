@@ -43,7 +43,7 @@ Cuando exista Reviewer independiente, debe inspeccionar el cambio real y además
 
 Si existe un mapa de trabajo activo, cada hallazgo material debe identificar el resultado directo, la evidencia fallida o faltante y los dependientes potencialmente afectados. Un `KEEP` no conserva automáticamente resultados descendientes: revalidarlos cuando la dependencia o el impacto lo exijan.
 
-Si la plataforma no permite independencia, declarar la degradación. El agente puede ejecutar pruebas deterministas, pero no presentar su autoevaluación como revisión independiente.
+Aplicar la compatibilidad degradada de `../01_nucleo/CONTRATO_OPERATIVO.md` cuando la plataforma no permita independencia. Las pruebas deterministas propias no se convierten en revisión independiente.
 
 ## Simplicidad y parada
 

@@ -28,6 +28,6 @@ La presidencia elimina duplicados, distingue consenso sustentado de consenso apa
 
 Sin agentes separados, usar perspectivas secuenciales y declarar revisión adversarial no independiente. No afirmar diversidad de modelos o proveedores sin evidencia observable.
 
-El consejo es consultivo. No autoriza compras, publicaciones, despliegues, comunicaciones, cambios de permisos ni otras acciones externas. Registrar en estado durable sólo decisiones aprobadas por la persona autorizada, con evidencia, disensos materiales y siguiente acción.
+Aplicar los límites de `../01_nucleo/AUTORIDAD_Y_SEGURIDAD.md`. El consejo es consultivo; registrar en estado durable sólo decisiones aprobadas por la persona autorizada, con evidencia, disensos materiales y siguiente acción.
 
 Inspiración conceptual: `karpathy/llm-council`. Este módulo no incorpora su aplicación, código, OpenRouter ni claves de proveedores.

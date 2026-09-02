@@ -4,9 +4,9 @@ Evaluate real runs, not the appearance of the documents.
 
 ## Controls
 
-Evaluate identity, guided start, authority, objective, applicable governance, evidence supporting rules, ownership, orchestration, iteration, review, calibration, state, handoff, resumption, council and closure. Score each control as `PASS`, `FAIL`, `NOT_OBSERVED` or `NOT_APPLICABLE`. Use the normative definitions in `../06_validation/CONTROL_CATALOG.md`.
+Score every current control as `PASS`, `FAIL`, `NOT_OBSERVED` or `NOT_APPLICABLE`. `../06_validation/CONTROL_CATALOG.md` is the normative list and definition; do not maintain a duplicate enumeration here.
 
-For a `NEW`, `RESUME` or `VERIFY` run, compare the startup summary with the request, capability profile, real state, activated modules and approvals. A plain explanation does not prove that selection or authority was correct.
+For a `NEW`, `RESUME` or `VERIFY` run, compare the startup receipt with the request, capability profile, real state, activated modules and approvals. A plain explanation does not prove that selection or authority was correct.
 
 A failed critical control makes the run unreliable. An unobserved critical control prevents a strong conclusion. Agent self-evaluation does not replace independent evidence.
 
@@ -19,6 +19,8 @@ When Iteration is active, `ITERATION_01` requires evidence of the best validated
 When a material change requires a Reviewer, verify that the review contract was inspected before execution and that critical flows were exercised on the real artifact when capability existed. A global approval cannot compensate for a failed mandatory criterion.
 
 When a work map is used to preserve outcomes or resume partially, `DEPENDENCY_01` requires proportional activation, supported dependencies, findings linked to impact, current evidence and a valid frontier. The map does not prove its own accuracy; ambiguity must widen reverification.
+
+When Code Intelligence applies, verify identity, proportional level, classified material relationships, uncertainties and post-change dependent checks under `CODE_INTELLIGENCE_01`. Naming a tool or index does not demonstrate impact understanding.
 
 Record whether council was applicable, activated, and backed by separate agents or explicit degradation. `COUNCIL_01` may be `NOT_APPLICABLE` only when the decision did not meet activation criteria and no council was activated.
 
@@ -34,4 +36,4 @@ When the model or platform changes significantly, or an expensive component stop
 
 ## Maturity decisions
 
-Use `KEEP_NATIVE`, `IMPROVE_NATIVE`, `PROTOTYPE_NARROW_AUTOMATION`, `CONSIDER_INDEPENDENT_HARNESS` or `INSUFFICIENT_EVIDENCE`. Three real runs are a minimum pilot; five provide a stronger basis. Before treating a functional version as stable, run 12–20 representative scenarios from `../06_validation/REGRESSION_SUITE.md`. Do not recommend more automation without identifying recurring friction that justifies it.
+Use `KEEP_NATIVE`, `IMPROVE_NATIVE`, `PROTOTYPE_NARROW_AUTOMATION`, `CONSIDER_INDEPENDENT_HARNESS` or `INSUFFICIENT_EVIDENCE`. Three real runs are a minimum pilot; five provide a stronger basis. Before treating a functional version as stable, execute all 22 current scenarios in `../06_validation/REGRESSION_SUITE.md`. Do not recommend more automation without identifying recurring friction that justifies it.
