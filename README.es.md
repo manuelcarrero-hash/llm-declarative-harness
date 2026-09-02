@@ -2,7 +2,7 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.9.0
+Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.10.0
 
 **Si no tienes conocimientos técnicos:** abre únicamente [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md). Las carpetas restantes son el interior que debe consultar el LLM.
 
@@ -33,6 +33,8 @@ El repositorio define un protocolo operativo declarativo, no un runtime autónom
 El inicio guiado pregunta en lenguaje sencillo qué se quiere lograr y dónde conservar el estado. El propio LLM comprueba sus capacidades, selecciona sólo los módulos necesarios, explica límites y autorizaciones y comienza por el menor checkpoint autorizado; la persona no configura archivos técnicos, roles ni agentes.
 
 Cuando existen frentes realmente independientes, Equipo dimensiona internamente el esfuerzo como individual, enfocado o amplio, delega por oleadas y conserva los resultados en artefactos verificables. Para tareas pequeñas evita crear agentes innecesarios. Cuando varios resultados dependen entre sí, puede crear internamente un mapa pequeño para identificar qué afecta un hallazgo, qué debe revisarse otra vez y qué trabajo comprobado puede conservarse. La persona sólo recibe una explicación sencilla; no configura grafos ni relaciones. Archivos internos: [`02_modulos/EQUIPO.md`](02_modulos/EQUIPO.md), [`03_plantillas/ASIGNACION_AGENTE.template.md`](03_plantillas/ASIGNACION_AGENTE.template.md) y [`03_plantillas/TRAZA_ORQUESTACION.template.md`](03_plantillas/TRAZA_ORQUESTACION.template.md).
+
+Para cambios materiales de software, el módulo opcional de Inteligencia de Código reconstruye sólo la superficie afectada, clasifica la certeza de sus relaciones y define qué pruebas deben repetirse. Puede aprovechar índices, LSP o grafos como Codebase Memory MCP cuando ya estén disponibles, pero conserva una ruta por lectura directa y no instala servicios sin autorización. Archivo: [`02_modulos/INTELIGENCIA_CODIGO.md`](02_modulos/INTELIGENCIA_CODIGO.md).
 
 Para decisiones difíciles, el módulo opcional de Consejo reúne perspectivas independientes, revisa propuestas anonimizadas y produce una síntesis razonada. No trata una votación como prueba ni concede autoridad para actuar.
 
