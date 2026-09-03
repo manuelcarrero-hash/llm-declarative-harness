@@ -1,5 +1,17 @@
 # Changelog / Registro de cambios
 
+## 0.12.2 — 2026-09-03
+
+### Español
+
+- El esquema del manifiesto avanza a 1.5 y reemplaza la lista ambigua `release_regression_cases: [23, 23]` por claves explícitas `es: 23` y `en: 23`.
+- No cambia la suite ni sus resultados: siguen siendo 23 escenarios por idioma; la modificación sólo aclara la semántica del manifiesto.
+
+### English
+
+- The manifest schema advances to 1.5 and replaces the ambiguous `release_regression_cases: [23, 23]` list with explicit `es: 23` and `en: 23` keys.
+- The suite and its results remain unchanged: there are still 23 scenarios per language; this change only clarifies manifest semantics.
+
 ## 0.12.1 — 2026-09-03
 
 ### Español
