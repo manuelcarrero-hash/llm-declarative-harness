@@ -1,7 +1,7 @@
-schema_version: "1.4"
+schema_version: "1.5"
 harness:
   name: "Provider-Neutral Declarative Harness for LLMs"
-  version: "0.12.1"
+  version: "0.12.2"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -91,7 +91,9 @@ validation:
   conformance: "06_validation/CONFORMANCE_TEST.md"
   control_catalog: "06_validation/CONTROL_CATALOG.md"
   regression_suite: "06_validation/REGRESSION_SUITE.md"
-  release_regression_cases: [23, 23]
+  release_regression_cases:
+    es: 23
+    en: 23
   minimum_real_runs: 3
   stronger_decision_sample: 5
 
