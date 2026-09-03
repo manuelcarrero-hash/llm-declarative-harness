@@ -2,7 +2,7 @@
 
 La versión española es la fuente canónica. La versión inglesa debe conservar las mismas obligaciones, estados, activadores, límites y criterios de evidencia. No necesita ser una traducción palabra por palabra.
 
-| Área ES | Área EN | Estado en 0.12.1 |
+| Área ES | Área EN | Estado en 0.12.2 |
 | --- | --- | --- |
 | `INTERNO_PARA_LLM.md` | `en/LLM_INTERNALS.md` | Paridad semántica revisada |
 | `EMPEZAR_AQUI.md` | `en/START_HERE.md` | Instrucción universal y expectativa de cinco bloques equivalentes |
