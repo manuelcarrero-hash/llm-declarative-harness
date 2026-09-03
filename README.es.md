@@ -2,7 +2,7 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.12.1
+Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.12.2
 
 **Si no tienes conocimientos técnicos:** abre únicamente [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md). Las carpetas restantes son el interior que debe consultar el LLM.
 
