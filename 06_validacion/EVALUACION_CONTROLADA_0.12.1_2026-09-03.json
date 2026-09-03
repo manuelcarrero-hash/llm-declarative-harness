@@ -3,7 +3,7 @@
   "evaluation_id": "HARNESS-20260903-CONTROLLED-01",
   "project": {
     "name": "llm-declarative-harness",
-    "repository_or_workspace": "/workspace/scratch/84da0131aaa1/harness-sync",
+    "repository_or_workspace": "https://github.com/manuelcarrero-hash/llm-declarative-harness",
     "branch": "main",
     "commit": "canonical main content for harness 0.12.1"
   },
