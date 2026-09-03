@@ -1,7 +1,7 @@
-schema_version: "1.4"
+schema_version: "1.5"
 harness:
   name: "Arnés declarativo agnóstico para LLMs"
-  version: "0.12.1"
+  version: "0.12.2"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -100,7 +100,9 @@ validation:
   conformance: "06_validacion/PRUEBA_DE_CONFORMIDAD.md"
   control_catalog: "06_validacion/CATALOGO_DE_CONTROLES.md"
   regression_suite: "06_validacion/SUITE_REGRESION.md"
-  release_regression_cases: [23, 23]
+  release_regression_cases:
+    es: 23
+    en: 23
   minimum_real_runs: 3
   stronger_decision_sample: 5
 
