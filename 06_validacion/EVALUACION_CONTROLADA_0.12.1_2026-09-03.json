@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "evaluation_id": "HARNESS-20260903-CONTROLLED-01",
+  "project": {
+    "name": "llm-declarative-harness",
+    "repository_or_workspace": "/workspace/scratch/84da0131aaa1/harness-sync",
+    "branch": "main",
+    "commit": "canonical main content for harness 0.12.1"
+  },
+  "run": {
+    "objective": "Ejecutar la suite controlada R01-R23 del arnés 0.12.1",
+    "started_at": "2026-09-03",
+    "ended_at": "2026-09-03",
+    "evaluator": "Codex, separado de los agentes sujeto, Builder y Reviewer",
+    "material_code_change": true,
+    "rotation_occurred": true
+  },
+  "controls": [
+    {"id": "IDENTITY_01", "status": "PASS", "evidence": ["HARNESS_MANIFEST.yaml", "transcripciones R01-R23"], "note": "Versión, fuente y workspace quedaron identificados."},
+    {"id": "GOAL_01", "status": "PASS", "evidence": ["r01-r05.md", "r12-r16.md"], "note": "R01, R02 y R14 preservaron decisiones materiales."},
+    {"id": "GOVERNANCE_01", "status": "PASS", "evidence": ["r01-r05.md"], "note": "R02 asumió descubrimiento de reglas y se detuvo sin identidad del repositorio."},
+    {"id": "GOVERNANCE_02", "status": "NOT_OBSERVED", "evidence": [], "note": "No se ejecutaron comandos normativos de un proyecto real."},
+    {"id": "OWNERSHIP_01", "status": "PASS", "evidence": ["r08/integration.md"], "note": "Tres frentes y archivos exclusivos, sin conflicto."},
+    {"id": "REVIEW_01", "status": "PASS", "evidence": ["r06/pre-review.md", "r06/post-review.md"], "note": "Contrato revisado antes; artefacto real probado después por Reviewer independiente."},
+    {"id": "STATE_01", "status": "PASS", "evidence": ["r01-r05.md", "r12-r16.md", "r21-r23.md"], "note": "Procedencia preservada y taxonomía SUPPORTED/CORROBORATED separada."},
+    {"id": "HANDOFF_01", "status": "NOT_APPLICABLE", "evidence": [], "note": "No hubo handoff durable de proyecto real."},
+    {"id": "RESUME_01", "status": "PASS", "evidence": ["r01-r05.md", "r12-r16.md"], "note": "R03, R04 y R13 identificaron checkpoint, brecha y frontera segura."},
+    {"id": "CLOSURE_01", "status": "NOT_OBSERVED", "evidence": ["REGRESSION_REPORT_0.12.1.md"], "note": "La suite controlada cerró, pero la fiabilidad operacional exige pilotos reales y aceptación humana."}
+  ],
+  "findings": [
+    {"severity": "medium", "summary": "R12 requiere aceptación de una persona no técnica real."},
+    {"severity": "medium", "summary": "R20 requiere revalidación posterior y comparación real entre modelos."},
+    {"severity": "low", "summary": "R19 y R22 deben repetirse sobre superficies reales para elevar confianza operacional."}
+  ],
+  "next_experiment": "Tres pilotos reales: documental/no técnico móvil, software con Reviewer y reanudación desde estado durable.",
+  "recommendation": "INSUFFICIENT_EVIDENCE"
+}
