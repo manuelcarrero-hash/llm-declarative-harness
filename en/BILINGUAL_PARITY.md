@@ -2,7 +2,7 @@
 
 Spanish is the canonical source. The English version must preserve the same obligations, states, activation criteria, boundaries and evidence requirements. It does not need to be a word-for-word translation.
 
-| Spanish area | English area | Status in 0.12.1 |
+| Spanish area | English area | Status in 0.12.2 |
 | --- | --- | --- |
 | `../INTERNO_PARA_LLM.md` | `LLM_INTERNALS.md` | Semantic parity reviewed |
 | `../EMPEZAR_AQUI.md` | `START_HERE.md` | Equivalent universal instruction and five-block expectation |
