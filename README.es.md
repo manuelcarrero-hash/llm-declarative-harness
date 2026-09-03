@@ -2,7 +2,7 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.12.2
+Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.13.0
 
 **Si no tienes conocimientos técnicos:** abre únicamente [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md). Las carpetas restantes son el interior que debe consultar el LLM.
 
@@ -46,9 +46,11 @@ Archivos del Consejo: [`02_modulos/CONSEJO.md`](02_modulos/CONSEJO.md) y [`03_pl
 
 El pulso operativo ofrece una vista breve para saber qué está implementado, comprobado o pendiente y cuál es la siguiente acción. Puede mostrar telemetría sólo si la plataforma la expone; los datos no disponibles permanecen explícitamente desconocidos. Plantilla: [`03_plantillas/PULSO_OPERATIVO.template.md`](03_plantillas/PULSO_OPERATIVO.template.md).
 
+Las mejoras durables ahora pasan por observación, atribución causal, prueba, regresión, autorización y reversión, en lugar de convertirse en reglas después de una sola corrida. El contenido externo permanece como dato salvo que una autoridad válida lo convierta en instrucción, y los checkpoints semánticos conservan transiciones materiales aun sin telemetría de contexto. Una matriz fechada ayuda a planear comprobaciones, pero nunca prevalece sobre la evidencia actual.
+
 ## Inspiración y reconocimientos
 
-El arnés fue desarrollado de manera independiente, pero reconoce ideas públicas que influyeron en skills y módulos incorporados posteriormente a este protocolo: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`karpathy/llm-council`](https://github.com/karpathy/llm-council), [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch), [`DeusData/codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp), los artículos de Anthropic [`How we built our multi-agent research system`](https://www.anthropic.com/engineering/multi-agent-research-system) y [`Harness design for long-running application development`](https://www.anthropic.com/engineering/harness-design-long-running-apps), el survey [`Graph Engineering in the Era of LLM Agents`](https://arxiv.org/abs/2608.21156) y el análisis de LangChain [`3 Years of Graph Engineering with LangGraph`](https://www.langchain.com/blog/3-years-of-graph-engineering-with-langgraph). Consulta el alcance exacto de cada influencia y las aclaraciones de licencia en [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md).
+El arnés fue desarrollado de manera independiente, pero reconoce ideas públicas que influyeron en skills y módulos incorporados posteriormente a este protocolo: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`karpathy/llm-council`](https://github.com/karpathy/llm-council), [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch), [`DeusData/codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp), [`affaan-m/ECC`](https://github.com/affaan-m/ECC), los artículos de Anthropic [`How we built our multi-agent research system`](https://www.anthropic.com/engineering/multi-agent-research-system) y [`Harness design for long-running application development`](https://www.anthropic.com/engineering/harness-design-long-running-apps), el survey [`Graph Engineering in the Era of LLM Agents`](https://arxiv.org/abs/2608.21156) y el análisis de LangChain [`3 Years of Graph Engineering with LangGraph`](https://www.langchain.com/blog/3-years-of-graph-engineering-with-langgraph). Consulta el alcance exacto de cada influencia y las aclaraciones de licencia en [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md).
 
 No existe afiliación, patrocinio ni respaldo por parte de sus autores o mantenedores.
 

@@ -45,6 +45,12 @@ When a work map is active, every material finding must identify the direct outco
 
 Apply the degraded compatibility in `../01_core/OPERATING_CONTRACT.md` when the platform cannot provide independence. Deterministic self-tests do not become independent review.
 
+## Use for durable improvement
+
+When an attempt intends to change the harness, a skill, a rule or a playbook, also apply `../01_core/CONTROLLED_IMPROVEMENT.md` and its template. `KEEP` identifies only the best experimental state; the candidate becomes `VERIFIED`, not `PROMOTED`, until applicable authority is obtained and the change is incorporated with a reversal reference.
+
+The test must include the case that produced the observation and applicable regressions. If it improves the target case but degrades a previously valid one, use `REJECTED` or `PROPOSED` for later revision; do not weaken the regression or silently widen scope.
+
 ## Simplicity and stopping
 
 For equivalent outcomes, prefer the simpler and more maintainable option. A marginal improvement does not justify disproportionate complexity, cost or risk.

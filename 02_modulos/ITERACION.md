@@ -45,6 +45,12 @@ Si existe un mapa de trabajo activo, cada hallazgo material debe identificar el 
 
 Aplicar la compatibilidad degradada de `../01_nucleo/CONTRATO_OPERATIVO.md` cuando la plataforma no permita independencia. Las pruebas deterministas propias no se convierten en revisión independiente.
 
+## Uso para mejora durable
+
+Cuando un intento pretenda cambiar el arnés, una skill, una regla o un playbook, aplicar además `../01_nucleo/MEJORA_CONTROLADA.md` y su plantilla. `KEEP` sólo identifica el mejor estado del experimento; el candidato queda `VERIFIED`, no `PROMOTED`, hasta obtener la autoridad aplicable e incorporar el cambio con referencia de reversión.
+
+La prueba debe incluir el caso que originó la observación y las regresiones aplicables. Si mejora el caso objetivo pero degrada uno previamente válido, usar `REJECTED` o `PROPOSED` para una revisión posterior; no debilitar la regresión ni ampliar silenciosamente el alcance.
+
 ## Simplicidad y parada
 
 A resultados equivalentes, preferir la alternativa más simple y mantenible. Una mejora marginal no justifica complejidad, costo o riesgo desproporcionados.

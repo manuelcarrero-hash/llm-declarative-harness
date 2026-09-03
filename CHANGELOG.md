@@ -1,5 +1,31 @@
 # Changelog / Registro de cambios
 
+## 0.13.0 — 2026-09-03
+
+### Español
+
+- Se añadió el protocolo nuclear de mejora controlada: observaciones y correcciones pasan por atribución causal, candidato, prueba, regresiones, autoridad y reversión antes de modificar conducta durable.
+- `LEARNING_01` distingue `OBSERVED`, `PROPOSED`, `VERIFIED`, `PROMOTED`, `REJECTED` y `REVERTED`; verificar no concede autoridad para promover.
+- Autoridad y Seguridad incorpora una cadena de confianza: el contenido externo se trata como datos y no puede ampliar instrucciones, permisos, memoria, persistencia ni criterios de cierre sin fundamento autorizado.
+- `SECURITY_01` exige procedencia, función permitida, autoridad y límites técnicos sólo ante entradas externas o acciones sensibles materiales.
+- Se añadió una matriz orientativa de compatibilidad fechada; la evidencia actual y el perfil de la ejecución prevalecen siempre sobre la orientación histórica.
+- Estado crea checkpoints semánticos proporcionales al cerrar etapas cognitivas materiales, incluso sin telemetría, y evita registros ceremoniales.
+- El esquema del manifiesto avanza a 1.6, la evaluación a 2.0 y la suite a 31 escenarios bilingües mediante R24–R31.
+- Se corrigió el desfase previo de versión en los entrypoints técnicos, que todavía mostraban 0.12.1 cuando el manifiesto estaba en 0.12.2.
+- La experiencia no técnica conserva las mismas preguntas: los controles, la matriz y los checkpoints operan internamente y sólo exponen decisiones o riesgos materiales.
+
+### English
+
+- Added the controlled-improvement core protocol: observations and corrections pass through causal attribution, candidacy, testing, regressions, authority and reversal before changing durable behavior.
+- `LEARNING_01` distinguishes `OBSERVED`, `PROPOSED`, `VERIFIED`, `PROMOTED`, `REJECTED` and `REVERTED`; verification does not grant promotion authority.
+- Authority and Safety now includes a chain of trust: external content remains data and cannot expand instructions, permissions, memory, persistence or completion criteria without authorized basis.
+- `SECURITY_01` requires provenance, permitted function, authority and technical-limit evidence only for material external inputs or sensitive actions.
+- Added a dated advisory compatibility matrix; current evidence and the run profile always prevail over historical guidance.
+- Status creates proportional semantic checkpoints when material cognitive stages close, even without telemetry, and avoids ceremonial records.
+- Advanced the manifest schema to 1.6, evaluation schema to 2.0 and the bilingual suite to 31 scenarios through R24–R31.
+- Fixed the prior entrypoint version drift: technical entrypoints still showed 0.12.1 while the manifest was at 0.12.2.
+- The non-technical experience keeps the same questions: controls, matrix and checkpoints remain internal and expose only material decisions or risks.
+
 ## 0.12.2 — 2026-09-03
 
 ### Español

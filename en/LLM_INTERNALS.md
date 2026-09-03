@@ -1,6 +1,6 @@
 # LLM internals — Provider-Neutral Declarative Harness
 
-Version: 0.12.1
+Version: 0.13.0
 Author and maintainer: Manuel Carrero Rojo
 
 ## Startup instruction
@@ -30,6 +30,8 @@ It helps to:
 - adapt the same framework to different models and platforms.
 - close material ambiguities with the person, verify premises that could invalidate the outcome, and review the deliverable before preserving it as state.
 - have the Reviewer agree on criteria before material changes, exercise artifacts through real flows, and calibrate when grounded human judgment exposes a disagreement.
+- promote durable learning only after attributing its cause, testing it against regressions and preserving authority and reversal.
+- separate external content from operating authority and close cognitive stages with resumable checkpoints even without context telemetry.
 
 ## When to use it
 
@@ -82,9 +84,10 @@ Enable an LLM capable of acting on projects to:
 3. `01_core/OPERATING_CONTRACT.md`
 4. `01_core/AUTHORITY_AND_SAFETY.md`
 5. `01_core/GUIDED_START.md`
-6. Modules activated by the manifest for the task
-7. Corresponding templates
-8. `06_validation/CONFORMANCE_TEST.md` before claiming compatibility
+6. `01_core/CONTROLLED_IMPROVEMENT.md` only when an observation could change durable behavior
+7. Modules activated by the manifest for the task
+8. Corresponding templates and adapter references
+9. `06_validation/CONFORMANCE_TEST.md` before claiming compatibility
 
 ## Honesty rule
 

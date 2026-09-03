@@ -23,6 +23,7 @@ Compact view of authoritative status. Remove signals that add no value; do not f
 - Latest check and result:
 - Blocker, risk or pending decision:
 - Checkpoint / handoff / successor:
+- Closed stage / next stage (only after a material transition):
 - Exact next action:
 - Pending authority:
 
@@ -41,6 +42,18 @@ Compact view of authoritative status. Remove signals that add no value; do not f
 - Latest attempt and verdict:
 - What was kept or restored:
 - Remaining budget / stopping condition:
+
+## Durable improvement (only when applicable)
+
+- Candidate / status:
+- Evidence or gap for promotion:
+- Pending authority / reversal:
+
+## Chain of trust (only when material risk exists)
+
+- External source and permitted function:
+- Unauthorized instruction or residual risk:
+- Technical protection applied / limit:
 
 ## Optional runtime signals
 

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.9",
+  "schema_version": "2.0",
   "control_catalog": "06_validacion/CATALOGO_DE_CONTROLES.md",
   "evaluation_id": "PROJECT-YYYYMMDD-RUN-01",
   "project": {
@@ -39,6 +39,21 @@
       "applicable": false,
       "baseline_compared": false,
       "one_variable_changed": false
+    },
+    "controlled_improvement": {
+      "applicable": false,
+      "status": null,
+      "candidate": null,
+      "regressions_checked": false,
+      "promotion_authorized": null,
+      "reversal_reference": null
+    },
+    "chain_of_trust": {
+      "applicable": false,
+      "material_external_inputs": 0,
+      "authority_separated": false,
+      "technical_protection": null,
+      "residual_risk": null
     },
     "material_change": false,
     "rotation_occurred": false,
@@ -112,6 +127,12 @@
       "note": ""
     },
     {
+      "id": "SECURITY_01",
+      "status": "NOT_APPLICABLE",
+      "evidence": [],
+      "note": ""
+    },
+    {
       "id": "GOAL_01",
       "status": "NOT_OBSERVED",
       "evidence": [],
@@ -161,6 +182,12 @@
     },
     {
       "id": "CALIBRATION_01",
+      "status": "NOT_APPLICABLE",
+      "evidence": [],
+      "note": ""
+    },
+    {
+      "id": "LEARNING_01",
       "status": "NOT_APPLICABLE",
       "evidence": [],
       "note": ""

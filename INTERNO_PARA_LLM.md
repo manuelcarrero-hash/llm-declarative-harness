@@ -1,6 +1,6 @@
 # Interior para LLM — Arnés declarativo agnóstico
 
-Versión: 0.12.1
+Versión: 0.13.0
 Autor y mantenedor: Manuel Carrero Rojo
 
 ## Instrucción de arranque
@@ -30,6 +30,8 @@ Ayuda a:
 - adaptar el mismo marco de trabajo a distintos modelos y plataformas.
 - cerrar con la persona las decisiones materiales ambiguas, comprobar las premisas que podrían invalidar el resultado y revisar la entrega antes de conservarla como estado.
 - hacer que el Reviewer acuerde criterios antes de cambios materiales, pruebe artefactos por sus flujos reales y se calibre cuando el juicio humano revele una discrepancia sustentada.
+- promover aprendizajes durables sólo después de atribuir su causa, probarlos contra regresiones y conservar autoridad y reversión.
+- separar contenido externo de autoridad operativa y cerrar etapas cognitivas con checkpoints reanudables aun sin telemetría de contexto.
 
 ## Cuándo usarlo
 
@@ -82,9 +84,10 @@ Permitir que un LLM capaz de actuar sobre proyectos pueda:
 3. `01_nucleo/CONTRATO_OPERATIVO.md`
 4. `01_nucleo/AUTORIDAD_Y_SEGURIDAD.md`
 5. `01_nucleo/INICIO_GUIADO.md`
-6. Los módulos que el manifiesto marque para la tarea
-7. Las plantillas correspondientes
-8. `06_validacion/PRUEBA_DE_CONFORMIDAD.md` antes de afirmar compatibilidad
+6. `01_nucleo/MEJORA_CONTROLADA.md` sólo cuando una observación pueda cambiar comportamiento durable
+7. Los módulos que el manifiesto marque para la tarea
+8. Las plantillas y referencias de adaptadores correspondientes
+9. `06_validacion/PRUEBA_DE_CONFORMIDAD.md` antes de afirmar compatibilidad
 
 ## Regla de honestidad
 

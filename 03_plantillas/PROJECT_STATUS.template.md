@@ -36,6 +36,18 @@ Indicar evidencia y distinguir implementación, commit, push, revisión, merge, 
 - Elementos `INFERRED` o `PLANNED` pendientes de confirmación:
 - Correcciones de estado y artefactos afectados:
 
+## Último checkpoint semántico (sólo si aplica)
+
+- Motivo:
+- Etapa cerrada:
+- Siguiente etapa:
+- Resultados establecidos y evidencia:
+- Decisiones aprobadas:
+- Preguntas abiertas:
+- Trabajo preservado:
+- Trabajo invalidado o por revalidar:
+- Punto exacto de reanudación:
+
 ## Siguientes pasos y gates
 
 | Prioridad | Acción o gate | Dependencia | Evidencia de cierre |

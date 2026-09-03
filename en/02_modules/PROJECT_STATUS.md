@@ -29,6 +29,10 @@ Include optional telemetry only when a current source exposes it directly. Class
 
 Use percentages only with real telemetry and known total capacity. Default policy: preventive checkpoint at a measured 30% and rotation at a measured 40%; without telemetry, use qualitative signals and keep percentage `UNKNOWN`.
 
+Also create a semantic checkpoint when the nature of work changes materially and the closed stage produced evidence or decisions that the next stage will use as premises, losing it would require material reconstruction, risk, authority or criteria change, or a review could invalidate dependents. Non-mandatory examples include research to decision, decision to production, production to review, review to correction or release, and incident to recovery.
+
+The semantic checkpoint records its reason, closed stage, next stage, established outcomes, evidence, approved decisions, open questions, preserved or invalidated work and exact resumption point. Do not create one for every message, a nominal change without new evidence, a short single-stage task or when it does not help resume, review or protect outcomes. Explain it to the person as closing a stage, not as technical context management.
+
 At every relevant checkpoint, update or link the operational pulse. When durable writing exists, each agent preserves material output at source and returns a reference, status, evidence, gaps and uncertainties. The recipient reads the authoritative artifact when synthesis may lose precision; a broken or unverifiable reference does not complete a handoff.
 
 ## Failure, resumption and rotation

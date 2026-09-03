@@ -23,6 +23,7 @@ Vista compacta del estado autoritativo. Eliminar señales que no aporten; no rel
 - Última comprobación y resultado:
 - Bloqueo, riesgo o decisión pendiente:
 - Checkpoint / handoff / sucesor:
+- Etapa cerrada / siguiente etapa (sólo si hubo transición material):
 - Siguiente acción exacta:
 - Autoridad pendiente:
 
@@ -41,6 +42,18 @@ Vista compacta del estado autoritativo. Eliminar señales que no aporten; no rel
 - Último intento y veredicto:
 - Qué se conservó o restauró:
 - Presupuesto restante / condición de parada:
+
+## Mejora durable (sólo si aplica)
+
+- Candidato / estado:
+- Evidencia o brecha para promover:
+- Autoridad / reversión pendiente:
+
+## Cadena de confianza (sólo si existe riesgo material)
+
+- Fuente externa y función permitida:
+- Instrucción no autorizada o riesgo residual:
+- Protección técnica aplicada / límite:
 
 ## Señales opcionales de runtime
 

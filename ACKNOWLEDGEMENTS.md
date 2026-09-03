@@ -71,6 +71,14 @@ El Arnés declarativo agnóstico para LLMs fue desarrollado de manera independie
 - **Adaptación en este arnés:** el módulo opcional de Inteligencia de Código define comprensión proporcional del repositorio, etiquetas de certeza, fronteras de impacto y verificación posterior al cambio. Codebase Memory es sólo una implementación opcional del nivel profundo; el arnés no incorpora, instala ni exige su binario, servidor MCP, índice, daemon, interfaz o código fuente.
 - **Repository license observed when this acknowledgement was written:** MIT.
 
+### [`affaan-m/ECC`](https://github.com/affaan-m/ECC)
+
+- **Influence:** explicit separation of observation, proposal, verification, promotion and rollback in harness improvement; treatment of skills, memory, MCP configuration and external content as a chain-of-trust surface; dated platform capability matrices; and context preservation at logical work transitions.
+- **Influencia:** separación explícita entre observación, propuesta, verificación, promoción y reversión al mejorar un arnés; tratamiento de skills, memoria, configuración MCP y contenido externo como superficie de cadena de confianza; matrices fechadas de capacidades por plataforma; y conservación del contexto en transiciones lógicas del trabajo.
+- **Adaptation in this harness:** independently written controlled-improvement protocol and evidence template, `LEARNING_01` and `SECURITY_01`, an advisory compatibility reference that never overrides current evidence, and semantic checkpoints inside Project Status. The harness does not copy or require ECC agents, skills, hooks, CLI, installer, AgentShield, hosted services or runtime.
+- **Adaptación en este arnés:** protocolo y plantilla de evidencia de mejora controlada redactados de forma independiente, `LEARNING_01` y `SECURITY_01`, una referencia orientativa de compatibilidad que nunca prevalece sobre evidencia actual y checkpoints semánticos dentro de Estado del Proyecto. El arnés no copia ni requiere agentes, skills, hooks, CLI, instalador, AgentShield, servicios alojados o runtime de ECC.
+- **Repository license observed when this acknowledgement was written:** MIT.
+
 ## Independence and scope / Independencia y alcance
 
 These acknowledgements describe conceptual influence. Unless a future file explicitly states otherwise, this repository does not incorporate source code, prompts, datasets, branding or runtime components from the referenced projects.

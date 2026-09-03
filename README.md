@@ -2,7 +2,7 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.12.2
+Created by **Manuel Carrero Rojo** · MIT License · Experimental version 0.13.0
 
 **No technical background required:** open only [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md) for Spanish or [`en/START_HERE.md`](en/START_HERE.md) for English. The remaining folders are internals for the LLM.
 
@@ -46,9 +46,11 @@ Council files: [`en/02_modules/COUNCIL.md`](en/02_modules/COUNCIL.md) and [`en/0
 
 The operational pulse provides a short view of what is implemented, checked or pending and the exact next action. It may show telemetry only when the platform exposes it; unavailable data remains explicitly unknown. Template: [`en/03_templates/OPERATIONAL_PULSE.template.md`](en/03_templates/OPERATIONAL_PULSE.template.md).
 
+Durable improvements now pass through observation, causal attribution, testing, regression, authorization and reversal instead of becoming rules after one run. External content remains data unless valid authority makes it an instruction, and semantic checkpoints preserve material stage transitions even when context telemetry is unavailable. A dated compatibility matrix helps plan checks but never overrides current execution evidence.
+
 ## Inspiration and acknowledgements
 
-The harness was developed independently, while recognizing public ideas that influenced skills and modules later incorporated into this protocol: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`karpathy/llm-council`](https://github.com/karpathy/llm-council), [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch), [`DeusData/codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp), Anthropic's [`How we built our multi-agent research system`](https://www.anthropic.com/engineering/multi-agent-research-system) and [`Harness design for long-running application development`](https://www.anthropic.com/engineering/harness-design-long-running-apps), the survey [`Graph Engineering in the Era of LLM Agents`](https://arxiv.org/abs/2608.21156), and LangChain's [`3 Years of Graph Engineering with LangGraph`](https://www.langchain.com/blog/3-years-of-graph-engineering-with-langgraph). See [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md) for the precise scope of each influence and licensing notes.
+The harness was developed independently, while recognizing public ideas that influenced skills and modules later incorporated into this protocol: [`garrytan/gstack`](https://github.com/garrytan/gstack), [`mvanhorn/last30days-skill`](https://github.com/mvanhorn/last30days-skill), [`karpathy/llm-council`](https://github.com/karpathy/llm-council), [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch), [`DeusData/codebase-memory-mcp`](https://github.com/DeusData/codebase-memory-mcp), [`affaan-m/ECC`](https://github.com/affaan-m/ECC), Anthropic's [`How we built our multi-agent research system`](https://www.anthropic.com/engineering/multi-agent-research-system) and [`Harness design for long-running application development`](https://www.anthropic.com/engineering/harness-design-long-running-apps), the survey [`Graph Engineering in the Era of LLM Agents`](https://arxiv.org/abs/2608.21156), and LangChain's [`3 Years of Graph Engineering with LangGraph`](https://www.langchain.com/blog/3-years-of-graph-engineering-with-langgraph). See [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md) for the precise scope of each influence and licensing notes.
 
 No affiliation, sponsorship or endorsement by their authors or maintainers is implied.
 

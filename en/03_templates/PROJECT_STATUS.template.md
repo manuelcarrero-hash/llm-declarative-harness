@@ -36,6 +36,18 @@ State evidence and distinguish implementation, commit, push, review, merge, depl
 - `INFERRED` or `PLANNED` items pending confirmation:
 - State corrections and affected artifacts:
 
+## Latest semantic checkpoint (only if applicable)
+
+- Reason:
+- Closed stage:
+- Next stage:
+- Established outcomes and evidence:
+- Approved decisions:
+- Open questions:
+- Preserved work:
+- Invalidated work or work requiring revalidation:
+- Exact resumption point:
+
 ## Next steps and gates
 
 | Priority | Action or gate | Dependency | Closure evidence |

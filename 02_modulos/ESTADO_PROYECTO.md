@@ -29,6 +29,10 @@ Incluir telemetría opcional sólo cuando una fuente actual la exponga directame
 
 Usar porcentajes sólo con telemetría real y capacidad total conocida. Política por defecto: checkpoint preventivo al 30% medido y rotación al 40% medido; sin telemetría, usar señales cualitativas y mantener el porcentaje `UNKNOWN`.
 
+Crear también un checkpoint semántico cuando cambie materialmente la naturaleza del trabajo y la etapa cerrada haya producido evidencia o decisiones que la siguiente usará como premisas, cuando perderla obligaría a reconstrucción material, cuando cambien riesgo, autoridad o criterios, o cuando una revisión pueda invalidar dependientes. Ejemplos no obligatorios: investigación a decisión, decisión a producción, producción a revisión, revisión a corrección o liberación, e incidente a recuperación.
+
+El checkpoint semántico registra motivo, etapa cerrada, siguiente etapa, resultados establecidos, evidencia, decisiones aprobadas, preguntas abiertas, trabajo preservado o invalidado y punto exacto de reanudación. No generarlo por cada mensaje, por un cambio nominal sin nueva evidencia, en una tarea breve de una sola etapa ni cuando no ayude a reanudar, revisar o proteger resultados. Explicarlo a la persona como cierre de una etapa, no como control técnico de contexto.
+
 En cada checkpoint relevante, actualizar o enlazar el pulso operativo. Cuando exista escritura durable, cada agente conserva su salida material en origen y entrega referencia, estado, evidencia, brechas e incertidumbres. El receptor lee el artefacto autoritativo cuando una síntesis pueda perder precisión; una referencia rota o no verificable no completa un handoff.
 
 ## Fallas, reanudación y rotación

@@ -20,7 +20,7 @@ Evaluar todos los IDs vigentes del Catálogo como `PASS`, `FAIL`, `NOT_OBSERVED`
 
 ## 5. Ejecutar regresión
 
-Para una ejecución puntual, usar los escenarios de la Suite que correspondan a la superficie observada. Antes de declarar estable una versión funcional, ejecutar los 23 escenarios y conservar estímulo, salida, secuencia, evidencia y veredicto. Los casos negativos deben fallar en el control indicado, no sólo producir una advertencia narrativa.
+Para una ejecución puntual, usar los escenarios de la Suite que correspondan a la superficie observada. Antes de declarar estable una versión funcional, ejecutar todos los escenarios cuyo conteo fija el manifiesto y conservar estímulo, salida, secuencia, evidencia y veredicto. Los casos negativos deben fallar en el control indicado, no sólo producir una advertencia narrativa.
 
 ## 6. Emitir veredicto
 

@@ -20,7 +20,7 @@ Evaluate every current Catalog ID as `PASS`, `FAIL`, `NOT_OBSERVED` or `NOT_APPL
 
 ## 5. Run regression
 
-For one run, use Suite scenarios matching the observed surface. Before declaring a functional version stable, execute all 23 scenarios and preserve stimulus, output, sequence, evidence and verdict. Negative cases must fail the named control, not merely produce a narrative warning.
+For one run, use Suite scenarios matching the observed surface. Before declaring a functional version stable, execute every scenario whose count is fixed by the manifest and preserve stimulus, output, sequence, evidence and verdict. Negative cases must fail the named control, not merely produce a narrative warning.
 
 ## 6. Issue verdict
 

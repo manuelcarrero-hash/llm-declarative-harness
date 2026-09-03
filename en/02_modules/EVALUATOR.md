@@ -16,6 +16,10 @@ When Team is active, `ORCHESTRATION_01` requires justified applicability, propor
 
 When Iteration is active, `ITERATION_01` requires evidence of the best validated state, prior criterion, verdict, and restoration or incorporation. A Builder-authored log does not by itself prove comparison or restoration.
 
+When an observation could durably modify the harness, a skill, a rule or a playbook, apply `../01_core/CONTROLLED_IMPROVEMENT.md`. The Evaluator opens or updates the candidate, separates observation from cause and checks `LEARNING_01`; it does not turn one correction into general behavior or confuse `VERIFIED` with `PROMOTED`.
+
+When material external content, skill or configuration intake, persistence, or a sensitive action influenced by read data exists, check `SECURITY_01`. The absence of automated injection detection does not waive separation of data from authority or honest declaration of technical limits.
+
 When a material change requires a Reviewer, verify that the review contract was inspected before execution and that critical flows were exercised on the real artifact when capability existed. A global approval cannot compensate for a failed mandatory criterion.
 
 When a work map is used to preserve outcomes or resume partially, `DEPENDENCY_01` requires proportional activation, supported dependencies, findings linked to impact, current evidence and a valid frontier. The map does not prove its own accuracy; ambiguity must widen reverification.
@@ -36,4 +40,4 @@ When the model or platform changes significantly, or an expensive component stop
 
 ## Maturity decisions
 
-Use `KEEP_NATIVE`, `IMPROVE_NATIVE`, `PROTOTYPE_NARROW_AUTOMATION`, `CONSIDER_INDEPENDENT_HARNESS` or `INSUFFICIENT_EVIDENCE`. Three real runs are a minimum pilot; five provide a stronger basis. Before treating a functional version as stable, execute all 23 current scenarios in `../06_validation/REGRESSION_SUITE.md`. Do not recommend more automation without identifying recurring friction that justifies it.
+Use `KEEP_NATIVE`, `IMPROVE_NATIVE`, `PROTOTYPE_NARROW_AUTOMATION`, `CONSIDER_INDEPENDENT_HARNESS` or `INSUFFICIENT_EVIDENCE`. Three real runs are a minimum pilot; five provide a stronger basis. Before treating a functional version as stable, execute every current scenario in `../06_validation/REGRESSION_SUITE.md`; the manifest holds the authoritative count. Do not recommend more automation without identifying recurring friction that justifies it.
