@@ -36,4 +36,4 @@ When the model or platform changes significantly, or an expensive component stop
 
 ## Maturity decisions
 
-Use `KEEP_NATIVE`, `IMPROVE_NATIVE`, `PROTOTYPE_NARROW_AUTOMATION`, `CONSIDER_INDEPENDENT_HARNESS` or `INSUFFICIENT_EVIDENCE`. Three real runs are a minimum pilot; five provide a stronger basis. Before treating a functional version as stable, execute all 22 current scenarios in `../06_validation/REGRESSION_SUITE.md`. Do not recommend more automation without identifying recurring friction that justifies it.
+Use `KEEP_NATIVE`, `IMPROVE_NATIVE`, `PROTOTYPE_NARROW_AUTOMATION`, `CONSIDER_INDEPENDENT_HARNESS` or `INSUFFICIENT_EVIDENCE`. Three real runs are a minimum pilot; five provide a stronger basis. Before treating a functional version as stable, execute all 23 current scenarios in `../06_validation/REGRESSION_SUITE.md`. Do not recommend more automation without identifying recurring friction that justifies it.

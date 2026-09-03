@@ -4,7 +4,7 @@
 - Objetivo:
 - Decisiones materiales confirmadas:
 - Alternativas mencionadas pero no seleccionadas:
-- Premisas críticas (`CONFIRMED | SUPPORTED | REPORTED | INFERRED | PLANNED | UNKNOWN`), fuente y efecto:
+- Premisas críticas (`CONFIRMED | CORROBORATED | REPORTED | INFERRED | PLANNED | UNKNOWN`), fuente y efecto:
 - Estado: `IN_PROGRESS`
 - Evidencia de terminado:
 - Alcance incluido:

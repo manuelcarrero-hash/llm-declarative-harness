@@ -1,5 +1,21 @@
 # Changelog / Registro de cambios
 
+## 0.12.1 — 2026-09-03
+
+### Español
+
+- `CORROBORATED` sustituye a `SUPPORTED` como clase factual de respaldo indirecto; `SUPPORTED` queda reservado exclusivamente para capacidad.
+- El manifiesto 1.4 declara `factual_legacy_aliases: {SUPPORTED: CORROBORATED}` para interpretar registros anteriores sin promover su evidencia.
+- Plantillas, Inteligencia de Código, Estado y Contrato Operativo usan la nueva etiqueta sin cambiar las demás dimensiones.
+- Se añadió R23 y la suite vigente pasa a 23 escenarios para detectar usos factuales nuevos de `SUPPORTED`.
+
+### English
+
+- `CORROBORATED` replaces `SUPPORTED` as the factual class for indirect support; `SUPPORTED` is now reserved exclusively for capability.
+- Manifest 1.4 declares `factual_legacy_aliases: {SUPPORTED: CORROBORATED}` to interpret prior records without promoting their evidence.
+- Templates, Code Intelligence, Status and the Operating Contract use the new label without changing other dimensions.
+- Added R23 and raised the current suite to 23 scenarios to detect new factual uses of `SUPPORTED`.
+
 ## 0.12.0 — 2026-09-03
 
 ### Español

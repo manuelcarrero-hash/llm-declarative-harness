@@ -23,7 +23,7 @@
 
 ## Evidencia común
 
-| Afirmación | Clase (`CONFIRMED`, `SUPPORTED`, `REPORTED`, `INFERRED`, `PLANNED`, `UNKNOWN`) | Fuente |
+| Afirmación | Clase (`CONFIRMED`, `CORROBORATED`, `REPORTED`, `INFERRED`, `PLANNED`, `UNKNOWN`) | Fuente |
 | --- | --- | --- |
 | | | |
 

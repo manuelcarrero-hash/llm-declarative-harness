@@ -44,7 +44,7 @@ Compact view of authoritative status. Remove signals that add no value; do not f
 
 ## Optional runtime signals
 
-Include only useful signals. Factual class: `CONFIRMED`, `SUPPORTED`, `REPORTED`, `INFERRED`, `PLANNED` or `UNKNOWN`. Capability: `SUPPORTED`, `PARTIAL`, `UNSUPPORTED` or `UNKNOWN`. The value `UNAVAILABLE` requires capability `UNSUPPORTED`.
+Include only useful signals. Factual class: `CONFIRMED`, `CORROBORATED`, `REPORTED`, `INFERRED`, `PLANNED` or `UNKNOWN`. Capability: `SUPPORTED`, `PARTIAL`, `UNSUPPORTED` or `UNKNOWN`. The value `UNAVAILABLE` requires capability `UNSUPPORTED`.
 
 | Signal | Value | Class | Source and freshness | Capability |
 | --- | --- | --- | --- | --- |

@@ -36,4 +36,4 @@ Cuando cambie significativamente el modelo o plataforma, o un componente costoso
 
 ## Decisiones de madurez
 
-Usar `KEEP_NATIVE`, `IMPROVE_NATIVE`, `PROTOTYPE_NARROW_AUTOMATION`, `CONSIDER_INDEPENDENT_HARNESS` o `INSUFFICIENT_EVIDENCE`. Tres ejecuciones reales son un piloto mínimo; cinco dan mejor base. Antes de considerar estable una versión funcional, ejecutar los 22 escenarios vigentes de `../06_validacion/SUITE_REGRESION.md`. No recomendar más automatización sin identificar fricción recurrente que la justifique.
+Usar `KEEP_NATIVE`, `IMPROVE_NATIVE`, `PROTOTYPE_NARROW_AUTOMATION`, `CONSIDER_INDEPENDENT_HARNESS` o `INSUFFICIENT_EVIDENCE`. Tres ejecuciones reales son un piloto mínimo; cinco dan mejor base. Antes de considerar estable una versión funcional, ejecutar los 23 escenarios vigentes de `../06_validacion/SUITE_REGRESION.md`. No recomendar más automatización sin identificar fricción recurrente que la justifique.

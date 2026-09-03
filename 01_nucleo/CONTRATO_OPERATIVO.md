@@ -9,13 +9,15 @@ Cada obligación tiene una sola fuente normativa. Este contrato contiene la cond
 Toda afirmación material usa una sola taxonomía, con fuente y vigencia cuando apliquen:
 
 - `CONFIRMED`: inspeccionada directamente o demostrada por evidencia ejecutable.
-- `SUPPORTED`: respaldada indirectamente por fuentes o herramientas coherentes, sin observación directa completa.
+- `CORROBORATED`: respaldada indirectamente por fuentes o herramientas coherentes, sin observación directa completa.
 - `REPORTED`: comunicada por una fuente identificada, pero no verificada independientemente.
 - `INFERRED`: deducción o supuesto explícito; no es un hecho.
 - `PLANNED`: propuesta, intención o estado futuro todavía no realizado.
 - `UNKNOWN`: no resuelta o sin evidencia suficiente.
 
 La clase describe el respaldo de una afirmación, no disponibilidad de capacidad, autorización, progreso ni veredicto. Esas dimensiones conservan sus etiquetas propias. Nunca promover una clase por confianza, repetición o conveniencia.
+
+Compatibilidad: un `SUPPORTED` encontrado en un campo factual anterior a 0.12.1 se normaliza como `CORROBORATED`. Los registros nuevos reservan `SUPPORTED` exclusivamente para capacidad.
 
 ## Separación de responsabilidades
 

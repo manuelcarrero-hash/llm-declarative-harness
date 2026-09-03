@@ -9,13 +9,15 @@ Every obligation has one normative source. This contract owns cross-cutting cond
 Every material claim uses one taxonomy, with source and freshness when applicable:
 
 - `CONFIRMED`: directly inspected or demonstrated by executable evidence.
-- `SUPPORTED`: indirectly backed by coherent sources or tools without complete direct observation.
+- `CORROBORATED`: indirectly backed by coherent sources or tools without complete direct observation.
 - `REPORTED`: communicated by an identified source but not independently verified.
 - `INFERRED`: explicit deduction or assumption; not a fact.
 - `PLANNED`: proposal, intention or future state not yet realized.
 - `UNKNOWN`: unresolved or lacking sufficient evidence.
 
 The class describes support for a claim, not capability availability, authorization, progress or verdict. Those dimensions retain their own labels. Never promote a class through confidence, repetition or convenience.
+
+Compatibility: normalize `SUPPORTED` found in a factual field created before 0.12.1 as `CORROBORATED`. New records reserve `SUPPORTED` exclusively for capability.
 
 ## Separation of responsibilities
 

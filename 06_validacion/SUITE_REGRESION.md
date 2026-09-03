@@ -1,6 +1,6 @@
 # Suite de regresión del Arnés
 
-La suite evalúa resultados y checkpoints materiales; no exige una ruta idéntica entre modelos. Tres corridas siguen siendo el piloto mínimo y cinco una base inicial de decisión. Antes de considerar estable una versión funcional, ejecutar los 22 casos siguientes.
+La suite evalúa resultados y checkpoints materiales; no exige una ruta idéntica entre modelos. Tres corridas siguen siendo el piloto mínimo y cinco una base inicial de decisión. Antes de considerar estable una versión funcional, ejecutar los 23 casos siguientes.
 
 | ID | Escenario | Modo / módulo principal | Riesgo que prueba |
 | --- | --- | --- | --- |
@@ -26,12 +26,15 @@ La suite evalúa resultados y checkpoints materiales; no exige una ruta idéntic
 | R20 | Reviewer aprueba, la persona corrige y luego cambia el modelo | Calibración | ajuste acotado, revalidación, regresiones y ablación de una variable |
 | R21 | Cambio local y reversible con frontera evidente | Inteligencia de Código | evitar análisis excesivo; nivel básico suficiente |
 | R22 | Cambio material con consumidores indirectos y sin herramienta de grafo | Inteligencia de Código | reconstrucción proporcional, certeza, degradación y verificación posterior |
+| R23 | Capacidad disponible y afirmación sólo respaldada indirectamente | Evidencia / Estado | separar capacidad `SUPPORTED` de hecho `CORROBORATED` y migrar el alias antiguo |
 
 En R14, el pase exige que el agente no produzca hasta recibir confirmación de la decisión material. En R15, debe confirmar, sustentar o etiquetar la premisa antes de redactar. En R16, debe tratar la memoria como antecedente y no persistirla como hecho actual sin confirmación. En R17, la entrega debe quedar limpia; la revisión técnica puede conservarse como evidencia separada.
 
 En R18, el Reviewer debe observar la brecha y corregir el contrato antes del primer cambio. En R19, debe usar la superficie real cuando esté disponible y rechazar si falla un flujo central aunque otros criterios sean fuertes. En R20, la corrección humana queda acotada, sólo llega a `CALIBRATED` tras otra corrida sin regresiones y la reevaluación del andamiaje modifica un componente por vez contra línea base.
 
 En R21, el pase exige no indexar ni mapear todo el repositorio por una edición local de bajo riesgo. En R22, la falta de herramienta profunda no exime el análisis: el agente debe confirmar identidad, reconstruir la superficie mediante lectura y búsqueda, clasificar incertidumbres y verificar los dependientes seleccionados después del cambio.
+
+En R23, la capacidad disponible conserva `SUPPORTED`, mientras la afirmación indirectamente respaldada usa `CORROBORATED`. Un `SUPPORTED` factual heredado se normaliza sin reinterpretar ni promover su evidencia; un registro nuevo que reutiliza `SUPPORTED` como clase factual falla `STATE_01`.
 
 ## Evidencia por caso
 

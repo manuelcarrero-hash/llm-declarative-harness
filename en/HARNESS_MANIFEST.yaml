@@ -1,7 +1,7 @@
-schema_version: "1.3"
+schema_version: "1.4"
 harness:
   name: "Provider-Neutral Declarative Harness for LLMs"
-  version: "0.12.0"
+  version: "0.12.1"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -39,7 +39,8 @@ invariants:
   - "Do not call an adjustment calibrated without another relevant run and no material regressions."
 capability_labels: [SUPPORTED, PARTIAL, UNSUPPORTED, UNKNOWN]
 authorization_labels: [NOT_REQUIRED, REQUIRED, GRANTED, DENIED, UNKNOWN]
-factual_labels: [CONFIRMED, SUPPORTED, REPORTED, INFERRED, PLANNED, UNKNOWN]
+factual_labels: [CONFIRMED, CORROBORATED, REPORTED, INFERRED, PLANNED, UNKNOWN]
+factual_legacy_aliases: {SUPPORTED: CORROBORATED}
 terminal_states: [ACHIEVED, BLOCKED_EXTERNAL, DECISION_REQUIRED, AUTHORITY_REQUIRED]
 modules:
   - id: goal
@@ -90,7 +91,7 @@ validation:
   conformance: "06_validation/CONFORMANCE_TEST.md"
   control_catalog: "06_validation/CONTROL_CATALOG.md"
   regression_suite: "06_validation/REGRESSION_SUITE.md"
-  release_regression_cases: [22, 22]
+  release_regression_cases: [23, 23]
   minimum_real_runs: 3
   stronger_decision_sample: 5
 

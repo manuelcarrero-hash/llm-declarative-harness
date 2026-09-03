@@ -14,7 +14,7 @@ Use or link [`OPERATIONAL_PULSE.template.md`](OPERATIONAL_PULSE.template.md). It
 
 ## Context provenance
 
-| Material item | Type (`current fact | background | material | style | proposal`) | Factual class (`CONFIRMED | SUPPORTED | REPORTED | INFERRED | PLANNED | UNKNOWN`) | Source / freshness |
+| Material item | Type (`current fact | background | material | style | proposal`) | Factual class (`CONFIRMED | CORROBORATED | REPORTED | INFERRED | PLANNED | UNKNOWN`) | Source / freshness |
 | --- | --- | --- | --- |
 
 Do not convert `PLANNED` or `INFERRED` into confirmed fact. If contaminated state was corrected, record what changed and which artifacts were reviewed.
