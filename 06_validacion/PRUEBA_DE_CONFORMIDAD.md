@@ -2,6 +2,17 @@
 
 Procedimiento para evaluar una implementación o ejecución real del arnés. No redefine obligaciones ni escenarios: `CATALOGO_DE_CONTROLES.md` es la fuente normativa de controles y `SUITE_REGRESION.md`, la de casos.
 
+## Prerrequisito de publicación
+
+Antes de publicar una versión, ambos comandos deben concluir correctamente:
+
+```bash
+python3 scripts/validate_harness.py
+python3 -m unittest discover -s tests -v
+```
+
+Este gate comprueba integridad estructural; no sustituye las corridas conductuales requeridas abajo.
+
 ## 1. Identificar la muestra
 
 Registrar proveedor, modelo, plataforma, fecha, versión exacta del arnés, modo (`NEW`, `RESUME` o `VERIFY`), solicitud y artefactos observables. Confirmar la versión desde el manifiesto; una declaración del agente no basta.

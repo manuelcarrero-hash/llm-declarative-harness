@@ -25,6 +25,14 @@ It is useful for software, research, books, courses and other multi-stage projec
 - Non-code example: read [`en/05_examples/NON_CODE_BOOTSTRAP.md`](en/05_examples/NON_CODE_BOOTSTRAP.md).
 - Guided-start scenarios: read [`en/05_examples/GUIDED_START_SCENARIOS.md`](en/05_examples/GUIDED_START_SCENARIOS.md).
 - Evaluation controls: read [`en/06_validation/CONTROL_CATALOG.md`](en/06_validation/CONTROL_CATALOG.md) and the [`regression suite`](en/06_validation/REGRESSION_SUITE.md).
+
+Before publishing, run the free deterministic structural validation:
+
+```bash
+python3 scripts/validate_harness.py
+python3 -m unittest discover -s tests -v
+```
+
 - Translation policy: see [`en/BILINGUAL_PARITY.md`](en/BILINGUAL_PARITY.md).
 - Release history: see [`CHANGELOG.md`](CHANGELOG.md).
 

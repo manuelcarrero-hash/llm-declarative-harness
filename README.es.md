@@ -25,6 +25,14 @@ Sirve para software, investigaciones, libros, cursos y otros proyectos de varias
 - Ejemplo no-código: lee [`05_ejemplos/BOOTSTRAP_NO_CODIGO.md`](05_ejemplos/BOOTSTRAP_NO_CODIGO.md).
 - Escenarios de inicio guiado: consulta [`05_ejemplos/ESCENARIOS_INICIO_GUIADO.md`](05_ejemplos/ESCENARIOS_INICIO_GUIADO.md).
 - Controles de evaluación: consulta [`06_validacion/CATALOGO_DE_CONTROLES.md`](06_validacion/CATALOGO_DE_CONTROLES.md) y la [`suite de regresión`](06_validacion/SUITE_REGRESION.md).
+
+Antes de publicar, ejecuta la validación estructural gratuita y determinista:
+
+```bash
+python3 scripts/validate_harness.py
+python3 -m unittest discover -s tests -v
+```
+
 - Política de traducción: consulta [`PARIDAD_BILINGUE.md`](PARIDAD_BILINGUE.md).
 - Historial de versiones: consulta [`CHANGELOG.md`](CHANGELOG.md).
 

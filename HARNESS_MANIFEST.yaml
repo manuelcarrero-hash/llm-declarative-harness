@@ -109,6 +109,8 @@ validation:
   conformance: "06_validacion/PRUEBA_DE_CONFORMIDAD.md"
   control_catalog: "06_validacion/CATALOGO_DE_CONTROLES.md"
   regression_suite: "06_validacion/SUITE_REGRESION.md"
+  structural_validator: "scripts/validate_harness.py"
+  validator_tests: "tests/test_validate_harness.py"
   release_regression_cases:
     es: 31
     en: 31

@@ -2,6 +2,17 @@
 
 Procedure for evaluating a real harness implementation or run. It does not redefine obligations or scenarios: `CONTROL_CATALOG.md` is the normative control source and `REGRESSION_SUITE.md` is the case source.
 
+## Release prerequisite
+
+Before publishing a version, both commands must complete successfully:
+
+```bash
+python3 scripts/validate_harness.py
+python3 -m unittest discover -s tests -v
+```
+
+This gate checks structural integrity; it does not replace the behavioral runs required below.
+
 ## 1. Identify the sample
 
 Record provider, model, platform, date, exact harness version, mode (`NEW`, `RESUME` or `VERIFY`), request and observable artifacts. Confirm version from the manifest; an agent statement is insufficient.

@@ -13,6 +13,7 @@
 - El esquema del manifiesto avanza a 1.6, la evaluación a 2.0 y la suite a 31 escenarios bilingües mediante R24–R31.
 - Se corrigió el desfase previo de versión en los entrypoints técnicos, que todavía mostraban 0.12.1 cuando el manifiesto estaba en 0.12.2.
 - La experiencia no técnica conserva las mismas preguntas: los controles, la matriz y los checkpoints operan internamente y sólo exponen decisiones o riesgos materiales.
+- Se añadió un gate estructural de publicación, determinista y sin dependencias externas, con pruebas negativas automatizadas para manifiestos, rutas, perfiles, controles, JSON, regresión y paridad bilingüe.
 
 ### English
 
@@ -25,6 +26,7 @@
 - Advanced the manifest schema to 1.6, evaluation schema to 2.0 and the bilingual suite to 31 scenarios through R24–R31.
 - Fixed the prior entrypoint version drift: technical entrypoints still showed 0.12.1 while the manifest was at 0.12.2.
 - The non-technical experience keeps the same questions: controls, matrix and checkpoints remain internal and expose only material decisions or risks.
+- Added a dependency-free deterministic structural release gate with automated negative tests for manifests, paths, profiles, controls, JSON, regression and bilingual parity.
 
 ## 0.12.2 — 2026-09-03
 
