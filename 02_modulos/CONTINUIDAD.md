@@ -1,27 +1,5 @@
-# Módulo: continuidad de contexto
+# Módulo: continuidad de contexto — compatibilidad
 
-Proteger decisiones, evidencia, estado parcial, artefactos y siguiente acción cuando el trabajo cruce agentes, sesiones, compactación, fallas o fases.
+Ruta conservada para consumidores anteriores. Continuidad, checkpoints, handoffs, fallas, rotación y reanudación pertenecen ahora a [`ESTADO_PROYECTO.md`](ESTADO_PROYECTO.md).
 
-## Umbrales
-
-Usar porcentajes sólo si existe telemetría real y se conoce la capacidad total. Política por defecto: checkpoint preventivo al 30% medido y rotación al 40% medido. Sin telemetría, usar señales cualitativas y declarar el porcentaje como desconocido.
-
-En cada checkpoint relevante, actualizar o enlazar el pulso operativo: fase, estados de entrega, última comprobación, riesgo, estado de continuidad y siguiente acción. Etiquetar fuente y vigencia de toda señal de runtime. `UNKNOWN` no es una falla; inventar precisión sí lo es.
-
-## Artefactos entre agentes
-
-Cuando la plataforma lo permita, cada agente guarda directamente su salida material en el workspace durable y entrega al sucesor o Lead una referencia, estado, evidencia, brechas e incertidumbres. No canalizar artefactos completos por resúmenes sucesivos si pueden conservarse en origen.
-
-El receptor debe leer el artefacto autoritativo cuando una síntesis pueda perder precisión. Una referencia rota o un artefacto no verificable no constituye handoff completo.
-
-## Fallas y reanudación
-
-Aplicar la taxonomía y presupuesto de reintentos de `../01_nucleo/CONTRATO_OPERATIVO.md`. Antes de reiniciar trabajo costoso, conservar el último checkpoint seguro, la causa observable, intentos realizados y la alternativa siguiente.
-
-Si existe un mapa de trabajo activo, localizar el resultado afectado, recorrer sólo dependencias sustentadas y registrar qué descendientes requieren nueva validación. Reanudar desde la última frontera válida únicamente cuando la evidencia siga vigente y el cambio no afecte lo conservado. Ante duda material, invalidar la frontera y ampliar la revisión. No empezar de cero salvo corrupción, incompatibilidad o imposibilidad de demostrar un punto seguro.
-
-## Rotación
-
-Llegar a un límite atómico seguro; escribir handoff; verificarlo contra fuentes; sincronizar estado autorizado; iniciar sucesor con contexto mínimo; exigir handshake antes de editar; relevar al anterior sólo después del handshake.
-
-No fingir que se detuvo, persistió, reanudó o creó una sesión si la plataforma no lo permite.
+No activar ambos módulos ni mantener dos fuentes de estado.

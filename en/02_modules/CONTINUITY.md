@@ -1,27 +1,5 @@
-# Module: Context Continuity
+# Module: Context Continuity — compatibility
 
-Protect decisions, evidence, partial state, artifacts and the next action when work crosses agents, sessions, compaction, failures or phases.
+Path retained for earlier consumers. Continuity, checkpoints, handoffs, failures, rotation and resumption now belong to [`PROJECT_STATUS.md`](PROJECT_STATUS.md).
 
-## Thresholds
-
-Use percentages only when real telemetry and total capacity are known. Default policy: preventive checkpoint at a measured 30% and rotation at a measured 40%. Without telemetry, use qualitative signals and report the percentage as unknown.
-
-At every relevant checkpoint, update or link the operational pulse: phase, delivery states, latest check, risk, continuity state and next action. Label the source and freshness of every runtime signal. `UNKNOWN` is not a failure; invented precision is.
-
-## Artifacts across agents
-
-When the platform supports it, each agent stores its material output directly in the durable workspace and gives the successor or Lead a reference, status, evidence, gaps and uncertainties. Do not route full artifacts through repeated summaries when they can be preserved at source.
-
-The recipient must read the authoritative artifact when a summary could lose precision. A broken reference or unverifiable artifact is not a complete handoff.
-
-## Failure and resumption
-
-Apply the retry taxonomy and budget in `../01_core/OPERATING_CONTRACT.md`. Before restarting costly work, preserve the last safe checkpoint, observable cause, attempts made and next alternative.
-
-When a work map is active, locate the affected outcome, traverse only supported dependencies and record which descendants require renewed validation. Resume from the last valid frontier only when evidence remains current and the change does not affect preserved work. On material doubt, invalidate the frontier and widen review. Do not start over unless corruption, incompatibility or inability to demonstrate a safe point requires it.
-
-## Rotation
-
-Reach a safe atomic boundary; write a handoff; verify it against sources; synchronize authorized state; start a successor with minimum context; require a handshake before editing; release the prior agent only after the handshake.
-
-Do not pretend to stop, persist, resume or create a session when the platform cannot do so.
+Do not activate both modules or maintain two state sources.

@@ -2,7 +2,7 @@
 
 [English](README.md) | [Español](README.es.md)
 
-Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.11.0
+Creado por **Manuel Carrero Rojo** · Licencia MIT · Versión experimental 0.12.0
 
 **Si no tienes conocimientos técnicos:** abre únicamente [`EMPEZAR_AQUI.md`](EMPEZAR_AQUI.md). Las carpetas restantes son el interior que debe consultar el LLM.
 
@@ -31,6 +31,8 @@ Sirve para software, investigaciones, libros, cursos y otros proyectos de varias
 El repositorio define un protocolo operativo declarativo, no un runtime autónomo. No proporciona herramientas, memoria, subagentes, permisos o telemetría que la plataforma no tenga.
 
 El inicio guiado pregunta en lenguaje sencillo qué se quiere lograr y dónde conservar el estado. El propio LLM comprueba sus capacidades, selecciona sólo los módulos necesarios, explica límites y autorizaciones y comienza por el menor checkpoint autorizado; la persona no configura archivos técnicos, roles ni agentes.
+
+El módulo de Estado también concentra continuidad, checkpoints, handoffs y reanudación. Las afirmaciones materiales usan una sola taxonomía factual, separada de las etiquetas de capacidad y autorización, para evitar que una inferencia se convierta en hecho al pasar entre módulos.
 
 Cuando existen frentes realmente independientes, Equipo dimensiona internamente el esfuerzo como individual, enfocado o amplio, delega por oleadas y conserva los resultados en artefactos verificables. Para tareas pequeñas evita crear agentes innecesarios. Cuando varios resultados dependen entre sí, puede crear internamente un mapa pequeño para identificar qué afecta un hallazgo, qué debe revisarse otra vez y qué trabajo comprobado puede conservarse. La persona sólo recibe una explicación sencilla; no configura grafos ni relaciones. Archivos internos: [`02_modulos/EQUIPO.md`](02_modulos/EQUIPO.md), [`03_plantillas/ASIGNACION_AGENTE.template.md`](03_plantillas/ASIGNACION_AGENTE.template.md) y [`03_plantillas/TRAZA_ORQUESTACION.template.md`](03_plantillas/TRAZA_ORQUESTACION.template.md).
 

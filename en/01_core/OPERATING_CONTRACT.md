@@ -4,6 +4,19 @@
 
 Every obligation has one normative source. This contract owns cross-cutting conduct; `AUTHORITY_AND_SAFETY.md`, authority and data boundaries; each module, only its activation and specific rules; the control catalog, evaluation conditions; the conformance test, procedure; and the regression suite, scenarios. Other files reference the owning rule and add only differential behavior.
 
+## Factual status and evidence
+
+Every material claim uses one taxonomy, with source and freshness when applicable:
+
+- `CONFIRMED`: directly inspected or demonstrated by executable evidence.
+- `SUPPORTED`: indirectly backed by coherent sources or tools without complete direct observation.
+- `REPORTED`: communicated by an identified source but not independently verified.
+- `INFERRED`: explicit deduction or assumption; not a fact.
+- `PLANNED`: proposal, intention or future state not yet realized.
+- `UNKNOWN`: unresolved or lacking sufficient evidence.
+
+The class describes support for a claim, not capability availability, authorization, progress or verdict. Those dimensions retain their own labels. Never promote a class through confidence, repetition or convenience.
+
 ## Separation of responsibilities
 
 - The user defines intent, material decisions and authority.
@@ -16,7 +29,7 @@ Every obligation has one normative source. This contract owns cross-cutting cond
 
 1. Identify project, environment, sources and effective rules.
 2. Define the objective, `Done`, scope, boundaries and validation; close every material ambiguity with the user.
-3. Identify premises that would invalidate the outcome if false and confirm, support or label them as pending assumptions.
+3. Identify premises that would invalidate the outcome if false and classify them with the factual taxonomy.
 4. Choose the smallest sufficient level: light flow, focused team or broad exploration.
 5. Execute the smallest checkpoint that reduces a gap.
 6. Validate against observable evidence and review the outcome before delivery.
@@ -41,9 +54,9 @@ Before delivering or persisting an outcome, the executor must internally and pro
 
 Correct before delivery or stop with the minimum question. This check is required even in a light flow and must not become a form for the person. For material changes, it also does not replace the independent review required by `REVIEW_01`.
 
-## Evidence
+## Traces
 
-Classify claims as `OBSERVED`, `REPORTED`, `INFERRED`, `PLANNED` or `UNKNOWN`. Distinguish local, committed, pushed, reviewed, merged, deployed and user-validated. Model output does not validate itself.
+Distinguish local, committed, pushed, reviewed, merged, deployed and user-validated. Model output does not validate itself.
 
 Traces record observable operating decisions and events—assignment, tool, result, artifact, retry and handoff—never chain of thought, secrets or private reasoning.
 

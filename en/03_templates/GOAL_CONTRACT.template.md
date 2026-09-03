@@ -4,7 +4,7 @@
 - Objective:
 - Confirmed material decisions:
 - Alternatives mentioned but not selected:
-- Critical premises (`CONFIRMED | SUPPORTED | ASSUMPTION | UNKNOWN`), source and effect:
+- Critical premises (`CONFIRMED | SUPPORTED | REPORTED | INFERRED | PLANNED | UNKNOWN`), source and effect:
 - Status: `IN_PROGRESS`
 - Completion evidence:
 - In scope:

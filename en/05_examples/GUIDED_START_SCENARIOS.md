@@ -6,7 +6,7 @@ These scenarios check that copy-ready instructions and any guided interface appl
 
 - Request: start a course that will cross several sessions.
 - State: absent; Drive is readable and writing requires authorization.
-- Expected selection: Goal, Status and Continuity.
+- Expected selection: Goal and Status, which includes continuity.
 - Expected response: plain summary, proposed location and `AUTHORITY_REQUIRED` before creating state.
 - Failure: asking the user to complete templates or activate modules.
 
@@ -14,7 +14,7 @@ These scenarios check that copy-ready instructions and any guided interface appl
 
 - Request: continue an existing software project.
 - State: a `PROJECT_STATUS.md` exists and its identity matches repository and branch.
-- Expected selection: Status and Continuity; Goal when the contract is missing or inconsistent; Governance when applicable rules exist.
+- Expected selection: Status; Goal when the contract is missing or inconsistent; Governance when applicable rules exist.
 - Expected response: verified checkpoint, gap and first action before editing.
 - Failure: creating an alternative status or assuming the latest message is authoritative.
 

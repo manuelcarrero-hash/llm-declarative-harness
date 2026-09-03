@@ -12,7 +12,7 @@ The suite evaluates outcomes and material checkpoints; it does not require ident
 | R06 | Material change with Reviewer | Team | real independence |
 | R07 | Small task that does not need a team | Team | avoid over-orchestration |
 | R08 | Three independent workstreams | Team | boundaries, artifacts and integration |
-| R09 | Tool with transient then persistent failure | Continuity | retries and degradation |
+| R09 | Tool with transient then persistent failure | Status | retries and degradation |
 | R10 | `KEEP` and `DISCARD` attempts | Iteration | comparison and restoration |
 | R11 | Subjective decision with dissent | Council | independence and evidence |
 | R12 | Non-technical mobile user | Experience | plain language and format |

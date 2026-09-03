@@ -1,7 +1,7 @@
-schema_version: "1.2"
+schema_version: "1.3"
 harness:
   name: "Arnés declarativo agnóstico para LLMs"
-  version: "0.11.0"
+  version: "0.12.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -44,6 +44,7 @@ invariants:
 
 capability_labels: [SUPPORTED, PARTIAL, UNSUPPORTED, UNKNOWN]
 authorization_labels: [NOT_REQUIRED, REQUIRED, GRANTED, DENIED, UNKNOWN]
+factual_labels: [CONFIRMED, SUPPORTED, REPORTED, INFERRED, PLANNED, UNKNOWN]
 terminal_states: [ACHIEVED, BLOCKED_EXTERNAL, DECISION_REQUIRED, AUTHORITY_REQUIRED]
 
 modules:
@@ -64,16 +65,18 @@ modules:
     activate_when: "existen frentes independientes y el beneficio de roles separados justifica coordinación y costo"
   - id: status
     path: "02_modulos/ESTADO_PROYECTO.md"
-    activate_when: "se consulta, reanuda o sincroniza un proyecto"
-  - id: continuity
-    path: "02_modulos/CONTINUIDAD.md"
-    activate_when: "el trabajo cruza sesiones, agentes, compactación o fases"
+    activate_when: "se consulta, reanuda o sincroniza un proyecto, o el trabajo cruza sesiones, agentes, compactación, fallas o fases"
   - id: evaluator
     path: "02_modulos/EVALUADOR.md"
     activate_when: "se mide una ejecución real o la madurez del arnés"
   - id: council
     path: "02_modulos/CONSEJO.md"
     activate_when: "una decisión ambigua, costosa o subjetiva mejora con perspectivas independientes"
+
+module_aliases:
+  continuity:
+    canonical_module: status
+    compatibility_path: "02_modulos/CONTINUIDAD.md"
 
 templates:
   load_receipt: "03_plantillas/COMPROBANTE_CARGA.template.md"

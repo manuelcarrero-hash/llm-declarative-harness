@@ -14,10 +14,10 @@ Usar o enlazar [`PULSO_OPERATIVO.template.md`](PULSO_OPERATIVO.template.md). Deb
 
 ## Procedencia del contexto
 
-| Elemento material | Tipo (`hecho actual | antecedente | material | estilo | propuesta`) | Estado | Fuente / confirmación |
+| Elemento material | Tipo (`hecho actual | antecedente | material | estilo | propuesta`) | Clase factual (`CONFIRMED | SUPPORTED | REPORTED | INFERRED | PLANNED | UNKNOWN`) | Fuente / vigencia |
 | --- | --- | --- | --- |
 
-No convertir `propuesta` o `supuesto` en hecho confirmado. Si se corrigió estado contaminado, registrar qué cambió y qué artefactos se revisaron.
+No convertir `PLANNED` o `INFERRED` en hecho confirmado. Si se corrigió estado contaminado, registrar qué cambió y qué artefactos se revisaron.
 
 ## Trabajo completado
 
@@ -33,7 +33,7 @@ Indicar evidencia y distinguir implementación, commit, push, revisión, merge, 
 - Funciona:
 - Parcial o no verificado:
 - Riesgos, bloqueos y decisiones:
-- Supuestos o propuestas pendientes de confirmación:
+- Elementos `INFERRED` o `PLANNED` pendientes de confirmación:
 - Correcciones de estado y artefactos afectados:
 
 ## Siguientes pasos y gates

@@ -1,5 +1,23 @@
 # Changelog / Registro de cambios
 
+## 0.12.0 — 2026-09-03
+
+### Español
+
+- Se unificaron premisas, afirmaciones, telemetría y relaciones en una taxonomía factual: `CONFIRMED`, `SUPPORTED`, `REPORTED`, `INFERRED`, `PLANNED` y `UNKNOWN`.
+- Las etiquetas factuales quedaron separadas explícitamente de capacidad, autorización, progreso y veredictos.
+- Estado del Proyecto absorbió continuidad, checkpoints, artefactos, reanudación y rotación; `CONTINUIDAD.md` permanece como alias de compatibilidad y ya no se activa como segundo módulo.
+- La prueba de conformidad se redujo de una copia extensa de obligaciones a un procedimiento de seis pasos que usa el Catálogo de Controles y la Suite de Regresión como fuentes normativas.
+- El esquema del manifiesto avanzó a 1.3; se preservaron rutas antiguas, IDs de control y los 22 escenarios.
+
+### English
+
+- Unified premises, claims, telemetry and relationships under one factual taxonomy: `CONFIRMED`, `SUPPORTED`, `REPORTED`, `INFERRED`, `PLANNED` and `UNKNOWN`.
+- Explicitly separated factual labels from capability, authorization, progress and verdict labels.
+- Project Status absorbed continuity, checkpoints, artifacts, resumption and rotation; `CONTINUITY.md` remains a compatibility alias and is no longer activated as a second module.
+- Reduced the conformance test from an extensive duplicate of obligations to a six-step procedure using the Control Catalog and Regression Suite as normative sources.
+- Advanced the manifest schema to 1.3 while preserving legacy paths, control IDs and all 22 scenarios.
+
 ## 0.11.0 — 2026-09-02
 
 ### Español

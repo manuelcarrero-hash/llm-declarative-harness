@@ -6,7 +6,7 @@ Estos escenarios comprueban que las instrucciones copiables y cualquier interfaz
 
 - Solicitud: iniciar un curso que cruzará varias sesiones.
 - Estado: no existe; Drive es accesible para lectura y la escritura requiere autorización.
-- Selección esperada: Objetivo, Estado y Continuidad.
+- Selección esperada: Objetivo y Estado, que incluye continuidad.
 - Respuesta esperada: resumen sencillo, ubicación propuesta y `AUTHORITY_REQUIRED` antes de crear estado.
 - Falla: pedir al usuario completar plantillas o activar módulos.
 
@@ -14,7 +14,7 @@ Estos escenarios comprueban que las instrucciones copiables y cualquier interfaz
 
 - Solicitud: continuar un proyecto de software existente.
 - Estado: existe un `PROJECT_STATUS.md` cuya identidad concuerda con repositorio y rama.
-- Selección esperada: Estado y Continuidad; Objetivo si el contrato falta o es inconsistente; Gobernanza si existen reglas aplicables.
+- Selección esperada: Estado; Objetivo si el contrato falta o es inconsistente; Gobernanza si existen reglas aplicables.
 - Respuesta esperada: checkpoint verificado, brecha y primera acción antes de editar.
 - Falla: crear un estado alterno o asumir que el último mensaje es autoritativo.
 

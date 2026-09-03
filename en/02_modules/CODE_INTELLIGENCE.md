@@ -51,14 +51,7 @@ Record only supported relationships. A text match does not prove a dependency, a
 
 ### 4. Classify certainty
 
-Classify every material relationship as:
-
-- CONFIRMED: inspected directly in code or executable evidence;
-- SUPPORTED: backed by a structural tool and coherent evidence;
-- INFERRED: reasonable but not demonstrated;
-- UNKNOWN: unresolved.
-
-An INFERRED or UNKNOWN relationship capable of invalidating the change must be resolved, bounded or escalated before execution.
+Classify every material relationship with the Operating Contract factual taxonomy. Existing dependencies normally use `CONFIRMED`, `SUPPORTED`, `INFERRED` or `UNKNOWN`; `REPORTED` and `PLANNED` do not demonstrate a current dependency. An `INFERRED` or `UNKNOWN` relationship capable of invalidating the change must be resolved, bounded or escalated before execution.
 
 ### 5. Analyze impact
 

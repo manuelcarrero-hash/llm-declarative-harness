@@ -43,7 +43,7 @@ No pedir al usuario que complete YAML, Markdown, manifiestos, rutas técnicas o 
 
 - Usar `COMPACT` por defecto: cada comprobante o checkpoint visible debe caber normalmente en 250 palabras y mostrar sólo decisiones, evidencia crítica, incertidumbres, autorización pendiente y siguiente acción. Usar `AUDITABLE` únicamente si la persona lo solicita o si una auditoría exige trazabilidad ampliada.
 - Continuar automáticamente entre checkpoints ya autorizados. Detenerse sólo ante una decisión que cambie materialmente el alcance, una contradicción no resoluble, un riesgo nuevo o una acción que requiera autoridad adicional. No pedir “continúa” o “adelante” sin una decisión real.
-- No afirmar que un módulo fue aplicado por haberlo nombrado o leído. Cada módulo activado debe producir su evidencia mínima observable: Objetivo, resultado y `Done`; Estado, ubicación, durabilidad y límite; Continuidad, decisiones vigentes y siguiente acción; investigación, fuentes y descartes materiales; evidencia, hecho, fuente, inferencia y confianza; voz, patrones concretos derivados de referencias; Equipo, aplicabilidad, nivel, frentes y artefactos; Consejo, expediente, perspectivas y síntesis; Iteración, línea base, criterio predeclarado, veredictos y restauración.
+- No afirmar que un módulo fue aplicado por haberlo nombrado o leído. Cada módulo activado debe producir su evidencia mínima observable: Objetivo, resultado y `Done`; Estado, ubicación, durabilidad, decisiones vigentes, continuidad y siguiente acción; investigación, fuentes y descartes materiales; evidencia, hecho, fuente, inferencia y confianza; voz, patrones concretos derivados de referencias; Equipo, aplicabilidad, nivel, frentes y artefactos; Consejo, expediente, perspectivas y síntesis; Iteración, línea base, criterio predeclarado, veredictos y restauración.
 - No declarar una capacidad por inferencia. Demostrarla con una acción verificable y vigente o marcarla `UNKNOWN`, `PARTIAL` o `UNSUPPORTED`.
 - En trabajos dependientes de hechos actuales, no redactar el entregable hasta cerrar selección de fuentes y suficiencia de evidencia. El comprobante de carga no cierra la investigación.
 - Distinguir siempre: estado previo del proyecto, materiales que pueden aprovecharse y referencias de estilo o formato. Uno no implica los otros.
@@ -55,8 +55,8 @@ No pedir al usuario que complete YAML, Markdown, manifiestos, rutas técnicas o 
 
 | Modo | Módulos base | Activación adicional |
 | --- | --- | --- |
-| `NEW` | Objetivo y Estado | Continuidad si cruza sesiones; Gobernanza si existen reglas; Equipo sólo si existen frentes independientes y el beneficio justifica la coordinación; el agente elige el nivel |
-| `RESUME` | Estado y Continuidad | Objetivo si falta o es inconsistente; Gobernanza si la reanudación modifica un espacio con reglas |
+| `NEW` | Objetivo y Estado | Gobernanza si existen reglas; Equipo sólo si existen frentes independientes y el beneficio justifica la coordinación; el agente elige el nivel |
+| `RESUME` | Estado | Objetivo si falta o es inconsistente; Gobernanza si la reanudación modifica un espacio con reglas |
 | `VERIFY` | Objetivo y Estado | Evaluador cuando se evalúa la ejecución o madurez; Equipo sólo si la verificación material contiene frentes independientes, mejora con roles separados y las capacidades necesarias están disponibles |
 
 Consejo permanece condicionado a una decisión ambigua, costosa o subjetiva. Iteración se activa sólo cuando varios intentos reversibles puedan compararse contra una validación estable. Ninguno se activa por el solo hecho de iniciar, reanudar o verificar. La persona no elige estos módulos ni configura el loop.

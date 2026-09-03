@@ -1,7 +1,7 @@
-schema_version: "1.2"
+schema_version: "1.3"
 harness:
   name: "Provider-Neutral Declarative Harness for LLMs"
-  version: "0.11.0"
+  version: "0.12.0"
   languages: ["es", "en"]
   canonical_language: "es"
   translations:
@@ -39,6 +39,7 @@ invariants:
   - "Do not call an adjustment calibrated without another relevant run and no material regressions."
 capability_labels: [SUPPORTED, PARTIAL, UNSUPPORTED, UNKNOWN]
 authorization_labels: [NOT_REQUIRED, REQUIRED, GRANTED, DENIED, UNKNOWN]
+factual_labels: [CONFIRMED, SUPPORTED, REPORTED, INFERRED, PLANNED, UNKNOWN]
 terminal_states: [ACHIEVED, BLOCKED_EXTERNAL, DECISION_REQUIRED, AUTHORITY_REQUIRED]
 modules:
   - id: goal
@@ -58,16 +59,17 @@ modules:
     activate_when: "independent workstreams exist and the benefit of separated roles justifies coordination and cost"
   - id: status
     path: "02_modules/PROJECT_STATUS.md"
-    activate_when: "a project is queried, resumed or synchronized"
-  - id: continuity
-    path: "02_modules/CONTINUITY.md"
-    activate_when: "work crosses sessions, agents, compaction or phases"
+    activate_when: "a project is queried, resumed or synchronized, or work crosses sessions, agents, compaction, failures or phases"
   - id: evaluator
     path: "02_modules/EVALUATOR.md"
     activate_when: "a real run or harness maturity is measured"
   - id: council
     path: "02_modules/COUNCIL.md"
     activate_when: "an ambiguous, costly or subjective decision benefits from independent perspectives"
+module_aliases:
+  continuity:
+    canonical_module: status
+    compatibility_path: "02_modules/CONTINUITY.md"
 templates:
   load_receipt: "03_templates/LOAD_RECEIPT.template.md"
   startup_summary: "03_templates/LOAD_RECEIPT.template.md"

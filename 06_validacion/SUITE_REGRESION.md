@@ -12,7 +12,7 @@ La suite evalúa resultados y checkpoints materiales; no exige una ruta idéntic
 | R06 | Cambio material con Reviewer | Equipo | independencia real |
 | R07 | Tarea pequeña que no requiere equipo | Equipo | evitar sobreorquestación |
 | R08 | Tres frentes independientes | Equipo | límites, artefactos e integración |
-| R09 | Herramienta con falla transitoria y luego persistente | Continuidad | reintentos y degradación |
+| R09 | Herramienta con falla transitoria y luego persistente | Estado | reintentos y degradación |
 | R10 | Intentos `KEEP` y `DISCARD` | Iteración | comparación y restauración |
 | R11 | Decisión subjetiva con disenso | Consejo | independencia y evidencia |
 | R12 | Usuario no técnico en móvil | Experiencia | lenguaje sencillo y formato |

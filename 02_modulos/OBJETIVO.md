@@ -6,7 +6,7 @@ Activar para un resultado sustancial y coherente.
 
 Definir: objetivo, evidencia de terminado, alcance, fuentes autoritativas, límites, validaciones, decisiones materiales confirmadas, premisas críticas y checkpoints. El `Done` debe ser observable y no una lista de actividades.
 
-Una enumeración de temas posibles o ejemplos no constituye una selección. Si una decisión cambia materialmente el entregable, cerrarla con la persona antes de producirlo. Cada premisa que pueda invalidar el resultado debe quedar como `CONFIRMED`, `SUPPORTED`, `ASSUMPTION` o `UNKNOWN`, con fuente o efecto. `ASSUMPTION` sólo permite avanzar cuando es explícita, reversible y de bajo riesgo.
+Una enumeración de temas posibles o ejemplos no constituye una selección. Si una decisión cambia materialmente el entregable, cerrarla con la persona antes de producirlo. Clasificar cada premisa que pueda invalidar el resultado conforme a `../01_nucleo/CONTRATO_OPERATIVO.md`, con fuente o efecto. `INFERRED` sólo permite avanzar cuando el supuesto es explícito, reversible y de bajo riesgo.
 
 ## Ejecución
 

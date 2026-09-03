@@ -44,7 +44,7 @@ Vista compacta del estado autoritativo. Eliminar señales que no aporten; no rel
 
 ## Señales opcionales de runtime
 
-Incluir sólo señales útiles. Clase de evidencia: `OBSERVED`, `REPORTED`, `INFERRED`, `PLANNED` o `UNKNOWN`. Capacidad: `SUPPORTED`, `PARTIAL`, `UNSUPPORTED` o `UNKNOWN`. El valor `UNAVAILABLE` exige capacidad `UNSUPPORTED`.
+Incluir sólo señales útiles. Clase factual: `CONFIRMED`, `SUPPORTED`, `REPORTED`, `INFERRED`, `PLANNED` o `UNKNOWN`. Capacidad: `SUPPORTED`, `PARTIAL`, `UNSUPPORTED` o `UNKNOWN`. El valor `UNAVAILABLE` exige capacidad `UNSUPPORTED`.
 
 | Señal | Valor | Clase | Fuente y vigencia | Capacidad |
 | --- | --- | --- | --- | --- |

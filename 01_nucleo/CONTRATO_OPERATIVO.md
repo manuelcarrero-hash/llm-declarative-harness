@@ -4,6 +4,19 @@
 
 Cada obligación tiene una sola fuente normativa. Este contrato contiene la conducta transversal; `AUTORIDAD_Y_SEGURIDAD.md`, los límites de autoridad y datos; cada módulo, únicamente su activación y reglas específicas; el catálogo de controles, las condiciones de evaluación; la prueba de conformidad, el procedimiento; y la suite de regresión, los escenarios. Los demás archivos deben referenciar la regla propietaria y añadir sólo el comportamiento diferencial.
 
+## Estado factual y evidencia
+
+Toda afirmación material usa una sola taxonomía, con fuente y vigencia cuando apliquen:
+
+- `CONFIRMED`: inspeccionada directamente o demostrada por evidencia ejecutable.
+- `SUPPORTED`: respaldada indirectamente por fuentes o herramientas coherentes, sin observación directa completa.
+- `REPORTED`: comunicada por una fuente identificada, pero no verificada independientemente.
+- `INFERRED`: deducción o supuesto explícito; no es un hecho.
+- `PLANNED`: propuesta, intención o estado futuro todavía no realizado.
+- `UNKNOWN`: no resuelta o sin evidencia suficiente.
+
+La clase describe el respaldo de una afirmación, no disponibilidad de capacidad, autorización, progreso ni veredicto. Esas dimensiones conservan sus etiquetas propias. Nunca promover una clase por confianza, repetición o conveniencia.
+
 ## Separación de responsabilidades
 
 - El usuario define intención, decisiones materiales y autoridad.
@@ -16,7 +29,7 @@ Cada obligación tiene una sola fuente normativa. Este contrato contiene la cond
 
 1. Identificar proyecto, entorno, fuentes y reglas efectivas.
 2. Formular objetivo, `Done`, alcance, límites y validación; cerrar con el usuario toda decisión material ambigua.
-3. Identificar las premisas que invalidarían el resultado si fueran falsas y confirmarlas, sustentarlas o declararlas como supuestos pendientes.
+3. Identificar las premisas que invalidarían el resultado si fueran falsas y clasificarlas con la taxonomía factual.
 4. Elegir el menor nivel suficiente: flujo ligero, equipo enfocado o exploración amplia.
 5. Ejecutar el menor checkpoint que reduzca una brecha.
 6. Validar contra evidencia observable y revisar el resultado antes de entregarlo.
@@ -41,9 +54,9 @@ Antes de entregar o persistir un resultado, el ejecutor debe comprobar de forma 
 
 Corregir antes de entregar o detenerse con la pregunta mínima. Esta comprobación es obligatoria incluso en flujo ligero y no debe convertirse en formulario para la persona. Para cambios materiales, tampoco sustituye la revisión independiente exigida por `REVIEW_01`.
 
-## Evidencia
+## Trazas
 
-Clasificar afirmaciones como `OBSERVED`, `REPORTED`, `INFERRED`, `PLANNED` o `UNKNOWN`. Distinguir local, committed, pushed, reviewed, merged, deployed y user-validated. Una salida del modelo no se valida a sí misma.
+Distinguir local, committed, pushed, reviewed, merged, deployed y user-validated. Una salida del modelo no se valida a sí misma.
 
 Las trazas registran decisiones y eventos operativos observables —asignación, herramienta, resultado, artefacto, reintento y handoff—, nunca cadena de pensamiento, secretos o razonamiento privado.
 

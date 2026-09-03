@@ -23,7 +23,7 @@
 
 ## Common evidence
 
-| Claim | Class (`OBSERVED`, `REPORTED`, `INFERRED`, `UNKNOWN`) | Source |
+| Claim | Class (`CONFIRMED`, `SUPPORTED`, `REPORTED`, `INFERRED`, `PLANNED`, `UNKNOWN`) | Source |
 | --- | --- | --- |
 | | | |
 

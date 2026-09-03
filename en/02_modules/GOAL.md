@@ -6,7 +6,7 @@ Activate for a substantial and coherent outcome.
 
 Define the objective, completion evidence, scope, authoritative sources, boundaries, validations, confirmed material decisions, critical premises and checkpoints. `Done` must be observable, not merely a list of activities.
 
-An enumeration of possible topics or examples is not a selection. When a decision materially changes the deliverable, close it with the person before producing it. Every premise that could invalidate the outcome must be `CONFIRMED`, `SUPPORTED`, `ASSUMPTION` or `UNKNOWN`, with source or effect. `ASSUMPTION` permits progress only when explicit, reversible and low risk.
+An enumeration of possible topics or examples is not a selection. When a decision materially changes the deliverable, close it with the person before producing it. Classify every premise that could invalidate the outcome under `../01_core/OPERATING_CONTRACT.md`, with source or effect. `INFERRED` permits progress only when the assumption is explicit, reversible and low risk.
 
 ## Execution
 

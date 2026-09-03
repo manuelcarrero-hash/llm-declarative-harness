@@ -51,14 +51,7 @@ Registrar sólo relaciones sustentadas. Una coincidencia textual no demuestra un
 
 ### 4. Clasificar certeza
 
-Cada relación material queda como:
-
-- CONFIRMED: inspeccionada directamente en código o evidencia ejecutable;
-- SUPPORTED: respaldada por una herramienta estructural y evidencia coherente;
-- INFERRED: razonable, pero no demostrada;
-- UNKNOWN: no pudo resolverse.
-
-INFERRED o UNKNOWN que puedan invalidar el cambio deben resolverse, acotar el alcance o elevarse antes de ejecutar.
+Clasificar cada relación material con la taxonomía factual del Contrato Operativo. Para dependencias existentes suelen aplicar `CONFIRMED`, `SUPPORTED`, `INFERRED` o `UNKNOWN`; `REPORTED` y `PLANNED` no demuestran una dependencia actual. Una relación `INFERRED` o `UNKNOWN` capaz de invalidar el cambio debe resolverse, acotar el alcance o elevarse antes de ejecutar.
 
 ### 5. Analizar impacto
 
